@@ -6,7 +6,9 @@ const rename = require("gulp-rename");
 const insert = require("gulp-insert");
 const globImporter = require('node-sass-glob-importer');
 
-const META = `/*//META{"name":"Nox","description":"A theme for Discord loosely based on Google's Material Design Guidelines.","author":"Lilian Tedone & Zerebos","version":"2.2.6"}*//**/`;
+const META = `/*//META{"name":"Nox","description":"A theme for Discord loosely based on Google's Material Design Guidelines.","author":"Lilian Tedone & Zerebos","version":"1.0.0"}*//**/
+
+`;
 
 const LICENSE = `/*
  *  Copyright (c) 2016-2017 Lilian Tedone, 2017-2019 Zack Rauen
