@@ -1,0 +1,63 @@
+/*Guilds*/
+.guildsWrapper-5TJh6A{
+    z-index:6;
+  }
+  /*Channels*/
+  .channels-Ie2l6A .scrollerWrap-2lJEkd {
+    z-index:4;
+  }
+  /*Guild name*/
+  .channels-Ie2l6A .flexChild-faoVW3 {
+    z-index:5;
+  }
+  /*User bar*/
+  .container-2Thooq{
+    z-index: 5;
+  }
+  /*Voice*/
+  .container-1UB9sr{
+    z-index: 5;
+  }
+  /*Top bar*/ //headerBar-UHpsPw
+  .container-3gCOGc .friendsTableHeader-32yE7d,
+  .chat-3bRxxu .titleWrapper-1l0xT9,
+  .headerBar-UHpsPw {
+    z-index: 5;
+  }
+  
+  /*Message popout*/
+  .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm {
+    z-index: 4!important;
+  }
+  /*Chat*/
+  .chat-3bRxxu .messagesWrapper-3lZDfY{
+    z-index: 3;
+  }
+  /*Message bar*/
+  .chat-3bRxxu form .channelTextArea-1LDbYG{
+    z-index: 6;
+  }
+  /*Friends search bar*/
+ .privateChannels-1nO12o .scrollerWrap-2lJEkd::before {
+    z-index: 5;
+  }
+  /*Channel members*/
+  .membersWrap-2h-GB4, .theme-dark .search-results-wrap {
+    z-index: 4;
+  }
+
+  .membersWrap-2h-GB4,
+  .theme-dark .search-results-wrap,
+  .guildsWrapper-5TJh6A,
+  .channels-Ie2l6A .scrollerWrap-2lJEkd,
+  .channels-Ie2l6A .flexChild-faoVW3,
+  .container-2Thooq,
+  .container-1UB9sr,
+  .container-3gCOGc .friendsTableHeader-32yE7d,
+  .chat-3bRxxu .titleWrapper-1l0xT9,
+  .headerBar-UHpsPw,
+  .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
+ .privateChannels-1nO12o .scrollerWrap-2lJEkd::before,
+  .chat-3bRxxu form .channelTextArea-1LDbYG{
+    box-shadow: 0 2px 20px rgba(0,0,0,.4);
+  }

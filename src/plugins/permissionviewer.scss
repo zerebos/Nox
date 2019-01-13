@@ -1,0 +1,27 @@
+#permissions-modal-wrapper .modal-wrapper {
+    z-index: 100000;
+}
+
+#permissions-modal-wrapper .header {
+    border-bottom: 0px;
+    color: #fff;
+    background: var(--nox-level3);
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+    overflow-x: hidden;
+    padding: 12px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#permissions-modal-wrapper .role-side {
+    background: var(--nox-level2);
+}
+
+#permissions-modal-wrapper .perm-side {
+    background: var(--nox-level1);
+}
+
+#permissions-modal-wrapper .perm-item {
+    box-shadow: none;
+}

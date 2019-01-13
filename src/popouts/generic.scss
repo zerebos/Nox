@@ -1,0 +1,35 @@
+.popout-3sVMXz {
+    box-shadow:0 5px 15px rgba(0,0,0,.3)!important;
+}
+
+// .popout-3sVMXz section {
+//     background: var(--nox-level2)!important;
+//     transition: all 100ms ease;
+// }
+
+.popout-3sVMXz header {
+    background: var(--nox-accent);
+}
+
+.popout-3sVMXz.popoutBottomRight-2JrySt header:before,
+.popout-3sVMXz.popoutBottom-1YbShG header:before{
+    border-bottom-color: var(--nox-accent);
+}
+
+
+
+@keyframes bottompopout {
+    from {
+        transform: translate(0, 55px);
+        opacity: 0;
+    }
+}
+
+
+
+@keyframes toppopout {
+    from {
+        transform: translate(0, -55px);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,69 @@
+.call-avatar .avatar-xxlarge {
+    transition: transform 400ms cubic-bezier(0, 0, 0, 1), opacity 400ms cubic-bezier(0, 0, 0, 1), box-shadow 400ms cubic-bezier(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.call-avatar .avatar-xxlarge:hover {
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
+    opacity: 0.8;
+}
+
+.call-avatar .avatar-xxlarge.speaking {
+    transition: transform 400ms cubic-bezier(0, 0, 0, 1), opacity 300ms cubic-bezier(0, 0, 0, 1), box-shadow 100ms cubic-bezier(0, 0, 0, 1)!important;
+    box-shadow: 0 0 0 3px var(--nox-level3) inset, 0 0 0 5px #43B581, 0 0 10px 5px rgba(67, 181, 129,.2)!important;
+    border:none!important;
+}
+
+.incomingCall-14zLcL .incomingCallInner-2VmFiR {
+    background: var(--nox-level3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .6), 0 1px 2px rgba(255, 255, 255, .05) inset;
+    border:none;
+    border-radius:2px;
+}
+.incomingCallInner-2VmFiR .subtitle-1H8FPn {
+    color:var(--nox-white4);
+}
+// .incomingCall-14zLcL .button-38aScr .actionIcon--D_WrW {
+//     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNNi42MiAxMC43OWMxLjQ0IDIuODMgMy43NiA1LjE0IDYuNTkgNi41OWwyLjItMi4yYy4yNy0uMjcuNjctLjM2IDEuMDItLjI0IDEuMTIuMzcgMi4zMy41NyAzLjU3LjU3LjU1IDAgMSAuNDUgMSAxVjIwYzAgLjU1LS40NSAxLTEgMS05LjM5IDAtMTctNy42MS0xNy0xNyAwLS41NS40NS0xIDEtMWgzLjVjLjU1IDAgMSAuNDUgMSAxIDAgMS4yNS4yIDIuNDUuNTcgMy41Ny4xMS4zNS4wMy43NC0uMjUgMS4wMmwtMi4yIDIuMnoiLz48L3N2Zz4=);
+// }
+
+.incomingCall-14zLcL {
+    z-index: 1000000000000;
+}
+
+.incomingCall-14zLcL .button-38aScr + .button-38aScr {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center{
+    background:var(--nox-level2);
+    border-color:var(--nox-level2);
+}
+
+
+
+.connecting {
+    z-index: 10000000;
+    background: #2B2B2B;
+}
+
+.connecting video.ready {
+    filter: grayscale(100);
+    background: #593695!important;
+}
+
+
+
+
+.ui-call-avatar.voice .ui-call-avatar-status.muted{
+    animation:scale 500ms cubic-bezier(.65,0,0,1.39);
+}
+
+
+.wrapper-35wsBm {
+    background: none !important;
+    border: none !important;
+}

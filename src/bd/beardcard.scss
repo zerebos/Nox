@@ -1,0 +1,43 @@
+#bd-settingspane-container .bda-slist li[data-name="Nox"] .bda-description {
+    display:none;
+}
+#bd-settingspane-container .bda-slist li[data-name="Nox"] .scroller-wrap{
+    position:relative;
+}
+#bd-settingspane-container .bda-slist li[data-name="Nox"] .scroller-wrap::before{
+    content:"Accent color";
+    position:relative;
+    left:0;
+    color:var(--nox-white);
+    background:var(--nox-accent);
+    display:inline-block;
+    padding:30px;
+    margin:5px;
+    border-radius:2px;
+    margin-top:10px;
+    box-shadow:0 2px 15px rgba(0,0,0,.2);
+    width: auto;
+}
+#bd-settingspane-container .bda-slist li[data-name="Nox"] .scroller-wrap::after{
+    content:"Notification color";
+    position:relative;
+    left:0;
+    color:#000;
+    background:var(--nox-notification-color);
+    display:inline-block;
+    padding:30px;
+    margin:5px;
+    border-radius:2px;
+    box-shadow:0 2px 15px rgba(0,0,0,.2);
+    margin-top:10px;
+    width: auto;
+}
+
+#bd-settingspane-container .bda-slist li[data-name="Nox"] .bda-name,
+#bd-settingspane-container .bda-slist li[data-name="Nox"] .bda-header-title {
+    font-size: 0;
+}
+#bd-settingspane-container .bda-slist li[data-name="Nox"] .bda-header-title::after {
+    content: var(--nox-version) " by Lilian Tedone & Zack Rauen";
+    font-size: 12px;
+}

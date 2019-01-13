@@ -1,0 +1,25 @@
+.notificationSettings-1NQKPR .wrapper-3jrx9n {
+    border-color: var(--nox-accent);
+}
+
+.notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr {
+    background-color: var(--nox-accent);
+}
+
+.notificationSettings-1NQKPR .option-n0icdO7 {
+    transition: all 200ms ease;
+}
+
+.notificationSettings-1NQKPR .option-n0icdO:hover {
+    background: var(--nox-accent);
+    transform: translate(0, -1px);
+    transition: all 100ms ease, transform 150ms cubic-bezier(0,0,0,1);
+    filter: brightness(93%)contrast(110%);
+}
+
+.notificationSettings-1NQKPR .option-n0icdO:active {
+    color: rgba(0, 0, 0, 0.7);
+    background: rgb(220, 220, 220);
+    transform: translate(0, 2px);
+    transition: all 50ms ease;
+}

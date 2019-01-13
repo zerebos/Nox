@@ -1,0 +1,26 @@
+.tipsy {
+    pointer-events: none;
+    animation: opacity 100ms ease;
+    opacity: 1!important;
+}
+
+.tipsy-inner {
+    background-color: var(--nox-level1) !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2)!important;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    z-index: 1000000000000000000;
+    pointer-events: none;
+    animation: opacity 80ms ease;
+}
+
+.tipsy-inner {
+    border-radius: 3px
+}
+
+
+.emoji.jumboable {
+    width: 33px!important;
+    height: 33px!important;
+}

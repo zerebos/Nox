@@ -1,0 +1,115 @@
+// .slider {
+//     width: 95%;
+// }
+
+// .slider .slider-handle {
+//     border: 0px;
+//     background: var(--nox-accent);
+//     -ms-transform: scale(0.6);
+//     transform: scale(0.6);
+//     border-radius: 50%;
+//     cursor: pointer;
+//     box-shadow: none;
+//     transition: transform 100ms ease;
+// }
+
+// .slider .slider-handle::after {
+//     content: "";
+//     width: 50px;
+//     height: 50px;
+//     background: var(--nox-accent);
+//     display: block;
+//     opacity: 0;
+//     border-radius: 50%;
+//     position: absolute;
+//     top: 51%;
+//     left: 50%;
+//     -ms-transform: translate(-50%, -50%)scale(0.5);
+//     transform: translate(-50%, -50%)scale(0.5);
+//     transition: transform 0ms linear 200ms, opacity 200ms ease;
+// }
+
+// .slider .slider-handle:active::after {
+//     -ms-transform: translate(-50%, -50%)scale(1.1);
+//     transform: translate(-50%, -50%)scale(1.1);
+//     opacity: .2;
+//     transition: transform 200ms cubic-bezier(.35, .01, 0, 1), opacity 100ms ease;
+// }
+
+// .slider .slider-handle span {
+//     -ms-transform: scale(1.2);
+//     transform: scale(1.2);
+//     z-index: 100000;
+//     background: var(--nox-accent);
+//     color: var(--nox-white);
+//     border-radius: 100px;
+//     border: none;
+//     transition: all 100ms ease;
+// }
+
+
+
+// .slider-handle span::before,
+// .slider-handle span::after {
+//     display: none
+// }
+
+// .slider .slider-bar {
+//     height: 3px;
+//     -ms-transform: translate(0, 1px);
+//     transform: translate(0, 1px);
+//     border-radius: 0px;
+//     transition: all 100ms ease;
+// }
+
+// .slider .slider-handle:active {
+//     -ms-transform: scale(0.8);
+//     transform: scale(0.8);
+// }
+
+// .slider-handle-track {
+//     margin-right: -13px;
+//     margin-left: -13px;
+// }
+
+
+
+
+
+.barFill-23-gu-{
+    background:var(--nox-accent);
+}
+.theme-dark .bar-2Qqk5Z{
+    background:var(--nox-white2);
+}
+.slider-1PF9SW .grabber-3mFHz2,
+.ui-slider .slider-grabber{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    margin-left:-10px;
+    margin-top:-10px;
+    background:var(--nox-accent);
+    border:none;
+    cursor:pointer;
+}
+.userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw,
+.slider-1PF9SW .bar-2Qqk5Z,
+.ui-slider .slider-bar{
+    height:5px;
+    top:18px;
+}
+.track-11EASc,
+.slider-handle-track{
+    margin-left:0;
+    margin-right:0;
+}
+.slider-1PF9SW .bubble-3we2di,
+.ui-slider .slider-grabber .bubble{
+    left:-16px;
+    background:#353535;
+}
+.slider-1PF9SW .bubble-3we2di::before,
+.theme-dark .ui-slider .slider-grabber .bubble::before{
+    display:none;
+}

@@ -1,0 +1,12 @@
+#RANbutton-frame,
+#RANbutton-frame .guild-inner {
+    width: 70px!important;
+}
+
+#RANbutton-frame:hover #RANbutton {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+#RANbutton-frame:active #RANbutton {
+    background: var(--nox-white1);
+}

@@ -1,0 +1,74 @@
+.contentColumn-2hrIYH .notDetected-33MY4s {
+    background:#404040;
+}
+.contentColumn-2hrIYH .gameNameInput-385LoS:focus,
+.contentColumn-2hrIYH .gameNameInput-385LoS:hover{
+    background:transparent;
+}
+.contentColumn-2hrIYH .gameNameInput-385LoS{
+    border:none;
+    box-shadow:0 2px 0 transparent,-240px 2px 0 var(--nox-accent);
+    border-radius:0;
+    transition:200ms ease;
+}
+.contentColumn-2hrIYH .gameNameLastPlayed-3LJo8n{
+    overflow: hidden;
+}
+.contentColumn-2hrIYH .gameNameInput-385LoS:hover{
+    border:none;
+    box-shadow:0 2px 0 rgba(255,255,255,.05),-240px 2px 0 var(--nox-accent);
+    border-radius:0;
+}
+.contentColumn-2hrIYH .gameNameInput-385LoS:focus{
+    border:none;
+    box-shadow:0 2px 0 rgba(255,255,255,.05),0 2px 0 var(--nox-accent);
+    transition:200ms cubic-bezier(0,0,0,1);
+}
+.contentColumn-2hrIYH .lastPlayed-3bQ7Bo,
+.contentColumn-2hrIYH .overlayStatusText-L2IACa{
+    color:var(--nox-white3);
+    margin-top:4px;
+}
+
+.contentColumn-2hrIYH .game-1ipmAa {
+    box-shadow:0 1px 0 0 rgba(255,255,255,.04);
+}
+
+.contentColumn-2hrIYH .notDetected-33MY4s .lastPlayed-3bQ7Bo {
+    color:var(--nox-white5);
+    padding-bottom:3px;
+}
+
+
+
+
+.contentColumn-2hrIYH .now-playing .gameNameInput-385LoS:focus,
+.contentColumn-2hrIYH .now-playing .gameNameInput-385LoS:hover{
+    border-color:transparent!important;
+    background: none;
+}
+.contentColumn-2hrIYH .now-playing .gameNameInput-385LoS{
+    box-shadow: 0 2px 0 var(--nox-white3),-240px 2px 0 var(--nox-white);
+}
+.contentColumn-2hrIYH .now-playing .gameNameInput-385LoS:focus{
+    box-shadow: 0 2px 0 var(--nox-white3),0 2px 0 var(--nox-white);
+}
+.contentColumn-2hrIYH .now-playing .gameName-1RiWHm{
+    color:var(--nox-white);
+}
+
+
+
+
+
+
+.contentColumn-2hrIYH .gameNameInput-385LoS{
+    padding-left:6px;
+}
+.contentColumn-2hrIYH .default-3sgIpy, .hovered-d5PMVU{
+    height:16px;
+}
+
+.game-1ipmAa .removeGame-2JFGPn {
+    background-color: var(--nox-level1);
+}

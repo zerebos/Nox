@@ -1,0 +1,12 @@
+#dv-container{
+    background:#252525!important;
+  }
+  #dv-settings-panel{
+    background:#252525!important;
+  }
+  .dv-btn:hover, .dv-btn.dv-active{
+    background:transparent!important;
+  }
+  .dv-panel input[type="radio"]:checked + label span{
+    background:var(--nox-accent)!important;
+  }

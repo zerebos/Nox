@@ -1,0 +1,176 @@
+.checkbox-3kaeSU .checkboxInner-3yjcPe input:checked+span::after,
+.checkbox-3kaeSU .checkboxInner-3yjcPe input+span::after {
+    display: none;
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe input+span::before {
+    content: "";
+    border: 20px solid var(--nox-level2);
+    border-top: 0;
+    border-left: 0;
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    right: 9px;
+    -ms-transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+    transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+    width: 1px;
+    height: 1px;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+    animation: check-anim- 200ms linear 200ms, check-anim2- 200ms cubic-bezier(.49, 0, 0, 1)
+}
+
+@keyframes check-anim- {
+    100% {
+        transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        width: 1px;
+        height: 1px;
+    }
+    75% {
+        transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        width: 1px;
+        height: 1px;
+    }
+    50% {
+        transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        width: 1px;
+        height: 1px;
+    }
+    25% {
+        transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        width: 1px;
+        height: 1px;
+    }
+    0% {
+        transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+}
+
+@keyframes check-anim2- {
+    100% {
+        transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+    0% {
+        transform: scale(.1)rotate(45deg)translate(0, 0);
+        width: 40px;
+        height: 100px;
+    }
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe input:checked+span::before {
+    -ms-transform: scale(.1)rotate(45deg)translate(0, 0);
+    transform: scale(.1)rotate(45deg)translate(0, 0);
+    width: 40px;
+    height: 100px;
+    animation: check-anim 100ms, check-anim2 300ms cubic-bezier(.49, 0, 0, 1) 100ms
+}
+
+@keyframes check-anim {
+    0% {
+        transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        width: 1px;
+        height: 1px;
+    }
+    25% {
+        transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        width: 1px;
+        height: 1px;
+    }
+    50% {
+        transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        width: 1px;
+        height: 1px;
+    }
+    75% {
+        transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        width: 1px;
+        height: 1px;
+    }
+    100% {
+        transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+}
+
+@keyframes check-anim2 {
+    0% {
+        transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+    100% {
+        transform: scale(.1)rotate(45deg)translate(0, 0);
+        width: 40px;
+        height: 100px;
+    }
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe input+span {
+    background: var(--nox-accent);
+    transition: all 0s;
+    border-color: var(--nox-accent)!important;
+    animation: box-check2 400ms cubic-bezier(.52, .01, 0, 1);
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe input:checked+span {
+    background: var(--nox-accent)!important;
+    transition: all 0s;
+    border-color: var(--nox-accent)!important;
+    animation: box-check1 400ms cubic-bezier(.52, .01, 0, 1);
+}
+
+@keyframes box-check1 {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes box-check2 {
+    0% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform:scale(3);
+    background: var(--nox-accent);
+    border-radius: 50%;
+    opacity: 0;
+    transition:200ms ease;
+}
+
+.checkbox-3kaeSU:active .checkboxInner-3yjcPe::after {
+    opacity:.2;
+    transform:scale(3);
+    animation:scale 100ms cubic-bezier(.4,0,0,1),opacity 50ms ease;
+}
+
+.checkbox-3kaeSU:active .checkboxInner-3yjcPe input:checked+span {
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: all 100ms ease;
+}

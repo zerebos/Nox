@@ -1,0 +1,67 @@
+/*smaller*/
+.avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3::after{
+    content:"";
+    background:var(--nox-white);
+    border-radius:50%;
+    display:block;
+    width:100%;
+    padding-top:100%;
+    height:0;
+    position:absolute;
+    opacity:0;
+    transform:scale(1.3);
+    transition:all 300ms ease, visibility 0ms 300ms;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    pointer-events: none;
+}
+.avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3:active::after {
+    opacity:0.1;
+    transition:all 300ms ease, visibility 0ms;
+    visibility: visible;
+    animation:scale 100ms cubic-bezier(.2,0,0,1),opacity 50ms ease;
+}
+
+/*/ripples*/
+
+
+.theme-dark .card-FDVird:before {
+    background: var(--nox-level1)
+}
+
+.userSettingsAccount-2eMFVR .input-cIJ7To {
+    border: none;
+    background: none;
+}
+
+.avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3:hover {
+    box-shadow: inset 0 0 120px rgba(0, 0, 0, 0)
+}
+
+.avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3 .avatarUploaderHint-3SN212 {
+    background: rgba(0, 0, 0, 0);
+    color: transparent;
+    transition: all 200ms ease;
+    border-radius: 1000px
+}
+
+.avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3:hover .avatarUploaderHint-3SN212 {
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--nox-white);
+}
+
+.avatarUploaderInner-3UNxY3{
+    background-color:var(--nox-accent);
+}
+
+.userSettingsAccount-2eMFVR .questionMark-CWEQZn,
+.userSettingsAccount-2eMFVR .questionMark-CWEQZn:hover {
+    background: var(--nox-accent);
+}
+
+.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG{
+    color:var(--nox-white6);
+}
+.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover{
+    color:var(--nox-accent);
+}

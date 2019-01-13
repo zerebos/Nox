@@ -1,0 +1,21 @@
+/*Server Sorter plugin*/
+body #sort-options{
+    transform: scale(1,0.8);
+    opacity:0;
+    pointer-events: none;
+    transition:transform 200ms cubic-bezier(.2,0,0,1), opacity 200ms ease, pointer-events 0ms 100ms;
+  }
+  body #sort-options.open{
+    opacity:1;
+    pointer-events: initial;
+    transition:transform 300ms cubic-bezier(.2,0,0,1), opacity 100ms ease, pointer-events 0ms;
+  }
+  body #sort-options .item{
+    opacity:0;
+    transition:opacity 100ms;
+  }
+  body #sort-options.open .item{
+    opacity:1;
+    transition:opacity 300ms 100ms;
+  }
+  /*/Server Sorter plugin*/

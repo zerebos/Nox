@@ -1,0 +1,57 @@
+/*settings animation*/
+.layer-3QrUeG.animating{
+    pointer-events: initial!important;
+    will-change:transform,opacity;
+}
+.modal-1UGdnR,
+.inner-1JeGVc,
+html,
+body,
+.layer-3QrUeG>section,
+.theme-dark .standardSidebarView-3F1I7i{
+  backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+.layer-3QrUeG{
+  backface-visibility:hidden;
+  backface-visibility:hidden;
+    transform:none!important;
+    transition:all 0.3s cubic-bezier(.4,0,0,1);
+}
+/* .layer-3QrUeG[style]{
+    transform:none!important;
+} */
+.layer-3QrUeG.animating-rRxada {
+    transform:none!important;
+}
+.layer-3QrUeG.stop-animations:first-of-type{
+    transform:scale(0.95)!important;
+    opacity:0!important;
+}
+
+.layer-3QrUeG+.layer-3QrUeG{
+    transform:scale(1.1)!important;
+    opacity:0!important;
+    pointer-events: none!important;
+    transition: all 300ms cubic-bezier(.4,0,0,1), opacity 150ms ease;
+}
+
+.layer-3QrUeG.stop-animations~.layer-3QrUeG{
+    pointer-events: initial!important;
+    transform:none!important;
+    opacity:1!important;
+    animation:pubslayer var(--nox-settings-time) cubic-bezier(.4,0,0,1);
+}
+
+#pubslayerroot .layer-3QrUeG .standardSidebarView-3F1I7i{
+    animation:pubslayer 0.5s cubic-bezier(.4,0,0,1);
+    transform:none;
+    opacity:1;
+}
+@keyframes pubslayer{
+    0%{
+        transform:scale(1.1);
+        opacity:0;
+    }
+}
+/*/settings animation*/

@@ -1,0 +1,25 @@
+.emojiAliasPlaceholder-3H_iZA::after,
+.emojiAliasPlaceholder-3H_iZA::before {
+  color: #fff;
+}
+
+.theme-dark .emojiAliasPlaceholder-3H_iZA {
+  color: transparent;
+}
+
+.theme-dark .emojiRow-zIc7ZX .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+  opacity: 1;
+  color: #fff;
+  box-shadow: none !important;
+}
+.emojiRow-zIc7ZX:hover .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+      box-shadow: 0 2px 0 rgba(255,255,255,.05),-660px 2px 0 var(--nox-accent)!important;
+}
+
+.emojiRow-zIc7ZX .emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus {
+  box-shadow: 0 2px 0 rgba(255,255,255,.05),0 2px 0 var(--nox-accent)!important;
+}
+
+.emojiRow-zIc7ZX .emojiRemove-1k6MlJ {
+  background-color: var(--nox-level1);
+}

@@ -1,0 +1,33 @@
+/* Spotify Attach Popout */
+.popout-3sVMXz .attachPopout-1n-ZKM {
+    background: var(--nox-level2);
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: -15px;
+}
+
+.attachPopoutIcon-26Np2W[name="Upload"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTIgMTIuNUMyIDkuNDYgNC40NiA3IDcuNSA3SDE4YzIuMjEgMCA0IDEuNzkgNCA0cy0xLjc5IDQtNCA0SDkuNUM4LjEyIDE1IDcgMTMuODggNyAxMi41UzguMTIgMTAgOS41IDEwSDE3djJIOS40MWMtLjU1IDAtLjU1IDEgMCAxSDE4YzEuMSAwIDItLjkgMi0ycy0uOS0yLTItMkg3LjVDNS41NyA5IDQgMTAuNTcgNCAxMi41UzUuNTcgMTYgNy41IDE2SDE3djJINy41QzQuNDYgMTggMiAxNS41NCAyIDEyLjV6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==)!important;
+    background-size: 21px !important;
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    
+}
+
+.attachPopoutIcon-26Np2W[name="Upload"] .attachPopoutIconForeground-OohRrL {fill: transparent}
+
+.attachPopoutIcon-26Np2W {
+    opacity: 0.4;
+}
+
+.attachPopout-1n-ZKM .attachPopoutRow-KrE-f6:hover {
+    background-color: rgba(225, 225, 225, 0.03)!important;
+}
+
+.attachButtonPlay-ZnFdQr {
+    fill: white!important;
+    position: absolute;
+}
+
+/* End Spotify Attach Popout */

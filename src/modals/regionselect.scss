@@ -1,0 +1,75 @@
+/* Region Selection */
+.regionSelectModal-12e-57 {
+    background: var(--nox-level2);
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+    border-radius: 4px;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    background: var(--nox-level1);
+    border-color: transparent;
+    transition: 300ms ease;
+    border:none!important;
+    border-radius:3px;
+    box-shadow:0 5px 10px rgba(0,0,0,.3),0 0 0 2px transparent inset;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+    background: #353535;
+    box-shadow:0 5px 5px rgba(0,0,0,.3),0 0 0 2px transparent inset;
+    border-color: transparent;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:active {
+    background: #353535;
+    box-shadow:0 5px 5px rgba(0,0,0,.3),0 0 0 2px var(--nox-accent) inset;
+    transition: 0ms
+}
+
+.theme-dark .regionSelectName-2-2FWh {
+    color:var(--nox-white4);
+    transition:200ms ease!important
+}
+.theme-dark .regionSelectModalOption-2DSIZ3:hover .regionSelectName-2-2FWh {
+    color:var(--nox-white9);
+}
+.regionSelectModal-12e-57 .regionSelectModalFooter-20C5iA {
+    color:var(--nox-white3);
+}
+
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+    color: var(--nox-accent);
+}
+
+.regionSelect-3lf4eE:hover button {
+    background: var(--nox-accent)!important;
+    border-color: var(--nox-accent)!important;
+}
+
+.regionSelect-3lf4eE .regionSelectInner-24f4Ce {
+    background: var(--nox-level1);
+    border-color: transparent;
+    transition: 300ms ease;
+}
+
+.regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce {
+    background: #353535;
+    border-color: transparent!important;
+}
+
+.regionSelect-3lf4eE button {
+    background: #353535;
+    border-color: transparent;
+    color: var(--nox-accent);
+}
+
+.regionSelectName-2-2FWh {
+    color: var(--nox-white8);
+    transition:50ms ease;
+}
+
+.regionSelect-3lf4eE:active button {
+    background: var(--nox-accent);
+    color: var(--nox-white)
+}
+/* End Region Selection */

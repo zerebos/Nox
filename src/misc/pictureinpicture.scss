@@ -1,0 +1,73 @@
+.pictureInPictureWindow-1B5qSe{
+    z-index:100000000;
+  }
+  .pictureInPictureWindow-1B5qSe .elevationHigh-3A9Xbf{
+    overflow: hidden;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.3);
+    transition:all 200ms ease;
+    animation: scale 500ms cubic-bezier(.2,0,0,1.2), opacity 500ms ease;
+  }
+  .pictureInPictureWindow-1B5qSe .elevationHigh-3A9Xbf:hover{
+    box-shadow: 0 7px 20px 0 rgba(0,0,0,.5);
+  }
+  .video-1FfuMD {
+      background: var(--nox-level2);
+  }
+  .pictureInPictureWindow-1B5qSe .video-3alTtx,
+  .pictureInPictureWindow-1B5qSe .overlay-1NmNEg,
+  .pictureInPictureWindow-1B5qSe .overlay-1NmNEg,
+  .pictureInPictureWindow-1B5qSe .background-ujHpbY,
+  .pictureInPictureWindow-1B5qSe .overlayTop-3tbQ8v,
+  .pictureInPictureVideo-20ZvXn,
+  .pictureInPictureWindow-1B5qSe .media-2uAkTf{
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .pictureInPictureWindow-1B5qSe .overlay-1NmNEg{
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: inset 0 200px 150px -200px rgba(0,0,0,.9),inset 0 -200px 150px -200px rgba(0,0,0,.9);
+    cursor:all-scroll;
+  }
+  
+  .pictureInPictureWindow-1B5qSe .overlayRight-3LLinM{
+    padding:0;
+    margin-right: 18px!important;
+  }
+  .pictureInPictureWindow-1B5qSe .overlayRight-3LLinM{
+    position: relative;
+  }
+  .pictureInPictureWindow-1B5qSe .overlayRight-3LLinM::after{
+      content:"";
+      background:#fff;
+      border-radius:50%;
+      display:block;
+      width:100%;
+      height:100%;
+      position:absolute;
+      opacity:0;
+      transform:scale(1.4);
+      transition:300ms ease;
+      pointer-events: none;
+  }
+  .pictureInPictureWindow-1B5qSe .overlayRight-3LLinM:active::after{
+      opacity:0.2;
+      transform:scale(1.4);
+      animation:scale 100ms cubic-bezier(.4,0,0,1),opacity 100ms ease;
+  }
+  .pictureInPictureWindow-1B5qSe .overlayTop-3tbQ8v{
+    padding-bottom: 10px
+  }
+  .pictureInPictureWindow-1B5qSe .overlayTop-3tbQ8v .horizontal-1ae9ci>.flex-1xMQg5:last-child .iconButton-l-Ul_r{
+    opacity: 1!important
+  }
+  .channel-2-6Ybo:hover{
+    text-decoration: none;
+  }
+  .pictureInPictureWindow-1B5qSe .overlayTop-3tbQ8v .horizontal-1ae9ci>.flex-1xMQg5:last-child{
+    opacity: .6;
+    transition: 200ms ease;
+  }
+  .pictureInPictureWindow-1B5qSe .overlayTop-3tbQ8v .horizontal-1ae9ci>.flex-1xMQg5:last-child:hover{
+    opacity: 1
+  }

@@ -1,0 +1,91 @@
+.serverfolders-modal .form-header, .serverfolders-modal .form-actions{
+    background:#141414!important;
+  }
+  .serverfolders-modal .modal-inner{
+    background:#212121!important;
+  }
+  .serverfolders-modal .form-tab{
+    margin-top:10px;
+    background:transparent!important;
+    cursor: pointer;
+  }
+  .serverfolders-modal .form-tabcontent{
+    margin-top:50px!important;
+  }
+  .serverfolders-modal .form-tab button{
+    background:transparent!important;
+    cursor:pointer!important;
+    color: var(--nox-white2)!important;
+    border-bottom: 2px solid transparent;
+    margin-right: 5px;
+    transition: 0ms!important;
+    padding: 0 8px!important;
+  }
+  
+  .serverfolders-modal .form-tab button:hover{
+    color: var(--nox-white4)!important;
+    border-bottom: 2px solid var(--nox-white4);
+  }
+  
+  .serverfolders-modal .form-tab button.active{
+    color: var(--nox-white)!important;
+    border-bottom: 2px solid var(--nox-white);
+  }
+  
+  .serverfolders-modal .form-tabcontent{
+    background:transparent!important
+  }
+  .serverfolders-modal [class^="ui-color-picker-swatch"].large{
+    border-radius: 50%!important;
+    margin-right: 5px;
+    height:59px!important;
+    width:59px!important;
+    border: 0!important
+  }
+  .serverfolders-modal [class^="ui-color-picker-swatch"]{
+    margin-right: 2px;
+    width:19px!important;
+    height:19px!important;
+    border-radius:50%!important;
+    margin-bottom: 0!important
+  }
+
+
+
+
+  .foldercontainer {
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    height: calc(100% - 0px);
+}
+.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ:first-of-type .guildInner-3DSoA4 a::after {
+    background: var(--nox-white1);
+}
+.guilds-1q_RqH .foldercontainer + div.guild-1EfMGQ .guildInner-3DSoA4 a::after{
+    background-color: var(--nox-white1);
+}
+.guilds-1q_RqH .foldercontainer + div.guild-1EfMGQ:hover {
+    background-color: #3C3C3C;
+}
+.guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
+    bottom: unset;
+    left: unset;
+    top: 20px;
+    right: -2px;
+    background: var(--nox-accent);
+}
+.guildsWrapper-5TJh6A .guilds-1q_RqH {
+    z-index: unset!important;
+}
+.guilds-1q_RqH .foldercontainer +.guild-1EfMGQ .guildInner-3DSoA4 a {
+    margin-top: 30px!important;
+}
+.serverfolders-modal .da-inner .horizontal-1ae9ci {
+    background: var(--nox-level3);
+    box-shadow: none!important;
+}
+.serverfolders-modal .da-flex .da-horizontal {
+    background-color: #303030;
+    box-shadow: none!important;
+}

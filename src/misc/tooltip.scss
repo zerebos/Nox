@@ -1,0 +1,14 @@
+.tooltip-1OS-Ti {
+    background-color: var(--nox-level1) !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2)!important;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    z-index: 1000000000000000000;
+    pointer-events: none;
+    animation: opacity 80ms ease;
+}
+
+.tooltip-1OS-Ti::after {
+    visibility: hidden;
+}

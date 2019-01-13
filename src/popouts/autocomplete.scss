@@ -1,0 +1,52 @@
+/* Autocomplete modal */
+.theme-dark #autocomplete-popout section {
+    background: var(--nox-level1);
+}
+#autocomplete-popout {
+    background: var(--nox-level2);
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+    border-radius: 4px;
+}
+#autocomplete-popout header {
+    background: var(--nox-level3)
+}
+
+.theme-dark #autocomplete-popout .row.selected {
+    background: var(--nox-level2)
+}
+
+.theme-dark #autocomplete-popout .row {
+    background: var(--nox-level1)
+}
+
+#autocomplete-popout .empty h4 {
+    color: var(--nox-accent);
+}
+
+#autocomplete-popout .row.selected,
+#autocomplete-popout .row:hover {
+    background: #181818
+}
+
+#autocomplete-popout .row {
+    transition: all 50ms ease;
+}
+
+#autocomplete-popout .scroller::-webkit-scrollbar {
+    display: none
+}
+#autocomplete-popout .empty p,
+#autocomplete-popout .row a{
+    color:var(--nox-white3);
+}
+#autocomplete-popout .row.selected a,
+ #autocomplete-popout .row:hover a{
+    color:var(--nox-white4);
+}
+#autocomplete-popout .empty:hover{
+    background:transparent;
+}
+#autocomplete-popout .row a{
+    font-weight: 500
+  }
+/* End autocomplete modal */

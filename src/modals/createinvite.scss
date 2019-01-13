@@ -1,0 +1,116 @@
+/* Create/join invite */
+
+.form.deprecated .btn-primary,
+.form.deprecated .btn-primary:hover,
+.form .btn-primary:hover,
+.form .btn-primary {
+    background: var(--nox-accent);
+}
+
+.form header,
+.form .control-group label a:hover,
+.form .control-group label a {
+    color: var(--nox-accent);
+}
+
+.form.deprecated .form-actions,
+.form .form-actions {
+    background: #252525;
+    border: none;
+}
+.form.deprecated .form-inner,
+.form.deprecated .form-header{
+    background:transparent;
+}
+
+.create-guild-container.deprecated .join-server .link-container input:hover {
+    border: none!important;
+    border-bottom: 2px solid var(--nox-white1)!important
+}
+
+.create-guild-container.deprecated .join-server .link-container input:focus {
+    border: none!important;
+    border-bottom: 2px solid var(--nox-accent)!important
+}
+
+.create-guild-container.deprecated .join-server .link-container label {
+    color: var(--nox-white4);
+    margin-top: 10px
+}
+
+.create-guild-container.deprecated .form-actions .btn-default {
+    color: var(--nox-white6);
+}
+
+.create-guild-container.deprecated .form-actions .btn-default::before {
+    background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMjAgMTFINy44M2w1LjU5LTUuNTlMMTIgNGwtOCA4IDggOCAxLjQxLTEuNDFMNy44MyAxM0gyMHYtMnoiLz48L3N2Zz4=);
+    background-size: 100%;
+    opacity: .6;
+    background-position: 0 50%;
+}
+.create-guild-container.deprecated .form-actions .btn-default:active::before {
+    background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMjAgMTFINy44M2w1LjU5LTUuNTlMMTIgNGwtOCA4IDggOCAxLjQxLTEuNDFMNy44MyAxM0gyMHYtMnoiLz48L3N2Zz4=);
+    background-size: 100%;
+    opacity: .6;
+    background-position: 0 50%;
+    transition: all 50ms ease;
+}
+
+.create-guild-container.deprecated .action:hover.create .btn,
+.form .btn-primary:hover {
+    filter: brightness(93%)contrast(110%);
+}
+
+.form.deprecated .btn-default{
+    padding: 10px 20px;
+    border:none!important;
+    color:var(--nox-white)!important;
+    background:var(--nox-level1);
+}
+.form-actions .btn-default,
+.form.deprecated .btn-primary {
+    margin-bottom: 5px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .0);
+    transition: all 200ms ease;
+    border-radius: 3px;
+}
+.form-actions .btn-default:hover,
+.form.deprecated .btn-primary:hover {
+    -ms-transform: translate(0, -1px);
+    transform: translate(0, -1px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .2);
+    transition:all 100ms ease, transform 150ms cubic-bezier(0,0,0,1)
+}
+.form-actions .btn-default:active,
+.form.deprecated .btn-primary:active {
+    color: rgba(0, 0, 0, 0.7)!important;
+    background: rgb(220, 220, 220)!important;
+    -ms-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
+    transition: all 50ms ease;
+    border-radius: 4px;
+}
+
+.form.deprecated .control-group input,
+.form.deprecated .control-group textarea,
+.form .control-group input,
+.form .control-group textarea,
+.serverfolders-modal input {
+    background: transparent!important;
+    color: var(--nox-white)!important;
+    border:none!important;
+    border-bottom:2px solid rgba(255,255,255,.05)!important;
+    margin-bottom: 0!important;
+    border-radius:0!important;
+    background:transparent!important;
+
+}
+.form.deprecated .control-group input:focus,
+.form.deprecated .control-group textarea:focus,
+.form .control-group input:focus,
+.form .control-group textarea:focus,
+.serverfolders-modal input:focus {
+    border-bottom: 2px solid var(--nox-accent)!important;
+}
+/* End Create/join invite */

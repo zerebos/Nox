@@ -1,0 +1,12 @@
+/* Server Search Plugin */
+.avatar-search.guildIcon-CT-ZDq {
+    background-size: 35%!important;
+}
+.avatar-search.guildIcon-CT-ZDq::after,
+.avatar-search.guildIcon-CT-ZDq::before {
+    z-index: -1!important;
+}
+.avatar-search.guildIcon-CT-ZDq::after {
+    background: var(--nox-white1)!important;
+}
+/* End Server Search Plugin */

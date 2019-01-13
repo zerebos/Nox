@@ -1,0 +1,93 @@
+/*SEARCH*/
+
+.searchResultsWrap-2DKFzt,
+.searchResultsWrap-2DKFzt .searchHeader-1l-wpR {
+    background: var(--nox-level2)!important;
+    box-shadow: none;
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB::before {
+    background-image: linear-gradient(0deg, transparent 0, var(--nox-level2) 100%);
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB::after {
+    background-image: linear-gradient(180deg, transparent 0, var(--nox-level2) 100%);
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA {
+    box-shadow: 0 0 10px 6px var(--nox-level2);
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA,
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB.expanded-v2Szsz {
+    border: none;
+}
+
+.searchResultsWrap-2DKFzt .searchResult-3pzFAB .searchResultMessage-2VxO12 {
+    border-radius: 3px;
+    background: transparent;
+    border: none!important;
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA {
+    background: var(--nox-level1)
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+    background: var(--nox-level1)
+}
+
+.searchResultsWrap-2DKFzt .searchResult-3pzFAB .searchResultMessage-2VxO12 .container-1YxwTf {
+    margin-bottom: 10px!important;
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .channelSeparator-1X1FuH .channelName-1QajIf {
+    background: transparent;
+}
+
+.searchResultsWrap-2DKFzt .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
+    background: rgba(225, 225, 225, 0.04);
+    width: 8px!important;
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background: rgba(225, 225, 225, 0.2) !important;
+    display: initial;
+    border-radius: 0!important;
+    border: 0px!important;
+    background-clip: none;
+}
+
+.theme-dark .searchResultsWrap-2DKFzt .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb:active {
+    border: none !important;
+    background: rgba(225, 225, 225, 0.4) !important;
+    display: initial;
+    border-radius: 0!important;
+}
+
+.searchResultsWrap-2DKFzt .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    display: none;
+}
+
+.searchResultsWrap-2DKFzt .actionButtons-14P9IC {
+    transform: translate(-5px, 15px);
+}
+
+
+/*/SEARCH*/
+
+
+.searchResultsWrap-2DKFzt .searchResult-3pzFAB {
+    margin-left: 10px;
+}
+.theme-dark .searchResultsWrap-2DKFzt .channelSeparator-1X1FuH .channelName-1QajIf {
+    margin-left: 10px;
+}
+
+.searchResults-2J8dju .channelSeparator-1X1FuH::before {
+    display: none;
+}
+
+.actionButtons-14P9IC .jumpButton-Ia2hRJ {
+    background: var(--nox-level2);
+}

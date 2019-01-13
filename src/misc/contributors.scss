@@ -1,0 +1,163 @@
+
+
+.image-33JSyf.large-3ChYtB:hover::before,
+.image-33JSyf.large-3ChYtB::before {
+    display:none!important;
+}
+
+/* Special Badges */
+
+/*Lilian Tedone#6223*/
+.image-33JSyf.profile-ZOdGIb[style*="avatars/184021060562321419"]::before,
+.image-33JSyf.large-3ChYtB[style*="avatars/184021060562321419"]::before{display:inline-block!important;content: "}";}
+.image-33JSyf.profile-ZOdGIb[style*="avatars/184021060562321419"]::after,
+.image-33JSyf.large-3ChYtB[style*="avatars/184021060562321419"]:hover::before{display:inline-block!important;content: "BMT Creator"!important;}
+
+/*Zerebos#7790*/
+.image-33JSyf.profile-ZOdGIb[style*="avatars/249746236008169473"]::before,
+.image-33JSyf.large-3ChYtB[style*="avatars/249746236008169473"]::before{display:inline-block!important;content: "}";}
+.image-33JSyf.profile-ZOdGIb[style*="avatars/249746236008169473"]::after,
+.image-33JSyf.large-3ChYtB[style*="avatars/249746236008169473"]:hover::before{display:inline-block!important;content: "BMT Maintainer"!important;}
+
+/* End Special Badges */
+
+/* Contributors */
+
+$contributors: (
+"168303479054401537", // PixelatedBulb#2816
+"277173061973835778", // PoorPockets McNewHolͪdͥ#8740
+"155407912481718272", // FroztySeven#9632
+"280188541538140160", // ╲⎝⧹𝓢𝓾𝓹𝓮𝓻𝓦𝓸𝔀121⧸⎠╱#5390
+"184008525888880640", // william#4027
+"122312510769594368", // BlazingGem#7651
+"235353619132579843", // ouchys#8480
+"259277943275126785", // Анастасия#5580
+"132855540664500224", // Giaco Audiovisuel#0178
+"110078241087172608", // Viniuau#3029
+"166423625728131072", // asolus#0467
+"90076279646212096", // Midorina#5706
+"282659852701138954", // Ｋ仔 Queen 💉#8312
+"214550163841220609", // MGRich#8192
+"111169969273708544", // - ̗̀ʀΞʀIʀ▲Ҝ ̖́-#3412
+"161692463365357568", // Morgana Chase (Winter)#0167
+"159767754960928768", // fofofofofofofofo#5404
+"116242787980017679", // Pu#6606
+"99914384989519872", // Pointy#5565
+"153597217956036608", // Zekken#0101
+"258528216698978304", // boswelja#9614
+"137596811778064384", // DE|Gamingfail123#7301
+"143685955436544000", // Jeder#2091
+"206318836646019073", // Mist#4209
+"211023028832698368", // Lucas#1135
+"135764542410981377", // Jojo#0956
+"259136714025467905", // mushroomstewart#3338
+"183931930935427073", // Alipoodle#5025
+"443765978132643850" // .intrnl#6380
+);
+
+@each $c in $contributors {
+    .image-33JSyf.profile-ZOdGIb[style*="avatars/#{$c}"]::before,
+    .image-33JSyf.large-3ChYtB[style*="avatars/#{$c}"]::before{display:inline-block!important;content: "}";}
+    .image-33JSyf.profile-ZOdGIb[style*="avatars/#{$c}"]::after,
+    .image-33JSyf.large-3ChYtB[style*="avatars/#{$c}"]:hover::before{display:inline-block!important;content: "BMT Contributor"!important;}
+}
+
+/* End Contributors */
+
+
+
+.image-33JSyf.large-3ChYtB::before{
+    color:var(--nox-white3);
+    font-size:13px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius:2px;
+    cursor:pointer;
+    font-family:BMTicons;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.image-33JSyf.large-3ChYtB:hover::before{
+    color:var(--nox-white);
+}
+
+.image-33JSyf.large-3ChYtB:hover::before{
+    font-family:Whitney;
+    background-color: var(--nox-level1) !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2)!important;
+    padding: 6px 10px;
+    border-radius: 3px;
+    display: block;
+    position:absolute;
+    pointer-events: none;
+    color:var(--nox-white);
+    width:auto;
+    opacity:1;
+    white-space: nowrap;
+    right: unset;
+    left: calc(100% - 13px);
+    transition: all 200ms ease;
+    animation: opacity 200ms ease;
+    bottom: -6px;
+}
+
+
+
+.image-33JSyf.profile-ZOdGIb::before,
+.image-33JSyf.profile-ZOdGIb::after {
+    display:none!important;
+}
+
+.image-33JSyf.profile-ZOdGIb{
+    pointer-events: none;
+}
+.image-33JSyf.profile-ZOdGIb::before{
+    color:var(--nox-white5);
+    font-size:20px;
+    z-index:1;
+    position:relative;
+    font-family:BMTicons;
+    right: -538px;
+    top: -10px;
+    background:transparent;
+    border-radius:50%;
+    padding:0px;
+    pointer-events: initial!important;
+    cursor:pointer;
+    transition:100ms ease;
+}
+.image-33JSyf.profile-ZOdGIb:hover::before{
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+    color:var(--nox-accent);
+}
+.image-33JSyf.profile-ZOdGIb::after{
+    color:var(--nox-white4);
+    font-size:14.4px;
+    z-index:1;
+    position:relative;
+    transform: translate(calc(-100% + 10px),0);
+    pointer-events: none;
+    right:-528px;
+    top: -33px;
+    width:auto;
+    background:var(--nox-accent);
+    color:var(--nox-white);
+    padding:3px 10px;
+    border-radius:40px;
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+    opacity:0;
+    transition:200ms ease;
+    white-space: nowrap;
+}
+.image-33JSyf.profile-ZOdGIb:hover::after{
+    opacity: 1;
+    transform: translate(-100%,0);
+    transition:200ms cubic-bezier(0,0,0,1);
+}
+
+.mask-3OgeRz {
+    -webkit-mask: none!important;
+    mask: none!important;
+}

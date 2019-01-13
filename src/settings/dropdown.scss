@@ -1,0 +1,158 @@
+/*Select menu*/
+
+.form .Select-control,
+.theme-dark .select-2TCrqx .Select-control {
+    background: var(--nox-level1);
+}
+
+.has-value>.Select-control>.Select-placeholder {
+    color: var(--nox-white)!important;
+    opacity: 0.8
+}
+
+.form .Select-control:hover,
+.theme-dark .select-2TCrqx .Select-control:hover {
+    background: #353535
+}
+/* select-3JqNgs */
+.form-deprecated .is-focused:not(.is-open)>.Select-control,
+.theme-dark .ui-select .is-focused .Select-control,
+.theme-dark .ui-select>.Select .Select-control,
+body .form-deprecated .Select-control,
+body .form .Select-control,
+body .select-2TCrqx .Select-control {
+    background:#353535;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+    border:1px solid #393939;
+    border-radius:2px;
+    cursor:pointer;
+    transition:100ms ease;
+}
+
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label,
+.has-value.Select--single>.Select-control .Select-value .Select-value-label{
+  color:#fff;
+}
+
+// .Select .Select-control div {
+//     padding-top: 1px;
+// }
+
+.Select-arrow-zone {
+  background-image: url(data:image/svg+xml,%3Csvg%20fill%3D%22%23FFFFFF%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M7.41%207.84L12%2012.42l4.59-4.58L18%209.25l-6%206-6-6z%22/%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0-.75h24v24H0z%22%20fill%3D%22none%22/%3E%0A%3C/svg%3E);
+  background-size: 25px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width:40px;
+  padding: 0;
+  transition: transform 200ms ease;
+}
+
+.is-open .Select-arrow-zone {
+    transform: scaleY(-1);
+}
+
+.form-deprecated .Select.is-disabled .Select-control:hover,
+.form-deprecated .Select.is-open .Select-control:hover,
+.theme-dark .ui-select>.Select .Select-control:hover,
+.form-deprecated .Select-control:hover,
+.select-2TCrqx .Select-control:hover {
+    border-color:#393939;
+    box-shadow:0 2px 10px rgba(0,0,0,.5);
+}
+// .theme-dark .ui-select>.Select .Select-control .Select-arrow,
+// body .form .Select-control .Select-arrow,
+// body .select-2TCrqx .Select-control .Select-arrow {
+//   display: none;
+// }
+
+body .form .Select-control .Select-placeholder,
+.theme-dark .ui-select>.Select .Select-control .Select-placeholder{
+    line-height:48px;
+    color:var(--nox-white);
+}
+
+body .select-2TCrqx .Select-control .Select-value>.Select-value-label,
+body .form .Select-control .Select-value>.Select-value-label,
+.theme-dark .ui-select>.Select .Select-control .Select-value>.Select-value-label {
+  color:#fff;
+  font-weight:500;
+  font-size:15px;
+}
+
+.theme-dark .select-2TCrqx .Select-menu-outer,
+.theme-dark .ui-select>.Select .Select-menu-outer {
+  transform-origin: top;
+    background: var(--nox-level1)!important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #353535;
+    top: 0px;
+    border-radius: 2px;
+    animation: selectmenu-anim 300ms cubic-bezier(.2,0,0,1) backwards;
+    z-index: 10;
+}
+
+@keyframes selectmenu-anim {
+    0% {
+        opacity: 0;
+        pointer-events: none;
+        transform:scale(1,0.80);
+    }
+    100% {
+        opacity: 1;
+        pointer-events: initial;
+        transform:scale(1,1);
+    }
+}
+.theme-dark .ui-select>.Select .Select-menu-outer .Select-menu,
+.Select-menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Select-control .Select-placeholder {
+    font-weight: 700;
+    opacity: .7;
+    margin-left: 5px;
+}
+body .Select-option,
+.theme-dark .ui-select>.Select .Select-option {
+    opacity: 1;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--nox-white8)!important;
+    padding: 8px 10px;
+    border-radius: 0!important;
+    animation: opacity 300ms ease 100ms backwards;
+}
+body .Select-option:hover,
+.theme-dark .ui-select>.Select .Select-option:hover {
+    background: rgba(255, 255, 255, .02)!important;
+    color: var(--nox-white)!important;
+}
+body .Select-option.is-selected,
+.theme-dark .ui-select>.Select .Select-option.is-selected {
+    background: var(--nox-accent)!important;
+    filter: brightness(105%);
+    color: var(--nox-white)!important;
+}
+body .Select-option.is-selected:hover,
+.theme-dark .ui-select>.Select .Select-option.is-selected:hover {
+    background: var(--nox-accent)!important;
+    filter: none;
+}
+body .Select-option.is-selected.primary,
+body .Select-option.is-selected.localized,
+.theme-dark .ui-select>.Select .Select-option.is-selected .primary,
+.theme-dark .ui-select>.Select .Select-option.is-selected .localized {
+    color: var(--nox-white)!important;
+}
+.Select--single>.Select-control .Select-value, .Select-placeholder{
+  padding-right:35px;
+}
+/*/Select menu*/
+
+.select-menu-outer{
+    animation: opacity 100ms linear, context-open-new 300ms cubic-bezier(.2,0,0,1);
+    transform-origin: top;
+}

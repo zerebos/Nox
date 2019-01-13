@@ -1,0 +1,23 @@
+.inputWrapper-31_8H8{
+    overflow: hidden;
+}
+
+.inputWrapper-31_8H8 textarea,
+.inputWrapper-31_8H8 textarea:hover,
+.inputWrapper-31_8H8 input,
+.inputWrapper-31_8H8 input:hover{
+    background:transparent!important;
+    border:none!important;
+    box-shadow:0 2px 0 rgba(255,255,255,.05),-660px 2px 0 var(--nox-accent)!important;
+    margin-bottom:2px!important;
+    transition:200ms ease!important;
+    border-radius:0!important;
+}
+
+.inputWrapper-31_8H8 textarea:focus,
+.inputWrapper-31_8H8 input:focus{
+    background:transparent!important;
+    border:none!important;
+    transition:300ms cubic-bezier(0,0,0,1)!important;
+    box-shadow:0 2px 0 rgba(255,255,255,.05),0 2px 0 var(--nox-accent)!important;
+}

@@ -1,0 +1,106 @@
+@import "classes.scss";
+
+// // White
+// $white0: rgba(255,255,255,0);
+// $white1: rgba(255,255,255,.1);
+// $white2: rgba(255,255,255,.2);
+// $white3: rgba(255,255,255,.3);
+// $white4: rgba(255,255,255,.4);
+// $white5: rgba(255,255,255,.5);
+// $white6: rgba(255,255,255,.6);
+// $white7: rgba(255,255,255,.7);
+// $white8: rgba(255,255,255,.8);
+// $white9: rgba(255,255,255,.9);
+// $white10: rgba(255,255,255,1);
+
+// // Black
+// $black0: rgba(0,0,0,0);
+// $black1: rgba(0,0,0,.1);
+// $black2: rgba(0,0,0,.2);
+// $black3: rgba(0,0,0,.3);
+// $black4: rgba(0,0,0,.4);
+// $black5: rgba(0,0,0,.5);
+// $black6: rgba(0,0,0,.6);
+// $black7: rgba(0,0,0,.7);
+// $black8: rgba(0,0,0,.8);
+// $black9: rgba(0,0,0,.9);
+// $black10: rgba(0,0,0,1);
+
+@font-face{
+    font-family:'BMTicons';
+    src: url(data:application/font-ttf;charset=utf-8;base64,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) format('truetype');
+}
+
+:root {
+    --nox-version:"Nox v1.0.0";
+    --nox-accent: #3F85FF;
+    --nox-notification-color: #fff;
+    --nox-notification-width: 3px;
+    --nox-important-notification: #F04747;
+    --nox-channels-scrollbar: initial;
+    --nox-settings-scrollbar: initial;
+    --nox-settings-time: 500ms;
+
+    /*MAIN COLORS*/
+    --nox-level1:#303030;/*var(--nox-level1)*/
+    --nox-level2:#212121;/*var(--nox-level2)*/
+    --nox-level3:#141414;/*var(--nox-level3)*/
+
+    /*WHITE*/
+    --nox-white:rgba(255,255,255,1);/*var(--nox-white)*/
+    --nox-white0:rgba(255,255,255,0);/*var(--nox-white0)*/
+    --nox-white1:rgba(255,255,255,.1);/*var(--nox-white1)*/
+    --nox-white2:rgba(255,255,255,.2);/*var(--nox-white2)*/
+    --nox-white3:rgba(255,255,255,.3);/*var(--nox-white3)*/
+    --nox-white4:rgba(255,255,255,.4);/*var(--nox-white4)*/
+    --nox-white5:rgba(255,255,255,.5);/*var(--nox-white5)*/
+    --nox-white6:rgba(255,255,255,.6);/*var(--nox-white6)*/
+    --nox-white7:rgba(255,255,255,.7);/*var(--nox-white7)*/
+    --nox-white8:rgba(255,255,255,.8);/*var(--nox-white8)*/
+    --nox-white9:rgba(255,255,255,.9);/*var(--nox-white9)*/
+
+    /*BLACK*/
+    --nox-black:rgba(0,0,0,1);/*var(--nox-black10)*/
+    --nox-black0:rgba(0,0,0,0);/*var(--nox-black0)*/
+    --nox-black1:rgba(0,0,0,.1);/*var(--nox-black1)*/
+    --nox-black2:rgba(0,0,0,.2);/*var(--nox-black2)*/
+    --nox-black3:rgba(0,0,0,.3);/*var(--nox-black3)*/
+    --nox-black4:rgba(0,0,0,.4);/*var(--nox-black4)*/
+    --nox-black5:rgba(0,0,0,.5);/*var(--nox-black5)*/
+    --nox-black6:rgba(0,0,0,.6);/*var(--nox-black6)*/
+    --nox-black7:rgba(0,0,0,.7);/*var(--nox-black7)*/
+    --nox-black8:rgba(0,0,0,.8);/*var(--nox-black8)*/
+    --nox-black9:rgba(0,0,0,.9);/*var(--nox-black9)*/
+}
+
+::selection {
+    background: var(--nox-accent);
+    color: var(--nox-white);
+}
+
+html, span:not(.spinner-item) {
+    backface-visibility: hidden;
+}
+
+/*changelog*/
+#bd-settingspane-container .content-column.default .bda-slist::before {
+    content: "Changelog: Can be found on github or in the discord server.\A \A Theme Settings: Go to the Custom CSS tab.\A \A Please help me improve the theme!\A Go to bit.ly/BMTserver to report bugs or make suggestions :)"!important;
+}
+
+/*Themes settings announcement*/
+// #bd-settingspane-container .content-column.default .bda-slist::after {
+//     content: "Hi, I just created server where I post stuff about the theme and you can give me feedback,\A also there's a beta now :D. To download it join the server at >> bit.ly/BMTserver <<\A\A It's also how to report bugs now, the other links don't work anymore."!important;
+// }
+
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background: transparent;
+}
+
+@import 'misc/*';
+@import 'bd/*';
+@import 'chat/*';
+@import 'modals/*';
+@import 'plugins/*';
+@import 'popouts/*';
+@import 'sections/*';
+@import 'settings/*';

@@ -1,0 +1,52 @@
+/*deprecated*/
+.form-deprecated .control-group input,
+.form-deprecated .control-group textarea,
+.form .control-group input,
+.form .control-group textarea,
+.serverfolders-modal input {
+    background: transparent!important;
+    color: var(--nox-white)!important;
+    border:none!important;
+    border-bottom:2px solid rgba(255,255,255,.05)!important;
+    margin-bottom: 0!important;
+    border-radius:0!important;
+    background:transparent!important;
+
+}
+.form-deprecated .control-group input:focus,
+.form-deprecated .control-group textarea:focus,
+.form .control-group input:focus,
+.form .control-group textarea:focus,
+.serverfolders-modal input:focus{
+    border-bottom: 2px solid var(--nox-accent)!important;
+}
+/*/deprecated*/
+
+.form .btn-primary {
+    margin-bottom: 5px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .0);
+    transition: all 200ms ease;
+    border-radius: 3px;
+}
+
+.form .btn-primary:hover {
+    -ms-transform: translate(0, -1px);
+    transform: translate(0, -1px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .2);
+    transition: all 150ms ease-in-out;
+}
+
+.form .btn-primary:active {
+    color: rgba(0, 0, 0, 0.7);
+    background: rgb(220, 220, 220)!important;
+    -ms-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
+    transition: all 50ms ease;
+    border-radius: 4px;
+}
+
+
+.form .control-groups.control-separator {
+    border-color: rgba(255, 255, 255, .02)
+}

@@ -1,0 +1,190 @@
+/* Messages Popouts */
+
+.messagesPopoutWrap-1MQ1bW  {
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+.messagesPopoutWrap-1MQ1bW .comment {
+    background: rgba(0, 0, 0, .3);
+    border-radius: 0 3px 3px 3px!important;
+    padding: 0px 7px 10px 10px!important;
+    margin-right: 0;
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW .has-more button {
+    background: var(--nox-level1);
+    color: var(--nox-white5);
+    border: none;
+    transition: 100ms ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW .has-more button:hover {
+    background: #353535;
+    color: var(--nox-white6);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW .has-more button:active {
+    background: var(--nox-accent);
+    color: var(--nox-white);
+    transition: 0ms;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.private-channel-recipients-invite,
+.messagesPopoutWrap-1MQ1bW {
+    animation: toppopout 400ms cubic-bezier(.3, .3, 0, 1);
+}
+
+body:active .private-channel-recipients-invite:not(:active),
+body:active .messagesPopoutWrap-1MQ1bW:not(:active) {
+    opacity: 0;
+    transition: all 100ms ease;
+}
+
+.messagesPopoutWrap-1MQ1bW {
+    background: var(--nox-level2)!important;
+    box-shadow:0 0 0 1px var(--nox-level3),0 5px 10px rgba(0, 0, 0, .3)!important;
+    max-height: 541px!important;
+}
+
+@keyframes pins {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+    background: transparent!important;
+    border: 0px !important;
+}
+
+.messagesPopoutWrap-1MQ1bW .comment::before {
+    left: -20px;
+    top: 0px;
+    border-color: transparent rgba(0, 0, 0, .3) transparent transparent;
+}
+
+.private-channel-recipients-invite .footer,
+.private-channel-recipients-invite .header,
+.messagesPopoutWrap-1MQ1bW .footer-SRC48P,
+.messagesPopoutWrap-1MQ1bW .header-ykumBX {
+    background: var(--nox-level3)!important
+}
+
+.sink-interactions .clickable, .actionButtons-1sUUug {
+    background: transparent!important;
+    box-shadow: none!important;
+}
+
+.actionButtons-1sUUug {
+    right: 20px;
+    top: 5px;
+}
+
+.actionButtons-1sUUug .spinner-2enMB9 {
+    display: none;
+}
+
+.jumpButton-3DTcS_ {
+    background: var(--nox-level2)!important;
+    border-radius: 100px!important;
+}
+
+.emptyPlaceholder-1zh-Eu .body-bvcIjN {
+    color: rgba(225, 225, 225, 0.3)!important;
+}
+
+.messagesPopoutWrap-1MQ1bW .emptyPlaceholder-1zh-Eu .image-2JDb81 {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTExLjk5IDJDNi40NyAyIDIgNi40NyAyIDEyczQuNDcgMTAgOS45OSAxMFMyMiAxNy41MyAyMiAxMiAxNy41MiAyIDExLjk5IDJ6TTEyIDIwYy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHptNC4xOC0xMi4yNGwtMS4wNiAxLjA2LTEuMDYtMS4wNkwxMyA4LjgybDEuMDYgMS4wNkwxMyAxMC45NCAxNC4wNiAxMmwxLjA2LTEuMDZMMTYuMTggMTJsMS4wNi0xLjA2LTEuMDYtMS4wNiAxLjA2LTEuMDZ6TTcuODIgMTJsMS4wNi0xLjA2TDkuOTQgMTIgMTEgMTAuOTQgOS45NCA5Ljg4IDExIDguODIgOS45NCA3Ljc2IDguODggOC44MiA3LjgyIDcuNzYgNi43NiA4LjgybDEuMDYgMS4wNi0xLjA2IDEuMDZ6TTEyIDE0Yy0yLjMzIDAtNC4zMSAxLjQ2LTUuMTEgMy41aDEwLjIyYy0uOC0yLjA0LTIuNzgtMy41LTUuMTEtMy41eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+)!important;
+    opacity: 0.3;
+    animation: sadface 5000ms ease infinite;
+}
+
+@keyframes sadface {
+    0% {
+        transform: translate(0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+}
+
+.messagesPopoutWrap-1MQ1bW .emptyPlaceholder-1zh-Eu.bottom .image-2JDb81 {
+    display: none;
+}
+
+.messagesPopout-24nkyi .emptyPlaceholder-1zh-Eu .body-bvcIjN{
+  display:none;
+}
+
+.messagesPopout-24nkyi .emptyPlaceholder-1zh-Eu .image-2JDb81+.body-bvcIjN{
+  display:block;
+}
+
+.messagesPopout-24nkyi .message-group .actionButtons-1sUUug .closeButton-17RIVZ{
+  position: relative;
+}
+
+.messagesPopout-24nkyi .message-group .actionButtons-1sUUug .closeButton-17RIVZ::after{
+    content:"";
+    background:var(--nox-white);
+    border-radius:50%;
+    display:block;
+    width:100%;
+    padding-top:100%;
+    height:0;
+    position:absolute;
+    opacity:0;
+    transform:scale(1.4);
+    transition:all 300ms ease, visibility 0ms 300ms;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.messagesPopout-24nkyi .message-group .actionButtons-1sUUug .closeButton-17RIVZ:active::after{
+    opacity:0.1;
+    transition:all 300ms ease, visibility 0ms;
+    visibility: visible;
+    animation:scale 100ms cubic-bezier(.2,0,0,1),opacity 50ms ease;
+}
+
+/* End Messages Popouts */
+
+
+.popout-3sVMXz.popoutBottomRight-2JrySt header::before,
+.popout-3sVMXz.popoutBottom-1YbShG header::before{
+    display:none;
+}
+
+.messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
+    background: none;
+    border: none;
+    padding: 0 10px;
+}
+
+.themedPopout-25DgLi .header-SsaQ8X .title-23FrqZ {
+    color: var(--nox-white);
+}
+
+.messageGroupWrapper-o-Zw7G .button-38aScr {
+    background: none;
+    padding: 0 6px;
+    min-height: unset;
+    transform: none;
+    box-shadow: none;
+}
+
+.messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug .closeButton-17RIVZ {
+    opacity: 0.4;
+}
+
+.messageGroupWrapper-o-Zw7G .button-38aScr:hover .closeButton-17RIVZ {
+    opacity: 0.7;
+}
