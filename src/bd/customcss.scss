@@ -5,7 +5,7 @@
 .contentRegion-3nDuYy #bd-customcss-attach-controls::after {
     width: 100%;
     padding: 10px;
-    content:"To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A\9 --nox-accent: #7289DA !important;\A\9 --nox-notification-color: #FFFFFF !important;\A\9 --nox-important-notification: #F04747 !important;\A}\A\A Don't forget to save/update when you're done!\A\A And if you're too lazy to manually copy it,\A just go to bit.ly/BMTsettings and directly copy/paste\Athe code. ";
+    content:"To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A\9 --nox-accent: #7289DA !important;\A\9 --nox-notification-color: #FFFFFF !important;\A\9 --nox-important-notification: #F04747 !important;\A}\A\A Don't forget to save/update when you're done!\A\A To see all the variables in the theme, just go to bit.ly/NoxTheme. ";
     background: var(--nox-level2);
     margin-top: 10px;
     display: block;
