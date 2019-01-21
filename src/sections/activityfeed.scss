@@ -4,6 +4,10 @@
     background: var(--nox-level1);
 }
 
+.card-7JP0BX {
+    box-shadow: 0 5px 5px var(--nox-black4);
+}
+
 .card-7JP0BX .cardBody-3kgGGF,
 .card-7JP0BX .cardBody-3_HhbX {
     background: var(--nox-level2);
@@ -43,6 +47,10 @@
     margin-bottom: 0!important;
 }
 
+.dock-1-sUKH {
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
 .overflowMenu-3mlkvt,
 .dock-1-sUKH .dockItem-2kQDqg button {
     margin: 0;
@@ -50,6 +58,7 @@
 
 .dock-1-sUKH .dockItem-2kQDqg:hover {
     background: var(--nox-level2);
+    box-shadow: 0 5px 5px var(--nox-black4);
 }
 
 .overflowMenu-3mlkvt {
@@ -102,9 +111,20 @@
     animation:scale 100ms cubic-bezier(.2,0,0,1),opacity 50ms ease;
 }
 /* /Activity Feed */
+.pagination-1GYdtQ .paginationItem-2lUq0s {
+    box-shadow: 0 5px 5px var(--nox-black4);
+}
 
 .pagination-1GYdtQ .paginationItem-2lUq0s::after {
     background: linear-gradient(270deg,transparent 0, var(--nox-level3));
+}
+
+.pagination-1GYdtQ .scroller-2FKFPG {
+    padding-bottom: 5px;
+}
+
+.carousel-2WxMes {
+    box-shadow: 0 5px 5px var(--nox-black4);
 }
 
 .news-1uHrMX,
@@ -129,3 +149,4 @@
 .gamePreview-9weYR2 .body-1SVoBw {
     background: var(--nox-level1);
 }
+

@@ -18,6 +18,8 @@
     background: rgba(225, 225, 225, 0.7);
     display: none;
 }
+
+//spinner-2enMB9 da-spinner spinner-2okOH9 da-spinner
 .spinner,
 .spinningCircle-2NAjGW,
 ._3X2_kkZ9,
@@ -26,9 +28,15 @@
     opacity: 0.8;
     background-repeat: no-repeat!important;
     background-position:50%!important;
+    background-size: contain;
 }
 .spinningCircle-2NAjGW svg{
     display:none;
+}
+
+.spinner-2okOH9 .inner-1gJC7_,
+.spinner-2okOH9 .spinnerItem-3GlVyU {
+    display: none;
 }
 
 .spinner-2enMB9 .wanderingCubesItem-WPXqao:last-child {

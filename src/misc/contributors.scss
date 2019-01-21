@@ -11,13 +11,13 @@
 .image-33JSyf.profile-ZOdGIb[style*="avatars/184021060562321419"]::before,
 .image-33JSyf.large-3ChYtB[style*="avatars/184021060562321419"]::before{display:inline-block!important;content: "}";}
 .image-33JSyf.profile-ZOdGIb[style*="avatars/184021060562321419"]::after,
-.image-33JSyf.large-3ChYtB[style*="avatars/184021060562321419"]:hover::before{display:inline-block!important;content: "BMT Creator"!important;}
+.image-33JSyf.large-3ChYtB[style*="avatars/184021060562321419"]:hover::before{display:inline-block!important;content: "Beard"!important;}
 
 /*Zerebos#7790*/
 .image-33JSyf.profile-ZOdGIb[style*="avatars/249746236008169473"]::before,
 .image-33JSyf.large-3ChYtB[style*="avatars/249746236008169473"]::before{display:inline-block!important;content: "}";}
 .image-33JSyf.profile-ZOdGIb[style*="avatars/249746236008169473"]::after,
-.image-33JSyf.large-3ChYtB[style*="avatars/249746236008169473"]:hover::before{display:inline-block!important;content: "BMT Maintainer"!important;}
+.image-33JSyf.large-3ChYtB[style*="avatars/249746236008169473"]:hover::before{display:inline-block!important;content: "Nox Developer"!important;}
 
 /* End Special Badges */
 
@@ -59,7 +59,7 @@ $contributors: (
     .image-33JSyf.profile-ZOdGIb[style*="avatars/#{$c}"]::before,
     .image-33JSyf.large-3ChYtB[style*="avatars/#{$c}"]::before{display:inline-block!important;content: "}";}
     .image-33JSyf.profile-ZOdGIb[style*="avatars/#{$c}"]::after,
-    .image-33JSyf.large-3ChYtB[style*="avatars/#{$c}"]:hover::before{display:inline-block!important;content: "BMT Contributor"!important;}
+    .image-33JSyf.large-3ChYtB[style*="avatars/#{$c}"]:hover::before{display:inline-block!important;content: "Nox Contributor"!important;}
 }
 
 /* End Contributors */
@@ -74,7 +74,7 @@ $contributors: (
     right: 0;
     border-radius:2px;
     cursor:pointer;
-    font-family:BMTicons;
+    font-family:NoxIcons;
     pointer-events: none;
     z-index: 1;
 }
@@ -118,7 +118,7 @@ $contributors: (
     font-size:20px;
     z-index:1;
     position:relative;
-    font-family:BMTicons;
+    font-family:NoxIcons;
     right: -538px;
     top: -10px;
     background:transparent;

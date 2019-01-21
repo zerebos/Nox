@@ -1,10 +1,10 @@
 const gulp = require("gulp");
 const fs = require("fs");
 const path = require("path");
-const sass = require('gulp-sass');
+const sass = require("gulp-sass");
 const rename = require("gulp-rename");
 const insert = require("gulp-insert");
-const globImporter = require('node-sass-glob-importer');
+const globImporter = require("node-sass-glob-importer");
 
 const META = `/*//META{"name":"Nox","description":"A theme for Discord loosely based on Google's Material Design Guidelines.","author":"Lilian Tedone & Zerebos","version":"1.0.0"}*//**/
 
@@ -40,22 +40,22 @@ const directories = getDirectories("./src").map(d => `./${d}/*.scss`.replace("\\
 
 const fileList = ["./src/index.css", "./src/*.scss", ...directories];
 
-gulp.task('import', function () {
-  return gulp.src('./src/index.scss')
-    .pipe(sass({importer: globImporter()}).on('error', sass.logError))
+gulp.task("import", function () {
+  return gulp.src("./src/index.scss")
+    .pipe(sass({importer: globImporter()}).on("error", sass.logError))
     .pipe(rename({basename: "import", extname: ".css"}))
     .pipe(insert.prepend(LICENSE))
-    .pipe(gulp.dest('./release/'));
+    .pipe(gulp.dest("./release/"));
 });
  
-gulp.task('sass', function () {
-  return gulp.src('./src/index.scss')
-    .pipe(sass({importer: globImporter()}).on('error', sass.logError))
+gulp.task("sass", function () {
+  return gulp.src("./src/index.scss")
+    .pipe(sass({importer: globImporter()}).on("error", sass.logError))
     .pipe(rename({basename: "Nox.theme", extname: ".css"}))
     .pipe(insert.prepend(META + LICENSE))
     .pipe(gulp.dest("Z:/Programming/BetterDiscordStuff/themes"));
 });
 
 gulp.task("sass-watch", function() {
-  return gulp.watch(fileList, ["sass"]);
+  return gulp.watch(fileList).on("all", gulp.series("sass"));
 });

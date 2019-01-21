@@ -1,4 +1,4 @@
-.container-2Thooq .status {
+.container-2Thooq .status-oxiHuE {
     border-color: var(--nox-level3)!important;
     transition: all 200ms ease!important
 }
@@ -163,20 +163,16 @@
     opacity: 0.3
 }
 
-.container-2Thooq,
-.account {
+#app-mount .container-2Thooq {
     background: var(--nox-level3);
-}
-
-.container-2Thooq{
     height:70px;
     margin-bottom: 0px
 }
 
-.container-2Thooq .avatar-small{
+.container-2Thooq .avatar-3JE4B3 {
 transition: 200ms ease;
 }
-.container-2Thooq .avatar-small:active{
+.container-2Thooq .avatar-3JE4B3:active {
 opacity: 1
 }
 
@@ -186,6 +182,33 @@ height:17px;
 margin-bottom:-2px;
 }
 
-.container-2Thooq > .noWrap-3jynv6 > .button-38aScr {
+.container-2Thooq .inner-1W0Bkn::after {
+    content:"";
+    background:var(--nox-white);
+    border-radius:50%;
+    display:block;
+    width:100%;
+    padding-top:100%;
+    height:0;
+    position:absolute;
+    opacity:0;
+    transform:scale(1.6);
+    transition:all 300ms ease, visibility 0ms 300ms;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    pointer-events: none;
+}
 
+.container-2Thooq .inner-1W0Bkn:active::after {
+    opacity:0.1;
+    transition:all 300ms ease, visibility 0ms;
+    visibility: visible;
+    animation:scale 100ms cubic-bezier(.2,0,0,1),opacity 50ms ease;
+}
+
+.container-2Thooq .avatar-3JE4B3 .inner-1W0Bkn:hover {
+    opacity:0.8;
+}
+.container-2Thooq .avatar-3JE4B3:hover {
+    opacity:1;
 }

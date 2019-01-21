@@ -123,3 +123,8 @@
 #bd-customcss-detach-controls-button span {
     font-size: 12px!important;
 }
+
+#bd-customcss-editor,
+#bd-customcss-editor .ace-monokai .ace_gutter {
+    background: var(--nox-level3);
+}

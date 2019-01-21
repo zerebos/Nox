@@ -1,5 +1,36 @@
 # Nox Changelog
 
+## 1.0.1
+
+### New Stuff
+- Badges reflect Nox name
+- Tabs in library page
+- Card shadows in activity feed
+- Blocked DM notice
+- CustomCSS editor colors
+
+### Bug Fixes
+- ED compatibility
+- Store background
+- DM misalignment
+- Status picker
+- Lightmode indicators
+- BD Blue indicators
+- Home icons (library, store, etc)
+- Download + New badge on home icons
+- Overflowing text on home icons
+- Input color in create/join guild modal
+- Button positions in store
+- Button colors in library, activity feed
+- Account container bg and shadows
+- Nitro banner (Partially from Tropical)
+- No channel screen (from Gas)
+- Some badges in user profile
+
+### Plugin Support
+- Fixed specificity with SendButton
+
+
 ## 1.0.0
 
 ### New Stuff
