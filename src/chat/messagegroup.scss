@@ -382,6 +382,10 @@
 }
 
 .container-1YxwTf .reactions-1xb2Ex .reaction-1ELvT8 {
+    background: rgba(255,255,255, 0.1);
+}
+
+.container-1YxwTf .reactions-1xb2Ex .reaction-1ELvT8.reactionMe-23mbRf {
     background: var(--nox-accent);
 }
 
@@ -389,6 +393,6 @@
     color: var(--nox-white);
 }
 
-.container-1YxwTf .reactions-1xb2Ex .reaction-1ELvT8 .emoji {
+.container-1YxwTf .reactions-1xb2Ex .reaction-1ELvT8.reactionMe-23mbRf .emoji {
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
 }
