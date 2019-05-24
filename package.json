@@ -17,6 +17,7 @@
     "gulp-insert": "^0.5.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
+    "gulp-wait": "0.0.2",
     "node-sass-glob-importer": "^5.3.0"
   },
   "repository": {

@@ -6,3 +6,13 @@
 .popout-3sVMXz .container-2x5lvQ header {
     background: var(--nox-accent);
 }
+
+.popout-2GtBL-:after{ 
+    border-top-color:var(--nox-level2);
+}
+
+.popouts-3dRSmE .popoutTop-3uu9vG::after,
+.popouts-3dRSmE .popoutTopLeft-b5Eb3O::after,
+.popouts-3dRSmE .popoutTopRight-3BzFIE::after {
+    border-top-color: var(--nox-level2) !important;
+}

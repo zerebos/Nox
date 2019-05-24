@@ -336,12 +336,14 @@
       box-shadow: 0 10px 25px var(--nox-black4);
   }
   .userPopout-3XzG_A .note-3HfJZ5 textarea{
-      color:var(--nox-white9);
-      padding:8px 10px;
-      box-sizing: initial;
-      font-size: 14px;
-      width:calc(100% - 20px);
-       line-height: 18px;
+    color:var(--nox-white9);
+    padding:8px 10px;
+    box-sizing: initial;
+    font-size: 14px;
+    width:calc(100% - 20px);
+    line-height: 18px;
+    height: auto!important;
+    min-height: 18px;
   }
   .userPopout-3XzG_A .note-3HfJZ5 {
       margin-left:0px;

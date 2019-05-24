@@ -190,8 +190,8 @@
 .popout-3sVMXz.noShadow-321ZPm #bda-qem-twitch-container {
     background: var(--nox-level2)!important;
     border: 1px solid var(--nox-level2);
-    margin-right: 14px;
-    margin-bottom: -7px!important;
+    margin-right:0px;
+    margin-bottom: 0!important;
     border-radius:3px!important;
 }
 
@@ -390,4 +390,11 @@
 .searchBarIcon-1J6sKG .icon-3cZ1F_.iconSearchBarEyeGlass-2n38zb {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0MxNS40MSAxMi41OSAxNiAxMS4xMSAxNiA5LjUgMTYgNS45MSAxMy4wOSAzIDkuNSAzUzMgNS45MSAzIDkuNSA1LjkxIDE2IDkuNSAxNmMxLjYxIDAgMy4wOS0uNTkgNC4yMy0xLjU3bC4yNy4yOHYuNzlsNSA0Ljk5TDIwLjQ5IDE5bC00Ljk5LTV6bS02IDBDNy4wMSAxNCA1IDExLjk5IDUgOS41UzcuMDEgNSA5LjUgNSAxNCA3LjAxIDE0IDkuNSAxMS45OSAxNCA5LjUgMTR6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=);
     background-size: 125%
+}
+
+body:active .popoutTopRight-3BzFIE:not(:active) {
+    pointer-events: none;
+    transition: all 150ms cubic-bezier(0.3, 0, 0, 1);
+    transform: translate(-100%, calc(55px - 100%)) !important;
+    opacity: 0; 
 }

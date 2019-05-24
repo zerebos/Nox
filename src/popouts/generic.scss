@@ -16,6 +16,22 @@
     border-bottom-color: var(--nox-accent);
 }
 
+.popout-3sVMXz .footer-3J5oP4 {
+    background: var(--nox-level2);
+}
+
+.popout-3sVMXz .players-1zg2l8 {
+    background: var(--nox-level1);
+}
+
+.popout-3sVMXz .news-2KwXHF {
+    background-color: var(--nox-level1);
+}
+
+.popout-3sVMXz .newsEmpty-3tvLgI {
+    filter: brightness(60%);
+}
+
 
 
 @keyframes bottompopout {
@@ -32,4 +48,17 @@
         transform: translate(0, -55px);
         opacity: 0;
     }
+}
+
+
+.theme-dark .container-2XeR5Z {
+    background-color: var(--nox-level2);
+}
+
+.theme-dark .tag-2gHSR7 {
+    background-color: var(--nox-level1);
+}
+
+.theme-dark .tag-2gHSR7:hover {
+    background-color: var(--nox-white1);
 }

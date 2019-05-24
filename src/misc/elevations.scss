@@ -1,5 +1,5 @@
 /*Guilds*/
-.guildsWrapper-5TJh6A{
+.wrapper-1Rf91z{
     z-index:6;
   }
   /*Channels*/
@@ -24,7 +24,7 @@
   }
   /*Top bar*/ //headerBar-UHpsPw
   .container-3gCOGc .friendsTableHeader-32yE7d,
-  .chat-3bRxxu .titleWrapper-1l0xT9,
+  .chat-3bRxxu .title-3qD0b-,
   .headerBar-UHpsPw {
     z-index: 5;
   }
@@ -58,16 +58,22 @@
   .wrapper-39oAo3,
   .membersWrap-2h-GB4,
   .theme-dark .search-results-wrap,
-  .guildsWrapper-5TJh6A,
+  .wrapper-1Rf91z,
   .channels-Ie2l6A .scrollerWrap-2lJEkd,
   .channels-Ie2l6A .flexChild-faoVW3,
   .container-2Thooq,
   .container-1UB9sr,
   .container-3gCOGc .friendsTableHeader-32yE7d,
-  .chat-3bRxxu .titleWrapper-1l0xT9,
+  .chat-3bRxxu .title-3qD0b-,
   .headerBar-UHpsPw,
   .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
  .privateChannels-1nO12o .scrollerWrap-2lJEkd::before,
   .chat-3bRxxu form .channelTextArea-1LDbYG{
     box-shadow: 0 2px 20px rgba(0,0,0,.4);
   }
+
+
+/* No rounded section */
+#app-mount .base-3dtUhz {
+  border-radius: 0;
+}

@@ -1,5 +1,40 @@
 # Nox Changelog
 
+## 1.0.2
+
+### New Stuff
+- "Grandfathered Message" in Nitro settings
+- Billing tab (Thanks Luke Alan)
+- User limits for voice channels
+- Basic theming for guild discovery
+- Reactions from #polls
+
+### Bug Fixes
+- Guilds list (HUGE FIX)
+- Various activity feed fixes
+- Various store/nitro fixes
+- Offcenter :active state in voice connection
+- Offcenter :active state in account container
+- Miscolored tooltip tail in rtc popout
+- Adjust the mic/audio strikethroughs
+- Status picker alignment on linux
+- Mix test button width
+- Emojipicker no longer double opens (thanks Sxxov)
+- Adjust emojipicker alignment
+- Remove rounded corners on main chat area
+- Fixed titlebar color
+- Fixed icons in titlebar
+- Mobile indicators in profile modals
+- Fixed tabs in friends list
+- Icons, names in channel list
+- Hover, active, selected backgrounds in channel list
+- Icons in settings
+- Search icon in private channels/friends
+
+### Plugin Support
+- Fixed SendButton size
+
+
 ## 1.0.1
 
 ### New Stuff

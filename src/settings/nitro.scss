@@ -28,3 +28,70 @@
 .planFeature-oiMrLD .iconIncluded-2xYFq5 {
     color: var(--nox-accent);
 }
+
+.theme-dark .grandfatheredMessage-1BnHtv {
+    background: var(--nox-accent);
+}
+
+/* Themes Billing Tab - Luke Alan */
+.theme-dark .paymentPane-3bwJ6A,
+.theme-dark .paginator-166-09,
+.theme-dark .payment-xT17Mq,
+.theme-dark .codeRedemptionRedirect-1wVR4b,
+.paymentHistory-2FXzro{
+    background-color:#292929!important;
+}
+.theme-dark .paymentRow-2e7VM6{
+    border-color:rgba(255, 255, 255, 0.04) !important;
+}
+.top-28JiJ- .itemSelected-1qLhcL.item-PXvHYJ:first-of-type,
+.top-28JiJ- .itemDefault-3Jdr52.item-PXvHYJ:first-of-type{
+    background:transparent!important;
+}
+.theme-dark .paymentHistory-2FXzro,
+.theme-dark .codeRedemptionRedirect-1wVR4b{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.03) inset;
+}
+.paymentHistory-2FXzro{
+    border-radius:3px;
+}
+.paymentHistory-2FXzro .title-3sZWYQ{
+    padding-left:15px; 
+    padding-top:15px;
+}
+.paymentHistory-2FXzro .top-28JiJ-{
+    padding-left:15px;
+}
+.theme-dark .pageIndicator-1gAbyA,
+.theme-dark .pageButtonNext-V2kUq0,
+.theme-dark .pageButtonPrev-1Y-47D{
+    border:none!important;
+}
+.theme-dark .expandedInfo-3kfShd{
+    background-color:#303030;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.03) inset;
+}
+/*Billing Buttons*/
+.theme-dark .pageButtonNext-V2kUq0,
+.theme-dark .pageButtonPrev-1Y-47D{
+    transition: all 200ms ease;
+    border-radius:50%!important;
+}
+.theme-dark .pageButtonNext-V2kUq0:hover,
+.theme-dark .pageButtonPrev-1Y-47D:hover{
+    background-color:#3a3a3a;
+    color:#fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -1px);
+    transition: all 100ms ease, transform 150ms cubic-bezier(0, 0, 0, 1);
+}
+.theme-dark .pageButtonNext-V2kUq0:active,
+.theme-dark .pageButtonPrev-1Y-47D:active{
+    background: gainsboro;
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.5);
+    transform: translate(0, 2px);
+    transition: all 50ms ease;
+}
+/* End Billing Buttons */
+/* End Billing Tab Fix */

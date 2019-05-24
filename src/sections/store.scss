@@ -65,25 +65,22 @@
     color: var(--whtie4);
 }
 
-.tile-2H4MQG {
+.homeTile-3qVuGa .tile-QA_yMc {
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 5px 5px var(--nox-black4);
-}
-
-.tile-2H4MQG .tileWrapper-2khh-w {
     background: var(--nox-level2);
 }
 
-.tile-2H4MQG .tileWrapper-2khh-w:hover {
+.homeTile-3qVuGa .tile-QA_yMc:hover {
     background: var(--nox-level3);
 }
 
-.tile-2H4MQG .tileWrapper-2khh-w .applicationTile-1Goy1W {
+.tile-QA_yMc .applicationTile-1Goy1W {
     background: none;
 }
 
-.tile-2H4MQG .popout-2xBvMR {
+.tile-QA_yMc .popout-2xBvMR {
     background: var(--nox-level3);
 }
 
@@ -91,24 +88,28 @@
     background: var(--nox-level1);
 }
 
-.tile-2H4MQG .tileMedia-24cT6_ {
+.tile-QA_yMc .media-3rRWQH {
     background-color: var(--nox-level1);
 }
 
-.tile-2H4MQG .mediaFade-1SdEfL {
+.tile-QA_yMc .mediaFade-1SdEfL {
     background: linear-gradient(180deg, transparent 90%, var(--nox-level2));
 }
 
-.tile-2H4MQG .tileWrapper-2khh-w:hover .mediaFade-1SdEfL {
+.tile-QA_yMc:hover .mediaFade-1SdEfL {
     background: linear-gradient(180deg, transparent 90%, var(--nox-level3));
 }
 
-.tile-2H4MQG .description-3rB3Rp {
+.tile-QA_yMc .description-2oYgWO {
     background: linear-gradient(180deg, transparent, var(--nox-level2) 45%, var(--nox-level2));
 }
 
-.tile-2H4MQG .tileWrapper-2khh-w:hover .description-3rB3Rp {
+.tile-QA_yMc:hover .description-2oYgWO {
     background: linear-gradient(180deg, transparent, var(--nox-level3) 45%, var(--nox-level3));
+}
+
+.perkTag-2O4dx4 {
+    background: var(--nox-accent);
 }
 
 .viewAllGamesButton-bY6nOl {
@@ -277,7 +278,7 @@
     background: var(--nox-level3);
 }
 
-.tile-2H4MQG .tag-HanR-9 {
+.tile-QA_yMc .tag-HanR-9 {
 background: var(--nox-accent);
 }
 

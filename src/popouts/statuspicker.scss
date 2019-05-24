@@ -235,3 +235,8 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 }
 
 /*/STATUS PICKER*/
+
+/* Fixes Online Status Selector on Linux */
+.platform-linux .container-2Thooq .inner-1W0Bkn + .status-oxiHuE::before {
+  left: 0;
+}

@@ -34,28 +34,28 @@
     background-repeat:no-repeat!important;
 }
 /*strike unmuted*/
-.container-2Thooq .horizontal-1ae9ci div button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']:before{
+.container-2Thooq .horizontal-1ae9ci div button[style='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']::before{
     content:"";
     display:block;
     height:4px;
     background: linear-gradient(to top, var(--nox-white) 0%,var(--nox-white) 50%,var(--nox-level3) 51%,var(--nox-level3) 100%);
     width:18.5px;
     position:absolute;
-    transform:translate(7px,15.5px)rotate(45deg)translate(10px,-2px)scale(0,1);
+    transform:translate(6px,14.5px)rotate(45deg)translate(10px,-2px)scale(0,1);
     top:0;
     left:0;
     box-shadow:0 -1.5px var(--nox-level3);
     animation:strike-out 300ms cubic-bezier(0,0,0,1);
 }
 /*strike muted*/
-.container-2Thooq .horizontal-1ae9ci div button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']:before{
+.container-2Thooq .horizontal-1ae9ci div button[style='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg");']::before{
     content:"";
     display:block;
     height:4px;
     background: linear-gradient(to top, var(--nox-white) 0%,var(--nox-white) 50%,var(--nox-level3) 51%,var(--nox-level3) 100%);
     width:18px;
     position:absolute;
-    transform:translate(7px,15.5px)rotate(45deg)translate(0,-2px)scale(1,1);
+    transform:translate(6px,14.5px)rotate(45deg)translate(0,-2px)scale(1,1);
     top:0;
     left:0;
     animation:strike-in 300ms cubic-bezier(0,.0,0,1);
@@ -83,7 +83,7 @@
     background: linear-gradient(to top, var(--nox-white) 0%,var(--nox-white) 50%,var(--nox-level3) 51%,var(--nox-level3) 100%);
     width:18.5px;
     position:absolute;
-    transform:translate(7px,15.5px)rotate(45deg)translate(10px,-2px)scale(0,1);
+    transform:translate(6px,14.5px)rotate(45deg)translate(10px,-2px)scale(0,1);
     top:0;
     left:0;
     animation:strike-out 300ms cubic-bezier(0,0,0,1);
@@ -96,7 +96,7 @@
     background: linear-gradient(to top, var(--nox-white) 0%,var(--nox-white) 50%,var(--nox-level3) 51%,var(--nox-level3) 100%);
     width:18.5px;
     position:absolute;
-    transform:translate(7px,15.5px)rotate(45deg)translate(0,-2px)scale(1,1);
+    transform:translate(6px,14.5px)rotate(45deg)translate(0,-2px)scale(1,1);
     top:0;
     left:0;
     animation:strike-in 300ms cubic-bezier(0,.0,0,1);
@@ -104,12 +104,12 @@
 /*animation strike*/
 @keyframes strike-in{
     from{
-        transform:translate(7px,15.5px)rotate(45deg)translate(-12px,-2px)scale(0,1);
+        transform:translate(6px,14.5px)rotate(45deg)translate(-12px,-2px)scale(0,1);
     }
 }
 @keyframes strike-out{
     from{
-        transform:translate(7px,15.5px)rotate(45deg)translate(0,-2px)scale(1,1);
+        transform:translate(6px,14.5px)rotate(45deg)translate(0,-2px)scale(1,1);
     }
 }
 .container-2Thooq .horizontal-1ae9ci div svg{
@@ -138,7 +138,7 @@
     border-radius: 50%;
     opacity: 0;
     position: absolute;
-    left:calc(50% + 0.5px);
+    left:calc(50% - 1px);
     top:calc(50% + 0px);
     -ms-transform:translate(-50%,-50%) scale(1.3);
     transform:translate(-50%,-50%) scale(1.3);
@@ -146,7 +146,7 @@
     pointer-events: none;
 }
 
-.container-2Thooq .horizontal-1ae9ci .button-2b6hmh:active:after{
+.container-2Thooq .horizontal-1ae9ci .button-2b6hmh:active::after{
     opacity: 0.1;
     -ms-transform:translate(-50%,-50%) scale(1.3);
     transform:translate(-50%,-50%) scale(1.3);

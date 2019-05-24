@@ -8,15 +8,7 @@
 
 .channels-Ie2l6A {
     background: var(--nox-level3);
-}
-
-/* channels-3g2vYe => .channels-Ie2l6A */
-.channels-Ie2l6A {
     position:relative;
-}
-
-.channels-Ie2l6A {
-    background: var(--nox-level3);
 }
 
 .channels-Ie2l6A .scroller-2v3d_F::-webkit-scrollbar {
@@ -63,10 +55,9 @@
 .container-PNkimc{
     background:var(--nox-level2);
 }/*hovered channel*/
+.containerDefault-1ZnADq .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh,
 .privateChannels-1nO12o .channel-2QD9_O:hover a,
-.contentHoveredText-2D9B-x,
-.contentHoveredVoice-3p_NEO:active,
-.contentSelectedVoice-1WDIBM:active {
+.containerDefault-1ZnADq:hover .wrapper-1ucjTd .content-3at_AU {
     background:rgba(255,255,255,.05);
 }
 /**/
@@ -75,33 +66,26 @@
 
 .privateChannels-1nO12o .channel-2QD9_O a:active,
 .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ a,
-.contentSelectedVoice-1WDIBM,
-.wrapper-KpKNwI:active .contentSelectedVoice-1WDIBM,
-.contentHoveredText-2D9B-x:active,
-.contentSelectedText-3wUhMi{
+.containerDefault-1ZnADq .wrapper-1ucjTd.modeConnected-2IEL4z .content-3at_AU,
+.containerDefault-1ZnADq.selected-37j_iU .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
+.containerDefault-1ZnADq:active .wrapper-1ucjTd .content-3at_AU {
     background:var(--nox-level3);
 }
-.nameSelectedText-sp_EUw,
-.nameSelectedVoice-1qSph5{
-    color:var(--nox-white);
-}
 
-.iconSpacing-3JkGQO  .icon-1792kv{
+.children-Bmpf2Q  .iconItem-1-bXkn:first-child {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTggMTYuMDhjLS43NiAwLTEuNDQuMy0xLjk2Ljc3TDguOTEgMTIuN2MuMDUtLjIzLjA5LS40Ni4wOS0uN3MtLjA0LS40Ny0uMDktLjdsNy4wNS00LjExYy41NC41IDEuMjUuODEgMi4wNC44MSAxLjY2IDAgMy0xLjM0IDMtM3MtMS4zNC0zLTMtMy0zIDEuMzQtMyAzYzAgLjI0LjA0LjQ3LjA5LjdMOC4wNCA5LjgxQzcuNSA5LjMxIDYuNzkgOSA2IDljLTEuNjYgMC0zIDEuMzQtMyAzczEuMzQgMyAzIDNjLjc5IDAgMS41LS4zMSAyLjA0LS44MWw3LjEyIDQuMTZjLS4wNS4yMS0uMDguNDMtLjA4LjY1IDAgMS42MSAxLjMxIDIuOTIgMi45MiAyLjkyIDEuNjEgMCAyLjkyLTEuMzEgMi45Mi0yLjkycy0xLjMxLTIuOTItMi45Mi0yLjkyeiIvPjwvc3ZnPg==);
     background-position: 50%;
-    background-size:90%;
+    background-size:100%;
 }
-.iconSpacing-3JkGQO .icon-3rMtHF *,
-.iconSpacing-3JkGQO  .icon-1792kv *{
+.children-Bmpf2Q  .iconItem-1-bXkn svg * {
     display: none;
 }
-.iconSpacing-3JkGQO .icon-3rMtHF{
+.children-Bmpf2Q  .iconItem-1-bXkn:last-child{
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVDMTQuNDYgMi4xOCAxNC4yNSAyIDE0IDJoLTRjLS4yNSAwLS40Ni4xOC0uNDkuNDJsLS4zOCAyLjY1Yy0uNjEuMjUtMS4xNy41OS0xLjY5Ljk4bC0yLjQ5LTFjLS4yMy0uMDktLjQ5IDAtLjYxLjIybC0yIDMuNDZjLS4xMy4yMi0uMDcuNDkuMTIuNjRsMi4xMSAxLjY1Yy0uMDQuMzItLjA3LjY1LS4wNy45OHMuMDMuNjYuMDcuOThsLTIuMTEgMS42NWMtLjE5LjE1LS4yNC40Mi0uMTIuNjRsMiAzLjQ2Yy4xMi4yMi4zOS4zLjYxLjIybDIuNDktMWMuNTIuNCAxLjA4LjczIDEuNjkuOThsLjM4IDIuNjVjLjAzLjI0LjI0LjQyLjQ5LjQyaDRjLjI1IDAgLjQ2LS4xOC40OS0uNDJsLjM4LTIuNjVjLjYxLS4yNSAxLjE3LS41OSAxLjY5LS45OGwyLjQ5IDFjLjIzLjA5LjQ5IDAgLjYxLS4yMmwyLTMuNDZjLjEyLS4yMi4wNy0uNDktLjEyLS42NGwtMi4xMS0xLjY1ek0xMiAxNS41Yy0xLjkzIDAtMy41LTEuNTctMy41LTMuNXMxLjU3LTMuNSAzLjUtMy41IDMuNSAxLjU3IDMuNSAzLjUtMS41NyAzLjUtMy41IDMuNXoiLz48L3N2Zz4=);
     background-position: 50%;
-    background-size:90%;
+    background-size:100%;
 }
-.icon-1792kv:hover,
-.icon-3rMtHF:hover{
+.iconItem-1-bXkn:hover{
     opacity: .9
 }
 .nameDefaultText-24KCy5,
@@ -114,23 +98,27 @@
 .nameMutedVoice-3oxyQZ{
     color:rgba(255,255,255,.15);
 }
-.theme-dark .nameDefault-2s3kbY,
-.nameDefault-2DI02H{
+
+/* channel name & icon */
+.containerDefault-1ZnADq .icon-1_QxNX,
+.containerDefault-1ZnADq .name-3_Dsmg {
     color:var(--nox-white3);
 }
-.colorDefaultText-oas-QM,
-.colorDefaultVoice-3wYlhb,
-.colorHoveredText-OZnAgu,
-.colorHoveredVoice-1kucsK,
-.colorLockedText-1VRkPt,
-.colorLockedVoice-2UlBjl,
-.colorSelectedText-1y4Wvs,
-.colorSelectedVoice-Xcb_9R,
-.colorUnreadText-2t7XRb,
-.colorUnreadVoice-137o4S{
-    fill:var(--nox-white5);
+
+/* channel name & icon hovered */
+.containerDefault-1ZnADq:hover .icon-1_QxNX,
+.containerDefault-1ZnADq:hover .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX,
+.containerDefault-1ZnADq:hover .wrapper-1ucjTd .name-3_Dsmg,
+.containerDefault-1ZnADq:hover .wrapper-1ucjTd.modeMuted-3osy7j .name-3_Dsmg {
+    color:var(--nox-white6);
 }
-.nameHoveredText-1uO31y{
+
+/* channel name & icon selected/active */
+.containerDefault-1ZnADq.selected-37j_iU .icon-1_QxNX,
+.containerDefault-1ZnADq .wrapper-1ucjTd.modeConnected-2IEL4z .icon-1_QxNX,
+.containerDefault-1ZnADq:active .icon-1_QxNX,
+.containerDefault-1ZnADq.selected-37j_iU .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg,
+.containerDefault-1ZnADq:active .wrapper-1ucjTd .name-3_Dsmg {
     color:var(--nox-white9);
 }
 
@@ -138,9 +126,6 @@
     overflow-x: hidden;
 }
 
-.contentHoveredVoice-3p_NEO svg.icon-sxakjD path{
-    fill:var(--nox-white9);
-}
 .unread-1Dp-OI{
     background:var(--nox-white);
     width:5px;
@@ -183,17 +168,17 @@
 }
 
 
-.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H{
-    color:rgba(255,255,255,.2);
-  }
-  .iconDefault-3Gr8d2{
-    transition:200ms cubic-bezier(.1,0,0,1)
-  }
+// .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H{
+//     color:rgba(255,255,255,.2);
+//   }
+//   .iconDefault-3Gr8d2{
+//     transition:200ms cubic-bezier(.1,0,0,1)
+//   }
 
-  .wrapper-2NJDcI{
-    background:rgba(255,255,255,.05);
-    color:var(--nox-white3);
-}
+//   .wrapper-2NJDcI{
+//     background:rgba(255,255,255,.05);
+//     color:var(--nox-white3);
+// }
 
 .channels-Ie2l6A .button-38aScr,
 .channels-Ie2l6A .button-38aScr:hover,
@@ -208,6 +193,18 @@
 }
 
 
+
+.userLimit-64AFxe .users-i_3-kL {
+    background-color: var(--nox-level1);
+}
+
+.userLimit-64AFxe .total-3tKGEB {
+    background-color: var(--nox-level3);
+}
+
+.userLimit-64AFxe .total-3tKGEB::after {
+    border-right-color: var(--nox-level3);
+}
 
 
 
