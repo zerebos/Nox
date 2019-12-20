@@ -1,5 +1,9 @@
 /*   Upload Modal   */
 /* ================ */
+.uploadModal-2ifh8j .footer-3mqk7D,
+.modal-3c3bKg .uploadModal-2ifh8j {
+    background:var(--nox-level2);
+}
 .uploadModal-2ifh8j .inner-3nWsbo{
     border:none;
 }
@@ -121,8 +125,9 @@
 }
 
 .uploadModal-2ifh8j .textArea-2Spzkt{
-  padding:10px 0 10px 10px;
-  margin-right:38px;
+  padding:10px;
+  border-radius:5px;
+  background: var(--nox-level2);
 }
 .uploadModal-2ifh8j .inner-zqa7da{
   border-radius:3px;
@@ -141,11 +146,6 @@
     padding: 0px 7px 1px 10px;
 }
 
-.uploadModal-2ifh8j .textArea-2Spzkt {
-    margin-right: 0;
-    padding-right: 38px;
-}
-
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .channelTextArea-1LDbYG .inner-zqa7da textarea {
     border-radius: 5px!important;
     background: rgba(255, 255, 255, .1)!important
@@ -153,7 +153,7 @@
 
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .channelTextArea-1LDbYG {
     border-radius: 5px!important;
-    width: 448px;
+    width: 480px;
     box-shadow: none
 }
 
@@ -218,10 +218,7 @@
 // .uploadModal-2ifh8j .inner-zqa7da textarea{
 //     margin-right:45px;
 // }
-.uploadModal-2ifh8j .footer-3mqk7D,
-.uploadModal-2ifh8j{
-    background:var(--nox-level2);
-}
+
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j{
     border-color:var(--nox-accent);
 }
@@ -267,3 +264,12 @@
 
 /* ==================== */
 /*   End Upload Modal   */
+
+// Spoiler checkbox
+.uploadModal-2ifh8j .checked-3_4uQ9 {
+    background: var(--nox-accent);
+}
+
+.uploadModal-2ifh8j .checkbox-1ix_J3 polyline[stroke="#7289da"] {
+    stroke: white!important;
+}

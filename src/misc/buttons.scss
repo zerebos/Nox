@@ -55,7 +55,7 @@
 }
 
 
-.button-38aScr+.button-38aScr {
+.button-38aScr:first-child + .button-38aScr:last-child {
     margin-right: 5px;
     margin-left: 5px;
 }

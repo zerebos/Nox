@@ -35,7 +35,7 @@
     background-color:transparent;
     transform:none;
 }
-.theme-dark .standardSidebarView-3F1I7i .esc-text {
+.theme-dark .standardSidebarView-3F1I7i .keybind-KpFkfr {
     color:rgba(255,255,255,0.25);
 }
 /* End Close Button */
@@ -59,11 +59,11 @@
 }
 
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
-.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .scrollbar{
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP{
     background:var(--nox-level3)!important;
 }
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
-.standardSidebarView-3F1I7i .contentRegion-3nDuYy .scrollbar{
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy .contentRegionScroller-26nc1e{
     background:var(--nox-level2)!important;
 }
 
@@ -154,4 +154,8 @@
 
 .foreground-2aE44H {
     stroke: var(--nox-accent);
+}
+
+.scroller-305q3I {
+    background: none;
 }

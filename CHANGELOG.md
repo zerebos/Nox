@@ -1,5 +1,50 @@
 # Nox Changelog
 
+## 1.0.3
+
+### New Stuff
+- Native server folders + opening animation
+- New settings icons
+- Custom status modal
+- Custom status in account details
+- Server boost tab in settings
+
+### Bug Fixes
+- Guilds list (colors and sizes and shapes oh my)
+- Unread channels are white again
+- Muted channels are muted again
+- Got rid of Discord's random rounded edges
+- Recolored the account color at the bottom left
+- Fixed the buttons there best I can with Discord's changes (no fancy strike)
+- Textarea size and color and buttons
+- Status picker
+- Server header popout color
+- Pin and Mentions popouts
+- RTC popout
+- User popout body color
+- Emoji picker
+- Searchbar popout
+- Settings main colors
+- Theme and plugin lists had weird extra borders
+- Light mode override
+- Create/join modal
+- Invite modal
+- Gift nitro modal
+- Quickswitcher
+- Upload modal
+- Embeds have color again
+- Option popout
+- Channel topic modal
+- DMs are usable
+- Search button in DMs clickable
+- Game library
+- Add friend button
+- Role settings
+- Context menus
+- Server discovery language dropdown
+- Server guest preview
+
+
 ## 1.0.2
 
 ### New Stuff

@@ -32,7 +32,7 @@
 }
 
 :root {
-    --nox-version:"Nox v1.0.2";
+    --nox-version:"Nox v1.0.3";
     --nox-accent: #3F85FF;
     --nox-notification-color: #fff;
     --nox-notification-width: 3px;
@@ -78,7 +78,7 @@
     color: var(--nox-white);
 }
 
-html, span:not(.spinner-2enMB9) {
+html, span:not(.spinner-2enMB9, .item-2hkk8m) {
     backface-visibility: hidden;
 }
 
@@ -94,6 +94,12 @@ html, span:not(.spinner-2enMB9) {
 
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
     background: transparent;
+}
+
+@keyframes scale-center {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+    }
 }
 
 @import 'misc/*';

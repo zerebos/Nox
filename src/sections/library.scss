@@ -1,7 +1,11 @@
 #app-mount .gameLibrary-TTDw4Y,
 #app-mount .root-26DmKJ,
 #app-mount .root-1BQpZw {
-    background: none; 
+    background: var(--nox-level1); 
+}
+
+.gameLibrary-TTDw4Y .scroller-1IIF0A {
+    background: none;
 }
 
 .table-1tDS6w .header-39GIC8 {

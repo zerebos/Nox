@@ -120,6 +120,8 @@
 .chat-3bRxxu .jumpToPresentBar-9P20AM button:last-child {
     width: 130px!important;
     text-align: center;
+    padding:0;
+    margin: 0;
 }
 
 .chat-3bRxxu .newMessagesBar-mujexs{
@@ -135,11 +137,6 @@
 
 .chat-3bRxxu .messages-3amgkR {
     background: var(--nox-level1) !important;
-}
-
-.chat-3bRxxu {
-    // position: relative;
-    // z-index: 0;
 }
 
 .chat-3bRxxu .messagesWrapper-3lZDfY::after{
@@ -193,10 +190,6 @@
     background: none!important;
 }
 
-.container-2lgZY8 {
-    background: var(--nox-level1);
-}
-
 
 .chat-3bRxxu form .wrapper-39oAo3 {
     background: var(--nox-level3);
@@ -204,8 +197,25 @@
     height: 70px;
     padding: 0 16px;
     border-radius: 0;
+    box-sizing: border-box;
+}
+
+.chat-3bRxxu form .wrapper-39oAo3 .image-3XsqGc {
+    filter: grayscale(100%) brightness(90%);
+    transform: scale(0.8);
+    align-self: center;
+    margin-bottom: 0;
+    margin-top: -2px;
 }
 
 .theme-dark .noChannel-Z1DQK7 {
     background: var(--nox-level1)
+}
+
+.notice-2FJMB4 {
+    border-radius: 0;
+}
+
+.base-3dtUhz {
+    left: 70px;
 }

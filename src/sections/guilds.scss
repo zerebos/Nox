@@ -1,3 +1,4 @@
+// main container and bg stuff
 .wrapper-1Rf91z .scroller-2FKFPG {
     padding-top: 0;
 }
@@ -15,6 +16,10 @@
     width: 70px;
 }
 
+.wrapper-1Rf91z .scroller-2TZvBN {
+    background: transparent;
+}
+
 // Home Icon
 
 .homeIcon-tEMBK1 {
@@ -29,8 +34,8 @@
     transform: translate(2px, -2px);
 }
 
-.wrapper-1Rf91z .button-OhfaWu,
-.wrapper-1Rf91z .button-OhfaWu.selected-wSa2KV {
+.wrapper-1BJsBx .childWrapper-anI2G9:not(.acronym-2mOFsV),
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9:not(.acronym-2mOFsV) {
     background: transparent;
 }
 
@@ -40,7 +45,7 @@
 // }
 
 .listItem-2P_4kh .circleIconButton-jET_ig::after,
-.wrapper-1Rf91z .button-OhfaWu::after {
+.wrapper-1BJsBx .childWrapper-anI2G9:not(.acronym-2mOFsV)::after {
     content: "";
     display: block;
     position: absolute;
@@ -52,7 +57,7 @@
 }
 
 .listItem-2P_4kh .circleIconButton-jET_ig.selected-ugP_am::after,
-.wrapper-1Rf91z .button-OhfaWu.selected-wSa2KV::after {
+.wrapper-1BJsBx.selected-wSa2KV .childWrapper-anI2G9:not(.acronym-2mOFsV)::after {
     background: var(--nox-accent);
 }
 
@@ -113,7 +118,8 @@
 .icon-27yU2q, // guild icon
 .acronym-2mOFsV, // iconless guilds
 .circleIconButton-jET_ig > svg, // discovery
-.circleIconButton-jET_ig::after {
+.circleIconButton-jET_ig::after,
+.childWrapper-anI2G9:not(.acronym-2mOFsV)::after {
     transform: scale(calc(48/70));
     border-radius: 50%;
 }
@@ -122,7 +128,7 @@
     background: var(--nox-level2);
 }
 
-.listItem-2P_4kh .acronym-2mOFsV.selected-bZ3Lue {
+.listItem-2P_4kh .selected-bZ3Lue .acronym-2mOFsV {
     background: var(--nox-accent);
 }
 
@@ -158,7 +164,7 @@
     left: calc((100% - 58px) / 2);
     width: 58px;
     height: 58px;
-    border: 2px solid transparent;
+    border: 3px solid transparent;
     border-radius: 50%;
     z-index: 2;
 }
@@ -185,12 +191,12 @@
 }
 
 // unread ring
-.listItem-2P_4kh .bd-unread .item-2hkk8m::before {
+.listItem-2P_4kh.bd-unread .item-2hkk8m::before {
     border-color: var(--nox-notification-color);
 }
 
 // selected bg
-.listItem-2P_4kh .bd-selected .item-2hkk8m::after {
+.listItem-2P_4kh.bd-selected .item-2hkk8m::after {
     background: var(--nox-black5);
 }
 
@@ -209,12 +215,30 @@
     background-color: transparent;
 }
 
-//badges
-.badgeWrapper-3e8pMZ {
+// badge container
+.lowerBadge-29hYVK,
+.upperBadge-2XnnGB {
     top: calc((100% - 54px) / 2);
     left: calc((100% - 54px) / 2);
     width: 54px;
     height: 54px;
+    display: flex;
+}
+
+// mention badges
+.lowerBadge-29hYVK {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+// media badges
+.upperBadge-2XnnGB {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.iconBadge-2wi9r4.participating-NBGDkr {
+    background-color: var(--nox-accent);
 }
 
 //dms container
@@ -238,4 +262,107 @@
     background-repeat: no-repeat;
     background-color: var(--nox-level2);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .2) inset;
+}
+
+
+
+
+
+/****Server Folders****/
+.folder-21wGz3 {
+    background: none;
+}
+
+.folder-21wGz3.hover-2ji_A7 {
+    background: none;
+}
+
+// Fix weird scaled folders.
+.collapsed-1GMuSb + div .folderIconWrapper-226oVY {
+    background-color: var(--nox-white1) !important;
+    transform: scale(calc(48/70));
+    border-radius: 50%;
+}
+
+// blurple to accent
+.expandedFolderIconWrapper-1xLaU- svg {
+    color: var(--nox-accent)!important;
+}
+
+// material icon
+.folder-21wGz3 svg path {
+    d: path("M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z");
+}
+
+// material icon open
+.folder-21wGz3.hover-2ji_A7 .expandedFolderIconWrapper-1xLaU- svg path{
+    d: path("M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z")!important;
+}
+
+
+// expand bg to fit
+.expandedFolderBackground-2sPsd- {
+    background: var(--nox-white1);
+    padding: 6px;
+    left: 5px;
+    border-radius: 16px 16px 30px 30px;
+}
+
+// Fix last guild being cut off
+.expandedGuilds-1JMD4M {
+    height: auto!important;
+}
+
+
+// Fix hover/active blocks
+.expandedGuilds-1JMD4M .item-2hkk8m::after {
+    width: 60px;
+    left: 5px;
+}
+
+.expandedGuilds-1JMD4M .listItem-2P_4kh:last-child .item-2hkk8m::after {
+    border-radius: 0 0 30px 30px;
+    height: 62px;
+}
+
+// active bg
+.expandedGuilds-1JMD4M .listItem-2P_4kh:active .item-2hkk8m::after {
+    background: var(--nox-black5);
+}
+
+// selected bg
+.expandedGuilds-1JMD4M .listItem-2P_4kh.bd-selected .item-2hkk8m::after {
+    background: var(--nox-black8);
+}
+
+@keyframes open-folder {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb {transform: scaleY(0);}
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) {
+    animation: open-folder 200ms ease-out;
+    transform-origin: 0 0;
+}
+
+.expandedGuilds-1JMD4M .listItem-2P_4kh {opacity: 0;}
+.expandedGuilds-1JMD4M .listItem-2P_4kh {
+    animation: fade-in 200ms ease-out;
+    animation-delay: 200ms;
+    transform-origin: 0 0;
+    animation-fill-mode: forwards;
 }
