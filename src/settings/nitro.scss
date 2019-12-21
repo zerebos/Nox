@@ -95,3 +95,21 @@
 }
 /* End Billing Buttons */
 /* End Billing Tab Fix */
+
+// For subscribers only apparently
+.detailsBlock-FoDTGA{
+    background: var(--nox-level1);
+}
+.toolsButtons-PF_TzW .lookInverted-2D7oAl.colorBrand-3pXr91:hover{
+    background-color: rgb(53, 53, 53) !important;
+    filter: brightness(93%) contrast(110%)!important;
+}
+.toolsButtons-PF_TzW .lookInverted-2D7oAl.colorBrand-3pXr91:active{
+    background-color: gainsboro !important;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
+    background: var(--nox-level1)!important;
+}
+.theme-dark .subscriptionDetails-16jcwU{
+    border-color: var(--background-modifier-accent)!important;
+}

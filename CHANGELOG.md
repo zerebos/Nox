@@ -1,5 +1,22 @@
 # Nox Changelog
 
+## 1.0.4
+
+### Bug Fixes
+- Textarea since Discord broke it as soon as I updated
+- Compact mode fixes
+- Call and go live fixes (Thanks Adam)
+- Nitro subscriber specific fixes (Thanks Liowen)
+- Mention everyone modal
+- Guild list height wackiness
+- Upload modal changes
+- Edit textarea
+
+### Plugins
+- GoogleTranslateOption fixed
+- MemberCount fixed
+
+
 ## 1.0.3
 
 ### New Stuff
