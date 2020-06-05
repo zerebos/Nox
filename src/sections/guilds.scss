@@ -358,10 +358,15 @@
     transform-origin: 0 0;
 }
 
-.expandedGuilds-1JMD4M .listItem-2P_4kh {opacity: 0;}
-.expandedGuilds-1JMD4M .listItem-2P_4kh {
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-2P_4kh {opacity: 0;}
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-2P_4kh {
     animation: fade-in 200ms ease-out;
     animation-delay: 200ms;
     transform-origin: 0 0;
     animation-fill-mode: forwards;
+}
+
+
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-2P_4kh + div {
+    height: unset!important;
 }

@@ -1,20 +1,24 @@
-/*msgs*/
+@import "./messages/mentions.scss";
 
 // TODO: background-image: url("/assets/f78426a064bc9dd24847519259bc42af.png"); on empty messages/system messages
 
-.container-1YxwTf {
+
+// All cozy messages get bg, padding, margin to move it over
+.cozy-3raOZG.wrapper-2a6GCs,
+.message-2qnXI6 {
     background: rgba(0, 0, 0, .1);
-    padding: 0px 7px 10px 10px;
-    margin: 20px 10px 20px 80px;
+    padding: 0 7px .250rem 10px;
+    margin: 0 10px 0 80px;
     overflow: visible;
 }
 
-// Make room for typing indicator
-.container-1YxwTf:last-of-type {
-    margin-bottom: 30px!important;
+// Add top margin for separation between groups
+.cozy-3raOZG.message-2qnXI6.groupStart-23k01U {
+    margin-top: 20px;
 }
 
-.container-1YxwTf::before {
+// Bubble callout
+.message-2qnXI6.groupStart-23k01U::before {
     content: "";
     width: 0px;
     height: 0px;
@@ -28,28 +32,31 @@
     border-color: transparent rgba(0, 0, 0, .1) transparent transparent;
 }
 
-.container-1YxwTf .avatar-17mtNa {
+// Move header back up
+.groupStart-23k01U.cozy-3raOZG .contents-2mQqc9 {
+    margin-top: -5px;
+}
+
+// Move avatar back to the left
+.message-2qnXI6 .avatar-1BDn8e {
     left: -70px;
-    top: -10px;
+    top: 0px;
     margin: 0;
     opacity: 1;
 }
 
-.container-1YxwTf .headerCozyMeta-rdohGq {
-    margin-left: -40px;
+// Move the hover timestamps
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+    left: -70px;
 }
 
-.messages-3amgkR .divider-32i8lo {
-    margin: 25px 6px 25px 20px;
-    display:none;
+// Make room for typing indicator
+.message-2qnXI6:last-of-type {
+    margin-bottom: 30px!important;
 }
 
-.content-3dzVd8, .localBotMessage-1cGMdw {
-    padding: 0;
-    margin: 0;
-}
-
-.container-1YxwTf .content-3dzVd8 .edited-DL9ECl {
+// Change (edited) to a pen icon
+.message-2qnXI6 .contents-2mQqc9 .edited-3sfAzf {
     font-size: 0;
     width: 13px!important;
     height: 13px!important;
@@ -61,81 +68,27 @@
     margin-left: 5px;
 }
 
-
-/* Mentioned */
-.container-1YxwTf .isMentioned-N-h9aa {
+// Remove default orange background for mentioned
+.mentioned-xhSam7::before {
     background: none;
 }
-.container-1YxwTf .isMentioned-N-h9aa .markup-2BOw-j {
+
+// Add orange bg for mentioned
+.message-2qnXI6.mentioned-xhSam7 .markup-2BOw-j {
     border-left: 4px solid #FAA61A;
     margin-left: -4px;
     border-radius: 2px 3px 3px 2px;
     padding-left: 3px;
     background: rgba(250,166,26,.1);
 }
-.container-1YxwTf .isMentioned-N-h9aa::after {
-    display: none;
-}
-.isMentioned-N-h9aa .mention:hover {
-    text-decoration: none;
-    background: var(--nox-accent)!important;
-    color: var(--nox-white);
-}
 
-.isMentioned-N-h9aa .mention {
-    cursor: pointer;
-    transition: 0ms ease;
-    border-radius: 2px;
-    margin-right: -2px;
-    margin-left: -2px;
-    padding-left: 2px;
-    padding-right: 2px
-}
-.isMentioned-N-h9aa .mention:hover {
-    color: var(--nox-white)!important
-}
 
-/* /Mentioned */
-
-// Mentions
-.markup-2BOw-j .mention,
-.markup-2BOw-j .wrapper-3WhCwL {
-    position: relative;
-    color:var(--nox-accent);
-    background:transparent!important;
-    z-index: 1;
-}
-.markup-2BOw-j .mention:hover,
-.markup-2BOw-j .wrapper-3WhCwL:hover {
-    color:var(--nox-white)!important
-}
-
-.markup-2BOw-j .mention::after,
-.markup-2BOw-j .wrapper-3WhCwL::after {
-    width:100%;
-    height:100%;
-    content:"";
-    position:absolute;
-    left:0;
-    top:0;
-    z-index: -1;
-    opacity:0.15;
-    background:var(--nox-accent);
-}
-.markup-2BOw-j .mention[style]::after{
-    background:currentColor;
-}
-.markup-2BOw-j .mention:hover::after{
-    opacity:1;
-    background:var(--nox-accent);
-}
-// END MENTIONS
 
 /* Message Buttons */
 .button-3Jq0g9.popout-open,
-.content-3dzVd8:hover .button-3Jq0g9,
+.contents-2mQqc9:hover .button-3Jq0g9,
 .reactionBtn-2na4rd.popout-open,
-.content-3dzVd8:hover .reactionBtn-2na4rd {
+.contents-2mQqc9:hover .reactionBtn-2na4rd {
     opacity: 0.4;
 }
 
@@ -210,26 +163,27 @@
 }
 /* /Message Buttons */
 
-// Code blocks
-.container-1YxwTf .markup-2BOw-j code.inline,
-.container-1YxwTf .markup-2BOw-j pre code {
+/* ===== Code Blocks ===== */
+.markup-2BOw-j code.inline,
+.markup-2BOw-j pre code {
     background: var(--nox-level2)!important;
 }
 
-.container-1YxwTf .markup-2BOw-j pre {
+.markup-2BOw-j pre {
     border: 0px !important;
     background: none;
 }
 
-.container-1YxwTf .markup-2BOw-j pre code {
+.markup-2BOw-j pre code {
     border-radius: 5px;
     border: 2px solid var(--nox-level3) !important;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-// END CODE BLOCKS
+/* ===== End Code Blocks ===== */
 
-// Edit Message
+
+/* ===== Editing ===== */
 .message-1PNnaP .channelTextArea-1LDbYG {
     margin-top:0;
 }
@@ -272,7 +226,7 @@
 .operations-36ENbA > a {
     color: var(--nox-accent);
 }
-// End Edit Message
+/* ===== End Editing ===== */
 
 // Blocked Messages
 .messageGroupBlocked-3wrQQX {
@@ -302,7 +256,7 @@
 
 
 // LOCAL BOT MESSAGES
-//<div class="isLocalBot-38G0P0 containerCozy-jafyvG container-1YxwTf da-isLocalBot da-containerCozy da-container"><div class="messageCozy-2JPAPA message-1PNnaP da-messageCozy da-message" aria-disabled="false"><div class="headerCozy-2N9HOL da-headerCozy"><div tabindex="-1" class="wrapper-2F3Zv8 large-3ChYtB avatar-17mtNa da-wrapper da-large da-avatar" role="button"><div class="image-33JSyf large-3ChYtB mask-3OgeRz da-image da-large da-mask" style="background-image: url(&quot;/assets/f78426a064bc9dd24847519259bc42af.png&quot;);"></div><div class="offline-3qoTek status-oxiHuE large-3ChYtB da-offline da-status da-large"></div></div><h2 class="headerCozyMeta-rdohGq da-headerCozyMeta"><span class="usernameWrapper-1S-G5O da-usernameWrapper"><strong tabindex="0" class="username-_4ZSMR da-username" role="button">Clyde</strong><span class="botTagRegular-2HEhHi botTag-2WPJ74 botTagCozy-1875JY botTag-2BhDSU da-botTagRegular da-botTag da-botTagCozy">BOT</span></span><time class="timestampCozy-2hLAPV da-timestampCozy" datetime="1533365017454">Today at 2:43 AM</time><span class="reply-button da-replyButton"><svg class="reply-icon da-replyIcon" width="15" height="15" viewBox="0 0 24 24"><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h2></div><div class="contentCozy-3XX413 content-3dzVd8 da-contentCozy da-content"><div class="containerCozy-336-Cz container-206Blv da-containerCozy da-container"><div class="buttonContainer-KtQ8wc da-buttonContainer"><div class="buttonContainer-37UsAw da-buttonContainer"><div class="btn-quote da-btnQuote"></div></div></div><div class="markup-2BOw-j da-markup">SHIT</div></div><div class="containerCozy-B4noqO container-1e22Ot da-containerCozy da-container"></div></div></div><div class="localBotMessage-1cGMdw da-localBotMessage">Only you can see this — <a tabindex="0" class="anchor-3Z-8Bb da-anchor" role="button">delete this message</a>.</div></div>
+//<div class="isLocalBot-38G0P0 containerCozy-jafyvG container-1YxwTf da-isLocalBot da-containerCozy da-container"><div class="messageCozy-2JPAPA message-1PNnaP da-messageCozy da-message" aria-disabled="false"><div class="headerCozy-2N9HOL da-headerCozy"><div tabindex="-1" class="wrapper-2F3Zv8 large-3ChYtB avatar-17mtNa da-wrapper da-large da-avatar" role="button"><div class="image-33JSyf large-3ChYtB mask-3OgeRz da-image da-large da-mask" style="background-image: url(&quot;/assets/f78426a064bc9dd24847519259bc42af.png&quot;);"></div><div class="offline-3qoTek status-oxiHuE large-3ChYtB da-offline da-status da-large"></div></div><h2 class="headerCozyMeta-rdohGq da-headerCozyMeta"><span class="usernameWrapper-1S-G5O da-usernameWrapper"><strong tabindex="0" class="username-_4ZSMR da-username" role="button">Clyde</strong><span class="botTagRegular-2HEhHi botTag-2WPJ74 botTagCozy-1875JY botTag-2BhDSU da-botTagRegular da-botTag da-botTagCozy">BOT</span></span><time class="timestampCozy-2hLAPV da-timestampCozy" datetime="1533365017454">Today at 2:43 AM</time><span class="reply-button da-replyButton"><svg class="reply-icon da-replyIcon" width="15" height="15" viewBox="0 0 24 24"><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h2></div><div class="contentCozy-3XX413 contents-2mQqc9 da-contentCozy da-content"><div class="containerCozy-336-Cz container-206Blv da-containerCozy da-container"><div class="buttonContainer-KtQ8wc da-buttonContainer"><div class="buttonContainer-37UsAw da-buttonContainer"><div class="btn-quote da-btnQuote"></div></div></div><div class="markup-2BOw-j da-markup">SHIT</div></div><div class="containerCozy-B4noqO container-1e22Ot da-containerCozy da-container"></div></div></div><div class="localBotMessage-1cGMdw da-localBotMessage">Only you can see this — <a tabindex="0" class="anchor-3Z-8Bb da-anchor" role="button">delete this message</a>.</div></div>
 
 .messages-3amgkR .isLocalBot-38G0P0.containerCozy-jafyvG {
     padding: 0px 7px 10px 10px;
@@ -331,7 +285,7 @@
 .containerCompact-3V0ioj.container-1YxwTf::before {
     display:none;
 }
-.containerCompact-3V0ioj.container-1YxwTf .isMentioned-N-h9aa .markup-2BOw-j {
+.containerCompact-3V0ioj.message-2qnXI6.mentioned-xhSam7 .markup-2BOw-j {
     border-left: 4px solid #FAA61A;
     margin-left: calc(9ch - 10px);
     padding-left: 6px;
@@ -366,11 +320,11 @@
 }
 // END POPOUT OPEN
 
-.container-1YxwTf > .content-3dzVd8:first-child {
+.container-1YxwTf > .contents-2mQqc9:first-child {
     position: relative;
 }
 
-.container-1YxwTf > .content-3dzVd8:first-child::after {
+.container-1YxwTf > .contents-2mQqc9:first-child::after {
     content: "";
     position: absolute;
     width: 40px;

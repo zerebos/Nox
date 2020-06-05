@@ -1,0 +1,39 @@
+// Change basic styles
+.markup-2BOw-j .mention,
+.markup-2BOw-j .wrapper-3WhCwL {
+    position: relative;
+    color: var(--nox-accent);
+    background: transparent!important;
+    z-index: 1;
+}
+
+// Change hover style
+.markup-2BOw-j .mention:hover,
+.markup-2BOw-j .wrapper-3WhCwL:hover {
+    color:var(--nox-white)!important
+}
+
+// Add faded accent bg
+.markup-2BOw-j .mention::after,
+.markup-2BOw-j .wrapper-3WhCwL::after {
+    width:100%;
+    height:100%;
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: -1;
+    opacity:0.15;
+    background:var(--nox-accent);
+}
+
+// Lets role mentions and BRC color the bg appropriately
+.markup-2BOw-j .mention[style]::after{
+    background:currentColor;
+}
+
+// Hover still goes to accent
+.markup-2BOw-j .mention:hover::after{
+    opacity:1;
+    background:var(--nox-accent);
+}

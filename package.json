@@ -1,6 +1,6 @@
 {
   "name": "nox",
-  "version": "1.0.0",
+  "version": "1.0.4-patch1",
   "description": "Dark material theme for Discord.",
   "main": "src/index.scss",
   "dependencies": {},
@@ -13,12 +13,12 @@
   "author": "Lilian Tedone & Zack Rauen",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-insert": "^0.5.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-wait": "0.0.2",
-    "node-sass-glob-importer": "^5.3.0"
+    "node-sass-glob-importer": "^5.3.2"
   },
   "repository": {
     "type": "git",

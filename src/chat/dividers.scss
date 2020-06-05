@@ -1,0 +1,25 @@
+// Unread message divider
+.messagesWrapper-3lZDfY .messages-3amgkR .divider-3_HH5L.isUnread-3Ef-o9 {
+    margin-bottom: 0;
+    margin-top: 10px;
+    top: 5px;
+    border-top: thin solid #f04747;
+}
+
+// Make unread dates readable
+.messagesWrapper-3lZDfY .messages-3amgkR .divider-3_HH5L.isUnread-3Ef-o9 .content-1o0f9g {
+    background: #2b2b2b;
+}
+
+// Remove date dividers borders
+.messagesWrapper-3lZDfY .messages-3amgkR .divider-3_HH5L {
+    border: none;
+}
+
+// Adjust date divider labels
+.messagesWrapper-3lZDfY .messages-3amgkR .divider-3_HH5L .content-1o0f9g {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-weight: 500;
+}

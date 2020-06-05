@@ -32,7 +32,7 @@
 }
 
 :root {
-    --nox-version:"Nox v1.0.3";
+    --nox-version:"Nox v1.0.4-patch1";
     --nox-accent: #3F85FF;
     --nox-notification-color: #fff;
     --nox-notification-width: 3px;
@@ -104,7 +104,7 @@ html, span:not(.spinner-2enMB9, .item-2hkk8m) {
 
 @import 'misc/*';
 @import 'bd/*';
-@import 'chat/*';
+@import 'chat/*.scss';
 @import 'modals/*';
 @import 'plugins/*';
 @import 'popouts/*';
