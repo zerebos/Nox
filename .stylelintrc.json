@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "stylelint-config-sass-guidelines",
+        "stylelint-config-property-sort-order-smacss"
+    ],
+    "plugins": [
+		"stylelint-order"
+    ],
+    "rules": {
+        "indentation": [4, {"except": ["value"], "severity": "warning"}],
+        "selector-type-case": ["lower", {"ignoreTypes": ["foreignObject"]}],
+        "no-missing-end-of-source-newline": null,
+        "string-quotes": "double",
+        "selector-class-pattern": null,
+        "selector-max-id": null
+      }
+}

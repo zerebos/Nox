@@ -1,48 +1,49 @@
 /*smaller*/
-.avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3::after{
-    content:"";
-    background:var(--nox-white);
-    border-radius:50%;
-    display:block;
-    width:100%;
-    padding-top:100%;
-    height:0;
-    position:absolute;
-    opacity:0;
-    transform:scale(1.3);
-    transition:all 300ms ease, visibility 0ms 300ms;
-    animation-fill-mode: forwards;
+.avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3::after {
+    content: "";
+    display: block;
     visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    transform: scale(1.3);
+    transition: all 300ms ease, visibility 0ms 300ms;
+    border-radius: 50%;
+    opacity: 0;
+    background: var(--nox-white);
     pointer-events: none;
+    animation-fill-mode: forwards;
 }
+
 .avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3:active::after {
-    opacity:0.1;
-    transition:all 300ms ease, visibility 0ms;
     visibility: visible;
-    animation:scale 100ms cubic-bezier(.2,0,0,1),opacity 50ms ease;
+    transition: all 300ms ease, visibility 0ms;
+    animation: scale 100ms cubic-bezier(0.2, 0, 0, 1),opacity 50ms ease;
+    opacity: 0.1;
 }
 
 /*/ripples*/
 
 
-.theme-dark .card-FDVird:before {
-    background: var(--nox-level1)
+.theme-dark .card-FDVird::before {
+    background: var(--nox-level1);
 }
 
 .userSettingsAccount-2eMFVR .input-cIJ7To {
-    border: none;
+    border: 0;
     background: none;
 }
 
 .avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3:hover {
-    box-shadow: inset 0 0 120px rgba(0, 0, 0, 0)
+    box-shadow: inset 0 0 120px rgba(0, 0, 0, 0);
 }
 
 .avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3 .avatarUploaderHint-3SN212 {
+    transition: all 200ms ease;
+    border-radius: 1000px;
     background: rgba(0, 0, 0, 0);
     color: transparent;
-    transition: all 200ms ease;
-    border-radius: 1000px
 }
 
 .avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3:hover .avatarUploaderHint-3SN212 {
@@ -50,8 +51,8 @@
     color: var(--nox-white);
 }
 
-.avatarUploaderInner-3UNxY3{
-    background-color:var(--nox-accent);
+.avatarUploaderInner-3UNxY3 {
+    background-color: var(--nox-accent);
 }
 
 .userSettingsAccount-2eMFVR .questionMark-CWEQZn,
@@ -59,9 +60,10 @@
     background: var(--nox-accent);
 }
 
-.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG{
-    color:var(--nox-white6);
+.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG {
+    color: var(--nox-white6);
 }
-.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover{
-    color:var(--nox-accent);
+
+.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
+    color: var(--nox-accent);
 }

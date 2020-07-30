@@ -15,10 +15,14 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-insert": "^0.5.0",
-    "gulp-rename": "^1.4.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-wait": "0.0.2",
-    "node-sass-glob-importer": "^5.3.2"
+    "node-sass-glob-importer": "^5.3.2",
+    "stylelint": "^13.6.1",
+    "stylelint-config-property-sort-order-smacss": "^6.3.0",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-order": "^4.1.0"
   },
   "repository": {
     "type": "git",
