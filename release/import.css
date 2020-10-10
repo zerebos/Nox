@@ -8632,6 +8632,20 @@ body:active .popout-3sVMXz.POPOUT_DID_RERENDERight-3DdP6m.noArrow-3BYQ0Z[style*=
   color: var(--nox-accent) !important;
   background: var(--nox-white) !important; }
 
+.members-1998pB .membersGroup-v9BXpm {
+  margin-top: 0px;
+  margin-left: 10px;
+  height: auto;
+  background: #212121; }
+
+.members-1998pB #MemberCount {
+  background: #212121 !important;
+  padding: 10px 0 0 0;
+  margin: 0; }
+
+.members-1998pB, .members-1998pB > div {
+  background-color: #212121; }
+
 /* End Member List */
 .streaming-2_dnHe {
   animation: streaming-flash 1.5s linear infinite; }
