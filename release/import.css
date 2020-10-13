@@ -4940,7 +4940,7 @@ body #files_directDownload .file svg:active {
 
 /* Member Count Plugin */
 .members-1998pB #MemberCount {
-  background: #212121 !important;
+  background: var(--nox-level2) !important;
   padding: 10px 0 0 0;
   margin: 0; }
 
@@ -8636,10 +8636,10 @@ body:active .popout-3sVMXz.POPOUT_DID_RERENDERight-3DdP6m.noArrow-3BYQ0Z[style*=
   margin-top: 0px;
   margin-left: 10px;
   height: auto;
-  background: #212121; }
+  background: var(--nox-level2); }
 
 .members-1998pB, .members-1998pB > div {
-  background-color: #212121; }
+  background-color: var(--nox-level2); }
 
 .layout-2DM8Md {
   display: -webkit-box;
