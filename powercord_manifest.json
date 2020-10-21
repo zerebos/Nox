@@ -1,0 +1,8 @@
+{
+	"name": "Nox",
+	"description": "A theme for Discord loosely based on Google's Material Design Guidelines.",
+	"author": "Lilian Tedone & Zerebos",
+	"version": "1.0.0",
+	"license": "MIT",
+	"theme": "release/Nox.theme.css"
+}
