@@ -1,5 +1,38 @@
 # Nox Changelog
 
+## 1.0.5
+
+### New Stuff
+ - Colored the "no one is playing card"
+ - Styled the fake loading messages
+ - Animation on opening blocked messages
+ - Discord's Inbox feature is styled now
+ - Discover page got a makeover
+
+### Bug fixes
+ - Emoji picker shows again
+ - Emoji picker is colored again
+ - Member list properly colored
+ - Home heading on friends list
+ - Guild list padding
+ - Guild list folders
+ - GIF picker colors fixed
+ - Avatar positions in chat
+ - Reactions and button
+ - Message list colors
+ - Restored 3 dot icon animations
+ - Embeds looks right now
+ - New message bar as accent color
+ - Guild popout looks good
+ - Restored status picker
+ - Create guild modal
+ - Fixed some colors on autocomplete
+ - Settings icons (sorta)
+
+### Plugins
+- PermissionsViewer fixed
+
+
 ## 1.0.4
 
 ### Bug Fixes

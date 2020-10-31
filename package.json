@@ -1,6 +1,6 @@
 {
   "name": "nox",
-  "version": "1.0.4-patch1",
+  "version": "1.0.5",
   "description": "Dark material theme for Discord.",
   "main": "src/index.scss",
   "dependencies": {},
@@ -19,9 +19,9 @@
     "gulp-sass": "^4.1.0",
     "gulp-wait": "0.0.2",
     "node-sass-glob-importer": "^5.3.2",
-    "stylelint": "^13.6.1",
+    "stylelint": "^13.7.2",
     "stylelint-config-property-sort-order-smacss": "^6.3.0",
-    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-config-sass-guidelines": "^7.1.0",
     "stylelint-order": "^4.1.0"
   },
   "repository": {

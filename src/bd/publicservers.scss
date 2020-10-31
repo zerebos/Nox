@@ -1,38 +1,12 @@
-
-.guild-1EfMGQ#bd-pub-li a::after {
-    display: none
+#bd-pub-li,
+#bd-pub-button {
+    background: none;
 }
 
-.guild-1EfMGQ#bd-pub-li a {
-    height: 30px!important;
-    padding: 0!important;
-    width: 100%;
+#bd-pub-li:hover #bd-pub-button {
+    background: rgba(255, 255, 255, 0.1);
 }
 
-.guild-1EfMGQ#bd-pub-li a #bd-pub-button {
-    height: 30px!important;
-    line-height: 30px!important;
-}
-
-.guild-1EfMGQ#bd-pub-li {
-    height: 30px!important;
-}
-
-.guildsWrapper-5TJh6A .guilds #bd-pub-li.guild-1EfMGQ .guildInner-3DSoA4 .avatar-small::before{
-    display:none;
-}
-
-.guild-1EfMGQ#bd-pub-li a #bd-pub-button:hover{
-    background: rgba(255, 255, 255, 0.06);
-    transition: 0ms ease;
-}
-.guild-1EfMGQ#bd-pub-li a #bd-pub-button:active{
-    background: var(--nox-white1);
-    transition: 0ms ease;
-}
-.guild-1EfMGQ#bd-pub-li .guildInner-3DSoA4{
-    height:30px!important;
-}
 #pubs-container{
     background:var(--nox-level2);
 }

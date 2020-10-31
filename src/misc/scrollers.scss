@@ -29,21 +29,23 @@
 
 .popoutList-T9CKZQ .scroller-2CvAgC::-webkit-scrollbar,
 .standardSidebarView-3F1I7i .contentRegionScroller-26nc1e::-webkit-scrollbar,
-.user-popout .section.roles::-webkit-scrollbar,
+.scroller-2LSbBU::-webkit-scrollbar,
 .standardSidebarView-3F1I7i .scroller::-webkit-scrollbar,
 .scroller-wrap .scroller::-webkit-scrollbar {
     width: 13px
 }
 .popoutList-T9CKZQ .scroller-2CvAgC::-webkit-scrollbar-track,
 .standardSidebarView-3F1I7i .contentRegionScroller-26nc1e::-webkit-scrollbar-track,
-.user-popout .section.roles::-webkit-scrollbar-track,
+.scroller-2LSbBU::-webkit-scrollbar-track,
 .standardSidebarView-3F1I7i .scroller::-webkit-scrollbar-track,
-.scroller-wrap .scroller::-webkit-scrollbar-track {
-    display:none;
+.scroller-wrap .scroller::-webkit-scrollbar-track,
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    display: none;
+    background: none;
 }
 .popoutList-T9CKZQ .scroller-2CvAgC::-webkit-scrollbar-track-piece,
 .standardSidebarView-3F1I7i .contentRegionScroller-26nc1e::-webkit-scrollbar-track-piece,
-.user-popout .section.roles::-webkit-scrollbar-track-piece,
+.scroller-2LSbBU::-webkit-scrollbar-track-piece,
 .standardSidebarView-3F1I7i .scroller::-webkit-scrollbar-track-piece,
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     border: 4px solid var(--nox-white0) !important;
@@ -51,7 +53,7 @@
 }
 .popoutList-T9CKZQ .scroller-2CvAgC::-webkit-scrollbar-thumb,
 .standardSidebarView-3F1I7i .contentRegionScroller-26nc1e::-webkit-scrollbar-thumb,
-.user-popout .section.roles::-webkit-scrollbar-thumb,
+.scroller-2LSbBU::-webkit-scrollbar-thumb,
 .standardSidebarView-3F1I7i .scroller::-webkit-scrollbar-thumb,
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
     border: 4px solid var(--nox-white0) !important;
@@ -60,7 +62,7 @@
 }
 .popoutList-T9CKZQ .scroller-2CvAgC::-webkit-scrollbar-thumb:hover,
 .standardSidebarView-3F1I7i .contentRegionScroller-26nc1e::-webkit-scrollbar-thumb:hover,
-.user-popout .section.roles::-webkit-scrollbar-thumb:hover,
+.scroller-2LSbBU::-webkit-scrollbar-thumb:hover,
 .standardSidebarView-3F1I7i .scroller::-webkit-scrollbar-thumb:hover,
 .scroller-wrap .scroller::-webkit-scrollbar-thumb:hover {
     border: 4px solid var(--nox-white0) !important;
@@ -68,7 +70,7 @@
 }
 .popoutList-T9CKZQ .scroller-2CvAgC::-webkit-scrollbar-thumb:active,
 .standardSidebarView-3F1I7i .contentRegionScroller-26nc1e::-webkit-scrollbar-thumb:active,
-.user-popout .section.roles::-webkit-scrollbar-thumb:active,
+.scroller-2LSbBU::-webkit-scrollbar-thumb:active,
 .standardSidebarView-3F1I7i .scroller::-webkit-scrollbar-thumb:active,
 .scroller-wrap .scroller::-webkit-scrollbar-thumb:active {
     border: 4px solid var(--nox-white0) !important;

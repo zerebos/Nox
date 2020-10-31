@@ -25,3 +25,28 @@
 #permissions-modal-wrapper .perm-item {
     box-shadow: none;
 }
+
+.member-perms-header {
+    padding-bottom: 8px;
+}
+
+#permissions-popout .member-perms {
+    padding-top: 0;
+}
+
+.member-perm .perm-circle {
+    display: none;
+}
+
+.member-perms .member-perm {
+    height: 20px;
+    line-height: 20px;
+}
+
+.member-perms .member-perm {
+    padding: 0;
+}
+
+#permissions-popout .member-perms .member-perm .name {
+    margin: 0 6px;
+}

@@ -1,56 +1,62 @@
-.theme-dark .pageWrapper-1PgVDX {
-    background-color: var(--nox-level1);
-}
-
-.bg-AYqtMd {
-    filter: brightness(50%);
-}
-
-.search-JQJ-3r .searchBox-3Y2Vi7 {
-    background: transparent;
-    box-shadow: none;
-};
-
-.guildCard-2arfcG .card-3DjzTQ {
+// sidebar
+.sidebar-2K8pFh {
     background-color: var(--nox-level2);
 }
 
-.guildCard-2arfcG .card-3DjzTQ:hover {
+.categoryItem-3zFJns .itemInner-3gVXMG:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.categoryItem-3zFJns .itemInner-3gVXMG:active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+    background-color: var(--nox-accent);
+}
+
+// content area
+.content-98HsJk .pageWrapper-1PgVDX {
+    background-color: var(--nox-level1);
+}
+
+.footerImage-1CwWjz,
+.headerImage-3X1tyY {
+    filter: grayscale(100%) brightness(50%);
+}
+
+.pageWrapper-1PgVDX .input-cIJ7To:focus {
+    box-shadow: none!important;
+}
+
+.search-1iTphC .searchBox-2_mAlO:focus,
+.search-1iTphC .searchBox-2_mAlO:focus-within {
+    box-shadow: 0 0 0 1px var(--nox-accent), 0 0 0 2px var(--nox-accent), 0 0 0 3px var(--nox-accent);
+}
+
+.pageWrapper-1PgVDX .card-3DjzTQ,
+.pageWrapper-1PgVDX .iconMask-3b8GzQ {
     background-color: var(--nox-level3);
 }
 
+.pageWrapper-1PgVDX .card-3DjzTQ:hover,
+.pageWrapper-1PgVDX .iconMask-3b8GzQ:hover,
+.pageWrapper-1PgVDX .iconMask-3b8GzQ:hover .iconMask-3b8GzQ {
+    background-color: var(--nox-level2);
+}
 
+.pageWrapper-1PgVDX .card-3DjzTQ:hover .splash-3N0nhD {
+    transform: scale(1.01) translateZ(0);
+}
 
-// Language dreopdown
-.css-1rckt42-menu,
-.css-1wqqa50-container {
-    background: var(--nox-level1);
+.pageWrapper-1PgVDX .card-3DjzTQ:hover {
+    transform: translateY(-1px);
 }
-.css-12o7ek3-option {
-    background: var(--nox-black3);
-}
-// .css-1aymab5-option //css-1ye7vu0
 
-.css-1ye7vu0::-webkit-scrollbar {
-    width: 13px
+.pageWrapper-1PgVDX .card-3DjzTQ:focus .splash-3N0nhD {
+    transform: scale(0.99) translateZ(0);
 }
-.css-1ye7vu0::-webkit-scrollbar-track {
-    display:none;
-}
-.css-1ye7vu0::-webkit-scrollbar-track-piece {
-    border: 4px solid var(--nox-white0) !important;
-    background-color: rgba(0, 0, 0, 0) !important;
-}
-.css-1ye7vu0::-webkit-scrollbar-thumb {
-    border: 4px solid var(--nox-white0) !important;
-    background-color: rgba(225, 225, 225, 0.1) !important;
-    display: initial;
-}
-.css-1ye7vu0::-webkit-scrollbar-thumb:hover {
-    border: 4px solid var(--nox-white0) !important;
-    background-color: rgba(225, 225, 225, 0.15) !important;
-}
-.css-1ye7vu0::-webkit-scrollbar-thumb:active {
-    border: 4px solid var(--nox-white0) !important;
-    background-color: rgba(225, 225, 225, 0.2) !important;
+
+.pageWrapper-1PgVDX .card-3DjzTQ:focus {
+    transform: translateY(1px);
 }

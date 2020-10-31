@@ -1,3 +1,4 @@
+.member-perm,
 .role-2irmRk {
     cursor:default;
     display:flex;
@@ -12,7 +13,9 @@
     position:relative;
     overflow:hidden
 }
-.role-2irmRk:before {
+
+.member-perm::before,
+.role-2irmRk::before {
     opacity:1;
     content:'';
     display:block;
@@ -33,6 +36,8 @@
     cursor:pointer;
     border:0;
 }
+
+.member-perm .name,
 .role-2irmRk .roleName-32vpEy {
     display:flex;
     order:1;
@@ -42,6 +47,7 @@
     font-weight:500;
     z-index:4;
 }
+
 .role-2irmRk .roleCircle-3xAZ1j {
     background-color:transparent!important;
     background-image:url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0icm9sZVJlbW92ZUljb24tMml1MGlFIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTJ2MTJIMCI+PC9wYXRoPjxwYXRoIGNsYXNzPSJmaWxsIiBmaWxsPSIjZmZmZmZmIiBkPSJNOS41IDMuMjA1TDguNzk1IDIuNSA2IDUuMjk1IDMuMjA1IDIuNWwtLjcwNS43MDVMNS4yOTUgNiAyLjUgOC43OTVsLjcwNS43MDVMNiA2LjcwNSA4Ljc5NSA5LjVsLjcwNS0uNzA1TDYuNzA1IDYiPjwvcGF0aD48L2c+PC9zdmc+);
@@ -53,10 +59,13 @@
     margin:0 3px 0 0;
     z-index:5;
     opacity: 0.5;
+    cursor: pointer;
 }
+
+// .member-perm .perm-circle:hover,
 .role-2irmRk .roleCircle-3xAZ1j:hover {opacity: 1;}
-.role-2irmRk .roleCircle-3xAZ1j:not(.roleCircleButton-377y0l) {display:none}
-.role-2irmRk .roleCircle-3xAZ1j svg{visibility:hidden}
+// .role-2irmRk .roleCircle-3xAZ1j:not(.roleCircleButton-377y0l) {display:none}
+.role-2irmRk .roleCircle-3xAZ1j svg {visibility:hidden}
 
 .roleCircle-3xAZ1j::after {
     display:none!important;
@@ -67,6 +76,7 @@
     margin:0;
     box-shadow:0 -5px 15px rgba(0,0,0,.05);
 }
+
 .userPopout-3XzG_A .quickMessage-2XpSaN {
     border: 0;
     color: var(--nox-white);
@@ -91,23 +101,11 @@
     transition: 100ms ease;
     transition:200ms ease;
 }
+
 .userPopout-3XzG_A .quickMessage-2XpSaN:hover::-webkit-input-placeholder,
 .userPopout-3XzG_A .quickMessage-2XpSaN:focus::-webkit-input-placeholder{
     color:var(--nox-white3);
     transition:300ms cubic-bezier(0,0,0,1);
-}
-
-
-
-.member-perms .member-perm {
-    height: 20px;
-    line-height: 20px;
-}
-.member-perms .member-perm {
-    padding: 0;
-}
-.member-perms .member-perm .name {
-    margin: 0 6px;
 }
 
 .theme-dark .note-3HfJZ5 textarea::selection {
@@ -440,6 +438,7 @@
       border-radius: 4px;
   }
   
+  .member-perm .name,
   .userPopout-3XzG_A .roleName-32vpEy {
       color: var(--nox-white);
   

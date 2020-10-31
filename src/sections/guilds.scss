@@ -1,9 +1,9 @@
 // main container and bg stuff
-.wrapper-1Rf91z .scroller-2FKFPG {
+.wrapper-1Rf91z .scroller-2TZvBN {
     padding-top: 0;
 }
 
-.wrapper-1Rf91z .scroller-2FKFPG::-webkit-scrollbar {
+.wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
     width: 0!important;
 }
 
@@ -15,6 +15,10 @@
 .wrapper-1Rf91z .scrollerWrap-1IAIlv {
     width: 70px;
 }
+
+// .scroller-2TZvBN {
+//     padding-top: 0;
+// }
 
 .wrapper-1Rf91z .scroller-2TZvBN {
     background: transparent;
@@ -75,7 +79,7 @@
     background: var(--nox-white1);
 }
 
-// .listItem-2P_4kh:not(.scroller-2FKFPG > :first-child)
+// .listItem-2P_4kh:not(.scroller-2TZvBN > :first-child)
 
 // Guilds/List Items
 .listItem-2P_4kh {
@@ -241,15 +245,19 @@
 }
 
 //dms container
-.wrapper-1Rf91z .scroller-2FKFPG > div[style] {
+.wrapper-1Rf91z .scroller-2TZvBN > div[style] {
     height: auto!important;
 }
 
-.wrapper-1Rf91z .scroller-2FKFPG > div[style] + .bd-guild-separator {
+// .scroller-2TZvBN > div[style] {
+//     height: 70px !important;
+// }
+
+.wrapper-1Rf91z .scroller-2TZvBN > div[style] + .bd-guild-separator {
     display:flex;
 }
 
-// .wrapper-1Rf91z .scroller-2FKFPG > div[style] > div:last-child {
+// .wrapper-1Rf91z .scroller-2TZvBN > div[style] > div:last-child {
 //     margin-bottom: 14px;
     
 // }
@@ -308,29 +316,29 @@
 }
 
 // Fix last guild being cut off
-.expandedGuilds-1JMD4M {
+.wrapper-21YSNc ul {
     height: auto!important;
 }
 
 
 // Fix hover/active blocks
-.expandedGuilds-1JMD4M .item-2hkk8m::after {
+.wrapper-21YSNc ul .item-2hkk8m::after {
     width: 60px;
     left: 5px;
 }
 
-.expandedGuilds-1JMD4M .listItem-2P_4kh:last-child .item-2hkk8m::after {
+.wrapper-21YSNc ul .listItem-2P_4kh:last-child .item-2hkk8m::after {
     border-radius: 0 0 30px 30px;
     height: 62px;
 }
 
 // active bg
-.expandedGuilds-1JMD4M .listItem-2P_4kh:active .item-2hkk8m::after {
+.wrapper-21YSNc ul .listItem-2P_4kh:active .item-2hkk8m::after {
     background: var(--nox-black5);
 }
 
 // selected bg
-.expandedGuilds-1JMD4M .listItem-2P_4kh.bd-selected .item-2hkk8m::after {
+.wrapper-21YSNc ul .listItem-2P_4kh.bd-selected .item-2hkk8m::after {
     background: var(--nox-black8);
 }
 
