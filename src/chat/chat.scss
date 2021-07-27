@@ -66,14 +66,17 @@
     margin: 0;
 }
 
-.chat-3bRxxu .newMessagesBar-265mhP {
+.chat-3bRxxu .newMessagesBar-265mhP,
+.chat-15Vmww .newMessagesBar-265mhP{
     background-color:var(--nox-accent);
     z-index: 3;
 }
-.chat-3bRxxu .newMessagesBar-265mhP:hover {
+.chat-3bRxxu .newMessagesBar-265mhP:hover,
+.chat-15Vmww .newMessagesBar-265mhP:hover {
     background-color:var(--nox-accent);
 }
-.chat-3bRxxu .newMessagesBar-265mhP button:last-child {
+.chat-3bRxxu .newMessagesBar-265mhP button:last-child,
+.chat-15Vmww .newMessagesBar-265mhP button:last-child {
     color:var(--nox-white6);
 }
 
