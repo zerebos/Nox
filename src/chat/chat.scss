@@ -165,3 +165,18 @@
 .notice-2FJMB4 {
     border-radius: 0;
 }
+
+.chatHeaderBar-4vZS1x+.messagesWrapper-1sRNjr::after {
+    content: none;
+}
+.chatHeaderBar-4vZS1x {
+    background: var(--nox-level2);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+    z-index: 10;
+}
+.theme-dark .chatHeaderBar-4vZS1x .chatHeaderBarButton-UiIh3z {
+    background: var(--nox-level1);
+}
+.theme-dark .chatHeaderBar-4vZS1x .chatHeaderBarButton-UiIh3z:hover {
+    background: #353535;
+}
