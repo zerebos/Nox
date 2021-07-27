@@ -155,12 +155,8 @@
 }
 
 .members-1998pB {
-	height: calc(100% + 100px);
 	padding-bottom: calc(20px + 100px);
  }
-.members-1998pB::-webkit-scrollbar-track-piece {
-    margin-bottom: 100px
-}
 
 .botTag-2WPJ74 {
     color: var(--nox-white)!important;
@@ -175,7 +171,16 @@
 
 /* End Member List */
 
+// Role separator
+.container-2ax-kl {
+    color: var(--nox-white4);
+}
 
 .streaming-2_dnHe {
     animation: streaming-flash 1.5s linear infinite;
+}
+
+.nameAndDecorators-5FJ2dg {
+    padding-right: 5px;
+    box-sizing: border-box;
 }

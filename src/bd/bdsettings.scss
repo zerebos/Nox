@@ -1,5 +1,5 @@
 
-.bd-plugin-container,
+.bd-addon-card,
 .bda-slist li {
     background: var(--nox-level1)!important;
     border-radius: 2px;
@@ -9,25 +9,24 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, .2)
 }
 
-.bd-plugin-container {
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-right: 10px;
-}
+// .bd-addon-card {
+//     padding-left: 10px;
+//     padding-top: 15px;
+//     padding-right: 10px;
+// }
 
-.bd-plugin-container .bd-plugin-info .bd-plugin-name,
-.bda-slist .bda-name {
+.bd-addon-card .bd-name {
     color: var(--nox-white7)!important;
     border: none!important;
 }
 
-.bd-plugin-container .bd-plugin-info .bd-plugin-description,
-.bda-slist .bda-description {
-    color: var(--nox-white7)
+.bd-addon-card .bd-description {
+    color: var(--nox-white7);
+    margin-top: 5px;
 }
 
-.bd-plugin-container .bd-plugin-info .bd-plugin-description {
-    margin-top: 5px
+.bd-addon-card .bd-addon-header {
+    background:#292929;
 }
 
 .bda-slist .checkbox::before {
@@ -86,9 +85,9 @@ div.control-group .shortcut-recorder input:focus {
 
 #bd-settingspane-container h2.ui-form-title{
     display: inline-block;
-  }
+}
 
-  .standardSidebarView-3F1I7i #editor-detached button {
+.standardSidebarView-3F1I7i #editor-detached button {
     background: var(--nox-accent);
 }
 
@@ -130,13 +129,18 @@ div.control-group .shortcut-recorder input:focus {
     display: block;
     height: 15px;
 }
-.bd-plugin-container, .bda-slist li{
+.bd-addon-card, .bda-slist li{
     border:none!important;
-    background:#292929!important;
+    // background:#292929!important;
     border-radius:4px;
 }
 
-
+.bd-switch-body {
+    --switch-color: #4E4E4E;
+}
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: var(--nox-accent);
+}
 
 .standardSidebarView-3F1I7i .bda-slist .bda-right button{
     position:absolute;

@@ -170,3 +170,14 @@
 
 
 
+
+// Radio options
+.item-26Dhrx {
+  background: #292929;
+}
+.item-26Dhrx[aria-checked="true"] {
+  background: var(--nox-level3);
+}
+.radioIconForeground-XwlXQN {
+  color: var(--nox-accent);
+}
