@@ -180,3 +180,22 @@
 .theme-dark .chatHeaderBar-4vZS1x .chatHeaderBarButton-UiIh3z:hover {
     background: #353535;
 }
+
+.reaction-1hd86g {
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 0.25rem;
+}
+
+.reaction-1hd86g:hover {
+    background-color: rgba(78, 93, 148, 0.3);
+    border-color: transparent;
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+    background-color: rgba(78, 93, 148, 0.3);
+    border-color: transparent;
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+    color: rgb(114, 137, 218);
+}
