@@ -460,6 +460,18 @@
     background-color: var(--nox-level3);
 }
 
+.categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategorySelected-_HCKoz:hover {
+    background: var(--nox-white1);
+}
+
+.guildIconWithoutImage-2JZx6N {
+    background: var(--nox-level2);
+}
+[mask="url(#svg-mask-squircle)"] .guildIconWithoutImage-2JZx6N {
+    background: var(--nox-accent);
+}
+
 // .emojiPicker-3PwZFl .listItems-1uJgMC {
 //     left: 0 !important;
 //     right: 0 !important;

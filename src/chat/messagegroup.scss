@@ -8,13 +8,13 @@
 .message-2qnXI6 {
     background: rgba(0, 0, 0, .1);
     padding: 0 7px .250rem 10px;
-    margin: 0 10px 0 80px;
+    margin: 0 40px 0 80px;
     overflow: visible;
 }
 
 // Add top margin for separation between groups
 .cozy-3raOZG.message-2qnXI6.groupStart-23k01U {
-    margin-top: 20px;
+    margin-top: 20px !important;
 }
 
 // Bubble callout
@@ -46,15 +46,28 @@
     opacity: 1;
 }
 
+// Fix avatar for replys
+.message-2qnXI6.hasReply-34In-r .avatar-1BDn8e {
+    left: -60px;
+}
+
+// Remove reply line
+.repliedMessage-VokQwo:before {
+    content: none;
+}
+
 // Move the hover timestamps
 .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
     left: -70px;
 }
+.cozy-3raOZG .timestamp-3ZCmNB{
+    color: var(--nox-white2);
+}
 
 // Make room for typing indicator
-.message-2qnXI6:last-of-type {
-    margin-bottom: 30px!important;
-}
+// .scrollerInner-2YIMLh .message-2qnXI6:last-of-type {
+//     margin-bottom: 30px!important;
+// }
 
 // Change (edited) to a pen icon
 .message-2qnXI6 .contents-2mQqc9 .edited-3sfAzf {
@@ -198,18 +211,18 @@
 
 
 /* ===== Editing ===== */
-.message-1PNnaP .channelTextArea-1LDbYG {
+.message-2qnXI6 .channelTextArea-3bF57p {
     margin-top:0;
 }
 
-.message-1PNnaP .channelTextArea-1LDbYG .inner-zqa7da {
+.message-2qnXI6 .channelTextArea-3bF57p .inner-MADQqc {
     background:transparent!important;
     opacity:1;
 }
-.message-1PNnaP .channelTextArea-1LDbYG .inner-zqa7da .textArea-2Spzkt {
+.message-2qnXI6 .channelTextArea-3bF57p .inner-MADQqc .textArea-12jD-V {
     margin-right:12px;
 }
-.wrapper-2a6GCs .message-1PNnaP textarea {
+.wrapper-2a6GCs .message-2qnXI6 textarea {
     padding: 8px;
     border-radius: 6px;
     margin-left:0;
@@ -220,13 +233,13 @@
     color:rgba(255,255,255,.6);
     opacity:1;
 }
-.wrapper-2a6GCs .message-1PNnaP textarea:hover {
+.wrapper-2a6GCs .message-2qnXI6 textarea:hover {
     color:rgba(255,255,255,.8);
 }
-.wrapper-2a6GCs .message-1PNnaP textarea:focus {
+.wrapper-2a6GCs .message-2qnXI6 textarea:focus {
     color:rgba(255,255,255,1);
 }
-.wrapper-2a6GCs .channelTextArea-1LDbYG .emojiButton-2wRZts {
+.wrapper-2a6GCs .channelTextArea-3bF57p .emojiButton-2wRZts {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2LjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4em0zLjUtOWMuODMgMCAxLjUtLjY3IDEuNS0xLjVTMTYuMzMgOCAxNS41IDggMTQgOC42NyAxNCA5LjVzLjY3IDEuNSAxLjUgMS41em0tNyAwYy44MyAwIDEuNS0uNjcgMS41LTEuNVM5LjMzIDggOC41IDggNyA4LjY3IDcgOS41IDcuNjcgMTEgOC41IDExem0zLjUgNi41YzIuMzMgMCA0LjMxLTEuNDYgNS4xMS0zLjVINi44OWMuOCAyLjA0IDIuNzggMy41IDUuMTEgMy41eiIvPjwvc3ZnPg==);
     background-repeat: no-repeat;
     background-position: 50%;
@@ -247,9 +260,9 @@
     padding-top: 0.25rem;
 }
 
-.groupStart-23k01U:not(.message-2qnXI6) {
+// .groupStart-23k01U:not(.message-2qnXI6) {
     // padding: 0.250rem 7px 0.250rem 10px;
-}
+// }
 
 .groupStart-23k01U:not(.message-2qnXI6).expanded-13sWhZ .message-2qnXI6 {
     animation: open-folder 200ms ease-out;
@@ -301,19 +314,19 @@
 
 
 // POPOUT OPEN
-.message-1PNnaP .usernameWrapper-1S-G5O.popout-open {
+.message-2qnXI6 .usernameWrapper-1S-G5O.popout-open {
     background: var(--nox-accent);
 }
 
-.message-1PNnaP .usernameWrapper-1S-G5O.popout-open .username-_4ZSMR {
+.message-2qnXI6 .usernameWrapper-1S-G5O.popout-open .username-_4ZSMR {
     color: var(--nox-white)!important;
 }
 
-.message-1PNnaP .usernameWrapper-1S-G5O .username-_4ZSMR {
+.message-2qnXI6 .usernameWrapper-1S-G5O .username-_4ZSMR {
     transition: all 0ms ease!important;
 }
 
-.message-1PNnaP .usernameWrapper-1S-G5O {
+.message-2qnXI6 .usernameWrapper-1S-G5O {
     border-radius: 2px;
     margin-left: -2px;
     margin-right: -2px;
@@ -327,19 +340,19 @@
     position: relative;
 }
 //message-2qnXI6 cozyMessage-3V1Y8y systemMessage-1I9LCe groupStart-23k01U wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica
-.wrapper-2a6GCs.systemMessage-1I9LCe.groupStart-23k01U > .contents-2mQqc9:first-child::after {
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: -70px;
-    top: -10px;
-    border-radius: 50%;
-    background-image: url("https://discordapp.com/assets/f78426a064bc9dd24847519259bc42af.png");
-    background-clip: padding-box;
-    background-position: 50%;
-    background-size: 100%;
-}
+// .wrapper-2a6GCs.systemMessage-1I9LCe.groupStart-23k01U > .contents-2mQqc9:first-child::after {
+//     content: "";
+//     position: absolute;
+//     width: 40px;
+//     height: 40px;
+//     left: -70px;
+//     top: -10px;
+//     border-radius: 50%;
+//     background-image: url("https://discordapp.com/assets/f78426a064bc9dd24847519259bc42af.png");
+//     background-clip: padding-box;
+//     background-position: 50%;
+//     background-size: 100%;
+// }
 
 .wrapper-2a6GCs .reactions-1xb2Ex .reaction-1ELvT8 {
     background: rgba(255,255,255, 0.1);

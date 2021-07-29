@@ -42,7 +42,7 @@ form .channelTextArea-rNsIhG {
     padding: 0;
     border: 0!important;
     border-radius: 0;
-    background: #3A3A3A;
+    background: none;
 }
 //.textArea-12jD-V
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem {
@@ -51,7 +51,7 @@ form .channelTextArea-rNsIhG {
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
     // max-height: 400px!important;
     // overflow-y: scroll!important;
-    background: none;
+    background: #3A3A3A;
     border-radius: 0;
 }
 form .textArea-12jD-V {
@@ -278,4 +278,17 @@ form .buttons-3JBrkn button[aria-expanded="true"] {
 .channelTextArea-2VhZ6z .button-3AYNKb,
 .channelTextArea-rNsIhG .buttons-3JBrkn button .button-3AYNKb {
     padding: 0;
+}
+
+// Reply bar
+.replyBar-1YLQ2F, .threadSuggestionBar-2ufK2Z {
+    background: var(--nox-level2);
+}
+.attachedBars-tZDmyV {
+    background: none;
+}
+
+// Inline code
+.after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y {
+    background: var(--nox-black3);
 }
