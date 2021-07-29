@@ -194,11 +194,13 @@
 }
 
 // unread ring
+.listItem-GuPuDH .item-2hkk8m[style*="opacity: 1; height: 8px; transform: none;"]::before,
 .listItem-GuPuDH.bd-unread .item-2hkk8m::before {
     border-color: var(--nox-notification-color);
 }
 
 // selected bg
+.listItem-GuPuDH .item-2hkk8m[style*="opacity: 1; height: 40px; transform: none;"]::after,
 .listItem-GuPuDH.bd-selected .item-2hkk8m::after {
     background: var(--nox-black5);
 }

@@ -267,16 +267,20 @@ input[type=range]::-webkit-slider-runnable-track {
     text-align:center;
     order:-10;
 }
-#bd-settings-sidebar>span>span::after,
-#bd-settings-sidebar>span>div:nth-child(3)::after {
+
+.info-1VyQPT::before {
+    color: var(--text-muted);
     padding-left:10px;
     display:block;
     padding-top:5px;
     margin-bottom:-10px;
-    content: var(--nox-version);
+    content: "Nox v" var(--nox-version);
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: none;
 }
 
-#bd-settings-sidebar>span>div:nth-child(3)::after {
+.info-1VyQPT::before {
     padding-left: 0px;
     margin-bottom: 0px;
 }

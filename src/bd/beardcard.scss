@@ -33,11 +33,17 @@
     width: auto;
 }
 
-#bd-settingspane-container .bda-slist li[data-name="Nox"] .bda-name,
-#bd-settingspane-container .bda-slist li[data-name="Nox"] .bda-header-title {
+#Nox-card .bd-author,
+#Nox-card .bd-version {
     font-size: 0;
 }
-#bd-settingspane-container .bda-slist li[data-name="Nox"] .bda-header-title::after {
-    content: var(--nox-version) " by Lilian Tedone & Zack Rauen";
-    font-size: 12px;
+
+#Nox-card .bd-version::after {
+    content: "v" var(--nox-version) " ";
+    font-size: 14px;
+}
+
+#Nox-card .bd-author::after {
+    content: "Lilian Tedone & Zack Rauen";
+    font-size: 14px;
 }
