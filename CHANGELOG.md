@@ -1,5 +1,43 @@
 # Nox Changelog
 
+## 1.1.0
+
+### New Stuff
+ - Theming for threads
+ - Theming for stickers
+
+### Bug fixes
+ - Guild list
+ - Channel gap
+ - Channel list
+ - Search results
+ - Profile popout
+ - Profile card modal
+ - Settings pages
+ - Settings icons
+ - Attachment container
+ - Jump to present bar
+ - New messages bar
+ - Reactions
+ - Unread message divider
+ - Date divider
+ - File embed
+ - Reply banner
+ - Inline code
+ - Avatar position in replies
+ - Edit message bubble
+ - System icons
+ - Private call butons coloring
+ - Add role popout
+ - Emoji picker popout
+ - Status picker
+ - Channel header
+ - Friends list
+ - Member list
+
+### Plugins
+ - BetterFormattingRedux fixed
+
 ## 1.0.5
 
 ### New Stuff
