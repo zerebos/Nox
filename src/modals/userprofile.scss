@@ -375,56 +375,60 @@
 }
 
 /* Profile stuff */
-.container-q03LZO .clickable-17BDii {
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px;
+.clickable-17BDii {
+    height: unset;
+    display: flex;
+    align-items: center;
 }
-.container-q03LZO .clickable-17BDii:not([aria-label*="Server boosting since"]):not([aria-label="Early Verified Bot Developer"]):not([aria-label="Discord Certified Moderator"]) .profileBadge-2niAfJ {
-    display: none;
+.clickable-17BDii .profileBadge-2niAfJ {
+    height: unset;
 }
 
 /* Nitro */
-.container-q03LZO [aria-label*="Subscriber since"] { background-image: url(https://discordapp.com/assets/379d2b3171722ef8be494231234da5d1.svg); }
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/e04ce699dcd2fd50d352a384511687a9.svg"] { content: url(https://discordapp.com/assets/379d2b3171722ef8be494231234da5d1.svg); }
 /* Early Nitro Supporter */
-.container-q03LZO [aria-label="Early Supporter"] { background-image: url(https://discordapp.com/assets/ce15562552e3d70c56d5408cfeed2ffd.svg); }
-/* HypeSquad */
-.container-q03LZO [aria-label="HypeSquad Events"] { background-image:url(https://discordapp.com/assets/3a050fcc884255231b99b7033c776070.svg);}
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"] { content: url(https://discordapp.com/assets/ce15562552e3d70c56d5408cfeed2ffd.svg); }
+/* HypeSquad Events */
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"] { content: url(https://discordapp.com/assets/3a050fcc884255231b99b7033c776070.svg);}
 /* HypeSquad Balance */
-.container-q03LZO [aria-label="HypeSquad Balance"] { background-image:url(https://discordapp.com/assets/2a085ed9c86f3613935a6a8667ba8b89.svg); }
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/58f11abcf3c13812bff969baaeb84d82.svg"] {
+    content: url(https://discordapp.com/assets/2a085ed9c86f3613935a6a8667ba8b89.svg);
+    transform: scale(0.8);
+}
 /* HypeSquad Brilliance */
-.container-q03LZO [aria-label="HypeSquad Brilliance"] {
-    background-image:url(https://discordapp.com/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg);
-    background-size: 20px;
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/473dadec13ab7e90e209cc60fccb31c5.svg"] {
+    content: url(https://discordapp.com/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg);
+    transform: scale(0.8);
 }
 /* HypeSquad Bravery*/
-.container-q03LZO [aria-label="HypeSquad Bravery"] {
-    background-image:url(https://discordapp.com/assets/1115767aed344e96a27a12e97718c171.svg);
-    background-size: 16px;
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"] {
+    content: url(https://discordapp.com/assets/1115767aed344e96a27a12e97718c171.svg);
+    transform: scale(0.75);
 }
 /* Staff */
-.container-q03LZO [aria-label="Discord Staff"] {
-    background-image: url(https://discordapp.com/assets/7cfd90c8062139e4804a1fa59f564731.svg);
-    background-size: 20px;
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"] {
+    content: url(https://discordapp.com/assets/7cfd90c8062139e4804a1fa59f564731.svg);
+    // background-size: 20px;
 }
 /* Partner */
-.container-q03LZO [aria-label="Partnered Server Owner"] { background-image: url(https://discordapp.com/assets/a0e288a458c48dfcf548dadc277e42e6.svg); }
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] { content: url(https://discordapp.com/assets/a0e288a458c48dfcf548dadc277e42e6.svg); }
 /* Bug Hunter */
-.container-q03LZO [aria-label="Discord Bug Hunter"] {
-    background-image: url(https://discordapp.com/assets/df26f079738a4dcd07cbce6eb3c957f1.svg);
-    background-size: 16px;
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/5c6bb5c4640972078fc993f1b5f503ce.svg"],
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
+   content: url(https://discordapp.com/assets/df26f079738a4dcd07cbce6eb3c957f1.svg);
+   transform: scale(0.8);
 }
 /* Developer */
-.container-q03LZO [aria-label="Early Verified Bot Developer"] .profileBadge-2niAfJ { filter: brightness(1000%); }
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"] { filter: brightness(1000%); }
 /* Moderator */
-.container-q03LZO [aria-label="Discord Certified Moderator"] .profileBadge-2niAfJ { filter: brightness(1000%);}
+.container-q03LZO .profileBadge-2niAfJ[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] { filter: brightness(1000%);}
 
 /* Badges */
-.container-q03LZO [aria-label*="Server boosting since"] .profileBadge-2niAfJ {
+.container-q03LZO .profileBadge-2niAfJ {
     filter: grayscale(100%)brightness(120%);
+}
+.premiumIcon-1rDbWQ {
+    color: var(--nox-white);
 }
 
 /* Connected Accounts */
