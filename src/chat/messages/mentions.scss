@@ -37,3 +37,8 @@
     opacity:1;
     background:var(--nox-accent);
 }
+
+// Remove underline when hovering in messages that mention you
+.theme-dark .mentioned-xhSam7 .mention.interactive:hover {
+    text-decoration: none;
+}
