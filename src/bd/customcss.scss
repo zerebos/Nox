@@ -1,20 +1,31 @@
-#bd-customcss-detach-container {
+#floating-editor-window {
     background: var(--nox-level3);
 }
 
-.contentRegion-3nDuYy #bd-customcss-attach-controls::after {
+.floating-window-titlebar {
+    background: var(--nox-level2);
+}
+
+.floating-window #bd-editor-controls,
+#bd-editor-controls {
+    background: var(--nox-level1);
+}
+
+.contentRegion-3nDuYy #bd-editor-panel::before {
     width: 100%;
     padding: 10px;
     content:"To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A\9 --nox-accent: #7289DA !important;\A\9 --nox-notification-color: #FFFFFF !important;\A\9 --nox-important-notification: #F04747 !important;\A}\A\A Don't forget to save/update when you're done!\A\A To see all the variables in the theme, just go to bit.ly/NoxTheme. ";
     background: var(--nox-level2);
+    box-shadow: 0 0px 15px 5px var(--nox-level3);
     margin-top: 10px;
     display: block;
     border-radius: 2px;
     font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
     white-space: pre;
     color: var(--nox-white);
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     width:auto;
+    border: 3px solid var(--nox-important-notification);
 }
 
 #bd-customcss-detach-controls-buttons button:last-of-type::after {
