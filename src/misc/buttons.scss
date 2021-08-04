@@ -12,7 +12,9 @@
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
-.button-38aScr.lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+.button-38aScr.lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover,
+.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
     background: var(--nox-accent);
 }
 
@@ -56,8 +58,7 @@
 }
 
 
-.button-38aScr:first-child + .button-38aScr:last-child {
-    margin-right: 5px;
+.button-38aScr:first-child + .button-38aScr:last-child.iconButton-3ucJ7a {
     margin-left: 5px;
 }
 
@@ -128,7 +129,8 @@
 .bd-themerepobutton:active,
 ._2t3of887:active,
 .lookGhost-2Fn_0-.colorBrand-3pXr91:active,
-#app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:active {
+#app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:active,
+.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV:active {
     color: rgba(0, 0, 0, 0.7);
     background: rgb(220, 220, 220);
     -ms-transform: translate(0, 2px);
