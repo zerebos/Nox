@@ -1,0 +1,158 @@
+// Roles
+.container-_phMUq {
+    border-radius: 3px;
+    background: var(--nox-level1);
+    color: var(--nox-white6);
+}
+
+.container-_phMUq:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--nox-white9);
+}
+
+.icon-3_8HGa {
+    background: #3E3E3E;
+}
+
+.container-_phMUq:hover .icon-3_8HGa {
+    background: #3A3A3A;
+}
+
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.secondary-dIudih {
+    background: var(--nox-level1);
+}
+
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i {
+    background: var(--nox-level2);
+}
+
+.header-2mZ9Ov,
+.titleContainer-2CXtJo {
+    background: none;
+}
+
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background: var(--nox-level3);
+}
+
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.top-28JiJ- .brand-1Zl8en.item-PXvHYJ:hover {
+    border-bottom-color: var(--nox-white4);
+}
+
+.top-28JiJ- .brand-1Zl8en.item-PXvHYJ:active,
+.top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ {
+    border-bottom-color: var(--nox-accent);
+}
+
+.memberRow-1wwtfV:hover {
+    background: rgba(255, 255, 255, 0.05)   
+}
+
+.removeButton-spUszT {
+    color: var(--nox-white6);
+}
+
+.removeButton-spUszT:hover {
+    color: var(--nox-white9);
+}
+
+.removeButtonDisabled-5brXxX,
+.removeButtonDisabled-5brXxX:hover {
+    color: var(--nox-white3);
+}
+
+// /Roles
+
+// Stickers/Boost Status
+.theme-dark .background-3xPPFc {
+    color: var(--nox-level3);
+}
+
+.theme-dark .tierAccomplished-2eXPdI,
+.theme-dark .tierCurrent-Lw7-4E,
+.theme-dark .tierDefault-2qaRkD {
+    background: var(--nox-accent);
+}
+
+.theme-dark .tierInProgress-3mBoXq {
+    background: var(--nox-level3);
+}
+
+.theme-dark .tierHeaderLocked-3S508x,
+.theme-dark .tierHeaderUnlocked-3lTDnP {
+    background: #292929;
+}
+
+.wrapper-18yWki {
+    background: var(--nox-level1);
+}
+
+.wrapper-18yWki:focus-within, .wrapper-18yWki:hover {
+    background: #292929;
+}
+
+.action-Wexk0G {
+    background: var(--nox-level1);
+}
+
+.tierIconLocked-3jQkNk,
+.tierLock-3nsR0q {
+    color: var(--nox-white4)
+}
+
+.tierIcon-1g5KsI {
+    color: var(--nox-white);
+}
+
+.theme-dark .tierBody-3aUxuc {
+    background: var(--nox-level1);
+    color: var(--nox-white7);
+}
+
+.emptyTierImage-UTgz1t {
+    filter: grayscale(100%);
+}
+
+.serverBoostTabItem-2hFTIN[aria-selected=true] {
+    background-color: var(--nox-accent) !important;
+}
+
+.foreground-2EIns2 {
+    color: var(--nox-accent)
+}
+
+// /Stickers/Boost Status
+
+// Members
+.overflowButton-1SCpCf::before {
+    content: none;
+}
+
+.overflowButton-1SCpCf {
+    background: none;
+}
+
+.theme-dark .overflowRolesPopout-140n9i,
+.theme-dark .overflowRolesPopoutArrow-2O66oH {
+    background: var(--nox-level1);
+}
+
+.theme-dark .overflowRolesPopout-140n9i {
+    border-radius: 2px;
+}
+
+.overflowRolesPopoutHeaderIcon-6PNEZA path {
+    fill: var(--nox-white4)
+}
+
+.overflowRolesPopoutHeaderText-1SW-y3 {
+    color: var(--nox-white4);
+}
