@@ -34,25 +34,60 @@
     color: var(--nox-black9);
 }
 
-// /* These parts are broken */
-// .wrapper-3EGhDO > div {
-//     display: inline;
-// }
+.callContainer-36WRfH .centerButton-3CaNcJ[aria-label="Stop Streaming"] {
+    background: var(--nox-accent);
+}
 
-// .controlButton-2MhVEL.contextMenuContainer-2HlOMK {
-//     display: none;
-// }
+.callContainer-36WRfH .centerButton-3CaNcJ[aria-label="Stop Streaming"] .controlIcon-35oS15 {
+    color: var(--nox-white9)
+}
 
-// #video-device-context {
-//     right: 350px !important;
-//     top: 245px !important
-// }
-// #audio-device-context {
-//     right: 500px !important;
-//     top: 245px !important;
-// }
-// /* These parts are broken */
+.callContainer-36WRfH .contextMenuContainer-2HlOMK svg {
+    max-height: 32px;
+}
+.callContainer-36WRfH .contextMenuContainer-2HlOMK .centerButton-3CaNcJ {
+    transform: scale(1.75) translateY(7px);
+}
 
+.callContainer-36WRfH .contextMenuNub-3yOOYo {
+    background: none !important;
+    border-radius: 0;
+    top: 16px;
+    padding: 0;
+    color: var(--nox-white4);
+}
+
+.callContainer-36WRfH .contextMenuNub-3yOOYo:hover {
+    color: var(--nox-white7) !important;
+}
+
+.callContainer-36WRfH .contextMenuNub-3yOOYo.active-1QRrIS {
+    color: var(--nox-white) !important;
+}
+
+.contextMenuNub-3yOOYo.white-3GPOIp {
+    color: var(--nox-white9);
+}
+
+.callContainer-36WRfH .contextMenuContainer-2HlOMK:hover .contextMenuNub-3yOOYo {
+    color: var(--nox-black7);
+}
+
+.callContainer-36WRfH .contextMenuContainer-2HlOMK:hover .contextMenuNub-3yOOYo.active-1QRrIS {
+    color: var(--nox-black9) !important;
+}
+
+.callContainer-36WRfH .contextMenuContainer-2HlOMK:hover .contextMenuNub-3yOOYo.active-1QRrIS:hover {
+    color: var(--nox-white) !important;
+}
+
+.colorDefault-2K3EoJ .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ .radioSelection-1HmrQS,
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ.focused-3afm-j .radioSelection-1HmrQS,
+.colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj {
+    color: var(--nox-accent);
+}
 
 .wrapper-3EGhDO .contextMenuContainer-2HlOMK foreignObject {
     mask: none;
