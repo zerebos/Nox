@@ -376,3 +376,27 @@
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
 }
 
+// Groupstart quoted message line
+.replying-1x3H0T::before,
+.replying-1x3H0T::after {
+    background-color: var(--nox-accent);
+}
+
+.groupStart-23k01U.replying-1x3H0T::before {
+    border-right-color: var(--nox-accent);
+    background: none;
+}
+
+.groupStart-23k01U.replying-1x3H0T::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: calc(100% - 0px);
+}
+
+.message-2qnXI6.groupStart-23k01U::before {
+    transition: none;
+}
