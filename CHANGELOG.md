@@ -1,5 +1,30 @@
 # Nox Changelog
 
+## 1.1.1
+
+### New Stuff
+ - Nitro page theming
+ - Stage page theming
+ - Server boost page theming
+ - Role popout
+ - Guild settings theming
+ - Made attach popout icon match the messagebar one
+ - Private call context menu buttons
+
+### Bug fixes
+ - Create/Join guild modal
+ - Quick select emoji circle color in message context menus
+ - Restored theme customization tip in custom css page
+ - Custom css editor colors
+ - Markdown popout buttons
+ - Reworked badges to be consitent and compatible with plugins
+ - Removed underline when hovering on channels in mention messages
+ - Discovery sidebar
+ - Stream preview colors
+ - Dropdown menu colors
+ - Restored Nox reactions theming
+
+
 ## 1.1.0
 
 ### New Stuff
@@ -27,7 +52,7 @@
  - Avatar position in replies
  - Edit message bubble
  - System icons
- - Private call butons coloring
+ - Private call buttons coloring
  - Add role popout
  - Emoji picker popout
  - Status picker
@@ -37,6 +62,7 @@
 
 ### Plugins
  - BetterFormattingRedux fixed
+
 
 ## 1.0.5
 
