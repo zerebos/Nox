@@ -76,7 +76,9 @@
 // .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ a,
 .containerDefault--pIXnN .wrapper-2jXpOf.modeConnected-3IsKId .content-1x5b-n,
 .containerDefault--pIXnN.selected-3LIHYU .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n,
-.containerDefault--pIXnN:active .wrapper-2jXpOf .content-1x5b-n {
+.containerDefault--pIXnN:active .wrapper-2jXpOf .content-1x5b-n,
+.modeSelected-346R90 .content-1x5b-n,
+.modeSelected-346R90:hover .content-1x5b-n {
     background:var(--nox-level3);
 }
 
