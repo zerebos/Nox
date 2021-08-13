@@ -17,7 +17,7 @@
  - Restored theme customization tip in custom css page
  - Custom css editor colors
  - Markdown popout buttons
- - Reworked badges to be consitent and compatible with plugins
+ - Reworked badges to be consistent and compatible with plugins
  - Removed underline when hovering on channels in mention messages
  - Discovery sidebar
  - Stream preview colors
