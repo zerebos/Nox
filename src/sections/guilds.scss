@@ -26,20 +26,21 @@
 
 // Home Icon
 
-.homeIcon-FuNwkv {
+.homeIcon-AaowEC {
     height: 32px;
     width: 32px;
     z-index: 1;
 }
 
 // change to home symbol
-.homeIcon-FuNwkv path {
+.homeIcon-AaowEC path {
     d: path("M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z") !important;
     transform: translate(2px, -2px);
 }
 
 .wrapper-1BJsBx .childWrapper-anI2G9:not(.acronym-2mOFsV),
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9:not(.acronym-2mOFsV) {
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9:not(.acronym-2mOFsV),
+.listItem-2Ig28I .circleIconButton-hZmpE8.selected-3mFF3I {
     background: transparent;
 }
 
@@ -48,7 +49,7 @@
 //     background-color: var(--nox-accent);
 // }
 
-.listItem-GuPuDH .circleIconButton-1QV--U::after,
+.listItem-2Ig28I .circleIconButton-hZmpE8::after,
 .wrapper-1BJsBx .childWrapper-anI2G9:not(.acronym-2mOFsV)::after {
     content: "";
     display: block;
@@ -60,7 +61,7 @@
     transition: background 200ms ease;
 }
 
-.listItem-GuPuDH .circleIconButton-1QV--U.selected-1JjBPm::after,
+.listItem-2Ig28I .circleIconButton-hZmpE8.selected-3mFF3I::after,
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9:not(.acronym-2mOFsV)::after {
     background: var(--nox-accent);
 }
@@ -69,7 +70,7 @@
 
 
 // Separator
-.listItem-GuPuDH.bd-guild-separator {
+.listItem-2Ig28I.bd-guild-separator {
     margin: 4px 0;
     display: none;
     height: 2px
@@ -82,7 +83,7 @@
 // .listItem-2P_4kh:not(.scroller-2TZvBN > :first-child)
 
 // Guilds/List Items
-.listItem-GuPuDH {
+.listItem-2Ig28I {
     width: 70px;
     margin: 0;
 }
@@ -90,12 +91,12 @@
 // Prevent moving down on click
 .listItemWrapper-KhRmzM:active, // home button
 .blob-3RT82C:active, // dms
-.listItem-GuPuDH .blobContainer-pmnxKB:active {
+.listItem-2Ig28I .blobContainer-pmnxKB:active {
     transform: none;
 }
 
 // Expands wrapper to increase clicking area
-.listItem-GuPuDH .wrapper-25eVIn {
+.listItem-2Ig28I .wrapper-25eVIn {
     height: 70px;
     width: 70px;
     display: flex;
@@ -104,7 +105,7 @@
 }
 
 // Expands svg area to increase clicking area
-.listItem-GuPuDH .svg-1X37T1 {
+.listItem-2Ig28I .svg-1X37T1 {
     position: relative;
 // }
 
@@ -116,22 +117,22 @@
 
 // Scales guild icon + svg icons back down
 .dragPlaceholder-D9-haY, // placeholder
-.homeIcon-FuNwkv, // home button icon
+.homeIcon-AaowEC, // home button icon
 .button-OhfaWu::after, // home button
 .icon-27yU2q, // guild icon
 .acronym-2mOFsV, // iconless guilds
-.circleIconButton-1QV--U > svg, // discovery
-.circleIconButton-1QV--U::after,
+.circleIconButton-hZmpE8 > svg, // discovery
+.circleIconButton-hZmpE8::after,
 .childWrapper-anI2G9:not(.acronym-2mOFsV)::after {
     transform: scale(calc(48/70));
     border-radius: 50%;
 }
 
-.listItem-GuPuDH .acronym-2mOFsV {
+.listItem-2Ig28I .acronym-2mOFsV {
     background: var(--nox-level2);
 }
 
-.listItem-GuPuDH .selected-bZ3Lue .acronym-2mOFsV {
+.listItem-2Ig28I .selected-bZ3Lue .acronym-2mOFsV {
     background: var(--nox-accent);
 }
 
@@ -147,7 +148,7 @@
 }
 
 // sets up blank pill item
-.listItem-GuPuDH .item-2hkk8m {
+.listItem-2Ig28I .item-2hkk8m {
     box-sizing: border-box;
     background: none;
     margin: 0;
@@ -158,7 +159,7 @@
 }
 
 // sets up notification ring
-.listItem-GuPuDH .item-2hkk8m::before {
+.listItem-2Ig28I .item-2hkk8m::before {
     content: "";
     display: block;
     box-sizing: border-box;
@@ -184,38 +185,38 @@
 }
 
 // hover bg
-.listItem-GuPuDH:hover .item-2hkk8m::after {
+.listItem-2Ig28I:hover .item-2hkk8m::after {
     background: var(--nox-white1);
 }
 
 // active bg
-.listItem-GuPuDH:active .item-2hkk8m::after {
+.listItem-2Ig28I:active .item-2hkk8m::after {
     background: var(--nox-black2);
 }
 
 // unread ring
-.listItem-GuPuDH .item-2hkk8m[style*="opacity: 1; height: 8px; transform: none;"]::before,
-.listItem-GuPuDH.bd-unread .item-2hkk8m::before {
+.listItem-2Ig28I .item-2hkk8m[style*="opacity: 1; height: 8px; transform: none;"]::before,
+.listItem-2Ig28I.bd-unread .item-2hkk8m::before {
     border-color: var(--nox-notification-color);
 }
 
 // selected bg
-.listItem-GuPuDH .item-2hkk8m[style*="opacity: 1; height: 40px; transform: none;"]::after,
-.listItem-GuPuDH.bd-selected .item-2hkk8m::after {
+.listItem-2Ig28I .item-2hkk8m[style*="opacity: 1; height: 40px; transform: none;"]::after,
+.listItem-2Ig28I.bd-selected .item-2hkk8m::after {
     background: var(--nox-black5);
 }
 
 // add/join and discovery
-.circleIconButton-1QV--U > svg {
+.circleIconButton-hZmpE8 > svg {
     z-index: 1;
 }
-.circleIconButton-1QV--U {
+.circleIconButton-hZmpE8 {
     color: var(--nox-accent);
     background-color: transparent;
     transition: color 200ms ease;
 }
 
-.circleIconButton-1QV--U.selected-1JjBPm {
+.circleIconButton-hZmpE8 {
     color: var(--nox-white);
     background-color: transparent;
 }
@@ -278,39 +279,39 @@
 
 
 /****Server Folders****/
-.folder-1hbNCn {
+.folder-2w6LX1 {
     background: none;
 }
 
-.folder-1hbNCn.hover-qTxTR_ {
+.folder-2w6LX1.hover-vBJrIv {
     background: none;
 }
 
 // Fix weird scaled folders.
-.collapsed-2ZrjoL + div .folderIconWrapper-1_bOZe {
+.collapsed-2Zqqnx + div .folderIconWrapper-1Ml_1q {
     background-color: var(--nox-white1) !important;
     transform: scale(calc(48/70));
     border-radius: 50%;
 }
 
 // blurple to accent
-.expandedFolderIconWrapper-Huv7rA svg {
+.expandedFolderIconWrapper-3fmTfW svg {
     color: var(--nox-accent)!important;
 }
 
 // material icon
-.folder-1hbNCn svg path {
+.folder-2w6LX1 svg path {
     d: path("M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z");
 }
 
 // material icon open
-.folder-1hbNCn.hover-qTxTR_ .expandedFolderIconWrapper-Huv7rA svg path{
+.folder-2w6LX1.hover-vBJrIv .expandedFolderIconWrapper-3fmTfW svg path{
     d: path("M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z")!important;
 }
 
 
 // expand bg to fit
-.expandedFolderBackground-1cujaW {
+.expandedFolderBackground-3ZDF05 {
     background: var(--nox-white1);
     padding: 6px;
     left: 5px;
@@ -318,29 +319,29 @@
 }
 
 // Fix last guild being cut off
-.wrapper-3Njo_c ul {
+.wrapper-shyHJt ul {
     height: auto!important;
 }
 
 
 // Fix hover/active blocks
-.wrapper-3Njo_c ul .item-2hkk8m::after {
+.wrapper-shyHJt ul .item-2hkk8m::after {
     width: 60px;
     left: 5px;
 }
 
-.wrapper-3Njo_c ul .listItem-GuPuDH:last-child .item-2hkk8m::after {
+.wrapper-shyHJt ul .listItem-2Ig28I:last-child .item-2hkk8m::after {
     border-radius: 0 0 30px 30px;
     height: 62px;
 }
 
 // active bg
-.wrapper-3Njo_c ul .listItem-GuPuDH:active .item-2hkk8m::after {
+.wrapper-shyHJt ul .listItem-2Ig28I:active .item-2hkk8m::after {
     background: var(--nox-black5);
 }
 
 // selected bg
-.wrapper-3Njo_c ul .listItem-GuPuDH.bd-selected .item-2hkk8m::after {
+.wrapper-shyHJt ul .listItem-2Ig28I.bd-selected .item-2hkk8m::after {
     background: var(--nox-black8);
 }
 
@@ -362,14 +363,14 @@
     }
 }
 
-.expandedFolderBackground-1cujaW.collapsed-2ZrjoL {transform: scaleY(0);}
-.expandedFolderBackground-1cujaW:not(.collapsed-2ZrjoL) {
+.expandedFolderBackground-3ZDF05.collapsed-2Zqqnx {transform: scaleY(0);}
+.expandedFolderBackground-3ZDF05:not(.collapsed-2Zqqnx) {
     animation: open-folder 200ms ease-out;
     transform-origin: 0 0;
 }
 
-.expandedFolderBackground-1cujaW:not(.collapsed-2ZrjoL) + .listItem-GuPuDH {opacity: 0;}
-.expandedFolderBackground-1cujaW:not(.collapsed-2ZrjoL) + .listItem-GuPuDH {
+.expandedFolderBackground-3ZDF05:not(.collapsed-2Zqqnx) + .listItem-2Ig28I {opacity: 0;}
+.expandedFolderBackground-3ZDF05:not(.collapsed-2Zqqnx) + .listItem-2Ig28I {
     animation: fade-in 200ms ease-out;
     animation-delay: 200ms;
     transform-origin: 0 0;
@@ -377,6 +378,6 @@
 }
 
 
-.expandedFolderBackground-1cujaW:not(.collapsed-2ZrjoL) + .listItem-GuPuDH + div {
+.expandedFolderBackground-3ZDF05:not(.collapsed-2Zqqnx) + .listItem-2Ig28I + div {
     height: unset!important;
 }

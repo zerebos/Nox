@@ -1,6 +1,6 @@
 // Unread message divider
 .messagesWrapper-1sRNjr .divider-3_HH5L.isUnread-3Ef-o9 {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     margin-top: 23px;
     // top: 5px;
     border-top: thin solid #f04747;
@@ -12,11 +12,8 @@
 }
 
 // Fix spacing issues from unread message divider
-.message-2qnXI6 + .isUnread-3Ef-o9:not(.hasContent-1cNJDh) {
+.messageListItem-1-jvGY + .isUnread-3Ef-o9:not(.hasContent-1cNJDh) {
     margin-top: -1px;
-}
-.isUnread-3Ef-o9:not(.hasContent-1cNJDh) + .message-2qnXI6 {
-    margin-top: -8px;
 }
 
 // Make unread dates readable
