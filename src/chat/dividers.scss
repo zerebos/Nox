@@ -1,5 +1,5 @@
 // Unread message divider
-.messagesWrapper-1sRNjr .divider-3_HH5L.isUnread-3Ef-o9 {
+.messagesWrapper-RpOMA3 .divider-IqmEqJ.isUnread-3Lojb- {
     margin-bottom: 0px;
     margin-top: 23px;
     // top: 5px;
@@ -7,27 +7,27 @@
 }
 
 // Move pill to outside message bg
-.unreadPill-2HyYtt, .unreadPillCap-3_K2q2 {
+.unreadPill-3nEWYM, .unreadPillCap-2-iI4h {
     right: -3px;
 }
 
 // Fix spacing issues from unread message divider
-.messageListItem-1-jvGY + .isUnread-3Ef-o9:not(.hasContent-1cNJDh) {
+.messageListItem-ZZ7v6g + .isUnread-3Lojb-:not(.hasContent-31hcsn) {
     margin-top: -1px;
 }
 
 // Make unread dates readable
-.messagesWrapper-1sRNjr .divider-3_HH5L.isUnread-3Ef-o9 .content-1o0f9g {
+.messagesWrapper-RpOMA3 .divider-IqmEqJ.isUnread-3Lojb- .content-3spvdd {
     background: #2b2b2b;
 }
 
 // Remove date dividers borders
-.messagesWrapper-1sRNjr .divider-3_HH5L {
+.messagesWrapper-RpOMA3 .divider-IqmEqJ {
     border: none;
 }
 
 // Adjust date divider labels
-.messagesWrapper-1sRNjr .divider-3_HH5L .content-1o0f9g {
+.messagesWrapper-RpOMA3 .divider-IqmEqJ .content-3spvdd {
     background: rgba(0, 0, 0, .1);
     color: var(--nox-white3);
     border-radius: 3px;

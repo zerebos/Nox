@@ -1,9 +1,9 @@
-.checkbox-3kaeSU .checkboxInner-3yjcPe input:checked+span::after,
-.checkbox-3kaeSU .checkboxInner-3yjcPe input+span::after {
+.checkbox-1ycfTw .checkboxInner-1aRh1d input:checked+span::after,
+.checkbox-1ycfTw .checkboxInner-1aRh1d input+span::after {
     display: none;
 }
 
-.checkbox-3kaeSU .checkboxInner-3yjcPe input+span::before {
+.checkbox-1ycfTw .checkboxInner-1aRh1d input+span::before {
     content: "";
     border: 20px solid var(--nox-level2);
     border-top: 0;
@@ -62,7 +62,7 @@
     }
 }
 
-.checkbox-3kaeSU .checkboxInner-3yjcPe input:checked+span::before {
+.checkbox-1ycfTw .checkboxInner-1aRh1d input:checked+span::before {
     -ms-transform: scale(.1)rotate(45deg)translate(0, 0);
     transform: scale(.1)rotate(45deg)translate(0, 0);
     width: 40px;
@@ -111,14 +111,14 @@
     }
 }
 
-.checkbox-3kaeSU .checkboxInner-3yjcPe input+span {
+.checkbox-1ycfTw .checkboxInner-1aRh1d input+span {
     background: var(--nox-accent);
     transition: all 0s;
     border-color: var(--nox-accent)!important;
     animation: box-check2 400ms cubic-bezier(.52, .01, 0, 1);
 }
 
-.checkbox-3kaeSU .checkboxInner-3yjcPe input:checked+span {
+.checkbox-1ycfTw .checkboxInner-1aRh1d input:checked+span {
     background: var(--nox-accent)!important;
     transition: all 0s;
     border-color: var(--nox-accent)!important;
@@ -149,7 +149,7 @@
     }
 }
 
-.checkbox-3kaeSU .checkboxInner-3yjcPe::after {
+.checkbox-1ycfTw .checkboxInner-1aRh1d::after {
     content: "";
     position: absolute;
     height: 100%;
@@ -163,13 +163,13 @@
     transition:200ms ease;
 }
 
-.checkbox-3kaeSU:active .checkboxInner-3yjcPe::after {
+.checkbox-1ycfTw:active .checkboxInner-1aRh1d::after {
     opacity:.2;
     transform:scale(3);
     animation:scale 100ms cubic-bezier(.4,0,0,1),opacity 50ms ease;
 }
 
-.checkbox-3kaeSU:active .checkboxInner-3yjcPe input:checked+span {
+.checkbox-1ycfTw:active .checkboxInner-1aRh1d input:checked+span {
     -ms-transform: scale(1);
     transform: scale(1);
     transition: all 100ms ease;

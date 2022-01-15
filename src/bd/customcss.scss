@@ -11,7 +11,7 @@
     background: var(--nox-level1);
 }
 
-.contentRegion-3nDuYy #bd-editor-panel::before {
+.contentRegion-3HkfJJ #bd-editor-panel::before {
     width: 100%;
     padding: 10px;
     content:"To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A\9 --nox-accent: #7289DA !important;\A\9 --nox-notification-color: #FFFFFF !important;\A\9 --nox-important-notification: #F04747 !important;\A}\A\A Don't forget to save/update when you're done!\A\A To see all the variables in the theme, just go to bit.ly/NoxTheme. ";
@@ -54,12 +54,12 @@
         transform: translate(0, -2px);
     transition: all 50ms ease;
 }
-.contentRegion-3nDuYy .CodeMirror, .contentRegion-3nDuYy .CodeMirror-scroll{
+.contentRegion-3HkfJJ .CodeMirror, .contentRegion-3HkfJJ .CodeMirror-scroll{
     max-height: calc(95vh - 250px);
     min-height: calc(95vh - 250px);
 }
 
-.contentRegion-3nDuYy #bd-customcss-attach-controls::before{
+.contentRegion-3HkfJJ #bd-customcss-attach-controls::before{
     content:"";
     position:absolute;
     color:var(--nox-white);
@@ -82,7 +82,7 @@
     margin-bottom:60px;
 }
 
-#bd-customcss-attach-controls .checkbox-3kaeSU .checkboxInner-3yjcPe input+span::before{
+#bd-customcss-attach-controls .checkbox-1ycfTw .checkboxInner-1aRh1d input+span::before{
     border-color:var(--nox-level3)!important;
   }
 
@@ -90,33 +90,33 @@
 
   /*cuscomcss*/
 
-.contentRegion-3nDuYy .CodeMirror,
-.contentRegion-3nDuYy .cm-s-material .CodeMirror-gutters,
+.contentRegion-3HkfJJ .CodeMirror,
+.contentRegion-3HkfJJ .cm-s-material .CodeMirror-gutters,
 #bd-customcss-detach-container .CodeMirror,
 #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters{
     background:var(--nox-level3)!important;
 }
-.contentRegion-3nDuYy #bd-customcss-attach-controls,
+.contentRegion-3HkfJJ #bd-customcss-attach-controls,
 #bd-customcss-detach-container #bd-customcss-attach-controls{
     background:var(--nox-level3)!important;
     box-shadow:0 1px rgba(255,255,255,.05) inset;
     margin-bottom:0!important;
 }
-.standardSidebarView-3F1I7i #bd-customcss-attach-controls button,
+.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button,
 .bd-detached-css-editor #bd-customcss-attach-controls button{
     background:var(--nox-level2)!important;
     border:none!important;
 }
-.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
+.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button:hover,
 .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
     background:#272727!important;
 }
-.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:active,
+.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button:active,
 .bd-detached-css-editor #bd-customcss-attach-controls button:active{
     background:#101010!important;
     transition:0ms;
 }
-.standardSidebarView-3F1I7i #editor-detached h3{
+.standardSidebarView-E9Pc3j #editor-detached h3{
     color:var(--nox-white3)
 }
 
@@ -125,7 +125,7 @@
 .cm-s-material .CodeMirror-guttermarker, .cm-s-material .CodeMirror-guttermarker-subtle, .cm-s-material .CodeMirror-linenumber {
     color: var(--nox-white);
 }
-.standardSidebarView-3F1I7i #bd-customcss-attach-controls button,
+.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button,
 .bd-detached-css-editor #bd-customcss-attach-controls button {
     border-radius: 3px!important;
     margin-right: 5px;

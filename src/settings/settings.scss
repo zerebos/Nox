@@ -1,5 +1,5 @@
 /* Close Button */
-.theme-dark .standardSidebarView-3F1I7i .closeButton-1tv5uR {
+.theme-dark .standardSidebarView-E9Pc3j .closeButton-PCZcma {
     border:none;
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
     background-repeat:no-repeat;
@@ -7,14 +7,14 @@
     opacity:0.8;
     position: relative;
 }
-.theme-dark .standardSidebarView-3F1I7i .closeButton-1tv5uR svg{
+.theme-dark .standardSidebarView-E9Pc3j .closeButton-PCZcma svg{
     display:none;
 }
-.theme-dark .standardSidebarView-3F1I7i .closeButton-1tv5uR:hover{
+.theme-dark .standardSidebarView-E9Pc3j .closeButton-PCZcma:hover{
     background-color:transparent;
     opacity:1;
 }
-.theme-dark .standardSidebarView-3F1I7i .closeButton-1tv5uR::after{
+.theme-dark .standardSidebarView-E9Pc3j .closeButton-PCZcma::after{
     content:"";
     background:var(--nox-white);
     border-radius:50%;
@@ -26,65 +26,65 @@
     transform:scale(1.4);
     transition:300ms ease;
 }
-.theme-dark .standardSidebarView-3F1I7i .closeButton-1tv5uR:active::after{
+.theme-dark .standardSidebarView-E9Pc3j .closeButton-PCZcma:active::after{
     opacity:0.1;
     transform:scale(1.4);
     animation:scale 100ms cubic-bezier(.4,0,0,1),opacity 100ms ease;
 }
-.theme-dark .standardSidebarView-3F1I7i .closeButton-1tv5uR:active{
+.theme-dark .standardSidebarView-E9Pc3j .closeButton-PCZcma:active{
     background-color:transparent;
     transform:none;
 }
-.theme-dark .standardSidebarView-3F1I7i .keybind-KpFkfr {
+.theme-dark .standardSidebarView-E9Pc3j .keybind-13vtq8 {
     color:rgba(255,255,255,0.25);
 }
 /* End Close Button */
 
 
-.theme-dark .standardSidebarView-3F1I7i{
+.theme-dark .standardSidebarView-E9Pc3j{
     background: transparent!important;
 }
 
-.sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.themed-OHr7kt:hover {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.themed-2-lozF:hover {
     background-color:rgba(255,255,255,.05);
     color:var(--nox-white);
 }
 
-.sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.themed-OHr7kt.selected-3s45Ha:hover,
-.sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.themed-OHr7kt.selected-3s45Ha,
-.sidebarRegion-VFTUkN #bd-settings-sidebar .ui-tab-bar-item.selected,
-.standardSidebarView-3F1I7i .bda-slist .bda-right button,
-.standardSidebarView-3F1I7i .bda-slist li button {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.themed-2-lozF.selected-g-kMVV:hover,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.themed-2-lozF.selected-g-kMVV,
+.sidebarRegion-1VBisG #bd-settings-sidebar .ui-tab-bar-item.selected,
+.standardSidebarView-E9Pc3j .bda-slist .bda-right button,
+.standardSidebarView-E9Pc3j .bda-slist li button {
     background: var(--nox-accent) !important;
 }
 
-.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
-.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP{
+.standardSidebarView-E9Pc3j .sidebarRegion-1VBisG,
+.standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh{
     background:var(--nox-level3)!important;
 }
-.standardSidebarView-3F1I7i .contentRegion-3nDuYy,
-.standardSidebarView-3F1I7i .contentRegion-3nDuYy .contentRegionScroller-26nc1e{
+.standardSidebarView-E9Pc3j .contentRegion-3HkfJJ,
+.standardSidebarView-E9Pc3j .contentRegion-3HkfJJ .contentRegionScroller-2_GT_N{
     background:var(--nox-level2)!important;
 }
 
-.standardSidebarView-3F1I7i #editor-detached button,
-.standardSidebarView-3F1I7i .bda-slist li button {
+.standardSidebarView-E9Pc3j #editor-detached button,
+.standardSidebarView-E9Pc3j .bda-slist li button {
     margin-bottom: 5px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, .0);
     transition: all 200ms ease;
     border-radius: 3px;
 }
 
-.standardSidebarView-3F1I7i #editor-detached button:hover,
-.standardSidebarView-3F1I7i .bda-slist li button:hover {
+.standardSidebarView-E9Pc3j #editor-detached button:hover,
+.standardSidebarView-E9Pc3j .bda-slist li button:hover {
     -ms-transform: translate(0, -1px);
     transform: translate(0, -1px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, .2);
     transition:all 100ms ease, transform 150ms cubic-bezier(0,0,0,1)
 }
 
-.standardSidebarView-3F1I7i #editor-detached button:active,
-.standardSidebarView-3F1I7i .bda-slist li button:active {
+.standardSidebarView-E9Pc3j #editor-detached button:active,
+.standardSidebarView-E9Pc3j .bda-slist li button:active {
     color: rgba(0, 0, 0, 0.7)!important;
     background: rgb(220, 220, 220)!important;
     -ms-transform: translate(0, 2px);
@@ -94,27 +94,27 @@
     border-radius: 4px;
 }
 
-.standardSidebarView-3F1I7i #editor-detached button:hover,
-.standardSidebarView-3F1I7i .bda-slist li button:hover {
+.standardSidebarView-E9Pc3j #editor-detached button:hover,
+.standardSidebarView-E9Pc3j .bda-slist li button:hover {
     filter: brightness(93%)contrast(110%)!important;
 }
 
-.theme-dark .separator-gCa7yv {
+.theme-dark .separator-2wx7h6 {
     background:rgba(255,255,255,.04)!important;
     height:2px!important;
 }
 
 
-.theme-dark .input-cIJ7To::-webkit-input-placeholder{
+.theme-dark .input-2g-os5::-webkit-input-placeholder{
     color:var(--nox-white6);
     transition:100ms ease;
 }
-.theme-dark .input-cIJ7To:focus::-webkit-input-placeholder{
+.theme-dark .input-2g-os5:focus::-webkit-input-placeholder{
     color:var(--nox-white3);
 }
 
 
-.theme-dark .overridePlaceholder-14_rPI{
+.theme-dark .overridePlaceholder-1nDEsX{
     border: 2px dashed var(--nox-white1);
   }
   
@@ -133,29 +133,29 @@
 
 
 
-.theme-dark .elevationBorderHigh-2WYJ09{
+.theme-dark .elevationBorderHigh-3drnJX{
     box-shadow:0 5px 10px rgba(0,0,0,.3),0 1px 0px rgba(255,255,255,.02) inset;
 }
 
-.theme-dark .elevationHigh-1PneE4{
+.theme-dark .elevationHigh-28Pty4{
     background:var(--nox-level3)!important;
 }
 
 
 
-.popout-3sVMXz .colorPickerCustom-2CWBn2 {
+.popout-3sVMXz .colorPickerCustom-1swUKF {
     background: var(--nox-level1);
     border: none;
 }
 
-.contentRegion-3nDuYy .searchBar-1MOL6S {
+.contentRegion-3HkfJJ .searchBar-1MOL6S {
     background: transparent!important
 }
 
-.foreground-2aE44H {
+.foreground-2JnqVD {
     stroke: var(--nox-accent);
 }
 
-.scroller-305q3I {
+.scroller-3_YDR2 {
     background: none;
 }

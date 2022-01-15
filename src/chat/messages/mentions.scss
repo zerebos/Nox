@@ -1,6 +1,6 @@
 // Change basic styles
-.markup-2BOw-j .mention,
-.markup-2BOw-j .wrapper-3WhCwL {
+.markup-eYLPri .mention,
+.markup-eYLPri .wrapper-1ZcZW- {
     position: relative;
     color: var(--nox-accent);
     background: transparent!important;
@@ -8,14 +8,14 @@
 }
 
 // Change hover style
-.markup-2BOw-j .mention:hover,
-.markup-2BOw-j .wrapper-3WhCwL:hover {
+.markup-eYLPri .mention:hover,
+.markup-eYLPri .wrapper-1ZcZW-:hover {
     color:var(--nox-white)!important
 }
 
 // Add faded accent bg
-.markup-2BOw-j .mention::after,
-.markup-2BOw-j .wrapper-3WhCwL::after {
+.markup-eYLPri .mention::after,
+.markup-eYLPri .wrapper-1ZcZW-::after {
     width:100%;
     height:100%;
     content:"";
@@ -28,17 +28,17 @@
 }
 
 // Lets role mentions and BRC color the bg appropriately
-.markup-2BOw-j .mention[style]::after{
+.markup-eYLPri .mention[style]::after{
     background:currentColor;
 }
 
 // Hover still goes to accent
-.markup-2BOw-j .mention:hover::after{
+.markup-eYLPri .mention:hover::after{
     opacity:1;
     background:var(--nox-accent);
 }
 
 // Remove underline when hovering in messages that mention you
-.theme-dark .mentioned-xhSam7 .mention.interactive:hover {
+.theme-dark .mentioned-Tre-dv .mention.interactive:hover {
     text-decoration: none;
 }

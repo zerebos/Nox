@@ -1,5 +1,5 @@
 /*settings animation*/
-.layer-3QrUeG.animating{
+.layer-86YKbF.animating{
     pointer-events: initial!important;
     will-change:transform,opacity;
 }
@@ -7,43 +7,43 @@
 .inner-1JeGVc,
 html,
 body,
-.layer-3QrUeG>section,
-.theme-dark .standardSidebarView-3F1I7i{
+.layer-86YKbF>section,
+.theme-dark .standardSidebarView-E9Pc3j{
   backface-visibility:hidden;
   backface-visibility:hidden;
 }
-.layer-3QrUeG{
+.layer-86YKbF{
   backface-visibility:hidden;
   backface-visibility:hidden;
     transform:none!important;
     transition:all 0.3s cubic-bezier(.4,0,0,1);
 }
-/* .layer-3QrUeG[style]{
+/* .layer-86YKbF[style]{
     transform:none!important;
 } */
-.layer-3QrUeG.animating-rRxada {
+.layer-86YKbF.animating-1rIrGV {
     transform:none!important;
 }
-.layer-3QrUeG.stop-animations:first-of-type{
+.layer-86YKbF.stop-animations:first-of-type{
     transform:scale(0.95)!important;
     opacity:0!important;
 }
 
-.layer-3QrUeG+.layer-3QrUeG{
+.layer-86YKbF+.layer-86YKbF{
     transform:scale(1.1)!important;
     opacity:0!important;
     pointer-events: none!important;
     transition: all 300ms cubic-bezier(.4,0,0,1), opacity 150ms ease;
 }
 
-.layer-3QrUeG.stop-animations~.layer-3QrUeG{
+.layer-86YKbF.stop-animations~.layer-86YKbF{
     pointer-events: initial!important;
     transform:none!important;
     opacity:1!important;
     animation:pubslayer var(--nox-settings-time) cubic-bezier(.4,0,0,1);
 }
 
-#pubslayerroot .layer-3QrUeG .standardSidebarView-3F1I7i{
+#pubslayerroot .layer-86YKbF .standardSidebarView-E9Pc3j{
     animation:pubslayer 0.5s cubic-bezier(.4,0,0,1);
     transform:none;
     opacity:1;

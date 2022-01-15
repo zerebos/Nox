@@ -4,8 +4,8 @@
 
 
 // All cozy messages get bg, padding, margin to move it over
-.cozy-3raOZG.wrapper-2a6GCs,
-.message-2qnXI6 {
+.cozy-VmLDNB.wrapper-30-Nkg,
+.message-2CShn3 {
     background: rgba(0, 0, 0, .1);
     padding: 0 7px .250rem 10px;
     margin: 0 40px 0 80px;
@@ -13,13 +13,13 @@
 }
 
 // Add top margin for separation between groups
-.cozy-3raOZG.message-2qnXI6.groupStart-23k01U {
+.cozy-VmLDNB.message-2CShn3.groupStart-3Mlgv1 {
     margin-top: 20px !important;
 }
 
 // Bubble callout
-// messageGroupCozy-2iY6cT wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica
-.message-2qnXI6.groupStart-23k01U::before {
+// messageGroupCozy-3v_RqN wrapper-30-Nkg cozy-VmLDNB zalgo-26OfGz
+.message-2CShn3.groupStart-3Mlgv1::before {
     content: "";
     width: 0px;
     height: 0px;
@@ -34,12 +34,12 @@
 }
 
 // Move header back up
-.groupStart-23k01U.cozy-3raOZG .contents-2mQqc9 {
+.groupStart-3Mlgv1.cozy-VmLDNB .contents-2MsGLg {
     margin-top: -5px;
 }
 
 // Move avatar back to the left
-.message-2qnXI6 .avatar-1BDn8e {
+.message-2CShn3 .avatar-2e8lTP {
     left: -70px;
     top: -10px;
     margin: 0;
@@ -47,30 +47,30 @@
 }
 
 // Fix avatar for replys
-.message-2qnXI6.hasReply-34In-r .avatar-1BDn8e {
+.message-2CShn3.hasReply-2Cr4KE .avatar-2e8lTP {
     left: -60px;
 }
 
 // Remove reply line
-.repliedMessage-VokQwo:before {
+.repliedMessage-3Z6XBG:before {
     content: none;
 }
 
 // Move the hover timestamps
-.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+.cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
     left: -70px;
 }
-.cozy-3raOZG .timestamp-3ZCmNB{
+.cozy-VmLDNB .timestamp-p1Df1m{
     color: var(--nox-white2);
 }
 
 // Make room for typing indicator
-// .scrollerInner-2YIMLh .message-2qnXI6:last-of-type {
+// .scrollerInner-2PPAp2 .message-2CShn3:last-of-type {
 //     margin-bottom: 30px!important;
 // }
 
 // Change (edited) to a pen icon
-.message-2qnXI6 .contents-2mQqc9 .edited-3sfAzf {
+.message-2CShn3 .contents-2MsGLg .edited-1v5nT8 {
     font-size: 0;
     width: 13px!important;
     height: 13px!important;
@@ -83,12 +83,12 @@
 }
 
 // Remove default orange background for mentioned
-.mentioned-xhSam7::before {
+.mentioned-Tre-dv::before {
     background: none;
 }
 
 // Add orange bg for mentioned
-.message-2qnXI6.mentioned-xhSam7 .markup-2BOw-j {
+.message-2CShn3.mentioned-Tre-dv .markup-eYLPri {
     border-left: 4px solid #FAA61A;
     margin-left: -4px;
     border-radius: 2px 3px 3px 2px;
@@ -99,18 +99,18 @@
 
 
 /* Message Buttons */
-.buttons-cl5qTG .wrapper-2aW0bm {
+.buttons-3dF5Kd .wrapper-2vIMkT {
     background: var(--nox-level1);
 }
 
-.buttons-cl5qTG .wrapper-2aW0bm .button-1ZiXG9:hover {
+.buttons-3dF5Kd .wrapper-2vIMkT .button-3bklZh:hover {
     background: rgba(255, 255, 255, 0.1);
 }
 
 // .button-3Jq0g9.popout-open,
-// .contents-2mQqc9:hover .button-3Jq0g9,
-// .reactionBtn-3N03Zj.popout-open,
-// .wrapper-2a6GCs:hover .reactionBtn-3N03Zj {
+// .contents-2MsGLg:hover .button-3Jq0g9,
+// .reactionBtn-3_qQdk.popout-open,
+// .wrapper-30-Nkg:hover .reactionBtn-3_qQdk {
 //     opacity: 0.4;
 // }
 
@@ -126,7 +126,7 @@
 //     background-size: 100%!important;
 // }
 
-// .reactionBtn-3N03Zj {
+// .reactionBtn-3_qQdk {
 //     -ms-transform: scale(1);
 //     transform: scale(1);
 //     opacity: 0;
@@ -138,28 +138,28 @@
 //     visibility: visible;
 // }
 
-// .reactionBtn-3N03Zj svg {
+// .reactionBtn-3_qQdk svg {
 //     display: none;
 // }
 
 // .button-3Jq0g9:hover,
-// .reactionBtn-3N03Zj:hover {
+// .reactionBtn-3_qQdk:hover {
 //     opacity: 0.7!important;
 //     transition: all 0ms ease!important;
 // }
-// .wrapper-2a6GCs .reactionBtn-3N03Zj{
+// .wrapper-30-Nkg .reactionBtn-3_qQdk{
 //     background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5pY19yZWFjdGlvbnNfZ3JleV8xNnB4PC90aXRsZT4gICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+ICAgIDxkZWZzPjwvZGVmcz4gICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+ICAgICAgICA8ZyBpZD0iaWNfcmVhY3Rpb25zX2dyZXlfMTZweCI+ICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTIiPiAgICAgICAgICAgICAgICA8ZyBpZD0iMDowOjA6MCI+ICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLTUiIHg9IjAiIHk9IjAiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PC9yZWN0PiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImVtb3RpY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjMzMzMzMywgMS4zMzMzMzMpIj48L2c+ICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTQuNjMzMjcwNSw3LjMzMzMzMzMzIEMxNC42NTU0MzA0LDcuNTUzODkzODggMTQuNjY2NjY2Nyw3Ljc3NjM2NzY5IDE0LjY2NjY2NjcsOCBDMTQuNjY2NjY2NywxMS42ODE4OTgzIDExLjY4MTg5ODMsMTQuNjY2NjY2NyA4LDE0LjY2NjY2NjcgQzYuMjMxODkwMDcsMTQuNjY2NjY2NyA0LjUzNjE5NzMyLDEzLjk2NDI4NzcgMy4yODU5NTQ3OSwxMi43MTQwNDUyIEMyLjAzNTcxMjI3LDExLjQ2MzgwMjcgMS4zMzMzMzMzMyw5Ljc2ODEwOTkzIDEuMzMzMzMzMzMsOCBDMS4zMzMzMzMzMyw0LjMzMzMzMzMzIDQuMzEzMzMzMzMsMS4zMzMzMzMzMyA4LDEuMzMzMzMzMzMgTDgsMS4zMzMzMzMzMyBDOC4yMjM2MzIzMSwxLjMzMzMzMzMzIDguNDQ2MTA2MTIsMS4zNDQ1Njk2IDguNjY2NjY2NjcsMS4zNjY3Mjk0OSBMOC42NjY2NjY2NywyLjcwODQ3NjkzIEM4LjQ0NjY4OTEyLDIuNjgwNzY3MjIgOC4yMjQwNzE0NiwyLjY2NjY2NjY3IDgsMi42NjY2NjY2NyBDNS4wNTQ0ODEzMywyLjY2NjY2NjY3IDIuNjY2NjY2NjcsNS4wNTQ0ODEzMyAyLjY2NjY2NjY3LDggQzIuNjY2NjY2NjcsMTAuOTQ1NTE4NyA1LjA1NDQ4MTMzLDEzLjMzMzMzMzMgOCwxMy4zMzMzMzMzIEMxMC45NDU1MTg3LDEzLjMzMzMzMzMgMTMuMzMzMzMzMywxMC45NDU1MTg3IDEzLjMzMzMzMzMsOCBDMTMuMzMzMzMzMyw3Ljc3NTkyODU0IDEzLjMxOTIzMjgsNy41NTMzMTA4OCAxMy4yOTE1MjMxLDcuMzMzMzMzMzMgTDE0LjYzMzI3MDUsNy4zMzMzMzMzMyBaIE04LDExLjY2NjY2NjcgQzkuNTUzMzMzMzMsMTEuNjY2NjY2NyAxMC44NjY2NjY3LDEwLjY5MzMzMzMgMTEuNDA2NjY2Nyw5LjMzMzMzMzMzIEw0LjU5MzMzMzMzLDkuMzMzMzMzMzMgQzUuMTI2NjY2NjcsMTAuNjkzMzMzMyA2LjQ0NjY2NjY3LDExLjY2NjY2NjcgOCwxMS42NjY2NjY3IFogTTEwLjMzMzMzMzMsNy4zMzMzMzMzMyBDMTAuODg1NjE4MSw3LjMzMzMzMzMzIDExLjMzMzMzMzMsNi44ODU2MTgwOCAxMS4zMzMzMzMzLDYuMzMzMzMzMzMgQzExLjMzMzMzMzMsNS43ODEwNDg1OCAxMC44ODU2MTgxLDUuMzMzMzMzMzMgMTAuMzMzMzMzMyw1LjMzMzMzMzMzIEM5Ljc4MTA0ODU4LDUuMzMzMzMzMzMgOS4zMzMzMzMzMyw1Ljc4MTA0ODU4IDkuMzMzMzMzMzMsNi4zMzMzMzMzMyBDOS4zMzMzMzMzMyw2Ljg4NTYxODA4IDkuNzgxMDQ4NTgsNy4zMzMzMzMzMyAxMC4zMzMzMzMzLDcuMzMzMzMzMzMgTDEwLjMzMzMzMzMsNy4zMzMzMzMzMyBaIE01LjY2NjY2NjY3LDcuMzMzMzMzMzMgQzYuMjE4OTUxNDIsNy4zMzMzMzMzMyA2LjY2NjY2NjY3LDYuODg1NjE4MDggNi42NjY2NjY2Nyw2LjMzMzMzMzMzIEM2LjY2NjY2NjY3LDUuNzgxMDQ4NTggNi4yMTg5NTE0Miw1LjMzMzMzMzMzIDUuNjY2NjY2NjcsNS4zMzMzMzMzMyBDNS4xMTQzODE5Miw1LjMzMzMzMzMzIDQuNjY2NjY2NjcsNS43ODEwNDg1OCA0LjY2NjY2NjY3LDYuMzMzMzMzMzMgQzQuNjY2NjY2NjcsNi44ODU2MTgwOCA1LjExNDM4MTkyLDcuMzMzMzMzMzMgNS42NjY2NjY2Nyw3LjMzMzMzMzMzIFoiIGlkPSJDb21iaW5lZC1TaGFwZSIgZmlsbD0iI2ZmZiI+PC9wYXRoPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0xNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAuNjY2NjY3LCAwLjAwMDAwMCkiIGZpbGw9IiNmZmYiPiAgICAgICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iMy4zMzMzMzMzMyAyIDMuMzMzMzMzMzMgMCAyIDAgMiAyIDAgMiAwIDMuMzMzMzMzMzMgMiAzLjMzMzMzMzMzIDIgNS4zMzMzMzMzMyAzLjMzMzMzMzMzIDUuMzMzMzMzMzMgMy4zMzMzMzMzMyAzLjMzMzMzMzMzIDUuMzMzMzMzMzMgMy4zMzMzMzMzMyA1LjMzMzMzMzMzIDIiPjwvcG9seWdvbj4gICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgIDwvZz4gICAgICAgIDwvZz4gICAgPC9nPjwvc3ZnPg==);
 // }
-// .wrapper-2a6GCs .button-3Jq0g9.popout-open::after,
-// .wrapper-2a6GCs .reactionBtn-3N03Zj.popout-open::after{
+// .wrapper-30-Nkg .button-3Jq0g9.popout-open::after,
+// .wrapper-30-Nkg .reactionBtn-3_qQdk.popout-open::after{
 //   opacity:.15;
 //   visibility: visible;
 //   transition:all 300ms ease, visibility 0ms;
 // }
 
-// .wrapper-2a6GCs .reactionBtn-3N03Zj::after,
-// .wrapper-2a6GCs .button-3Jq0g9::after,
-// .wrapper-2a6GCs .avatar-17mtNa::after {
+// .wrapper-30-Nkg .reactionBtn-3_qQdk::after,
+// .wrapper-30-Nkg .button-3Jq0g9::after,
+// .wrapper-30-Nkg .avatar-17mtNa::after {
 //     content:"";
 //     background:var(--nox-white);
 //     border-radius:50%;
@@ -176,32 +176,32 @@
 //     pointer-events: none;
 //     top: 0;
 // }
-// .wrapper-2a6GCs .reactionBtn-3N03Zj:active::after,
-// .wrapper-2a6GCs .button-3Jq0g9:active::after,
-// .wrapper-2a6GCs .avatar-17mtNa:active::after {
+// .wrapper-30-Nkg .reactionBtn-3_qQdk:active::after,
+// .wrapper-30-Nkg .button-3Jq0g9:active::after,
+// .wrapper-30-Nkg .avatar-17mtNa:active::after {
 //     opacity: 0.1;
 //     transition: all 300ms ease, visibility 0ms;
 //     visibility: visible;
 //     animation: scale 100ms cubic-bezier(.2,0,0,1),opacity 50ms ease;
 // }
 
-// .wrapper-2a6GCs .buttonContainer-37UsAw svg {
+// .wrapper-30-Nkg .buttonContainer-37UsAw svg {
 //     display: none;
 // }
 /* /Message Buttons */
 
 /* ===== Code Blocks ===== */
-.markup-2BOw-j code.inline,
-.markup-2BOw-j pre code {
+.markup-eYLPri code.inline,
+.markup-eYLPri pre code {
     background: var(--nox-level2)!important;
 }
 
-.markup-2BOw-j pre {
+.markup-eYLPri pre {
     border: 0px !important;
     background: none;
 }
 
-.markup-2BOw-j pre code {
+.markup-eYLPri pre code {
     border-radius: 5px;
     border: 2px solid var(--nox-level3) !important;
     margin-top: 5px;
@@ -211,18 +211,18 @@
 
 
 /* ===== Editing ===== */
-.message-2qnXI6 .channelTextArea-3bF57p {
+.message-2CShn3 .channelTextArea-220_Gz {
     margin-top:0;
 }
 
-.message-2qnXI6 .channelTextArea-3bF57p .inner-MADQqc {
+.message-2CShn3 .channelTextArea-220_Gz .inner-NQg18Y {
     background:transparent!important;
     opacity:1;
 }
-.message-2qnXI6 .channelTextArea-3bF57p .inner-MADQqc .textArea-12jD-V {
+.message-2CShn3 .channelTextArea-220_Gz .inner-NQg18Y .textArea-2CLwUE {
     margin-right:12px;
 }
-.wrapper-2a6GCs .message-2qnXI6 textarea {
+.wrapper-30-Nkg .message-2CShn3 textarea {
     padding: 8px;
     border-radius: 6px;
     margin-left:0;
@@ -233,13 +233,13 @@
     color:rgba(255,255,255,.6);
     opacity:1;
 }
-.wrapper-2a6GCs .message-2qnXI6 textarea:hover {
+.wrapper-30-Nkg .message-2CShn3 textarea:hover {
     color:rgba(255,255,255,.8);
 }
-.wrapper-2a6GCs .message-2qnXI6 textarea:focus {
+.wrapper-30-Nkg .message-2CShn3 textarea:focus {
     color:rgba(255,255,255,1);
 }
-.wrapper-2a6GCs .channelTextArea-3bF57p .emojiButton-2wRZts {
+.wrapper-30-Nkg .channelTextArea-220_Gz .emojiButton-2wRZts {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2LjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4em0zLjUtOWMuODMgMCAxLjUtLjY3IDEuNS0xLjVTMTYuMzMgOCAxNS41IDggMTQgOC42NyAxNCA5LjVzLjY3IDEuNSAxLjUgMS41em0tNyAwYy44MyAwIDEuNS0uNjcgMS41LTEuNVM5LjMzIDggOC41IDggNyA4LjY3IDcgOS41IDcuNjcgMTEgOC41IDExem0zLjUgNi41YzIuMzMgMCA0LjMxLTEuNDYgNS4xMS0zLjVINi44OWMuOCAyLjA0IDIuNzggMy41IDUuMTEgMy41eiIvPjwvc3ZnPg==);
     background-repeat: no-repeat;
     background-position: 50%;
@@ -250,21 +250,21 @@
     transform: scale(1.2)!important;
     padding: 0;
 }
-.operations-36ENbA > a {
+.operations-3q3u6E > a {
     color: var(--nox-accent);
 }
 /* ===== End Editing ===== */
 
 // Blocked Messages
-.blockedSystemMessage-2Rk1ek {
+.blockedSystemMessage-3FmE9n {
     padding-top: 0.25rem;
 }
 
-// .groupStart-23k01U:not(.message-2qnXI6) {
+// .groupStart-3Mlgv1:not(.message-2CShn3) {
     // padding: 0.250rem 7px 0.250rem 10px;
 // }
 
-.groupStart-23k01U:not(.message-2qnXI6).expanded-13sWhZ .message-2qnXI6 {
+.groupStart-3Mlgv1:not(.message-2CShn3).expanded-3lghlw .message-2CShn3 {
     animation: open-folder 200ms ease-out;
     transform-origin: top center;
 }
@@ -272,21 +272,21 @@
 
 
 // LOCAL BOT MESSAGES
-//<div class="isLocalBot-38G0P0 containerCozy-jafyvG wrapper-2a6GCs da-isLocalBot da-containerCozy da-container"><div class="messageCozy-2JPAPA message-1PNnaP da-messageCozy da-message" aria-disabled="false"><div class="headerCozy-2N9HOL da-headerCozy"><div tabindex="-1" class="wrapper-2F3Zv8 large-3ChYtB avatar-17mtNa da-wrapper da-large da-avatar" role="button"><div class="image-33JSyf large-3ChYtB mask-3OgeRz da-image da-large da-mask" style="background-image: url(&quot;/assets/f78426a064bc9dd24847519259bc42af.png&quot;);"></div><div class="offline-3qoTek status-oxiHuE large-3ChYtB da-offline da-status da-large"></div></div><h2 class="headerCozyMeta-rdohGq da-headerCozyMeta"><span class="usernameWrapper-1S-G5O da-usernameWrapper"><strong tabindex="0" class="username-_4ZSMR da-username" role="button">Clyde</strong><span class="botTagRegular-2HEhHi botTag-2WPJ74 botTagCozy-1875JY botTag-2BhDSU da-botTagRegular da-botTag da-botTagCozy">BOT</span></span><time class="timestampCozy-2hLAPV da-timestampCozy" datetime="1533365017454">Today at 2:43 AM</time><span class="reply-button da-replyButton"><svg class="reply-icon da-replyIcon" width="15" height="15" viewBox="0 0 24 24"><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h2></div><div class="contentCozy-3XX413 contents-2mQqc9 da-contentCozy da-content"><div class="containerCozy-336-Cz container-206Blv da-containerCozy da-container"><div class="buttonContainer-KtQ8wc da-buttonContainer"><div class="buttonContainer-37UsAw da-buttonContainer"><div class="btn-quote da-btnQuote"></div></div></div><div class="markup-2BOw-j da-markup">SHIT</div></div><div class="containerCozy-B4noqO container-1e22Ot da-containerCozy da-container"></div></div></div><div class="localBotMessage-1cGMdw da-localBotMessage">Only you can see this — <a tabindex="0" class="anchor-3Z-8Bb da-anchor" role="button">delete this message</a>.</div></div>
+//<div class="isLocalBot-38G0P0 containerCozy-jafyvG wrapper-30-Nkg da-isLocalBot da-containerCozy da-container"><div class="messageCozy-2JPAPA message-1PNnaP da-messageCozy da-message" aria-disabled="false"><div class="headerCozy-2N9HOL da-headerCozy"><div tabindex="-1" class="wrapper-2F3Zv8 large-3ChYtB avatar-17mtNa da-wrapper da-large da-avatar" role="button"><div class="image-33JSyf large-3ChYtB mask-3OgeRz da-image da-large da-mask" style="background-image: url(&quot;/assets/f78426a064bc9dd24847519259bc42af.png&quot;);"></div><div class="offline-3qoTek status-oxiHuE large-3ChYtB da-offline da-status da-large"></div></div><h2 class="headerCozyMeta-rdohGq da-headerCozyMeta"><span class="usernameWrapper-1S-G5O da-usernameWrapper"><strong tabindex="0" class="username-_4ZSMR da-username" role="button">Clyde</strong><span class="botTagRegular-kpctgU botTag-7aX5WZ botTagCozy-1875JY botTag-2BhDSU da-botTagRegular da-botTag da-botTagCozy">BOT</span></span><time class="timestampCozy-2hLAPV da-timestampCozy" datetime="1533365017454">Today at 2:43 AM</time><span class="reply-button da-replyButton"><svg class="reply-icon da-replyIcon" width="15" height="15" viewBox="0 0 24 24"><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h2></div><div class="contentCozy-3XX413 contents-2MsGLg da-contentCozy da-content"><div class="containerCozy-336-Cz container-206Blv da-containerCozy da-container"><div class="buttonContainer-KtQ8wc da-buttonContainer"><div class="buttonContainer-37UsAw da-buttonContainer"><div class="btn-quote da-btnQuote"></div></div></div><div class="markup-eYLPri da-markup">SHIT</div></div><div class="containerCozy-B4noqO container-1e22Ot da-containerCozy da-container"></div></div></div><div class="localBotMessage-1cGMdw da-localBotMessage">Only you can see this — <a tabindex="0" class="anchor-1MIwyf da-anchor" role="button">delete this message</a>.</div></div>
 
 .messages-3amgkR .isLocalBot-38G0P0.containerCozy-jafyvG {
     padding: 0px 7px 10px 10px;
 }
-.wrapper-2a6GCs.isLocalBot-38G0P0 {
+.wrapper-30-Nkg.isLocalBot-38G0P0 {
     box-shadow: none!important
 }
 
-.wrapper-2a6GCs.isLocalBot-38G0P0 {
+.wrapper-30-Nkg.isLocalBot-38G0P0 {
     background: rgba(0, 0, 0, .2);
     border-radius: 3px!important
 }
 
-.wrapper-2a6GCs.isLocalBot-38G0P0::before {
+.wrapper-30-Nkg.isLocalBot-38G0P0::before {
     visibility: hidden
 }
 // END LOCAL BOT MESSAGES
@@ -294,14 +294,14 @@
 
 
 // COMPACT
-.containerCompact-3V0ioj.wrapper-2a6GCs {
+.containerCompact-3V0ioj.wrapper-30-Nkg {
     padding: 2px 0px 2px 0px!important;
     margin: 10px 10px 10px 20px;
 }
-.containerCompact-3V0ioj.wrapper-2a6GCs::before {
+.containerCompact-3V0ioj.wrapper-30-Nkg::before {
     display:none;
 }
-.containerCompact-3V0ioj.message-2qnXI6.mentioned-xhSam7 .markup-2BOw-j {
+.containerCompact-3V0ioj.message-2CShn3.mentioned-Tre-dv .markup-eYLPri {
     border-left: 4px solid #FAA61A;
     margin-left: calc(9ch - 10px);
     padding-left: 6px;
@@ -314,19 +314,19 @@
 
 
 // POPOUT OPEN
-.message-2qnXI6 .usernameWrapper-1S-G5O.popout-open {
+.message-2CShn3 .usernameWrapper-1S-G5O.popout-open {
     background: var(--nox-accent);
 }
 
-.message-2qnXI6 .usernameWrapper-1S-G5O.popout-open .username-_4ZSMR {
+.message-2CShn3 .usernameWrapper-1S-G5O.popout-open .username-_4ZSMR {
     color: var(--nox-white)!important;
 }
 
-.message-2qnXI6 .usernameWrapper-1S-G5O .username-_4ZSMR {
+.message-2CShn3 .usernameWrapper-1S-G5O .username-_4ZSMR {
     transition: all 0ms ease!important;
 }
 
-.message-2qnXI6 .usernameWrapper-1S-G5O {
+.message-2CShn3 .usernameWrapper-1S-G5O {
     border-radius: 2px;
     margin-left: -2px;
     margin-right: -2px;
@@ -336,11 +336,11 @@
 }
 // END POPOUT OPEN
 
-.wrapper-2a6GCs > .contents-2mQqc9:first-child {
+.wrapper-30-Nkg > .contents-2MsGLg:first-child {
     position: relative;
 }
-//message-2qnXI6 cozyMessage-3V1Y8y systemMessage-1I9LCe groupStart-23k01U wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica
-// .wrapper-2a6GCs.systemMessage-1I9LCe.groupStart-23k01U > .contents-2mQqc9:first-child::after {
+//message-2CShn3 cozyMessage-1DWF9U systemMessage-1H1Z20 groupStart-3Mlgv1 wrapper-30-Nkg cozy-VmLDNB zalgo-26OfGz
+// .wrapper-30-Nkg.systemMessage-1H1Z20.groupStart-3Mlgv1 > .contents-2MsGLg:first-child::after {
 //     content: "";
 //     position: absolute;
 //     width: 40px;
@@ -354,40 +354,40 @@
 //     background-size: 100%;
 // }
 
-.wrapper-2a6GCs .reactions-12N0jA .reaction-1hd86g {
+.wrapper-30-Nkg .reactions-1BUEKl .reaction-2A2y9y {
     background: var(--nox-white1);
     border-radius: 4px;
     border: none !important;
 }
 
-.wrapper-2a6GCs .reactions-12N0jA .reaction-1hd86g:hover {
+.wrapper-30-Nkg .reactions-1BUEKl .reaction-2A2y9y:hover {
     background: var(--nox-black1);
 }
 
-.wrapper-2a6GCs .reactions-12N0jA .reaction-1hd86g.reactionMe-wv5HKu {
+.wrapper-30-Nkg .reactions-1BUEKl .reaction-2A2y9y.reactionMe-3I9gFK {
     background: var(--nox-accent);
 }
 
-.wrapper-2a6GCs .reactions-12N0jA .reaction-1hd86g .reactionCount-2mvXRV {
+.wrapper-30-Nkg .reactions-1BUEKl .reaction-2A2y9y .reactionCount-1zkLcN {
     color: var(--nox-white);
 }
 
-.wrapper-2a6GCs .reactions-12N0jA .reaction-1hd86g.reactionMe-wv5HKu .emoji {
+.wrapper-30-Nkg .reactions-1BUEKl .reaction-2A2y9y.reactionMe-3I9gFK .emoji {
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
 }
 
 // Groupstart quoted message line
-.replying-1x3H0T::before,
-.replying-1x3H0T::after {
+.replying-eZ7p5z::before,
+.replying-eZ7p5z::after {
     background-color: var(--nox-accent);
 }
 
-.groupStart-23k01U.replying-1x3H0T::before {
+.groupStart-3Mlgv1.replying-eZ7p5z::before {
     border-right-color: var(--nox-accent);
     background: none;
 }
 
-.groupStart-23k01U.replying-1x3H0T::after {
+.groupStart-3Mlgv1.replying-eZ7p5z::after {
     content: "";
     position: absolute;
     display: block;
@@ -397,6 +397,6 @@
     height: calc(100% - 0px);
 }
 
-.message-2qnXI6.groupStart-23k01U::before {
+.message-2CShn3.groupStart-3Mlgv1::before {
     transition: none;
 }
