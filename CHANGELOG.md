@@ -23,7 +23,10 @@
  - Stream preview colors
  - Dropdown menu colors
  - Restored Nox reactions theming
+ - Fixed activity button size issues in profile popout
 
+### Plugins
+ - Restored PermissionsViewer theming
 
 ## 1.1.0
 
