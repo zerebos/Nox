@@ -1,0 +1,43 @@
+// Remove rounded corner at top left of channel list and allow shadow
+.platform-win .sidebar-1tnWFu {
+    z-index: $channels-elevation;
+    overflow: visible;
+    border-radius: 0;
+    box-shadow: $elevation-shadow;
+}
+
+// Main channel list container
+.sidebar-1tnWFu .container-1NXEtd {
+    background: var(--nox-level2);
+}
+
+// Scroller
+.sidebar-1tnWFu .scroller-1ox3I2::-webkit-scrollbar {
+    width: 8px !important;
+    border-radius: 0 !important;
+    background: var(--nox-level2) !important;
+}
+
+.sidebar-1tnWFu .scroller-1ox3I2::-webkit-scrollbar-thumb {
+    visibility: visible !important;
+    border: 0 solid transparent !important;
+    border-left: 4px solid var(--nox-level2) !important;
+    border-radius: 0 !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.sidebar-1tnWFu .scroller-1ox3I2::-webkit-scrollbar-thumb:hover {
+    background: var(--nox-white1) !important;
+}
+
+.sidebar-1tnWFu .scroller-1ox3I2::-webkit-scrollbar-thumb:active {
+    background: var(--nox-white2) !important;
+}
+
+.sidebar-1tnWFu .scroller-1ox3I2::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+.sidebar-1tnWFu .scroller-1ox3I2::-webkit-scrollbar-thumb {
+    display: var(--nox-channels-scrollbar);
+}

@@ -1,0 +1,102 @@
+.theme-dark .layer-3QrUeG,
+.theme-dark .layers-3iHuyZ {
+    background:transparent;
+}
+
+.form .form-inner{
+    color:var(--nox-white);
+}
+
+
+
+
+
+
+
+
+.theme-dark .ui-selectable-item{
+    transition:50ms ease;
+}
+.theme-dark .ui-selectable-item:hover{
+    background:var(--nox-black3);
+}
+.theme-dark .ui-search-bar{
+    background:transparent;
+}
+.ui-search-bar .input{
+    width:100%!important;
+    border-bottom:2px solid var(--nox-white1);
+    border-radius:0;
+}
+.ui-search-bar .input:focus{
+    border-color:var(--nox-accent);
+}
+.ui-search-bar-icon{
+    position:absolute;
+    right:0px;
+}
+
+
+
+.theme-dark .ui-text-input.emoji-alias-input .input{
+    background:transparent;
+}
+.theme-dark .round-remove-button{
+    background-color:var(--nox-level2);
+    box-shadow:none;
+}
+.theme-dark .round-remove-button:hover{
+    box-shadow:none;
+    background-color:var(--nox-level3);
+}
+.webhook-modal{
+    background:var(--nox-level1);
+}
+.webhook-modal-footer{
+    background:#353535;
+}
+.theme-light .ui-form-title.h5{
+    color:var(--nox-white7);
+}
+
+.theme-light .ui-text-input .input,
+.theme-light .ui-text-input .input.editable:focus,
+.theme-light .ui-text-input .input.editable:hover{
+    color:var(--nox-white7);
+}
+.theme-light .ui-form-text.style-description,
+.theme-light .ui-form-text.style-label-descriptor{
+    color:var(--nox-white5);
+}
+
+.ui-button.grey.ghost,
+.theme-light .ui-input-button .input,
+.theme-light .ui-button.primary.outlined,
+.theme-light .ui-select .Select-value-label{
+    color:var(--nox-white7);
+}
+.ui-button.grey.link{
+    color:var(--nox-white4);
+}
+.form-deprecated .Select-option,
+.form-deprecated .Select-option.is-focused,
+.form-deprecated .Select-option:hover,
+.theme-light .ui-select .Select-option,
+.theme-light .ui-select .Select-option.is-focused,
+.theme-light .ui-select .Select-option:hover{
+    background:transparent;
+}
+.theme-light .ui-select .Select-menu-outer{
+    border-color:var(--nox-level2);
+    background:var(--nox-level2);
+}
+.theme-light .ui-select .is-open .Select-control{
+    background:var(--nox-level1);
+}
+.theme-dark .ui-modal, .theme-dark .ui-modal-content{
+    background:var(--nox-level1);
+}
+.theme-dark .ui-modal-footer{
+    box-shadow: none;
+    background:#353535;
+}

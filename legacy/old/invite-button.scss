@@ -1,0 +1,128 @@
+.invite-button {
+    background: var(--nox-level2)!important;
+    border: 0px solid var(--nox-level3)!important;
+    border-radius: 3px;
+    padding: 15px 20px;
+    transition: all 200ms ease!important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1), 0 1px 2px rgba(255, 255, 255, .05) inset;
+}
+
+.invite-button:hover {
+    background: var(--nox-level3)!important;
+    border: 0px solid var(--nox-level2)!important;
+    width: 240px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3), 0 1px 3px var(--nox-white1) inset;
+    transition: all 200ms ease!important;
+}
+
+.invite-button:active {
+    background: var(--nox-accent)!important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3), 0 1px 3px var(--nox-white1) inset, 0 2px 10px rgba(21, 101, 192, .3);
+    transition: 0ms!important
+}
+
+.invite-button:active .invite-button-body,
+.invite-button:active .invite-button-header {
+    color: var(--nox-white)!important
+}
+
+.invite-button-header {
+    height: 20px
+}
+
+.invite-button .invite-button-body {
+    margin-top: 0
+}
+
+.invite-button .invite-button-body,
+.invite-button .invite-button-header {
+    transition: all 300ms ease!important;
+}
+
+.invite-button:hover .invite-button-body,
+.invite-button:hover .invite-button-header {
+    width: 180px;
+}
+
+.invite-button-icon.accepted::before {
+    border: none;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDEzaC02djZoLTJ2LTZINXYtMmg2VjVoMnY2aDZ2MnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+    -ms-transform: scale(0.76);
+    transform: scale(0.76);
+    transition: all 300ms cubic-bezier(0, .34, 0, 1.54)
+}
+
+.invite-button-icon.join::before {
+    border: none;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgNGwtMS40MSAxLjQxTDE2LjE3IDExSDR2MmgxMi4xN2wtNS41OCA1LjU5TDEyIDIwbDgtOHoiLz48L3N2Zz4=);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+    -ms-transform: scale(0.60);
+    transform: scale(0.60);
+    transition: all 300ms cubic-bezier(0, .34, 0, 1.54)
+}
+
+.invite-button-icon.accepted::before {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNOSAxNi4xN0w0LjgzIDEybC0xLjQyIDEuNDFMOSAxOSAyMSA3bC0xLjQxLTEuNDF6Ii8+PC9zdmc+);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+}
+.invite-button:active .invite-button-icon.join::before,
+.invite-button:hover .invite-button-icon.join::before {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgNGwtMS40MSAxLjQxTDE2LjE3IDExSDR2MmgxMi4xN2wtNS41OCA1LjU5TDEyIDIwbDgtOHoiLz48L3N2Zz4=);
+    -ms-transform: scale(0.50)translate(10px);
+    transform: scale(0.50)translate(10px);
+}
+.invite-button:active .invite-button-icon.join,
+.invite-button:hover .invite-button-icon.join {
+    -ms-transform: translate(-5px)scale(1.2);
+    transform: translate(-5px)scale(1.2)
+}
+
+.invite-button.expired {
+    cursor: not-allowed;
+}
+
+.invite-button-icon {
+    -ms-transform: translate(-5px);
+    transform: translate(-5px)
+}
+
+.invite-button-icon.join {
+    background: var(--nox-white);
+    border: none;
+    transition: all 300ms cubic-bezier(0, .34, 0, 1.54);
+    -ms-transform: translate(-5px);
+    transform: translate(-5px)
+}
+
+.accessory .invite-button:hover .invite-button-icon.join {
+    background: var(--nox-white)!important
+}
+
+.accessory .invite-button:active .invite-button-icon.join {
+    background: rgba(0,0,0,.1)!important;
+    transition: 0ms;
+
+}
+
+.accessory .invite-button:active .invite-button-icon {
+    background: rgba(0,0,0,.1)!important;
+    transition: 0ms;
+    border-color: transparent!important;
+}
+
+.accessory .invite-button:active .invite-button-icon.join::before {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgNGwtMS40MSAxLjQxTDE2LjE3IDExSDR2MmgxMi4xN2wtNS41OCA1LjU5TDEyIDIwbDgtOHoiLz48L3N2Zz4=);
+    transition: 0ms
+}

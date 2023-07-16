@@ -1,0 +1,68 @@
+/*special messages (chh)*/
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup .emoji[src="/assets/8198c351ed59dcb838bc8e0c8885a726.svg"]{
+    display:none;
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup .emoji[src="/assets/8198c351ed59dcb838bc8e0c8885a726.svg"]~em>strong{
+    font-size: 17px!important;
+    display:inline-block;
+    margin-bottom:5px;
+    color:var(--nox-white9);
+    border-radius:3px;
+    font-style:initial;
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup u em strong{
+    visibility: hidden;
+    margin-left:-2px;
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup u{
+    text-decoration:none!important;
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup u em strong::after{
+    visibility: visible;
+    content:var(--nox-version);
+    width:300px!important;
+    background:var(--nox-accent);
+    color:var(--nox-white);
+    font-weight:600;
+    font-style:initial!important;
+    text-decoration:none!important;
+    padding:2px 10px;
+    border-radius:2px;
+    box-shadow:0 2px 15px rgba(0,0,0,.2);
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup em strong u{
+    visibility: hidden;
+    margin-left:-2px;
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup em strong u::after{
+    content:"Web/other";
+}
+.platform-win .avatar-large[style*="avatars/184021060562321419"]+.comment .markup em strong u::after{
+    content:"Windows";
+}
+.platform-osx .avatar-large[style*="avatars/184021060562321419"]+.comment .markup em strong u::after{
+    content:"OSX";
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup em strong u::after{
+    visibility: visible;
+    content:var(--nox-version);
+    width:300px!important;
+    background:var(--nox-accent);
+    color:var(--nox-white);
+    font-weight:600;
+    font-style:initial!important;
+    text-decoration:none!important;
+    padding:2px 10px;
+    border-radius:2px;
+    box-shadow:0 2px 15px rgba(0,0,0,.2);
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup em>img[src="/assets/8dcca2877f51849a159035186bf93dff.svg"]{
+    display: none;
+}
+.avatar-large[style*="avatars/184021060562321419"]+.comment .markup em>img[src="/assets/8dcca2877f51849a159035186bf93dff.svg"]+u::after{
+    content:"}";
+    font-family:BMTicons,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-style:initial!important;
+    color:var(--nox-accent);
+}
+/*special messages (chh)*/

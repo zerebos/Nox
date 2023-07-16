@@ -1,0 +1,27 @@
+.search-bar-tag {
+    background: var(--nox-level1)!important
+}
+
+
+
+.search-bar-clear::before {
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 300ms ease!important;
+}
+
+.search-bar-clear::after {
+    transition: all 300ms ease!important;
+    background: rgba(225, 225, 225, 0.4);
+}
+
+.search-bar-clear {
+    background: rgba(225, 225, 225, 0.5);
+    transition: all 300ms ease!important
+}
+
+.search-bar-clear.active {
+    -ms-transform: rotate(-180deg)scale(.8);
+    transform: rotate(-180deg)scale(.8);
+}
+
+

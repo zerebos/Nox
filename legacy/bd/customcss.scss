@@ -1,0 +1,130 @@
+#bd-customcss-detach-container {
+    background: var(--nox-level3);
+}
+
+.contentRegion-3HkfJJ #bd-customcss-attach-controls::after {
+    width: 100%;
+    padding: 10px;
+    content:"To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A\9 --nox-accent: #7289DA !important;\A\9 --nox-notification-color: #FFFFFF !important;\A\9 --nox-important-notification: #F04747 !important;\A}\A\A Don't forget to save/update when you're done!\A\A To see all the variables in the theme, just go to bit.ly/NoxTheme. ";
+    background: var(--nox-level2);
+    margin-top: 10px;
+    display: block;
+    border-radius: 2px;
+    font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
+    white-space: pre;
+    color: var(--nox-white);
+    margin-bottom: 0px;
+    width:auto;
+}
+
+#bd-customcss-detach-controls-buttons button:last-of-type::after {
+    width: 30px;
+    height: 30px;
+    content: "";
+    background: var(--nox-accent);
+    margin-top: -23px;
+    display: block;
+    position: absolute;
+    left: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, .3), 40px 0 var(--nox-notification-color), 40px 2px 10px rgba(0, 0, 0, .3);
+    transition: all 100ms ease;
+    pointer-events: none
+}
+
+#bd-customcss-detach-controls-buttons button:hover:last-of-type::after {
+    -ms-transform: translate(0, 1px);
+        transform: translate(0, 1px);
+    transition: all 150ms ease-in-out;
+}
+
+#bd-customcss-detach-controls-buttons button:active:last-of-type::after {
+    -ms-transform: translate(0, -2px);
+        transform: translate(0, -2px);
+    transition: all 50ms ease;
+}
+.contentRegion-3HkfJJ .CodeMirror, .contentRegion-3HkfJJ .CodeMirror-scroll{
+    max-height: calc(95vh - 250px);
+    min-height: calc(95vh - 250px);
+}
+
+.contentRegion-3HkfJJ #bd-customcss-attach-controls::before{
+    content:"";
+    position:absolute;
+    color:var(--nox-white);
+    background:var(--nox-accent);
+    display:block;
+    width:40px;
+    height:40px;
+    margin:5px;
+    border-radius:50%;
+    margin-top:10px;
+    box-shadow:0 2px 15px rgba(0,0,0,.3),65px -12px 0 -10px var(--nox-important-notification),65px -10px 15px -8px rgba(0,0,0,.2),50px 0 0 var(--nox-notification-color),50px 2px 15px rgba(0,0,0,.3);
+    order:5;
+    margin-top:25px;
+    transform:translate(0,-15px);
+    right:110px;
+    z-index:2;
+}
+#bd-customcss-attach-controls{
+    height:auto!important;
+    margin-bottom:60px;
+}
+
+#bd-customcss-attach-controls .checkbox-3kaeSU .checkboxInner-3yjcPe input+span::before{
+    border-color:var(--nox-level3)!important;
+  }
+
+
+
+  /*cuscomcss*/
+
+.contentRegion-3HkfJJ .CodeMirror,
+.contentRegion-3HkfJJ .cm-s-material .CodeMirror-gutters,
+#bd-customcss-detach-container .CodeMirror,
+#bd-customcss-detach-container .cm-s-material .CodeMirror-gutters{
+    background:var(--nox-level3)!important;
+}
+.contentRegion-3HkfJJ #bd-customcss-attach-controls,
+#bd-customcss-detach-container #bd-customcss-attach-controls{
+    background:var(--nox-level3)!important;
+    box-shadow:0 1px rgba(255,255,255,.05) inset;
+    margin-bottom:0!important;
+}
+.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button,
+.bd-detached-css-editor #bd-customcss-attach-controls button{
+    background:var(--nox-level2)!important;
+    border:none!important;
+}
+.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button:hover,
+.bd-detached-css-editor #bd-customcss-attach-controls button:hover{
+    background:#272727!important;
+}
+.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button:active,
+.bd-detached-css-editor #bd-customcss-attach-controls button:active{
+    background:#101010!important;
+    transition:0ms;
+}
+.standardSidebarView-E9Pc3j #editor-detached h3{
+    color:var(--nox-white3)
+}
+
+
+
+.cm-s-material .CodeMirror-guttermarker, .cm-s-material .CodeMirror-guttermarker-subtle, .cm-s-material .CodeMirror-linenumber {
+    color: var(--nox-white);
+}
+.standardSidebarView-E9Pc3j #bd-customcss-attach-controls button,
+.bd-detached-css-editor #bd-customcss-attach-controls button {
+    border-radius: 3px!important;
+    margin-right: 5px;
+}
+
+#bd-customcss-detach-controls-button span {
+    font-size: 12px!important;
+}
+
+#bd-customcss-editor,
+#bd-customcss-editor .ace-monokai .ace_gutter {
+    background: var(--nox-level3);
+}

@@ -4,7 +4,7 @@
         "stylelint-config-property-sort-order-smacss"
     ],
     "plugins": [
-		"stylelint-order"
+		    "stylelint-order"
     ],
     "rules": {
         "indentation": [4, {"except": ["value"], "severity": "warning"}],
@@ -12,6 +12,7 @@
         "no-missing-end-of-source-newline": null,
         "string-quotes": "double",
         "selector-class-pattern": null,
-        "selector-max-id": null
+        "selector-max-id": null,
+        "order/properties-alphabetical-order": null
       }
 }

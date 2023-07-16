@@ -1,0 +1,11 @@
+// Home Icon
+.homeIcon-r0w4ny {
+    width: 32px;
+    height: 32px;
+}
+
+// Change to home symbol
+.homeIcon-r0w4ny path {
+    d: path("M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z") !important;
+    transform: translate(2px, -2px);
+}

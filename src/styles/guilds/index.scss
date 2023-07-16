@@ -1,0 +1,61 @@
+// Guild list bg color
+.guilds-2JjMmN {
+    z-index: $guilds-elevation;
+    width: 70px;
+    background: var(--nox-level1) !important;
+    box-shadow: $elevation-shadow;
+}
+
+// Remove existing color
+.guilds-2JjMmN .scroller-3X7KbA {
+    background: transparent;
+}
+
+// Hide scroller
+.guilds-2JjMmN .scroller-3X7KbA::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+// Separator
+.guildSeparator-a4uisj {
+    background: var(--nox-white1);
+}
+
+// Darken folders
+.folder-241Joy,
+.folderIconWrapper-1oRIZr,
+.expandedFolderBackground-1kSAf6 {
+    background: var(--nox-level2) !important;
+    border-radius: 8px;
+}
+
+// Allow smaller border radii
+.expandedFolderBackground-1kSAf6 + .listItem-3SmSlK .svg-2ifYOU foreignObject {
+    mask: none;
+}
+
+// Selected, hover, unread indicator
+// .wrapper-z5ab_q {
+//     right: 0;
+//     bottom: 0;
+//     width: 100%;
+//     height: 100%;
+//     overflow: visible;
+// }
+
+// .item-2LIpTv {
+//     background-color: transparent;
+
+//     width: 48px;
+//     height: 48px !important;
+//     margin: 0 auto;
+//     left: 10px;
+//     border-radius: 18px;
+//     border: 2px solid var(--nox-accent);
+// }
+
+// Home button and cirlce buttons
+.childWrapper-1j_1ub,
+.circleIconButton-1VxDrg {
+    background: var(--nox-level2);
+}

@@ -1,0 +1,52 @@
+// Replace existing icon with our own
+.standardSidebarView-E9Pc3j .closeButton-PCZcma {
+    position: relative;
+    border: 0;
+    opacity: 0.8;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+// Hide existing icon
+.standardSidebarView-E9Pc3j .closeButton-PCZcma svg {
+    display: none;
+}
+
+// Hover opacity
+.standardSidebarView-E9Pc3j .closeButton-PCZcma:hover {
+    opacity: 1;
+    background-color: transparent;
+}
+
+// Setup the material active animation
+.standardSidebarView-E9Pc3j .closeButton-PCZcma::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.4);
+    transition: 300ms ease;
+    border-radius: 50%;
+    opacity: 0;
+    background: var(--nox-white);
+}
+
+// Show the active animation
+.standardSidebarView-E9Pc3j .closeButton-PCZcma:active::after {
+    transform: scale(1.4);
+    animation: scale 100ms cubic-bezier(0.4, 0, 0, 1), opacity 100ms ease;
+    opacity: 0.1;
+}
+
+// Ensure nothing on non-pseudo-element
+.standardSidebarView-E9Pc3j .closeButton-PCZcma:active {
+    transform: none;
+    background-color: transparent;
+}
+
+// Color ESC faintly
+.standardSidebarView-E9Pc3j .keybind-13vtq8 {
+    color: var(--nox-white3) !important;
+}

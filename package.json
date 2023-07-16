@@ -3,7 +3,9 @@
   "version": "1.1.0",
   "description": "Dark material theme for Discord.",
   "main": "src/index.scss",
-  "dependencies": {},
+  "dependencies": {
+    "sass": "^1.54.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp sass",
@@ -16,13 +18,13 @@
     "gulp": "^4.0.2",
     "gulp-insert": "^0.5.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-wait": "0.0.2",
     "node-sass-glob-importer": "^5.3.2",
-    "stylelint": "^13.7.2",
-    "stylelint-config-property-sort-order-smacss": "^6.3.0",
-    "stylelint-config-sass-guidelines": "^7.1.0",
-    "stylelint-order": "^4.1.0"
+    "stylelint": "^14.11.0",
+    "stylelint-config-property-sort-order-smacss": "^9.0.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-order": "^5.0.0"
   },
   "repository": {
     "type": "git",

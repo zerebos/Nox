@@ -1,0 +1,29 @@
+.wordmark-2u86JB {
+    padding: 0;
+    font-size: 12px;
+}
+
+.wordmark-2u86JB::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 17px;
+    margin: 3px 0;
+    background-image: url(inline-image("resources/images/logo.png"));
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.wordmark-2u86JB svg {
+    display: none;
+}
+
+.titleBar-1it3bQ {
+    background: #191919 !important;
+}
+
+.typeWindows-2-g3UY {
+    margin-top: 0;
+    padding-top: 4px;
+}

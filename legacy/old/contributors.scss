@@ -1,0 +1,266 @@
+.avatar-profile::before,
+.avatar-profile::after,
+.avatar-large+.comment .timestamp::before,
+.avatar-large+.comment .timestamp::after{
+    display:none!important;
+}
+
+/*Contributors*/
+/*Username*/
+.avatar-profile[style*="avatars/--"]::before,
+  .avatar-large[style*="avatars/--"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/--"]::after,
+  .avatar-large[style*="avatars/--"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Definitely Not Alex#2280*/
+.avatar-profile[style*="avatars/137302338485354496"]::before,
+  .avatar-large[style*="avatars/137302338485354496"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/137302338485354496"]::after,
+  .avatar-large[style*="avatars/137302338485354496"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*PixelatedBulb#2816*/
+.avatar-profile[style*="avatars/168303479054401537"]::before,
+  .avatar-large[style*="avatars/168303479054401537"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/168303479054401537"]::after,
+  .avatar-large[style*="avatars/168303479054401537"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*PoorPockets McNewHolͪdͥ#8740*/
+.avatar-profile[style*="avatars/277173061973835778"]::before,
+  .avatar-large[style*="avatars/277173061973835778"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/277173061973835778"]::after,
+  .avatar-large[style*="avatars/277173061973835778"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*FroztySeven#9632*/
+.avatar-profile[style*="avatars/155407912481718272"]::before,
+  .avatar-large[style*="avatars/155407912481718272"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/155407912481718272"]::after,
+  .avatar-large[style*="avatars/155407912481718272"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*SuperagiusRobloxian#5861*/
+.avatar-profile[style*="avatars/281486586749911041"]::before,
+  .avatar-large[style*="avatars/281486586749911041"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/281486586749911041"]::after,
+  .avatar-large[style*="avatars/281486586749911041"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*╲⎝⧹𝓢𝓾𝓹𝓮𝓻𝓦𝓸𝔀121⧸⎠╱#5390*/
+.avatar-profile[style*="avatars/280188541538140160"]::before,
+  .avatar-large[style*="avatars/280188541538140160"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/280188541538140160"]::after,
+  .avatar-large[style*="avatars/280188541538140160"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*william#4027*/
+.avatar-profile[style*="avatars/184008525888880640"]::before,
+  .avatar-large[style*="avatars/184008525888880640"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/184008525888880640"]::after,
+  .avatar-large[style*="avatars/184008525888880640"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Zerebos#7790*/
+.avatar-profile[style*="avatars/249746236008169473"]::before,
+  .avatar-large[style*="avatars/249746236008169473"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/249746236008169473"]::after,
+  .avatar-large[style*="avatars/249746236008169473"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*BlazingGem#7651*/
+.avatar-profile[style*="avatars/122312510769594368"]::before
+  .avatar-large[style*="avatars/122312510769594368"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/122312510769594368"]::after,
+  .avatar-large[style*="avatars/122312510769594368"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*ouchys#8480*/
+.avatar-profile[style*="avatars/235353619132579843"]::before,
+  .avatar-large[style*="avatars/235353619132579843"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/235353619132579843"]::after,
+  .avatar-large[style*="avatars/235353619132579843"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Анастасия#5580*/
+.avatar-profile[style*="avatars/259277943275126785"]::before,
+  .avatar-large[style*="avatars/259277943275126785"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/259277943275126785"]::after,
+  .avatar-large[style*="avatars/259277943275126785"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Giaco Audiovisuel#0178*/
+.avatar-profile[style*="avatars/132855540664500224"]::before,
+  .avatar-large[style*="avatars/132855540664500224"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/132855540664500224"]::after,
+  .avatar-large[style*="avatars/132855540664500224"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Viniuau#3029*/
+.avatar-profile[style*="avatars/110078241087172608"]::before,
+  .avatar-large[style*="avatars/110078241087172608"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/110078241087172608"]::after,
+  .avatar-large[style*="avatars/110078241087172608"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*asolus#0467*/
+.avatar-profile[style*="avatars/166423625728131072"]::before,
+  .avatar-large[style*="avatars/166423625728131072"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/166423625728131072"]::after,
+  .avatar-large[style*="avatars/166423625728131072"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Midorina#5706*/
+.avatar-profile[style*="avatars/90076279646212096"]::before,
+  .avatar-large[style*="avatars/90076279646212096"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/90076279646212096"]::after,
+  .avatar-large[style*="avatars/90076279646212096"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Ｋ仔 Queen 💉#8312*/
+.avatar-profile[style*="avatars/282659852701138954"]::before,
+  .avatar-large[style*="avatars/282659852701138954"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/282659852701138954"]::after,
+  .avatar-large[style*="avatars/282659852701138954"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*MGRich#8192*/
+.avatar-profile[style*="avatars/214550163841220609"]::before,
+  .avatar-large[style*="avatars/214550163841220609"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/214550163841220609"]::after,
+  .avatar-large[style*="avatars/214550163841220609"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*- ̗̀ʀΞʀIʀ▲Ҝ ̖́-#3412*/
+.avatar-profile[style*="avatars/111169969273708544"]::before,
+  .avatar-large[style*="avatars/111169969273708544"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/111169969273708544"]::after,
+  .avatar-large[style*="avatars/111169969273708544"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Morgana Chase (Winter)#0167*/
+.avatar-profile[style*="avatars/161692463365357568"]::before,
+  .avatar-large[style*="avatars/161692463365357568"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/161692463365357568"]::after,
+  .avatar-large[style*="avatars/161692463365357568"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*fofofofofofofofo#5404*/
+.avatar-profile[style*="avatars/159767754960928768"]::before,
+  .avatar-large[style*="avatars/159767754960928768"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/159767754960928768"]::after,
+  .avatar-large[style*="avatars/159767754960928768"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Pu#6606*/
+.avatar-profile[style*="avatars/116242787980017679"]::before,
+  .avatar-large[style*="avatars/116242787980017679"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/116242787980017679"]::after,
+  .avatar-large[style*="avatars/116242787980017679"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Pointy#5565*/
+.avatar-profile[style*="avatars/99914384989519872"]::before,
+  .avatar-large[style*="avatars/99914384989519872"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/99914384989519872"]::after,
+  .avatar-large[style*="avatars/99914384989519872"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/* Zekken#0101*/
+.avatar-profile[style*="avatars/153597217956036608"]::before,
+  .avatar-large[style*="avatars/153597217956036608"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/153597217956036608"]::after,
+  .avatar-large[style*="avatars/153597217956036608"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*boswelja#9614*/
+.avatar-profile[style*="avatars/258528216698978304"]::before,
+  .avatar-large[style*="avatars/258528216698978304"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/258528216698978304"]::after,
+  .avatar-large[style*="avatars/258528216698978304"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*DE|Gamingfail123#7301*/
+.avatar-profile[style*="avatars/137596811778064384"]::before,
+  .avatar-large[style*="avatars/137596811778064384"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/137596811778064384"]::after,
+  .avatar-large[style*="avatars/137596811778064384"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Jeder#2091*/
+.avatar-profile[style*="avatars/143685955436544000"]::before,
+  .avatar-large[style*="avatars/143685955436544000"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/143685955436544000"]::after,
+  .avatar-large[style*="avatars/143685955436544000"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Mist#4209*/
+.avatar-profile[style*="avatars/206318836646019073"]::before,
+  .avatar-large[style*="avatars/206318836646019073"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/206318836646019073"]::after,
+  .avatar-large[style*="avatars/206318836646019073"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Lucas#1135*/
+.avatar-profile[style*="avatars/211023028832698368"]::before,
+  .avatar-large[style*="avatars/211023028832698368"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/211023028832698368"]::after,
+  .avatar-large[style*="avatars/211023028832698368"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Jojo#0956*/
+.avatar-profile[style*="avatars/135764542410981377"]::before,
+  .avatar-large[style*="avatars/135764542410981377"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/135764542410981377"]::after,
+  .avatar-large[style*="avatars/135764542410981377"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*mushroomstewart#3338*/
+.avatar-profile[style*="avatars/259136714025467905"]::before,
+  .avatar-large[style*="avatars/259136714025467905"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/259136714025467905"]::after,
+  .avatar-large[style*="avatars/259136714025467905"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*Alipoodle#5025*/
+.avatar-profile[style*="avatars/183931930935427073"]::before,
+  .avatar-large[style*="avatars/183931930935427073"]+.comment .timestamp::before{display:inline-block!important;content: "}";}
+.avatar-profile[style*="avatars/183931930935427073"]::after,
+  .avatar-large[style*="avatars/183931930935427073"]+.comment .timestamp::after{display:inline-block!important;content: "Beard's Material Theme Contributor";}
+/*/Contributors*/
+/*contributors*/
+.avatar-profile{
+    pointer-events: none;
+}
+.avatar-profile::before{
+    color:var(--nox-white5);
+    font-size:25px;
+    z-index:1;
+    position:relative;
+    font-family:BMTicons;
+    top:-20px;
+    right:-490px;
+    background:transparent;
+    border-radius:50%;
+    padding:0px;
+    pointer-events: initial!important;
+    cursor:pointer;
+    transition:100ms ease;
+}
+.avatar-profile:hover::before{
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+    color:var(--nox-accent);
+}
+.avatar-profile::after{
+    color:var(--nox-white4);
+    font-size:18px;
+    z-index:1;
+    position:relative;
+    transform: translate(calc(-100% + 10px),-32px);
+    pointer-events: none;
+    top:-18px;
+    right:-480px;
+    width:auto;
+    background:var(--nox-accent);
+    color:var(--nox-white);
+    padding:5px 13px;
+    border-radius:40px;
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+    opacity:0;
+    transition:200ms ease;
+    white-space: nowrap;
+}
+.avatar-profile:hover::after{
+    opacity:1;
+    transform: translate(-100%,-32px);
+    transition:200ms cubic-bezier(0,0,0,1);
+}
+
+.avatar-large+.comment .timestamp::before{
+    color:var(--nox-white3);
+    font-size:13px;
+    z-index:1;
+    position:relative;
+    padding-left:1px;
+    padding-right:4px;
+    border-radius:2px;
+    margin-left:-3px;
+    transform: translate(0,1px);
+    cursor:pointer;
+    font-family:BMTicons;
+    transition:100ms ease;
+    pointer-events: initial;
+}
+
+.avatar-large+.comment .timestamp:hover::before{
+    color:var(--nox-white);
+}
+.avatar-large+.comment .timestamp{
+    pointer-events: none;
+}
+.avatar-large+.comment .timestamp::after{
+    background-color: var(--nox-level1) !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2)!important;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    z-index: 3000000;
+    display: block;
+    position:absolute;
+    pointer-events: none;
+    transition:80ms ease;
+    color:var(--nox-white);
+    width:auto;
+    left:0;
+    transform:translate(17px,-7px);
+    opacity:0;
+    top:0;
+    white-space: nowrap;
+}
+.avatar-large+.comment .timestamp:hover::after{
+    opacity:1;
+    transition:80ms ease 10ms;
+}
+.avatar-large+.comment .timestamp{
+    position:relative;
+    cursor:pointer;
+}
