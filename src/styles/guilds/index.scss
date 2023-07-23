@@ -6,9 +6,10 @@
     box-shadow: $elevation-shadow;
 }
 
-// Remove existing color
+// Remove existing color and padding
 .guilds-2JjMmN .scroller-3X7KbA {
     background: transparent;
+    padding: 0;
 }
 
 // Hide scroller
@@ -21,12 +22,24 @@
     background: var(--nox-white1);
 }
 
-// Darken folders
-.folder-241Joy,
-.folderIconWrapper-1oRIZr,
+// remove folder background
+.folder-241Joy {
+    background: none !important;
+}
+
+// recolor closed folders
+.collapsed-uGXEbi+div .folderIconWrapper-1oRIZr {
+    background: var(--nox-white2) !important;
+}
+
+// recolor open folders
 .expandedFolderBackground-1kSAf6 {
-    background: var(--nox-level2) !important;
-    border-radius: 8px;
+    background: var(--nox-white1) !important;
+}
+
+// TODO might be able to remove this - Remove weird folder background
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
+    background: none !important;
 }
 
 // Allow smaller border radii
@@ -34,28 +47,192 @@
     mask: none;
 }
 
-// Selected, hover, unread indicator
-// .wrapper-z5ab_q {
-//     right: 0;
-//     bottom: 0;
-//     width: 100%;
-//     height: 100%;
-//     overflow: visible;
-// }
+// circularize all servers/folders
+.listItem-3SmSlK .svg-2ifYOU {
+    border-radius: 50%;
+}
 
-// .item-2LIpTv {
-//     background-color: transparent;
+// remove margin between servers
+.listItem-3SmSlK {
+    margin-bottom: 0;
+}
 
-//     width: 48px;
-//     height: 48px !important;
-//     margin: 0 auto;
-//     left: 10px;
-//     border-radius: 18px;
-//     border: 2px solid var(--nox-accent);
-// }
+// increase wrapper size and center servers
+.listItem-3SmSlK .wrapper-2PSQCG {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex-wrap: unset;
+    align-items: center;
+    justify-content: center;
+}
 
-// Home button and cirlce buttons
+// center servers
+.listItem-3SmSlK .wrapper-2PSQCG > svg {
+    position: relative;
+    z-index: $guilds-elevation
+}
+
+// fix spacing after unread dm circle
+.scroller-3X7KbA div[style="opacity: 1; height: 56px; transform: scale(1);"] {
+    height: 70px !important;
+}
+
+// Home button and circle buttons
 .childWrapper-1j_1ub,
 .circleIconButton-1VxDrg {
     background: var(--nox-level2);
+}
+
+// change blurple to accent bg
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, // home icon and iconless guilds
+.circleIconButton-1VxDrg.selected-2r1Hvo { // add server and discovery
+    background: var(--nox-accent);
+}
+
+// discovery and add server change blurple to accent
+.circleIconButton-1VxDrg {
+    color: var(--nox-accent);
+}
+
+// blanks pill item
+.listItem-3SmSlK .item-2LIpTv {
+    box-sizing: border-box;
+    background: none;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// set up hover/active/selected bg
+.wrapper-2PSQCG::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 0;
+}
+
+// hover bg
+.wrapper-2PSQCG:hover:has(.selected-1Drb7Z)::after,
+.wrapper-38slSD .listItem-3SmSlK .wrapper-2PSQCG:hover:after {
+    background: var(--nox-white1);
+}
+
+// active bg
+.wrapper-2PSQCG:active:has(.selected-1Drb7Z)::after,
+.wrapper-38slSD .listItem-3SmSlK .wrapper-2PSQCG:active:after {
+    background: var(--nox-black2);
+}
+
+// selected bg
+.selected-3c78Ai .wrapper-2PSQCG::after,
+.wrapper-38slSD .listItem-3SmSlK:has(.item-2LIpTv[style*="opacity: 1; height: 40px; transform: none;"]) .wrapper-2PSQCG::after {
+    background: var(--nox-black2);
+}
+
+// set up unread circle
+.wrapper-2PSQCG::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 6px;
+    left: 6px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.listItem-3SmSlK:has(.pill-2RsI5Q .item-2LIpTv[style="opacity: 1; height: 8px; transform: none;"]) .wrapper-2PSQCG::before {
+    border-color: var(--nox-notification-color);
+}
+
+
+// TODO might move to another file Server folder stuff
+
+// change hover/active/selected background for folders
+.wrapper-38slSD ul[id*=folder-items] .wrapper-2PSQCG::after {
+    width: 60px;
+    left: 5px;
+}
+
+// prevent hover highlight for open folder icon
+.wrapper-38slSD > :not(.collapsed-uGXEbi) + .listItem-3SmSlK .wrapper-2PSQCG::after {
+    content: none
+}
+
+.wrapper-38slSD ul[id*=folder-items] .listItem-3SmSlK:last-child .wrapper-2PSQCG::after {
+    border-radius: 0 0 30px 30px;
+    height: 62px;
+}
+
+.wrapper-38slSD ul[id*=folder-items] {
+    height: auto !important;
+}
+
+.expandedFolderBackground-1kSAf6 {
+    padding: 6px;
+    left: 6px;
+    border-radius: 8px 8px 30px 30px;
+}
+
+
+// BADGES
+
+// alignment of badges
+.lowerBadge-3j0ZAg,
+.upperBadge-1d6YsW {
+    top: calc((100% - 48px) / 2);
+    left: calc((100% - 48px) / 2);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: calc($guilds-elevation + 1);
+}
+
+.lowerBadge-3j0ZAg {
+    align-items: flex-end;
+}
+
+.upperBadge-1d6YsW {
+    align-items: flex-start;
+}
+
+// in call background green to accent
+.iconBadge-32fMme.participating-2Z81oO {
+    background-color: var(--nox-accent);
+}
+
+// recolor call available background
+.iconBadge-32fMme {
+    background-color: #4e4e4e;
+}
+
+// recolor ping icon
+.numberBadge-37OJ3S {
+    background-color: var(--nox-important-notification) !important;
+}
+
+// TODO Will move to separate file
+
+// folder color to accent
+.expandedFolderIconWrapper-3RwQpD svg {
+    color: var(--nox-accent) !important;
+}
+
+// material icon
+.folder-241Joy svg path {
+    d: path("M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z");
+}
+
+// material icon hover/open
+.folder-241Joy.hover-3m7-WT svg path {
+    d: path("M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z");
 }
