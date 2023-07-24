@@ -179,7 +179,7 @@
 .expandedFolderBackground-1kSAf6 {
     padding: 6px;
     left: 6px;
-    border-radius: 8px 8px 30px 30px;
+    border-radius: 16px 16px 30px 30px;
 }
 
 
@@ -235,4 +235,10 @@
 // material icon hover/open
 .folder-241Joy.hover-3m7-WT svg path {
     d: path("M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z");
+}
+
+// make material icon bigger
+.folder-241Joy svg {
+    height: 32px;
+    width: 32px;
 }
