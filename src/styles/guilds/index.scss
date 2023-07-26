@@ -47,30 +47,36 @@
     mask: none;
 }
 
-// circularize all servers/folders
-.listItem-3SmSlK .svg-2ifYOU {
-    border-radius: 50%;
-}
-
 // remove margin between servers
 .listItem-3SmSlK {
     margin-bottom: 0;
+}
+
+// increase clicking area
+.listItem-3SmSlK .svg-2ifYOU {
+    height: 70px;
+    width: 70px;
+    z-index: $guilds-elevation;
 }
 
 // increase wrapper size and center servers
 .listItem-3SmSlK .wrapper-2PSQCG {
     height: 70px;
     width: 70px;
+    border-radius: unset;
     display: flex;
-    flex-wrap: unset;
     align-items: center;
     justify-content: center;
 }
 
-// center servers
-.listItem-3SmSlK .wrapper-2PSQCG > svg {
-    position: relative;
-    z-index: $guilds-elevation
+// scale down icons back to normal
+.wrapper-3kah-n .childWrapper-1j_1ub, // home icon
+.wrapper-3kah-n .acronym-2zrAHN, // iconless servers
+.folder-241Joy .folderIconWrapper-1oRIZr, // folders
+.circleIconButton-1VxDrg, // add server and discovery
+.wrapper-3kah-n .icon-3AqZ2e {
+    transform: scale(calc(48/70));
+    border-radius: 50%;
 }
 
 // fix spacing after unread dm circle
@@ -117,20 +123,17 @@
 }
 
 // hover bg
-.wrapper-2PSQCG:hover:has(.selected-1Drb7Z)::after,
-.wrapper-38slSD .listItem-3SmSlK .wrapper-2PSQCG:hover:after {
+.wrapper-2PSQCG:hover::after {
     background: var(--nox-white1);
 }
 
 // active bg
-.wrapper-2PSQCG:active:has(.selected-1Drb7Z)::after,
-.wrapper-38slSD .listItem-3SmSlK .wrapper-2PSQCG:active:after {
+.wrapper-2PSQCG:active::after {
     background: var(--nox-black2);
 }
 
-// selected bg
 .selected-3c78Ai .wrapper-2PSQCG::after,
-.wrapper-38slSD .listItem-3SmSlK:has(.item-2LIpTv[style*="opacity: 1; height: 40px; transform: none;"]) .wrapper-2PSQCG::after {
+.selected-3a1QGn .wrapper-2PSQCG::after {
     background: var(--nox-black2);
 }
 
@@ -149,7 +152,7 @@
     z-index: 2;
 }
 
-.listItem-3SmSlK:has(.pill-2RsI5Q .item-2LIpTv[style="opacity: 1; height: 8px; transform: none;"]) .wrapper-2PSQCG::before {
+.listItem-3SmSlK:has(.item-2LIpTv[style="opacity: 1; height: 8px; transform: none;"]) .wrapper-2PSQCG::before {
     border-color: var(--nox-notification-color);
 }
 
