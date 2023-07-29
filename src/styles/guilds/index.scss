@@ -116,6 +116,7 @@
     display: block;
     position: absolute;
     top: 0;
+    left: -1px;
     width: 100%;
     height: 100%;
     background: none;
@@ -244,4 +245,23 @@
 .folder-241Joy svg {
     height: 32px;
     width: 32px;
+}
+
+// when dragging the server, change the green to nox accent
+.centerTarget-S6BLFQ.dragOver-1OKbo2:before, .target-1eRTCg.dragOver-1OKbo2:before {
+	background-color: var(--nox-accent);
+}
+
+// change the weird squircle to a circle and also change it to a different color
+.dragInner-1CUBf_ {
+    background-color: var(--nox-black3);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    transform: scale(calc(48/70));
+    transform-origin: top left;
+}
+.listItem-3SmSlK:has(.dragInner-1CUBf_) {
+    margin-top: 11px !important;
+    margin-bottom: 11px !important;
 }
