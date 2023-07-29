@@ -1,0 +1,39 @@
+// Change basic styles
+.markup-eYLPri .mention,
+.markup-eYLPri .wrapper-1ZcZW- {
+    position: relative;
+    color: var(--nox-accent);
+    background: transparent!important;
+    z-index: 1;
+}
+
+// Change hover style
+.markup-eYLPri .mention:hover,
+.markup-eYLPri .wrapper-1ZcZW-:hover {
+    color:var(--nox-white)!important
+}
+
+// Add faded accent bg
+.markup-eYLPri .mention::after,
+.markup-eYLPri .wrapper-1ZcZW-::after {
+    width:100%;
+    height:100%;
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: -1;
+    opacity:0.15;
+    background:var(--nox-accent);
+}
+
+// Lets role mentions and BRC color the bg appropriately
+.markup-eYLPri .mention[style]::after{
+    background:currentColor;
+}
+
+// Hover still goes to accent
+.markup-eYLPri .mention:hover::after{
+    opacity:1;
+    background:var(--nox-accent);
+}
