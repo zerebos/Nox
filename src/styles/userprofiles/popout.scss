@@ -1,0 +1,241 @@
+// common card styling
+.userPopoutInner-nv9Y92 {
+    background-size: 90%; // resize nox shapes background
+
+    // replace default avatar hint
+    .avatarHintInner-2HUAWj {
+        color: transparent;
+        background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHYyaDE2di0yYzAtMi42Ni01LjMzLTQtOC00eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        box-shadow: none;
+        background-color: rgba(0,0,0,.25);
+
+    }
+
+    .userPopoutOverlayBackground-3A0Pcz { // moving layout to body sections
+        margin: 0;
+    }
+
+    .divider-2dDziJ { // hide divider below name
+        display: none;
+    }
+
+    .scrollerSeparator-6DmwRQ { // hide divider when scrolling on large cards
+        box-shadow: none;
+    }
+
+    .scroller-15bIdk { // place scrollbar on top of content move padding to children
+        padding: 0 !important;
+        overflow: hidden auto !important;
+    }
+
+    .profileBadges-2pItdR { // profile badges
+        background: none;
+        padding: 4px;
+    }
+
+    .section-28YDOf { // card body padding moved from scroller & spacing between sections
+        padding: 12px 16px 0 16px;
+        position: relative;
+    }
+
+    .section-28YDOf:has(.activity-3uaYny) { // activity bg + layout
+        background: var(--nox-black3);
+        padding-bottom: 12px;
+        margin-top: 6px;
+    }
+
+    .section-28YDOf:has(.note-1NN2aP) { // add space before note/footer section
+        margin-top: 12px;
+    }
+
+    .lastSection-q3HCfo { // creates padding between last section and end of card
+        padding-bottom: 12px;
+    }
+
+    .note-1NN2aP {
+        textarea { // align note text with title
+            margin-left: -4px;
+            width: calc(100% + 4px);
+        }
+
+        textarea::selection { // change selection color to accent
+            background: var(--nox-accent);
+        }
+    }
+
+    .messageInputContainer-24qqTx { // remove quickmessage border
+        border: none;
+
+        .input-2z42oC::selection { // change selection color to accent
+            background: var(--nox-accent);
+        }
+    }
+
+    .messageInputContainer-24qqTx:after { // quickmessage bottom border animation
+        content: '';
+        position: relative;
+        width: 0;
+        height: 2px;
+        left: auto;
+        bottom: 0;
+        background: var(--nox-accent);
+        transition: all ease-in-out .3s;
+    }
+
+    .messageInputContainer-24qqTx:focus-within::after { // quickmessage bottom border animation
+        width: 308px;
+    }
+
+}
+
+// Recolor card background for unthemed cards
+.userPopoutOuter-1OHwPL.userProfileOuterUnthemed-11rPfA {
+    background-color: var(--nox-level2);
+
+    .avatar-31d8He { // avatar bg
+        background: var(--nox-level2);
+    }
+
+    .userPopoutOverlayBackground-3A0Pcz .section-28YDOf:has(.note-1NN2aP), // note section
+    .userPopoutOverlayBackground-3A0Pcz .section-28YDOf.section-1TK4Q0 { // quick message section
+        background-color: var(--nox-level1);
+    }
+}
+
+// Remove default coloring
+.userPopoutInner-nv9Y92.userProfileInnerThemedNonPremium-2AJg-H,
+.userPopoutOverlayBackground-3A0Pcz {
+    background-color: transparent;
+}
+
+// Role stuff
+.role-2TIOKu { // set up role bg
+    background: none;
+    padding: 0 2px 0 6px;
+    border-width: 0;
+    border-radius: 3px;
+    overflow: hidden;
+
+    .roleName-2ZJJYR { // puts text on top of role bg
+        z-index: 1;
+    }
+
+    .roleIcon-29epUq { // role icon styling and puts on top of role bg 
+        z-index: 1;
+        border-radius: 3px;
+        height: auto;
+    }
+
+    .roleRemoveButton-17oXnT { // move remove role button to end
+        order: 2;
+
+        // role bg color
+        .roleCircle-3TFUOr::before,
+        .roleFlowerStar-91jU2T::before {
+            content: "";
+            visibility: visible;
+            background-color: inherit;
+            position: absolute;
+            right: -10px;
+            height: 22px;
+            width: 308px;
+            opacity: 0.6;
+        }
+    
+        .roleFlowerStar-91jU2T::before { // connected account role layout fix
+            top: -4px;
+        }
+
+        // hide role circle
+        .roleCircle-3TFUOr,
+        .roleFlowerStar-91jU2T {
+            margin: 0;
+            visibility: hidden;
+        }
+
+    }
+
+    .roleRemoveButton-17oXnT[aria-hidden="false"] { // re-add remove role button if removable role
+        background: transparent;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0icm9sZVJlbW92ZUljb24tMml1MGlFIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTJ2MTJIMCI+PC9wYXRoPjxwYXRoIGNsYXNzPSJmaWxsIiBmaWxsPSIjZmZmZmZmIiBkPSJNOS41IDMuMjA1TDguNzk1IDIuNSA2IDUuMjk1IDMuMjA1IDIuNWwtLjcwNS43MDVMNS4yOTUgNiAyLjUgOC43OTVsLjcwNS43MDVMNiA2LjcwNSA4Ljc5NSA5LjVsLjcwNS0uNzA1TDYuNzA1IDYiPjwvcGF0aD48L2c+PC9zdmc+);
+        margin-right: 2px;    
+    }
+
+    // remove space occupied by role circle
+    .roleRemoveButton-17oXnT[aria-hidden="true"] .roleCircle-3TFUOr,
+    .roleRemoveButton-17oXnT:has(.roleFlowerStar-91jU2T) {
+        width: 0;
+    }
+}
+
+// Themed card stuff
+.userPopoutOuter-1OHwPL.userProfileOuterThemed-2BgJCM .userPopoutInner-nv9Y92 {
+
+    // remove online indicator outline on themed cards
+    .avatarWrapper-eenWra circle,
+    .avatarWrapper-eenWra rect[fill="black"] {
+        visibility: hidden;
+    }
+
+    // adds background to pfps to block nox shapes
+    .avatarStack-3Bjmsl::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(var(--profile-gradient-primary-color) -40px, var(--profile-gradient-secondary-color) 40vh);
+        z-index: -1;
+    }
+
+    // darkens avatar background
+    .avatar-31d8He {
+        background-color: var(--profile-gradient-overlay-color);
+    }
+
+    // solid background for notes + quick message
+
+    // setup solid bg
+    .section-1TK4Q0::before,
+    .lastSection-q3HCfo:not(.section-1TK4Q0)::before,
+    .section-1TK4Q0::after,
+    .lastSection-q3HCfo:not(.section-1TK4Q0)::after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+
+    // has quickmessage
+    .section-1TK4Q0::before,
+    .section-1TK4Q0::after {
+        height: calc(200% + 9px);
+    }
+    // no quickmessage
+    .lastSection-q3HCfo:not(.section-1TK4Q0)::before, 
+    .lastSection-q3HCfo:not(.section-1TK4Q0)::after {
+        height: 100%;
+    }
+
+    // adds actual bg
+    .section-1TK4Q0::before,
+    .lastSection-q3HCfo:not(.section-1TK4Q0)::before {
+        background: linear-gradient(var(--profile-gradient-primary-color) -40vh, var(--profile-gradient-secondary-color));
+    }
+    .section-1TK4Q0::after,
+    .lastSection-q3HCfo:not(.section-1TK4Q0)::after {
+        background-color: var(--profile-gradient-overlay-color);
+    }
+
+    // puts notes+quickmessage back above bg
+    .section-28YDOf:has(.note-1NN2aP) .title-3CjiSS,
+    .section-28YDOf:has(.note-1NN2aP) .note-1NN2aP,
+    .section-1TK4Q0 .inputWrapper-2K8ds1 {
+        position: relative;
+        z-index: 1;
+    }
+}
