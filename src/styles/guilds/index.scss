@@ -5,6 +5,9 @@
     background: var(--nox-level1) !important;
     box-shadow: $elevation-shadow;
 }
+.listItem-3SmSlK {
+    width: 70px;
+}
 
 // Remove existing color and padding
 .guilds-2JjMmN .scroller-3X7KbA {
@@ -116,7 +119,6 @@
     display: block;
     position: absolute;
     top: 0;
-    left: -1px;
     width: 100%;
     height: 100%;
     background: none;
@@ -252,7 +254,7 @@
 	background-color: var(--nox-accent);
 }
 
-// change the weird squircle to a circle and also change it to a different color
+// change the guild drag placeholder to a circle and also change it to a different color
 .dragInner-1CUBf_ {
     background-color: var(--nox-black3);
     border-radius: 50%;
