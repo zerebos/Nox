@@ -1,0 +1,129 @@
+.privateChannels-oVe7HL { 
+    .scroller-WSmht3 {
+        background: var(--nox-level2);
+    }
+
+     .channel-1Shao0 { 
+        a .close {
+            display: block;
+            opacity: 0;
+            position: relative;
+            transition: 0ms;
+        }
+        a .close::after {
+            display: block;
+            content:"";
+            width:50px;
+            height:50px;
+            transform: translate(-50%,-50%) scale(1);
+            top:50%;
+            left:50%;
+            position: absolute;
+            border-radius: 50%;
+            background:var(--nox-white);
+            opacity:0;
+            transition: 300ms ease;
+            pointer-events: none;
+        }
+        a .close:active::after {
+            transform: translate(-50%,-50%) scale(1);
+            animation: scale-center 200ms cubic-bezier(0,0,0,1);
+            transition: 0ms ease;
+            opacity: 0.1;
+        }
+        .icon-friends {
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FscXVlXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSItOTQ3IDUyOSAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAtOTQ3IDUyOSAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2ZpbGw6bm9uZTt9DQoJLnN0MXtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0tOTQ3LDUyOWgyNHYyNGgtMjRWNTI5eiIvPg0KPHBhdGggY2xhc3M9InN0MSIgZD0iTS05MzgsNTM0Yy0xLjcsMC0zLDEuMy0zLDNzMS4zLDMsMywzczMtMS4zLDMtM1MtOTM2LjMsNTM0LTkzOCw1MzR6IE0tOTM4LDU0MmMtMi4zLDAtNywxLjItNywzLjV2Mi41aDE0di0yLjUNCglDLTkzMSw1NDMuMi05MzUuNyw1NDItOTM4LDU0MnogTS05MjUsNTM0djJoLTguMWMtMC4yLTAuNy0wLjUtMS40LTAuOS0ySC05MjV6IE0tOTMxLDU0Mmg2djJoLTQuMw0KCUMtOTI5LjcsNTQzLjItOTMwLjMsNTQyLjUtOTMxLDU0MnogTS05MzMuMSw1MzhoOC4xdjJoLTlDLTkzMy42LDUzOS40LTkzMy4zLDUzOC43LTkzMy4xLDUzOHoiLz4NCjwvc3ZnPg0K);
+            background-size: 80%;
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-color: rgba(0, 0, 0, 0);
+            opacity: 0.8!important;
+            transition: all 100ms ease;
+        }
+        .avatar-small {
+            transition: all 100ms cubic-bezier(.43, 0, 0, 1);
+        }
+        .close {
+            width: 45px;
+        }
+    }
+     
+     .channel-1Shao0 a {
+        padding:6px;
+        padding-left:10px;
+        transition:0ms;
+    }
+     .channel-1Shao0,
+     .channel-1Shao0 a {
+        overflow: visible;
+    }
+    .channel-1Shao0.selected a .close,
+     .channel-1Shao0:hover a .close {
+        opacity: 0.6;
+    }
+
+    .channel-1Shao0.btn-friends .name-2m3Cms {
+        margin-right: 30px;
+    }
+
+     .channel-1Shao0.selected .icon-friends {
+        background-color: rgba(0, 0, 0, 0);
+        opacity: 1!important;
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+     .channel-1Shao0:hover .icon-friends {
+        background-color: rgba(0, 0, 0, 0);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1!important;
+    }
+
+     .channel-1Shao0:hover.channel-muted::before,
+     .channel-1Shao0:hover:not(.unread)::before {
+        border-left: 4px solid var(--nox-white);
+        transition: all 100ms ease;
+    }
+
+     .channel-1Shao0.selected::before {
+        border-left: 2px solid var(--nox-white);
+        transition: all 100ms ease;
+    }
+}
+.stop-animations .privateChannels-0Ve7HL .channel-1Shao0 .badge,
+.privateChannels-0Ve7HL .channel-1Shao0 .badge {
+    -ms-transform: translate(-15px)!important;
+    transform: translate(-15px)!important;
+}
+
+// colors the actual dm list basically, the rest of the crap above just does other stuff ig
+[aria-label="Direct Messages"] .channel-1Shao0 {
+    .link-39sEB3 .layout-1LjVue {
+	    width: 208px;
+    }
+    .interactive-iyXY_x {
+        height: 42px;
+    }
+    .interactive-iyXY_x:hover {
+        background: rgba(255,255,255,0.05);
+    }
+    .interactive-iyXY_x.interactiveSelected-29CP8y {
+        background: var(--nox-level3);
+    }
+    .interactive-iyXY_x .link-39sEB3 {
+        padding: 0;
+    }
+}
+
+.link-39sEB3 .layout-1LjVue {
+    width: 188px;
+}
+[aria-label="Direct Messages"] .channel-1Shao0:hover {
+    .link-39sEB3 {
+        background: none;
+    }
+    .link-39sEB3 .layout-1LjVue {
+        width: 188px;
+    }
+}
