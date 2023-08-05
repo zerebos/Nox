@@ -15,6 +15,13 @@
     padding: 0;
 }
 
+// Prevent moving down on click
+.listItemWrapper-3d87LP:active, // home button
+.listItem-3SmSlK .blobContainer-ikKyFs:active //servers
+{
+    transform: none;
+}
+
 // Hide scroller
 .guilds-2JjMmN .scroller-3X7KbA::-webkit-scrollbar {
     width: 0 !important;
@@ -59,6 +66,9 @@
 .listItem-3SmSlK .svg-2ifYOU {
     height: 70px;
     width: 70px;
+    z-index: $guilds-elevation;
+}
+.wrapper-3XVBev {
     z-index: $guilds-elevation;
 }
 
