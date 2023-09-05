@@ -41,3 +41,91 @@
 .sidebar-1tnWFu .scroller-1ox3I2::-webkit-scrollbar-thumb {
     display: var(--nox-channels-scrollbar);
 }
+
+.wrapper-NhbLHG:hover .link-1_kTxV {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.modeSelected-3DmyhH .link-1_kTxV,
+.modeSelected-3DmyhH:hover .link-1_kTxV {
+    background: var(--nox-level3);
+}
+
+// name and icon color
+.name-3BUDLf,
+.name-28HaxV,
+.icon-2W8DHg {
+    color: var(--nox-white4);
+}
+
+// hover name and icon color
+.wrapper-1S43wv.muted-19J0ih:hover .icon-3zI3d2,
+.wrapper-1S43wv.muted-19J0ih:hover .name-3BUDLf,
+.wrapper-1S43wv:hover .icon-3zI3d2,
+.wrapper-1S43wv:hover .name-3BUDLf,
+.wrapper-NhbLHG:hover .overflow-1wOqNV.name-28HaxV,
+.wrapper-NhbLHG:hover svg.icon-2W8DHg,
+.wrapper-NhbLHG:hover .actionIcon-2sw4Sl {
+    color: var(--nox-white6);
+}
+
+// selected/unread name and icon color
+.wrapper-NhbLHG.modeSelected-3DmyhH .name-28HaxV,
+.wrapper-NhbLHG.modeSelected-3DmyhH .icon-2W8DHg,
+.wrapper-NhbLHG.modeSelected-3DmyhH .actionIcon-2sw4Sl,
+.modeUnread-3Cxepe .name-28HaxV,
+.modeUnread-3Cxepe:hover .name-28HaxV,
+.modeUnread-3Cxepe .icon-2W8DHg,
+.modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: var(--nox-white9);
+}
+
+// muted name and icon color
+.wrapper-NhbLHG.modeMuted-2T4MDZ .name-28HaxV,
+.wrapper-NhbLHG.modeMuted-2T4MDZ .icon-2W8DHg,
+.wrapper-1S43wv.muted-19J0ih .name-3BUDLf,
+.wrapper-1S43wv.muted-19J0ih .icon-3zI3d2 {
+    color: var(--nox-white1);
+}
+
+// userlimit
+.wrapper-2fEmwW {
+    color: var(--nox-white4);
+}
+.users-2JoyGL {
+    background-color: var(--nox-level1);
+}
+.total-1c5KCN {
+    background-color: var(--nox-level3);
+}
+.total-1c5KCN:after {
+    border-right-color: var(--nox-level3);
+}
+
+// Private channels
+.privateChannels-oVe7HL,
+.theme-dark .scroller-WSmht3 {
+    background: var(--nox-level2);
+}
+
+.interactive-26HRN_:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--nox-white6);
+}
+
+.interactiveSelected-29CP8y,
+.interactive-26HRN_:hover.interactiveSelected-29CP8y,
+.interactive-26HRN_:focus-within.interactiveSelected-29CP8y {
+    color: var(--nox-white9);
+    background: var(--nox-level3);
+}
+
+.interactive-iyXY_x,
+.privateChannelsHeaderContainer-1UWASm,
+.clickable-ZD7xvu .icon-2xnN2Y {
+    color: var(--nox-white4);
+}
+.privateChannelsHeaderContainer-1UWASm:hover,
+.clickable-ZD7xvu:hover .icon-2xnN2Y {
+    color: var(--nox-white6);
+}
