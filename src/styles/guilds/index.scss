@@ -22,6 +22,12 @@
     background: var(--nox-white1);
 }
 
+// Remove move down on click
+.listItemWrapper-3d87LP:active,
+.listItem-3SmSlK .blobContainer-ikKyFs:active {
+    transform: none;
+}
+
 // remove folder background
 .folder-241Joy {
     background: none !important;
@@ -50,6 +56,7 @@
 // remove margin between servers
 .listItem-3SmSlK {
     margin-bottom: 0;
+    width: 70px;
 }
 
 // increase clicking area
@@ -181,7 +188,7 @@
 
 .expandedFolderBackground-1kSAf6 {
     padding: 6px;
-    left: 6px;
+    left: 5px;
     border-radius: 16px 16px 30px 30px;
 }
 
@@ -215,7 +222,7 @@
 
 // recolor call available background
 .iconBadge-32fMme {
-    background-color: #4e4e4e;
+    background-color: var(--nox-level1-5);
 }
 
 // recolor ping icon
@@ -244,4 +251,23 @@
 .folder-241Joy svg {
     height: 32px;
     width: 32px;
+}
+
+// enlarge drag placeholder wrapper
+.placeholderMask-2FHNZU {
+    width: 70px;
+    height: 70px;
+}
+
+ // color and scale icon back down
+.dragInner-1CUBf_ {
+    background-color: var(--nox-black3);
+    border-radius: 50%;
+    transform: scale(calc(48/70));
+}
+
+// dragging position indicator green to accent
+.centerTarget-S6BLFQ.dragOver-1OKbo2:before, // combine server
+.target-1eRTCg.dragOver-1OKbo2:before { // above server
+	background-color: var(--nox-accent);
 }
