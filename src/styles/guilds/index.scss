@@ -66,6 +66,11 @@
     z-index: $guilds-elevation;
 }
 
+// allow dragging to work properly
+.wrapper-3XVBev {
+    z-index: $guilds-elevation;
+}
+
 // increase wrapper size and center servers
 .listItem-3SmSlK .wrapper-2PSQCG {
     height: 70px;

@@ -1,0 +1,23 @@
+.divider-IqmEqJ.hasContent-1y12-u:not(.isUnread-3Lojb-) {
+    border-color: transparent;
+}
+
+.divider-IqmEqJ.hasContent-1y12-u .content-3spvdd {
+    background: rgba(0, 0, 0, 0.1);
+    color: var(--nox-white3);
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+#---new-messages-bar.hasContent-1y12-u .content-3spvdd {
+    background: #2b2b2b;
+}
+
+#---new-messages-bar {
+    border-top: 1px solid #f04747;
+}
+
+#---new-messages-bar:not(.hasContent-1y12-u):not(.beforeGroup-1BvJAt) {
+    margin-top: -3px;
+    margin-bottom: 2px;
+}

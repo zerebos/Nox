@@ -1,5 +1,6 @@
 .form-3gdLxP {
-    background: #3A3A3A;
+    background: var(--nox-level1-5);
+    padding: 0;
     box-shadow: $elevation-shadow;
 }
 
@@ -11,9 +12,97 @@
     // max-height: 400px!important;
     // overflow-y: scroll!important;
     background: var(--nox-level1-5);
+    padding: 10px 0 10px 0;
     border-radius: 0;
 }
 
 .channelTextArea-1FufC0 {
-    margin: 10px 0 10px 0;
+    margin: 0;
+}
+
+.typing-2J1mQU {
+    background: var(--nox-level2);
+    color: var(--nox-white);
+    bottom: 100%;
+    padding: 0 20px;
+    margin-left: 15px;
+    border-radius: 5px 5px 0 0;
+    opacity: 0.95;
+    transition: opacity 200ms ease
+}
+
+.typing-2J1mQU:hover {
+    opacity: 1;
+}
+
+.typing-2J1mQU .text-3S7XCz {
+    line-height: 26px;
+}
+
+.typingDots-1Y8dki {
+    margin-right: 5px;
+}
+
+.cooldownWrapper-2k1jHK {
+    color: var(--nox-white5) !important;
+}
+
+// edit box
+.channelTextArea-220_Gz .themedBackground-3uF0xW {
+    background: var(--nox-level1-5);
+    border-radius: 3px;
+}
+
+.button-y6hemj[disabled]>.innerButton-1aF_E_>.buttonChild-33lB5F,
+.buttonChild-33lB5F {
+    color: var(--nox-white2);
+}
+
+.activeButtonChild-2hgLAO {
+    color: var(--nox-accent);
+}
+
+.button-y6hemj.button-y6hemj:focus-within .activeButtonChild-2hgLAO,
+.button-y6hemj.button-y6hemj:focus .activeButtonChild-2hgLAO,
+.button-y6hemj.button-y6hemj:hover .activeButtonChild-2hgLAO {
+    color: var(--nox-accent);
+    opacity: 0.6 !important;
+    transition: opacity ease 300ms;
+}
+
+.button-y6hemj.button-y6hemj:active .activeButtonChild-2hgLAO {
+    color: var(--nox-accent);
+    opacity: 1 !important;
+}
+
+.codeBlockText-28BOxV,
+.codeLine-2C-9aH {
+    color: var(--nox-white5);
+}
+.codeBlockSyntax-3mFGiA,
+.syntaxAfter-2_BrZf,
+.syntaxBefore-3epS3C {
+    color: var(--nox-white6);
+}
+.codeBlockLang-23YLvb {
+    color: var(--nox-accent);
+}
+
+// markdown toolbar
+.toolbar-37BrJ5 {
+    background: var(--nox-level3);
+}
+.toolbar-37BrJ5::before {
+    border-top-color: var(--nox-level3);
+}
+.toolbar-37BrJ5 .hover-3OQb9Y:hover,
+.toolbar-37BrJ5 .active-136ioF {
+    background: rgba(255, 255, 255, 0.15);
+}
+.toolbar-37BrJ5 .icon-3g7qdA {
+    color: var(--nox-white6);
+}
+.toolbar-37BrJ5 .active-136ioF .icon-3g7qdA,
+.toolbar-37BrJ5 .hover-3OQb9Y:hover .icon-3g7qdA {
+    color: var(--nox-white9);
 }
