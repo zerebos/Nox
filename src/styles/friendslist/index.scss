@@ -41,6 +41,8 @@
 
 // search bar
 .searchBar-2aylmZ {
+    margin-left: 20px;
+    margin-right: 25px;
     background: var(--nox-level3);
 }
 .input-2m5SfJ {
@@ -63,7 +65,7 @@
 .peopleListItem-u6dGxF {
     margin: 0 10px 0 20px;
     padding: 16px 10px;
-    border-radius: 0;
+    // border-radius: 0;
     border-top: none;
     background-color: rgba(0,0,0,.1);
 }
@@ -157,6 +159,7 @@
 }
 .input-1bmui3 {
     color: var(--nox-white6);
+    letter-spacing: normal;
 }
 .input-1bmui3::placeholder {
     color: var(--nox-white2);
@@ -169,11 +172,22 @@
 .container-3tKtM_:hover {
     background-color: var(--nox-black2);
 }
+.container-3tKtM_:active {
+    background-color: var(--nox-black1);
+}
+.container-3tKtM_ .icon-2O29O0 {
+    border-radius: 50%;
+}
+.container-3tKtM_:last-child .icon-2O29O0 {
+    filter: brightness(93%) hue-rotate(93deg) saturate(170%);
+}
 .container-3tKtM_ .text-1eol0X,
 .arrow-3Bdb2W {
     color: var(--nox-white4);
 }
 .container-3tKtM_:hover .text-1eol0X,
-.container-3tKtM_:hover .arrow-3Bdb2W {
+.container-3tKtM_:hover .arrow-3Bdb2W,
+.container-3tKtM_:active .text-1eol0X,
+.container-3tKtM_:active .arrow-3Bdb2W {
     color: var(--nox-white6);
 }
