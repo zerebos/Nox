@@ -1,7 +1,7 @@
 // common
-.userProfileModalOuter-2wdWjU {
+.userProfileModalOuter__3fe6b {
 
-    .userProfileModalInner-3dx9L9 {
+    .userProfileModalInner__7c87d {
         background-size: 50%;
     }
 
@@ -28,7 +28,7 @@
         visibility: hidden;
     }
 
-    .overlayBackground-2aa7wt {
+    .overlayBackground__86b78 {
         margin: 0;
         background: none;
         border-radius: 0;
@@ -61,7 +61,7 @@
     }
 
     .infoScroller-1QMpon,
-    .listScroller-entkMk {
+    .listScroller__92e1a {
         z-index: 0;
         overflow: hidden overlay !important;
     }
@@ -69,7 +69,7 @@
         padding-left: 28px;
         padding-right: 28px !important;
     }
-    .listScroller-entkMk {
+    .listScroller__92e1a {
         padding-left: 16px;
         padding-right: 16px !important;
     }
@@ -80,22 +80,22 @@
     }
 
     // all icons
-    .tabBarItem-30Te4- {
+    .tabBarItem_b56b35 {
         height: 24px;
         padding: 7px 6px;
         opacity: 0.4;
     }
 
     // hover/selected
-    .tabBarItem-30Te4-.selected-1sf9UK,
-    .tabBarItem-30Te4-:hover {
+    .tabBarItem_b56b35.selected__5711d,
+    .tabBarItem_b56b35:hover {
         opacity: 1;
         border-bottom-color: transparent !important;
 
     }
 
     // user info
-    .tabBarItem-30Te4-:nth-child(1) {
+    .tabBarItem_b56b35:nth-child(1) {
         padding-left: 0;
     }
 
@@ -105,45 +105,45 @@
     }
 
     // mutual servers & friends
-    .listRow-2nO1T6 {
+    .listRow__60937 {
         margin: 1px 0;
         padding: 8px;
     }
 
     // mutual server icons
-    .listRow-2nO1T6 .icon-1zKOXL {
+    .listRow__60937 .icon_c48348 {
         border-radius: 50%;
     }
 
-    .emptyIcon-uKVxYR { // no common servers/friends icon
+    .emptyIcon__655a1 { // no common servers/friends icon
         filter: contrast(1.1) grayscale(1) brightness(1.5);
     }
 }
 
 // Unthemed
-.userProfileModalOuter-2wdWjU.userProfileOuterUnthemed-11rPfA {
+.userProfileModalOuter__3fe6b.userProfileOuterUnthemed__48723 {
 
-    .userProfileModalInner-3dx9L9 {
+    .userProfileModalInner__7c87d {
         background-color: var(--nox-level2);
     }
 
     .infoScroller-1QMpon,
-    .listScroller-entkMk {
+    .listScroller__92e1a {
         background: var(--nox-level1);
     }
 
     
-    .listRow-2nO1T6:hover {
+    .listRow__60937:hover {
         background-color: rgba(255, 255, 255, 0.05);
     }
 
 }
 
 // Themed
-.userProfileModalOuter-2wdWjU.userProfileOuterThemed-2BgJCM {
+.userProfileModalOuter__3fe6b.userProfileOuterThemed__6eb84 {
 
     .infoScroller-1QMpon::before,
-    .listScroller-entkMk::before {
+    .listScroller__92e1a::before {
         content: '';
         width: 600px;
         height: 264px;
@@ -153,7 +153,7 @@
         background-color: var(--profile-gradient-overlay-color);
     }
     .infoScroller-1QMpon::after,
-    .listScroller-entkMk::after {
+    .listScroller__92e1a::after {
         content: '';
         width: 600px;
         height: 264px;
@@ -164,49 +164,49 @@
         z-index: -1;
     }
     .infoScroller-1QMpon > *,
-    .listScroller-entkMk > *{
+    .listScroller__92e1a > *{
         position: relative;
     }
-    .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .infoScroller-1QMpon::after,
-    .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .listScroller-entkMk::after {
+    .userProfileInnerThemedPremiumWithoutBanner__703b1 .infoScroller-1QMpon::after,
+    .userProfileInnerThemedPremiumWithoutBanner__703b1 .listScroller__92e1a::after {
         background: linear-gradient(var(--profile-gradient-primary-color) -300px, var(--profile-gradient-secondary-color));
     }
 }
 
 .theme-dark {
-    .tabBarItem-30Te4-:nth-child(1) { // user info
+    .tabBarItem_b56b35:nth-child(1) { // user info
         padding-left: 0;
         content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHYyaDE2di0yYzAtMi42Ni01LjMzLTQtOC00eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+);
     }
 
-    .tabBarItem-30Te4-:nth-child(2):nth-last-child(3) { // activity
+    .tabBarItem_b56b35:nth-child(2):nth-last-child(3) { // activity
         content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTUgNy41VjJIOXY1LjVsMyAzIDMtM3pNNy41IDlIMnY2aDUuNWwzLTMtMy0zek05IDE2LjVWMjJoNnYtNS41bC0zLTMtMyAzek0xNi41IDlsLTMgMyAzIDNIMjJWOWgtNS41eiIvPjwvc3ZnPg==);
     }
 
-    .tabBarItem-30Te4-:nth-last-child(2) { // mutual servers
+    .tabBarItem_b56b35:nth-last-child(2) { // mutual servers
         content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMjAgMTNINGMtLjU1IDAtMSAuNDUtMSAxdjZjMCAuNTUuNDUgMSAxIDFoMTZjLjU1IDAgMS0uNDUgMS0xdi02YzAtLjU1LS40NS0xLTEtMXpNNyAxOWMtMS4xIDAtMi0uOS0yLTJzLjktMiAyLTIgMiAuOSAyIDItLjkgMi0yIDJ6TTIwIDNINGMtLjU1IDAtMSAuNDUtMSAxdjZjMCAuNTUuNDUgMSAxIDFoMTZjLjU1IDAgMS0uNDUgMS0xVjRjMC0uNTUtLjQ1LTEtMS0xek03IDljLTEuMSAwLTItLjktMi0ycy45LTIgMi0yIDIgLjkgMiAyLS45IDItMiAyeiIvPjwvc3ZnPg==);
     }
 
-    .tabBarItem-30Te4-:nth-last-child(1) { // mutual friends
+    .tabBarItem_b56b35:nth-last-child(1) { // mutual friends
         content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+PC9zdmc+);
     }
 }
 
 .theme-light {
-    .tabBarItem-30Te4-:nth-child(1) { // user info
+    .tabBarItem_b56b35:nth-child(1) { // user info
         padding-left: 0;
         content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHYyaDE2di0yYzAtMi42Ni01LjMzLTQtOC00eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+);
     }
 
-    .tabBarItem-30Te4-:nth-child(2):nth-last-child(3) { // activity
+    .tabBarItem_b56b35:nth-child(2):nth-last-child(3) { // activity
         content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTUgNy41VjJIOXY1LjVsMyAzIDMtM3pNNy41IDlIMnY2aDUuNWwzLTMtMy0zek05IDE2LjVWMjJoNnYtNS41bC0zLTMtMyAzek0xNi41IDlsLTMgMyAzIDNIMjJWOWgtNS41eiIvPjwvc3ZnPg==);
     }
 
-    .tabBarItem-30Te4-:nth-last-child(2) { // mutual servers
+    .tabBarItem_b56b35:nth-last-child(2) { // mutual servers
         content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMjAgMTNINGMtLjU1IDAtMSAuNDUtMSAxdjZjMCAuNTUuNDUgMSAxIDFoMTZjLjU1IDAgMS0uNDUgMS0xdi02YzAtLjU1LS40NS0xLTEtMXpNNyAxOWMtMS4xIDAtMi0uOS0yLTJzLjktMiAyLTIgMiAuOSAyIDItLjkgMi0yIDJ6TTIwIDNINGMtLjU1IDAtMSAuNDUtMSAxdjZjMCAuNTUuNDUgMSAxIDFoMTZjLjU1IDAgMS0uNDUgMS0xVjRjMC0uNTUtLjQ1LTEtMS0xek03IDljLTEuMSAwLTItLjktMi0ycy45LTIgMi0yIDIgLjkgMiAyLS45IDItMiAyeiIvPjwvc3ZnPg==);
     }
 
-    .tabBarItem-30Te4-:nth-last-child(1) { // mutual friends
+    .tabBarItem_b56b35:nth-last-child(1) { // mutual friends
         content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+PC9zdmc+);
     }
 }

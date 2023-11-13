@@ -1,54 +1,54 @@
 // invite embed
-.wrapper-1HIH0j {
+.wrapper_efe67f {
     background-color: var(--nox-level2);
     border-radius: 3px;
 }
-.wrapper-1HIH0j .flowerStar-2tNFCR path {
+.wrapper_efe67f .flowerStar_a9981e path {
     fill: var(--nox-accent);
 }
-.guildIconExpired-2BFmZC {
+.guildIconExpired__1d51f {
     filter: grayscale(1);
     background-color: rgba(255, 255, 255, .05);
     border-radius: 50%;
 }
 
 // bot embed
-.embedFull-1HGV2S {
+.embedFull__8dc21 {
     border-color: var(--nox-white1);
     background: var(--nox-level2);
     border-radius: 3px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
-.botTagRegular-kpctgU {
+.botTagRegular_c89c9a {
     background: var(--nox-accent);
 }
 
 // file embed
-.attachment-1PZZB2.attachment-1PZZB2 {
+.attachment_f3cf2c.attachment_f3cf2c {
     background-color: var(--nox-level2);
     border-color: var(--nox-level3);
     border-radius: 2px;
 }
-.attachment-1PZZB2 .metadata-1E7Z4i {
+.attachment_f3cf2c .metadata__541c7 {
     color: var(--nox-white2)
 }
 
 // textfile embed
-.newMosaicStyle-2jdUaP .textContainer-36wgKK {
+.newMosaicStyle__8d3be .textContainer__709ff {
     border-radius: 3px 3px 0 0;
 }
-.newMosaicStyle-2jdUaP .footer-GXWBBp {
+.newMosaicStyle__8d3be .footer__06f4b {
     border-radius: 0 0 3px 3px;
 }
-.textContainer-36wgKK,
-.footer-GXWBBp,
-.codeView-12LUIl {
+.textContainer__709ff,
+.footer__06f4b,
+.codeView__8b1ff {
     background-color: var(--nox-level2);
     border-color: var(--nox-level3);
     color: var(--nox-white6);
 }
-.toggleExpandSection-1710zV {
+.toggleExpandSection__5dbd6 {
     color: var(--nox-white6);
 }
 .theme-dark .hljs-code,
@@ -56,63 +56,63 @@
 .theme-dark .hljs-formula {
     color: var(--nox-white4);
 }
-.toggleExpandSection-1710zV:hover {
+.toggleExpandSection__5dbd6:hover {
     color: var(--nox-white9);
 }
-.footer-GXWBBp .formattedSize-1YbZww {
+.footer__06f4b .formattedSize__07da1 {
     color: var(--nox-white2);
 }
-.footer-GXWBBp .downloadButton-2PkwZg,
-.footer-GXWBBp .codeIcon-Ni8XUA {
+.footer__06f4b .downloadButton__620ea,
+.footer__06f4b .codeIcon__14a76 {
     color: var(--nox-white4);
 }
-.footer-GXWBBp .downloadSection-20OayS:hover .downloadButton-2PkwZg,
-.footer-GXWBBp .codeIcon-Ni8XUA:hover {
+.footer__06f4b .downloadSection_a31362:hover .downloadButton__620ea,
+.footer__06f4b .codeIcon__14a76:hover {
     color: var(--nox-white6);
 }
 // language selector
-.languageSelector-2e1IuO {
+.languageSelector_a1c2f3 {
     background-color: var(--nox-level2);
     border-radius: 0;
 }
-.languageSelector-2e1IuO .container-2oNtJn {
+.languageSelector_a1c2f3 .container__7712a {
     background-color: var(--nox-level1);
     border-radius: 0;
     margin: 2px 2px 0 2px;
 }
-.languageSelector-2e1IuO .item-1Mjtru {
+.languageSelector_a1c2f3 .item__287de {
     border-radius: 3px;
     color: var(--nox-white4);
 }
-.focused-3v9Ulm, .item-1Mjtru:hover:not(.disabled-Lzz-qs) {
+.focused__2b1b2, .item__287de:hover:not(.disabled__1c6ff) {
     background-color: rgba(255, 255, 255, .05);
     color: var(--nox-white6);
 }
-.item-1Mjtru.item-1Mjtru.selected-3xdT87 {
+.item__287de.item__287de.selected__511cf {
     background-color: var(--nox-black3);
     color: var(--nox-white9);
 }
 
 // video embed
-.mediaBarProgress-38I317,
-.mediaBarProgress-38I317:after,
-.mediaBarProgress-38I317:before {
+.mediaBarProgress__29db2,
+.mediaBarProgress__29db2:after,
+.mediaBarProgress__29db2:before {
     background-color: var(--nox-accent);
 }
-.mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg,
-.mediaBarInteractionDragging-3XLL8k .mediaBarGrabber-FvJKJg {
+.mediaBarInteraction__0633c:hover .mediaBarGrabber_c64ff9,
+.mediaBarInteractionDragging__0a2ee .mediaBarGrabber_c64ff9 {
     background-color: var(--nox-accent);
 }
 
 // audio embed
-.wrapperAudio-1Bzv_Z.wrapperAudio-1Bzv_Z {
+.wrapperAudio__555ce.wrapperAudio__555ce {
     background-color: var(--nox-level2);
     border: none;
     border-radius: 3px;
 }
-.audioControls-3fmemK {
+.audioControls__9fbe9 {
     background-color: var(--nox-level3);
 }
-.audioMetadata-1Hrt8T:before {
+.audioMetadata_e546a8:before {
     filter: hue-rotate(-17deg);
 }

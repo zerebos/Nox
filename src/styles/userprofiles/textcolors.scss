@@ -1,45 +1,45 @@
 // Dark & unthemed popouts
-.userPopoutOuter-1OHwPL.theme-dark {
-    .title-3CjiSS { // headings
+.userPopoutOuter_d739b2.theme-dark {
+    .title_ef4a6d { // headings
         color: var(--nox-white);
     }
 
-    .text-sm-normal-AEQz4v, // join dates
-    .discordIcon-32mgeP { // discord logo
+    .text-sm-normal_d9d853, // join dates
+    .discordIcon_feeef1 { // discord logo
         color: var(--nox-white7);
     }
 
-    .nickname-3P1RuO { // nickname
+    .nickname__3d1d7 { // nickname
         color: var(--nox-white);
     }
 
-    .pronouns-17_QV6 { // pronouns
+    .pronouns__8bcdb { // pronouns
         color: var(--nox-white7);
     }
 
-    .userTagUsernameBase-267ALn { // username
+    .userTagUsernameBase__75fb1 { // username
         color: var(--nox-white7);
     }
 
-    .discrimBase-v65kTs { // discriminator
+    .discrimBase_e0c4c5 { // discriminator
         color: var(--nox-white5);
     }
     
-    .customStatus-19KW6v { // status
+    .customStatus__3aa7f { // status
         color: var(--nox-white7);
     }
 
-    .activityUserPopoutV2-3eKqzY { // activity
-        .headerText-3g1XK9 { // heading
+    .activityUserPopoutV2__32328 { // activity
+        .headerText__7d203 { // heading
             color: var(--nox-white);
         }
-        .nameWrap-3TyM52 { // content
+        .nameWrap__7263f { // content
             color: var(--nox-white7);
         }
     }
 
     // notes section
-    .note-1NN2aP {
+    .note_ba0c31 {
         textarea {
             color: var(--nox-white6);
         }
@@ -62,21 +62,21 @@
     }
 
     // quick message section
-    .messageInputContainer-24qqTx {
+    .messageInputContainer__768e6 {
 
-        .input-2z42oC {
+        .input__95bc4 {
             color: var(--nox-white9);
         }
 
-        .input-2z42oC::-webkit-input-placeholder {
+        .input__95bc4::-webkit-input-placeholder {
             color: var(--nox-white2);
         }
 
-        .input-2z42oC:focus::-webkit-input-placeholder {
+        .input__95bc4:focus::-webkit-input-placeholder {
             color: var(--nox-white6);
         }
 
-        .input-2z42oC::selection {
+        .input__95bc4::selection {
             color: var(--nox-white);
         }
 
@@ -85,47 +85,47 @@
 }
 
 // Light themed popouts
-.userPopoutOuter-1OHwPL.theme-light {
-    .title-3CjiSS { // headings
+.userPopoutOuter_d739b2.theme-light {
+    .title_ef4a6d { // headings
         color: var(--nox-black);
     }
 
-    .text-sm-normal-AEQz4v, // join dates
-    .discordIcon-32mgeP { // discord logo
+    .text-sm-normal_d9d853, // join dates
+    .discordIcon_feeef1 { // discord logo
         color: var(--nox-black8);
     }
 
-    .nickname-3P1RuO { // nickname
+    .nickname__3d1d7 { // nickname
         color: var(--nox-black);
     }
 
-    .pronouns-17_QV6 { // pronouns
+    .pronouns__8bcdb { // pronouns
         color: var(--nox-black8);
     }
 
-    .userTagUsernameBase-267ALn { // username
+    .userTagUsernameBase__75fb1 { // username
         color: var(--nox-black8);
     }
 
-    .discrimBase-v65kTs { // discriminator
+    .discrimBase_e0c4c5 { // discriminator
         color: var(--nox-black6);
     }
 
-    .customStatus-19KW6v { // status
+    .customStatus__3aa7f { // status
         color: var(--nox-black8);
     }
 
-    .activityUserPopoutV2-3eKqzY { // activity
-        .headerText-3g1XK9 { // heading
+    .activityUserPopoutV2__32328 { // activity
+        .headerText__7d203 { // heading
             color: var(--nox-black);
         }
-        .nameWrap-3TyM52 { // content
+        .nameWrap__7263f { // content
             color: var(--nox-black8);
         }
     }
 
     // notes section
-    .note-1NN2aP {
+    .note_ba0c31 {
         textarea {
             color: var(--nox-black7);
         }
@@ -148,17 +148,17 @@
     }
 
     // quick message section
-    .messageInputContainer-24qqTx {
+    .messageInputContainer__768e6 {
 
-        .input-2z42oC {
+        .input__95bc4 {
             color: var(--nox-black9);
         }
 
-        .input-2z42oC::-webkit-input-placeholder {
+        .input__95bc4::-webkit-input-placeholder {
             color: var(--nox-black5);
         }
 
-        .input-2z42oC:focus::-webkit-input-placeholder {
+        .input__95bc4:focus::-webkit-input-placeholder {
             color: var(--nox-black7);
         }
 
@@ -166,10 +166,10 @@
 }
 
 // Dark & unthemed modals
-.userProfileModalOuter-2wdWjU.theme-dark {
+.userProfileModalOuter__3fe6b.theme-dark {
     //top section
 
-    .text-lg-semibold-UQkeZc { // nickname
+    .text-lg-semibold__84aef { // nickname
         color: var(--nox-white);
     }
 
@@ -193,7 +193,7 @@
         color: var(--nox-white);
     }
     
-    .text-sm-normal-AEQz4v { // body text
+    .text-sm-normal_d9d853 { // body text
         color: var(--nox-white7);
     }
 
@@ -220,21 +220,21 @@
         }
     }
 
-    .listRowContent-PEmSWj { // mutual server title
+    .listRowContent_ba135a { // mutual server title
         color: var(--nox-white7);
     }
-    .guildNick-fe8oPN { // mutual server nickname
+    .guildNick__01069 { // mutual server nickname
         color: var(--nox-white4);
     }
 
-    .listName-PwbeHL { // mutual friend name
+    .listName_dbd44a { // mutual friend name
         color: var(--nox-white7);
     }
-    .listDiscriminator-1HAKWY { // mutual friend discriminator
+    .listDiscriminator__3cdbe { // mutual friend discriminator
         color: var(--nox-white4);
     }
 
-    .emptyText-mZZyQk { // no servers/friends in common
+    .emptyText__1869c { // no servers/friends in common
         color: var(--nox-white5);
     }
 

@@ -1,5 +1,5 @@
 // Guild list bg color
-.guilds-2JjMmN {
+.guilds__2b93a {
     z-index: $guilds-elevation;
     width: 70px;
     background: var(--nox-level1) !important;
@@ -7,72 +7,72 @@
 }
 
 // Remove existing color and padding
-.guilds-2JjMmN .scroller-3X7KbA {
+.guilds__2b93a .scroller__3d071 {
     background: transparent;
     padding: 0;
 }
 
 // Hide scroller
-.guilds-2JjMmN .scroller-3X7KbA::-webkit-scrollbar {
+.guilds__2b93a .scroller__3d071::-webkit-scrollbar {
     width: 0 !important;
 }
 
 // Separator
-.guildSeparator-a4uisj {
+.guildSeparator_dcb3cc {
     background: var(--nox-white1);
 }
 
 // Remove move down on click
-.listItemWrapper-3d87LP:active,
-.listItem-3SmSlK .blobContainer-ikKyFs:active {
+.listItemWrapper__1f93b:active,
+.listItem_fa7b36 .blobContainer__5ee50:active {
     transform: none;
 }
 
 // remove folder background
-.folder-241Joy {
+.folder__17546 {
     background: none !important;
 }
 
 // recolor closed folders
-.collapsed-uGXEbi+div .folderIconWrapper-1oRIZr {
+.collapsed__0a270+div .folderIconWrapper__72239 {
     background: var(--nox-white2) !important;
 }
 
 // recolor open folders
-.expandedFolderBackground-1kSAf6 {
+.expandedFolderBackground__1bec6 {
     background: var(--nox-white1) !important;
 }
 
 // TODO might be able to remove this - Remove weird folder background
-.expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
+.expandedFolderBackground__1bec6.collapsed__0a270 {
     background: none !important;
 }
 
 // Allow smaller border radii
-.expandedFolderBackground-1kSAf6 + .listItem-3SmSlK .svg-2ifYOU foreignObject {
+.expandedFolderBackground__1bec6 + .listItem_fa7b36 .svg_ad7356 foreignObject {
     mask: none;
 }
 
 // remove margin between servers
-.listItem-3SmSlK {
+.listItem_fa7b36 {
     margin-bottom: 0;
     width: 70px;
 }
 
 // increase clicking area
-.listItem-3SmSlK .svg-2ifYOU {
+.listItem_fa7b36 .svg_ad7356 {
     height: 70px;
     width: 70px;
     z-index: $guilds-elevation;
 }
 
 // allow dragging to work properly
-.wrapper-3XVBev {
+.wrapper_a54cba {
     z-index: $guilds-elevation;
 }
 
 // increase wrapper size and center servers
-.listItem-3SmSlK .wrapper-2PSQCG {
+.listItem_fa7b36 .wrapper__3af0b {
     height: 70px;
     width: 70px;
     border-radius: unset;
@@ -82,39 +82,39 @@
 }
 
 // scale down icons back to normal
-.wrapper-3kah-n .childWrapper-1j_1ub, // home icon
-.wrapper-3kah-n .acronym-2zrAHN, // iconless servers
-.folder-241Joy .folderIconWrapper-1oRIZr, // folders
-.circleIconButton-1VxDrg, // add server and discovery
-.wrapper-3kah-n .icon-3AqZ2e {
+.wrapper_d281dd .childWrapper__01b9c, // home icon
+.wrapper_d281dd .acronym_cd4809, // iconless servers
+.folder__17546 .folderIconWrapper__72239, // folders
+.circleIconButton_d8df29, // add server and discovery
+.wrapper_d281dd .icon__0cbed {
     transform: scale(calc(48/70));
     border-radius: 50%;
 }
 
 // fix spacing after unread dm circle
-.scroller-3X7KbA div[style="opacity: 1; height: 56px; transform: scale(1);"] {
+.scroller__3d071 div[style="opacity: 1; height: 56px; transform: scale(1);"] {
     height: 70px !important;
 }
 
 // Home button and circle buttons
-.childWrapper-1j_1ub,
-.circleIconButton-1VxDrg {
+.childWrapper__01b9c,
+.circleIconButton_d8df29 {
     background: var(--nox-level2);
 }
 
 // change blurple to accent bg
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, // home icon and iconless guilds
-.circleIconButton-1VxDrg.selected-2r1Hvo { // add server and discovery
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, // home icon and iconless guilds
+.circleIconButton_d8df29.selected__5250e { // add server and discovery
     background: var(--nox-accent);
 }
 
 // discovery and add server change blurple to accent
-.circleIconButton-1VxDrg {
+.circleIconButton_d8df29 {
     color: var(--nox-accent);
 }
 
 // blanks pill item
-.listItem-3SmSlK .item-2LIpTv {
+.listItem_fa7b36 .item_f9d377 {
     box-sizing: border-box;
     background: none;
     margin: 0;
@@ -123,7 +123,7 @@
 }
 
 // set up hover/active/selected bg
-.wrapper-2PSQCG::after {
+.wrapper__3af0b::after {
     content: "";
     display: block;
     position: absolute;
@@ -135,23 +135,23 @@
 }
 
 // hover bg
-.wrapper-2PSQCG:hover::after {
+.wrapper__3af0b:hover::after {
     background: var(--nox-white1);
 }
 
 // active bg
-.wrapper-2PSQCG:active::after {
+.wrapper__3af0b:active::after {
     background: var(--nox-black2);
 }
 
-.selected-3c78Ai .wrapper-2PSQCG::after,
-.selected-3a1QGn .wrapper-2PSQCG::after,
-.listItem-3SmSlK:has(.item-2LIpTv[style="opacity: 1; height: 40px; transform: none;"]) .wrapper-2PSQCG::after {
+.selected__98d51 .wrapper__3af0b::after,
+.selected_ad2d13 .wrapper__3af0b::after,
+.listItem_fa7b36:has(.item_f9d377[style="opacity: 1; height: 40px; transform: none;"]) .wrapper__3af0b::after {
     background: var(--nox-black2);
 }
 
 // set up unread circle
-.wrapper-2PSQCG::before {
+.wrapper__3af0b::before {
     content: "";
     display: block;
     position: absolute;
@@ -165,7 +165,7 @@
     z-index: 2;
 }
 
-.listItem-3SmSlK:has(.item-2LIpTv[style="opacity: 1; height: 8px; transform: none;"]) .wrapper-2PSQCG::before {
+.listItem_fa7b36:has(.item_f9d377[style="opacity: 1; height: 8px; transform: none;"]) .wrapper__3af0b::before {
     border-color: var(--nox-notification-color);
 }
 
@@ -173,26 +173,26 @@
 // TODO might move to another file Server folder stuff
 
 // change hover/active/selected background for folders
-.wrapper-38slSD ul[id*=folder-items] .wrapper-2PSQCG::after {
+.wrapper_ed1dea ul[id*=folder-items] .wrapper__3af0b::after {
     width: 60px;
     left: 5px;
 }
 
 // prevent hover highlight for open folder icon
-.wrapper-38slSD > :not(.collapsed-uGXEbi) + .listItem-3SmSlK .wrapper-2PSQCG::after {
+.wrapper_ed1dea > :not(.collapsed__0a270) + .listItem_fa7b36 .wrapper__3af0b::after {
     content: none
 }
 
-.wrapper-38slSD ul[id*=folder-items] .listItem-3SmSlK:last-child .wrapper-2PSQCG::after {
+.wrapper_ed1dea ul[id*=folder-items] .listItem_fa7b36:last-child .wrapper__3af0b::after {
     border-radius: 0 0 30px 30px;
     height: 62px;
 }
 
-.wrapper-38slSD ul[id*=folder-items] {
+.wrapper_ed1dea ul[id*=folder-items] {
     height: auto !important;
 }
 
-.expandedFolderBackground-1kSAf6 {
+.expandedFolderBackground__1bec6 {
     padding: 6px;
     left: 5px;
     border-radius: 16px 16px 30px 30px;
@@ -202,8 +202,8 @@
 // BADGES
 
 // alignment of badges
-.lowerBadge-3j0ZAg,
-.upperBadge-1d6YsW {
+.lowerBadge__669e7,
+.upperBadge_c7cfb3 {
     top: calc((100% - 48px) / 2);
     left: calc((100% - 48px) / 2);
     width: 48px;
@@ -213,67 +213,67 @@
     z-index: calc($guilds-elevation + 1);
 }
 
-.lowerBadge-3j0ZAg {
+.lowerBadge__669e7 {
     align-items: flex-end;
 }
 
-.upperBadge-1d6YsW {
+.upperBadge_c7cfb3 {
     align-items: flex-start;
 }
 
 // in call background green to accent
-.iconBadge-32fMme.participating-2Z81oO {
+.iconBadge_fdf33a.participating-2Z81oO {
     background-color: var(--nox-accent);
 }
 
 // recolor call available background
-.iconBadge-32fMme {
+.iconBadge_fdf33a {
     background-color: var(--nox-level1-5);
 }
 
 // recolor ping icon
-.numberBadge-37OJ3S {
+.numberBadge__50328 {
     background-color: var(--nox-important-notification) !important;
 }
 
 // TODO Will move to separate file
 
 // folder color to accent
-.expandedFolderIconWrapper-3RwQpD svg {
+.expandedFolderIconWrapper__458cf svg {
     color: var(--nox-accent) !important;
 }
 
 // material icon
-.folder-241Joy svg path {
+.folder__17546 svg path {
     d: path("M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z");
 }
 
 // material icon hover/open
-.folder-241Joy.hover-3m7-WT svg path {
+.folder__17546.hover__043de svg path {
     d: path("M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z");
 }
 
 // make material icon bigger
-.folder-241Joy svg {
+.folder__17546 svg {
     height: 32px;
     width: 32px;
 }
 
 // enlarge drag placeholder wrapper
-.placeholderMask-2FHNZU {
+.placeholderMask__94802 {
     width: 70px;
     height: 70px;
 }
 
  // color and scale icon back down
-.dragInner-1CUBf_ {
+.dragInner_a23293 {
     background-color: var(--nox-black3);
     border-radius: 50%;
     transform: scale(calc(48/70));
 }
 
 // dragging position indicator green to accent
-.centerTarget-S6BLFQ.dragOver-1OKbo2:before, // combine server
-.target-1eRTCg.dragOver-1OKbo2:before { // above server
+.centerTarget_dffece.dragOver__84b73:before, // combine server
+.target__47b05.dragOver__84b73:before { // above server
 	background-color: var(--nox-accent);
 }

@@ -1,31 +1,31 @@
-.panels-3wFtMD {
+.panels__58331 {
     background: var(--nox-level3);
 }
 
-.panels-3wFtMD  .container-1CH86i {
+.panels__58331  .container_ca50b9 {
     background: none;
     height: 64px;
 }
 
-.panels-3wFtMD .hoverRoll-2XwpoF {
+.panels__58331 .hoverRoll__041cb {
     pointer-events: none;
 }
 
-.panels-3wFtMD .title-338goq,
-.panels-3wFtMD .subtext-2HDqJ7 {
+.panels__58331 .title__10613,
+.panels__58331 .subtext__8f869 {
     color: var(--nox-white7);
 }
 
-.panels-3wFtMD .withTagAsButton-2_JkHX:hover,
-.panels-3wFtMD .withTagless-10ooWt:hover {
+.panels__58331 .withTagAsButton_cc125f:hover,
+.panels__58331 .withTagless__98b7d:hover {
     background: none;
-    .title-338goq {
+    .title__10613 {
         color: var(--nox-white);
     }
 }
 
-.panels-3wFtMD .withTagAsButton-2_JkHX:after,
-.panels-3wFtMD .withTagless-10ooWt:after {
+.panels__58331 .withTagAsButton_cc125f:after,
+.panels__58331 .withTagless__98b7d:after {
     content: "";
     display: block;
     position: absolute;
@@ -38,8 +38,8 @@
     pointer-events: none;
 }
 
-.panels-3wFtMD .withTagAsButton-2_JkHX:active:after,
-.panels-3wFtMD .withTagless-10ooWt:active:after {
+.panels__58331 .withTagAsButton_cc125f:active:after,
+.panels__58331 .withTagless__98b7d:active:after {
     opacity: 0.1;
     animation: scale 200ms cubic-bezier(0, 0, 0, 1);
     transition: 0ms ease;

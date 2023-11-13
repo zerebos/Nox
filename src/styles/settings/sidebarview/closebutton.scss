@@ -1,5 +1,5 @@
 // Replace existing icon with our own
-.standardSidebarView-E9Pc3j .closeButton-PCZcma {
+.standardSidebarView__1129a .closeButton__34341 {
     position: relative;
     border: 0;
     opacity: 0.8;
@@ -9,18 +9,18 @@
 }
 
 // Hide existing icon
-.standardSidebarView-E9Pc3j .closeButton-PCZcma svg {
+.standardSidebarView__1129a .closeButton__34341 svg {
     display: none;
 }
 
 // Hover opacity
-.standardSidebarView-E9Pc3j .closeButton-PCZcma:hover {
+.standardSidebarView__1129a .closeButton__34341:hover {
     opacity: 1;
     background-color: transparent;
 }
 
 // Setup the material active animation
-.standardSidebarView-E9Pc3j .closeButton-PCZcma::after {
+.standardSidebarView__1129a .closeButton__34341::after {
     content: "";
     display: block;
     position: absolute;
@@ -34,19 +34,19 @@
 }
 
 // Show the active animation
-.standardSidebarView-E9Pc3j .closeButton-PCZcma:active::after {
+.standardSidebarView__1129a .closeButton__34341:active::after {
     transform: scale(1.4);
     animation: scale 100ms cubic-bezier(0.4, 0, 0, 1), opacity 100ms ease;
     opacity: 0.1;
 }
 
 // Ensure nothing on non-pseudo-element
-.standardSidebarView-E9Pc3j .closeButton-PCZcma:active {
+.standardSidebarView__1129a .closeButton__34341:active {
     transform: none;
     background-color: transparent;
 }
 
 // Color ESC faintly
-.standardSidebarView-E9Pc3j .keybind-13vtq8 {
+.standardSidebarView__1129a .keybind__57645 {
     color: var(--nox-white3) !important;
 }

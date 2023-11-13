@@ -1,9 +1,9 @@
 // common card styling
-.userPopoutInner-nv9Y92 {
+.userPopoutInner_f545a3 {
     background-size: 90%; // resize nox shapes background
 
     // replace default avatar hint
-    .avatarHintInner-2HUAWj {
+    .avatarHintInner__3d1c9 {
         color: transparent;
         background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHYyaDE2di0yYzAtMi42Ni01LjMzLTQtOC00eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+);
         background-position: 50%;
@@ -14,48 +14,48 @@
 
     }
 
-    .userPopoutOverlayBackground-3A0Pcz { // moving layout to body sections
+    .userPopoutOverlayBackground_d8afa4 { // moving layout to body sections
         margin: 0;
     }
 
-    .divider-2dDziJ { // hide divider below name
+    .divider_ed0c1d { // hide divider below name
         display: none;
     }
 
-    .scrollerSeparator-6DmwRQ { // hide divider when scrolling on large cards
+    .scrollerSeparator__321f3 { // hide divider when scrolling on large cards
         box-shadow: none;
     }
 
-    .scroller-15bIdk { // place scrollbar on top of content move padding to children
+    .scroller__83262 { // place scrollbar on top of content move padding to children
         padding: 0 !important;
         overflow: hidden overlay !important;
     }
 
-    .profileBadges-2pItdR { // profile badges
+    .profileBadges__7a7cb { // profile badges
         background: none;
         padding: 4px;
     }
 
-    .section-28YDOf { // card body padding moved from scroller & spacing between sections
+    .section__6f61e { // card body padding moved from scroller & spacing between sections
         padding: 12px 16px 0 16px;
         position: relative;
     }
 
-    .section-28YDOf:has(.activity-3uaYny) { // activity bg + layout
+    .section__6f61e:has(.activity__20c1e) { // activity bg + layout
         background: var(--nox-black3);
         padding-bottom: 12px;
         margin-top: 6px;
     }
 
-    .section-28YDOf:has(.note-1NN2aP) { // add space before note/footer section
+    .section__6f61e:has(.note_ba0c31) { // add space before note/footer section
         margin-top: 12px;
     }
 
-    .lastSection-q3HCfo { // creates padding between last section and end of card
+    .lastSection__37b97 { // creates padding between last section and end of card
         padding-bottom: 12px;
     }
 
-    .note-1NN2aP {
+    .note_ba0c31 {
         textarea { // align note text with title
             margin-left: -4px;
             width: calc(100% + 4px);
@@ -66,15 +66,15 @@
         }
     }
 
-    .messageInputContainer-24qqTx { // remove quickmessage border
+    .messageInputContainer__768e6 { // remove quickmessage border
         border: none;
 
-        .input-2z42oC::selection { // change selection color to accent
+        .input__95bc4::selection { // change selection color to accent
             background: var(--nox-accent);
         }
     }
 
-    .messageInputContainer-24qqTx:after { // quickmessage bottom border animation
+    .messageInputContainer__768e6:after { // quickmessage bottom border animation
         content: '';
         position: relative;
         width: 0;
@@ -85,56 +85,56 @@
         transition: all ease-in-out .3s;
     }
 
-    .messageInputContainer-24qqTx:focus-within::after { // quickmessage bottom border animation
+    .messageInputContainer__768e6:focus-within::after { // quickmessage bottom border animation
         width: 308px;
     }
 
 }
 
 // Recolor card background for unthemed cards
-.userPopoutOuter-1OHwPL.userProfileOuterUnthemed-11rPfA {
+.userPopoutOuter_d739b2.userProfileOuterUnthemed__48723 {
     background-color: var(--nox-level2);
 
-    .avatar-31d8He { // avatar bg
+    .avatar__991e2 { // avatar bg
         background: var(--nox-level2);
     }
 
-    .userPopoutOverlayBackground-3A0Pcz .section-28YDOf:has(.note-1NN2aP), // note section
-    .userPopoutOverlayBackground-3A0Pcz .section-28YDOf.section-1TK4Q0 { // quick message section
+    .userPopoutOverlayBackground_d8afa4 .section__6f61e:has(.note_ba0c31), // note section
+    .userPopoutOverlayBackground_d8afa4 .section__6f61e.section__76155 { // quick message section
         background-color: var(--nox-level1);
     }
 }
 
 // Remove default coloring
-.userPopoutInner-nv9Y92.userProfileInnerThemedNonPremium-2AJg-H,
-.userPopoutOverlayBackground-3A0Pcz {
+.userPopoutInner_f545a3.userProfileInnerThemedNonPremium__3d0a6,
+.userPopoutOverlayBackground_d8afa4 {
     background-color: transparent;
 }
 
 // Role stuff
-.role-2TIOKu { // set up role bg
+.role__631a3 { // set up role bg
     background: none;
     padding: 0 2px 0 6px;
     border-width: 0;
     border-radius: 3px;
     overflow: hidden;
 
-    .roleName-2ZJJYR { // puts text on top of role bg
+    .roleName_d19d33 { // puts text on top of role bg
         z-index: 1;
     }
 
-    .roleIcon-29epUq { // role icon styling and puts on top of role bg 
+    .roleIcon__7599e { // role icon styling and puts on top of role bg 
         z-index: 1;
         border-radius: 3px;
         height: auto;
     }
 
-    .roleRemoveButton-17oXnT { // move remove role button to end
+    .roleRemoveButton__737f2 { // move remove role button to end
         order: 2;
 
         // role bg color
-        .roleCircle-3TFUOr::before,
-        .roleFlowerStar-91jU2T::before {
+        .roleCircle_bae511::before,
+        .roleFlowerStar__170d5::before {
             content: "";
             visibility: visible;
             background-color: inherit;
@@ -145,43 +145,43 @@
             opacity: 0.6;
         }
     
-        .roleFlowerStar-91jU2T::before { // connected account role layout fix
+        .roleFlowerStar__170d5::before { // connected account role layout fix
             top: -4px;
         }
 
         // hide role circle
-        .roleCircle-3TFUOr,
-        .roleFlowerStar-91jU2T {
+        .roleCircle_bae511,
+        .roleFlowerStar__170d5 {
             margin: 0;
             visibility: hidden;
         }
 
     }
 
-    .roleRemoveButton-17oXnT[aria-hidden="false"] { // re-add remove role button if removable role
+    .roleRemoveButton__737f2[aria-hidden="false"] { // re-add remove role button if removable role
         background: transparent;
         background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0icm9sZVJlbW92ZUljb24tMml1MGlFIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTJ2MTJIMCI+PC9wYXRoPjxwYXRoIGNsYXNzPSJmaWxsIiBmaWxsPSIjZmZmZmZmIiBkPSJNOS41IDMuMjA1TDguNzk1IDIuNSA2IDUuMjk1IDMuMjA1IDIuNWwtLjcwNS43MDVMNS4yOTUgNiAyLjUgOC43OTVsLjcwNS43MDVMNiA2LjcwNSA4Ljc5NSA5LjVsLjcwNS0uNzA1TDYuNzA1IDYiPjwvcGF0aD48L2c+PC9zdmc+);
         margin-right: 2px;    
     }
 
     // remove space occupied by role circle
-    .roleRemoveButton-17oXnT[aria-hidden="true"] .roleCircle-3TFUOr,
-    .roleRemoveButton-17oXnT:has(.roleFlowerStar-91jU2T) {
+    .roleRemoveButton__737f2[aria-hidden="true"] .roleCircle_bae511,
+    .roleRemoveButton__737f2:has(.roleFlowerStar__170d5) {
         width: 0;
     }
 }
 
 // Themed card stuff
-.userPopoutOuter-1OHwPL.userProfileOuterThemed-2BgJCM .userPopoutInner-nv9Y92 {
+.userPopoutOuter_d739b2.userProfileOuterThemed__6eb84 .userPopoutInner_f545a3 {
 
     // remove online indicator outline on themed cards
-    .avatarWrapper-eenWra circle,
-    .avatarWrapper-eenWra rect[fill="black"] {
+    .avatarWrapper_f77579 circle,
+    .avatarWrapper_f77579 rect[fill="black"] {
         visibility: hidden;
     }
 
     // adds background to pfps to block nox shapes
-    // .avatarStack-3Bjmsl::before {
+    // .avatarStack__6604a::before {
     //     content: '';
     //     width: 100%;
     //     height: 100%;
@@ -192,7 +192,7 @@
     // }
 
     // darkens avatar background
-    // .avatar-31d8He {
+    // .avatar__991e2 {
     //     border-radius: 50%;
     //     // background-color: var(--profile-gradient-overlay-color);
     //     // position: relative;
@@ -202,10 +202,10 @@
     // solid background for notes + quick message
 
     // setup solid bg
-    .section-1TK4Q0::before,
-    .lastSection-q3HCfo:not(.section-1TK4Q0)::before,
-    .section-1TK4Q0::after,
-    .lastSection-q3HCfo:not(.section-1TK4Q0)::after {
+    .section__76155::before,
+    .lastSection__37b97:not(.section__76155)::before,
+    .section__76155::after,
+    .lastSection__37b97:not(.section__76155)::after {
         content: '';
         width: 100%;
         position: absolute;
@@ -215,30 +215,30 @@
     }
 
     // has quickmessage
-    .section-1TK4Q0::before,
-    .section-1TK4Q0::after {
+    .section__76155::before,
+    .section__76155::after {
         height: calc(200% + 9px);
     }
     // no quickmessage
-    .lastSection-q3HCfo:not(.section-1TK4Q0)::before, 
-    .lastSection-q3HCfo:not(.section-1TK4Q0)::after {
+    .lastSection__37b97:not(.section__76155)::before, 
+    .lastSection__37b97:not(.section__76155)::after {
         height: 100%;
     }
 
     // adds actual bg
-    .section-1TK4Q0::before,
-    .lastSection-q3HCfo:not(.section-1TK4Q0)::before {
+    .section__76155::before,
+    .lastSection__37b97:not(.section__76155)::before {
         background: linear-gradient(var(--profile-gradient-primary-color) -40vh, var(--profile-gradient-secondary-color));
     }
-    .section-1TK4Q0::after,
-    .lastSection-q3HCfo:not(.section-1TK4Q0)::after {
+    .section__76155::after,
+    .lastSection__37b97:not(.section__76155)::after {
         background-color: var(--profile-gradient-overlay-color);
     }
 
     // puts notes+quickmessage back above bg
-    .section-28YDOf:has(.note-1NN2aP) .title-3CjiSS,
-    .section-28YDOf:has(.note-1NN2aP) .note-1NN2aP,
-    .section-1TK4Q0 .inputWrapper-2K8ds1 {
+    .section__6f61e:has(.note_ba0c31) .title_ef4a6d,
+    .section__6f61e:has(.note_ba0c31) .note_ba0c31,
+    .section__76155 .inputWrapper__934f5 {
         position: relative;
         z-index: 1;
     }
