@@ -1,4 +1,4 @@
-.chat-2ZfjoI .messagesWrapper-RpOMA3 {
+.chat-9g_3Xj .messagesWrapper-RpOMA3 {
     background: var(--nox-level1);
     margin-bottom: 8px;
 }
@@ -36,4 +36,30 @@
     border-style: solid;
     border-width: 0 10px 10px 0;
     border-color: transparent rgba(0, 0, 0, 0.1) transparent transparent;
+}
+
+// codeblocks
+.markup-eYLPri code {
+    background: var(--nox-level2);
+    border-color: var(--nox-level3);
+    border-radius: 2px;
+}
+
+// timestamp
+.timestamp-6-ptG3 {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+// inline code
+.markup-eYLPri code.inline {
+    border-radius: 2px;
+}
+.after_inlineCode-2_JXPm,
+.before_inlineCode-1zngJj,
+.inlineCode-ERyvy_{
+    background: var(--nox-level2);
+}
+
+.blockquoteDivider-363utW {
+    background-color: var(--nox-black3);
 }

@@ -32,32 +32,44 @@
     margin: 0;
 }
 
-.groupStart-3Mlgv1.replying-eZ7p5z::after,
-.groupStart-3Mlgv1.ephemeral-2nDdnn::after {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    pointer-events: none;
-    width: 2px;
-}
+// .groupStart-3Mlgv1.replying-eZ7p5z::after,
+// .groupStart-3Mlgv1.ephemeral-2nDdnn::after {
+//     content: "";
+//     position: absolute;
+//     display: block;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     pointer-events: none;
+//     width: 2px;
+// }
 
-.groupStart-3Mlgv1.replying-eZ7p5z::before,
-.groupStart-3Mlgv1.ephemeral-2nDdnn::before {
-    background: none;
-    border-color: transparent var(--nox-accent) transparent transparent;
-}
+// .groupStart-3Mlgv1.replying-eZ7p5z::before,
+// .groupStart-3Mlgv1.ephemeral-2nDdnn::before {
+//     background: none;
+//     border-color: transparent var(--nox-accent) transparent transparent;
+// }
 
-.replying-eZ7p5z::before,
-.replying-eZ7p5z::after,
-.ephemeral-2nDdnn::after {
-    background: var(--nox-accent);
-}
+// .replying-eZ7p5z::before,
+// .replying-eZ7p5z::after,
+// .ephemeral-2nDdnn::after {
+//     background: var(--nox-accent);
+// }
 
 .repliedMessage-3Z6XBG:before {
     content: none;
+}
+
+.replying-eZ7p5z::before,
+.ephemeral-2nDdnn::before {
+    background: none;
+}
+
+.replying-eZ7p5z .messageContent-2t3eCI {
+    position: relative;
+    padding-left: 8px;
+    margin-left: -10px;
+    border-left: 2px solid var(--nox-accent);
 }
 
 .hasReply-2Cr4KE .avatar-2e8lTP {
@@ -71,7 +83,6 @@
 .timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS.alt-1dvXnH {
     left: -70px;
 }
-
 .timestamp-p1Df1m.timestampInline-_lS3aK,
 .timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS.alt-1dvXnH {
     color: var(--nox-white2);
@@ -81,21 +92,23 @@
 .message-2CShn3.message-2CShn3.message-2CShn3:hover {
     background-color: rgba(2, 2, 2, 0.06);
 }
+.groupStart-3Mlgv1.selected-2LX7Jy::before,
+.groupStart-3Mlgv1:hover::before {
+    border-color: rgba(0,0,0,0) rgba(2,2,2,0.06) rgba(0,0,0,0) rgba(0,0,0,0);
+}
 
 // mentions
 .mentioned-Tre-dv::before {
     background: none;
 }
-
 .message-2CShn3.mentioned-Tre-dv .messageContent-2t3eCI {
     position: relative;
     padding-left: 3px;
     margin-left: -4px;
     background: rgba(250,166,26,.1);
     border-left: 4px solid rgb(250,166,26);
-    border-radius: 2px;    
+    border-radius: 2px;
 }
-
 .message-2CShn3.mentioned-Tre-dv:hover .messageContent-2t3eCI,
 .message-2CShn3.selected-2LX7Jy.mentioned-Tre-dv .messageContent-2t3eCI {
     background: rgba(250,166,26,.15);
