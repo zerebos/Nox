@@ -1,5 +1,5 @@
 // Replace existing icon with our own
-.standardSidebarView__1129a .closeButton__34341 {
+.standardSidebarView__12528 .closeButton__8177f {
     position: relative;
     border: 0;
     opacity: 0.8;
@@ -9,18 +9,18 @@
 }
 
 // Hide existing icon
-.standardSidebarView__1129a .closeButton__34341 svg {
+.standardSidebarView__12528 .closeButton__8177f svg {
     display: none;
 }
 
 // Hover opacity
-.standardSidebarView__1129a .closeButton__34341:hover {
+.standardSidebarView__12528 .closeButton__8177f:hover {
     opacity: 1;
     background-color: transparent;
 }
 
 // Setup the material active animation
-.standardSidebarView__1129a .closeButton__34341::after {
+.standardSidebarView__12528 .closeButton__8177f::after {
     content: "";
     display: block;
     position: absolute;
@@ -34,19 +34,19 @@
 }
 
 // Show the active animation
-.standardSidebarView__1129a .closeButton__34341:active::after {
+.standardSidebarView__12528 .closeButton__8177f:active::after {
     transform: scale(1.4);
     animation: scale 100ms cubic-bezier(0.4, 0, 0, 1), opacity 100ms ease;
     opacity: 0.1;
 }
 
 // Ensure nothing on non-pseudo-element
-.standardSidebarView__1129a .closeButton__34341:active {
+.standardSidebarView__12528 .closeButton__8177f:active {
     transform: none;
     background-color: transparent;
 }
 
 // Color ESC faintly
-.standardSidebarView__1129a .keybind__57645 {
+.standardSidebarView__12528 .keybind_a619c1 {
     color: var(--nox-white3) !important;
 }

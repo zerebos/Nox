@@ -7,24 +7,24 @@
 }
 
 // Remove existing color and padding
-.guilds__2b93a .scroller__3d071 {
+.guilds__2b93a .scroller_de945b {
     background: transparent;
     padding: 0;
 }
 
 // Hide scroller
-.guilds__2b93a .scroller__3d071::-webkit-scrollbar {
+.guilds__2b93a .scroller_de945b::-webkit-scrollbar {
     width: 0 !important;
 }
 
 // Separator
-.guildSeparator_dcb3cc {
+.guildSeparator__75928 {
     background: var(--nox-white1);
 }
 
 // Remove move down on click
-.listItemWrapper__1f93b:active,
-.listItem_fa7b36 .blobContainer__5ee50:active {
+.listItemWrapper__3d465:active,
+.listItem__48528 .blobContainer_c44493:active {
     transform: none;
 }
 
@@ -34,45 +34,45 @@
 }
 
 // recolor closed folders
-.collapsed__0a270+div .folderIconWrapper__72239 {
+.collapsed__98ad5+div .folderIconWrapper__11165 {
     background: var(--nox-white2) !important;
 }
 
 // recolor open folders
-.expandedFolderBackground__1bec6 {
+.expandedFolderBackground_b1385f {
     background: var(--nox-white1) !important;
 }
 
 // TODO might be able to remove this - Remove weird folder background
-.expandedFolderBackground__1bec6.collapsed__0a270 {
+.expandedFolderBackground_b1385f.collapsed__98ad5 {
     background: none !important;
 }
 
 // Allow smaller border radii
-.expandedFolderBackground__1bec6 + .listItem_fa7b36 .svg_ad7356 foreignObject {
+.expandedFolderBackground_b1385f + .listItem__48528 .svg__34dd4 foreignObject {
     mask: none;
 }
 
 // remove margin between servers
-.listItem_fa7b36 {
+.listItem__48528 {
     margin-bottom: 0;
     width: 70px;
 }
 
 // increase clicking area
-.listItem_fa7b36 .svg_ad7356 {
+.listItem__48528 .svg__34dd4 {
     height: 70px;
     width: 70px;
     z-index: $guilds-elevation;
 }
 
 // allow dragging to work properly
-.wrapper_a54cba {
+.wrapper__0a9af {
     z-index: $guilds-elevation;
 }
 
 // increase wrapper size and center servers
-.listItem_fa7b36 .wrapper__3af0b {
+.listItem__48528 .wrapper__9916c {
     height: 70px;
     width: 70px;
     border-radius: unset;
@@ -82,39 +82,39 @@
 }
 
 // scale down icons back to normal
-.wrapper_d281dd .childWrapper__01b9c, // home icon
-.wrapper_d281dd .acronym_cd4809, // iconless servers
-.folder__17546 .folderIconWrapper__72239, // folders
-.circleIconButton_d8df29, // add server and discovery
-.wrapper_d281dd .icon__0cbed {
+.wrapper__8436d .childWrapper_a6ce15, // home icon
+.wrapper__8436d .acronym_fb7739, // iconless servers
+.folder__17546 .folderIconWrapper__11165, // folders
+.circleIconButton__05cf2, // add server and discovery
+.wrapper__8436d .icon__11cf1 {
     transform: scale(calc(48/70));
     border-radius: 50%;
 }
 
 // fix spacing after unread dm circle
-.scroller__3d071 div[style="opacity: 1; height: 56px; transform: scale(1);"] {
+.scroller_de945b div[style="opacity: 1; height: 56px; transform: scale(1);"] {
     height: 70px !important;
 }
 
 // Home button and circle buttons
-.childWrapper__01b9c,
-.circleIconButton_d8df29 {
+.childWrapper_a6ce15,
+.circleIconButton__05cf2 {
     background: var(--nox-level2);
 }
 
 // change blurple to accent bg
-.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, // home icon and iconless guilds
-.circleIconButton_d8df29.selected__5250e { // add server and discovery
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15, // home icon and iconless guilds
+.circleIconButton__05cf2.selected_aded59 { // add server and discovery
     background: var(--nox-accent);
 }
 
 // discovery and add server change blurple to accent
-.circleIconButton_d8df29 {
+.circleIconButton__05cf2 {
     color: var(--nox-accent);
 }
 
 // blanks pill item
-.listItem_fa7b36 .item_f9d377 {
+.listItem__48528 .item_f9d377 {
     box-sizing: border-box;
     background: none;
     margin: 0;
@@ -123,7 +123,7 @@
 }
 
 // set up hover/active/selected bg
-.wrapper__3af0b::after {
+.wrapper__9916c::after {
     content: "";
     display: block;
     position: absolute;
@@ -135,23 +135,23 @@
 }
 
 // hover bg
-.wrapper__3af0b:hover::after {
+.wrapper__9916c:hover::after {
     background: var(--nox-white1);
 }
 
 // active bg
-.wrapper__3af0b:active::after {
+.wrapper__9916c:active::after {
     background: var(--nox-black2);
 }
 
-.selected__98d51 .wrapper__3af0b::after,
-.selected_ad2d13 .wrapper__3af0b::after,
-.listItem_fa7b36:has(.item_f9d377[style="opacity: 1; height: 40px; transform: none;"]) .wrapper__3af0b::after {
+.selected_e85eba .wrapper__9916c::after,
+.selected__501f5 .wrapper__9916c::after,
+.listItem__48528:has(.item_f9d377[style="opacity: 1; height: 40px; transform: none;"]) .wrapper__9916c::after {
     background: var(--nox-black2);
 }
 
 // set up unread circle
-.wrapper__3af0b::before {
+.wrapper__9916c::before {
     content: "";
     display: block;
     position: absolute;
@@ -165,7 +165,7 @@
     z-index: 2;
 }
 
-.listItem_fa7b36:has(.item_f9d377[style="opacity: 1; height: 8px; transform: none;"]) .wrapper__3af0b::before {
+.listItem__48528:has(.item_f9d377[style="opacity: 1; height: 8px; transform: none;"]) .wrapper__9916c::before {
     border-color: var(--nox-notification-color);
 }
 
@@ -173,26 +173,26 @@
 // TODO might move to another file Server folder stuff
 
 // change hover/active/selected background for folders
-.wrapper_ed1dea ul[id*=folder-items] .wrapper__3af0b::after {
+.wrapper__832f2 ul[id*=folder-items] .wrapper__9916c::after {
     width: 60px;
     left: 5px;
 }
 
 // prevent hover highlight for open folder icon
-.wrapper_ed1dea > :not(.collapsed__0a270) + .listItem_fa7b36 .wrapper__3af0b::after {
+.wrapper__832f2 > :not(.collapsed__98ad5) + .listItem__48528 .wrapper__9916c::after {
     content: none
 }
 
-.wrapper_ed1dea ul[id*=folder-items] .listItem_fa7b36:last-child .wrapper__3af0b::after {
+.wrapper__832f2 ul[id*=folder-items] .listItem__48528:last-child .wrapper__9916c::after {
     border-radius: 0 0 30px 30px;
     height: 62px;
 }
 
-.wrapper_ed1dea ul[id*=folder-items] {
+.wrapper__832f2 ul[id*=folder-items] {
     height: auto !important;
 }
 
-.expandedFolderBackground__1bec6 {
+.expandedFolderBackground_b1385f {
     padding: 6px;
     left: 5px;
     border-radius: 16px 16px 30px 30px;
@@ -202,8 +202,8 @@
 // BADGES
 
 // alignment of badges
-.lowerBadge__669e7,
-.upperBadge_c7cfb3 {
+.lowerBadge_e89e22,
+.upperBadge__00ad0 {
     top: calc((100% - 48px) / 2);
     left: calc((100% - 48px) / 2);
     width: 48px;
@@ -213,33 +213,33 @@
     z-index: calc($guilds-elevation + 1);
 }
 
-.lowerBadge__669e7 {
+.lowerBadge_e89e22 {
     align-items: flex-end;
 }
 
-.upperBadge_c7cfb3 {
+.upperBadge__00ad0 {
     align-items: flex-start;
 }
 
 // in call background green to accent
-.iconBadge_fdf33a.participating-2Z81oO {
+.iconBadge__19638.participating-2Z81oO {
     background-color: var(--nox-accent);
 }
 
 // recolor call available background
-.iconBadge_fdf33a {
+.iconBadge__19638 {
     background-color: var(--nox-level1-5);
 }
 
 // recolor ping icon
-.numberBadge__50328 {
+.numberBadge__40d6f {
     background-color: var(--nox-important-notification) !important;
 }
 
 // TODO Will move to separate file
 
 // folder color to accent
-.expandedFolderIconWrapper__458cf svg {
+.expandedFolderIconWrapper__324c1 svg {
     color: var(--nox-accent) !important;
 }
 
@@ -260,20 +260,20 @@
 }
 
 // enlarge drag placeholder wrapper
-.placeholderMask__94802 {
+.placeholderMask_ca6625 {
     width: 70px;
     height: 70px;
 }
 
  // color and scale icon back down
-.dragInner_a23293 {
+.dragInner_d5b34c {
     background-color: var(--nox-black3);
     border-radius: 50%;
     transform: scale(calc(48/70));
 }
 
 // dragging position indicator green to accent
-.centerTarget_dffece.dragOver__84b73:before, // combine server
-.target__47b05.dragOver__84b73:before { // above server
+.centerTarget_ec3a01.dragOver_efabec:before, // combine server
+.target__2c5c2.dragOver_efabec:before { // above server
 	background-color: var(--nox-accent);
 }
