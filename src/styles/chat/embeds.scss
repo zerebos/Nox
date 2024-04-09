@@ -116,3 +116,29 @@
 .audioMetadata_e546a8:before {
     filter: hue-rotate(-17deg);
 }
+
+// voice embed
+.messageAttachment_b97504 .container__79822 {
+    background-color: var(--nox-level3);
+    border-radius: 4px;
+}
+.theme-dark .container__79822:not(.playing_eb5c63) .playButtonContainer_d887d6 {
+    background: var(--nox-accent);
+}
+.theme-dark .container__79822:not(.playing_eb5c63) .playButtonContainer_d887d6:hover {
+    background: var(--nox-accent);
+    filter: brightness(1.1);
+}
+.playing_eb5c63 .playIcon_e14cf9 {
+    color: var(--nox-accent);
+}
+.rippleContainer_bf482c {
+    border-radius: 0;
+}
+.ripple__74f0d {
+    background-color: var(--nox-level1-5);
+    border-radius: 0;
+}
+.playing_eb5c63 .volumeButtonIcon__48fda {
+    color: var(--nox-white6);
+}

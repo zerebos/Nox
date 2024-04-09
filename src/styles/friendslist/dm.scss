@@ -1,0 +1,26 @@
+// Search Bar
+.privateChannels__93473 .searchBarComponent__22760{
+    font-size: 0;
+    background: none;
+}
+
+.privateChannels__93473 .searchBar_e4ea2a {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+    background: var(--nox-level1);
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xNS41IDE0aC0uNzlsLS4yOC0uMjdDMTUuNDEgMTIuNTkgMTYgMTEuMTEgMTYgOS41IDE2IDUuOTEgMTMuMDkgMyA5LjUgM1MzIDUuOTEgMyA5LjUgNS45MSAxNiA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPgo8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left 50% bottom 47%;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 40%), 0px -1px 5px rgb(0 0 0 / 20%) inset, 0px 3px 4px rgb(255 255 255 / 3%) inset;
+}
+
+.privateChannels__93473 .searchBar_e4ea2a:hover {
+    background-color: #353535;
+    box-shadow: 0 10px 15px rgba(0 0 0 / 50%), 0 -1px 5px rgba(0 0 0 / 20%) inset, 0 3px 4px rgba(255 255 255 / 5%) inset;
+}

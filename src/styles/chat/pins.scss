@@ -1,0 +1,37 @@
+.messagesPopoutWrap_b3b384 {
+    background-color: var(--nox-level2);
+}
+.header_f5cc88 {
+    background-color: var(--nox-level2);
+    box-shadow: none;
+}
+
+.messageGroupWrapper_f8c6e9 {
+    background: var(--nox-level1);
+    border: none;
+    border-radius: 3px;
+    margin-right: 2px;
+
+    .messageGroupCozy__2dedd {
+        background: rgba(0 0 0 / 10%);
+        margin: 12px 16px 12px 72px;
+        padding: 0 7px 2px 10px;
+    }
+
+    .messageGroupCozy__2dedd::before {
+        content: "";
+        width: 0;
+        height: 0;
+        left: -20px;
+        display: block;
+        position: relative;
+        border-style: solid;
+        border-width: 0 10px 10px 0;
+        border-color: rgba(0,0,0,0) rgba(0,0,0,.1) rgba(0,0,0,0) rgba(0,0,0,0);
+    }
+    
+    .avatar__08316 {
+        left: -60px;
+        top: 0;
+    }
+}

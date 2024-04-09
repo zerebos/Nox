@@ -89,7 +89,9 @@
 
 /*changelog*/
 #themes-tab::before {
-    content: "Changelog: Can be found on github or in the discord server.\A \A Theme Settings: Go to the Custom CSS tab.\A \A Go to bit.ly/NoxServer to report bugs or make suggestions!" !important;
+    white-space: pre;
+    color: var(--nox-white6);
+    content: "Changelog: Can be found on github or in the discord server.\A \A Theme Settings: Go to the Custom CSS tab.\A \A Go to bit.ly/NoxServer to report bugs or make suggestions!\A\A" !important;
 }
 
 /*Themes settings announcement*/
