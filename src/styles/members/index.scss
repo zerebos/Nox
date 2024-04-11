@@ -1,12 +1,27 @@
 .members__573eb,
-.members__573eb > div,
-.container_f79ab4,
+// .members__573eb > div,
 .member_aa4760 {
     background: var(--nox-level2);
+    color: var(--nox-white5);
 }
 
 .container_f79ab4 {
     z-index: $channels-elevation;
     box-shadow: $elevation-shadow;
     background: var(--nox-level2);
+
+    .container__43554, // Role name
+    .activity_bafb94 {
+        color: var(--nox-white4);
+    }
+
+    .clickable__03a29:hover .layout_bb8e67 { // hover on member
+        background-color: rgba(255, 255, 255, 0.05);
+        color: var(--nox-white7);
+    }
+
+    .selected__7f4cb .layout_bb8e67 { // selected member
+        background-color: var(--nox-level3);
+        color: var(--nox-white9);
+    }
 }

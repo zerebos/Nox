@@ -1,0 +1,75 @@
+.expandedInboxHeader_b02d0c {
+    .inboxIcon__300b0,
+    .inboxTitle__6b2e6 {
+        color: var(--nox-white7);
+    }
+}
+
+.topPill__63ad4 {
+    .tab_a8a066.selected_a523ff.selected_a523ff.selected_a523ff.selected_a523ff {
+        background-color: var(--nox-white1);
+    }
+
+    .tab_a8a066.tab_a8a066.tab_a8a066:hover {
+        background-color: rgba(255, 255, 255, .05);
+    }
+}
+
+.friendRequestsButton__77e10,
+.button__292b6.secondary__45d4f { // filter button
+    background-color: var(--nox-white1);
+    color: var(--nox-white6);
+    &:hover {
+        background-color: var(--nox-white2);
+    }
+}
+
+.container_cdf5a8 {
+    background-color: var(--nox-level1);
+}
+
+.body_a3f618 {
+    .text-md-normal__6e567,
+    .text-xs-medium_d3e0f1 {
+        color: var(--nox-white6) !important;
+    }
+}
+
+.recentMentionsPopout__40c54 {
+    .channelHeader_ea0f89 {
+        background: var(--nox-level2);
+        box-shadow: -2px 2px 4px rgba(0,0,0,.4);
+    }
+
+    .messageContainer_cb3d47 {
+        background: var(--nox-level1);
+        border: none;
+        border-radius: 3px;
+        margin-right: 2px;
+    }
+
+    .message__04a5b {
+        background: rgba(0 0 0 / 10%);
+        margin: 12px 16px 12px 72px;
+        padding: 0 7px 2px 10px;
+        overflow: visible;
+
+        &::before {
+            box-sizing: border-box;
+            content: "";
+            width: 0;
+            height: 0;
+            left: -20px;
+            display: block;
+            position: relative;
+            border-style: solid;
+            border-width: 0 10px 10px 0;
+            border-color: rgba(0,0,0,0) rgba(0,0,0,.1) rgba(0,0,0,0) rgba(0,0,0,0);
+        }
+
+        .avatar__08316 {
+            left: -60px;
+            top: 0;
+        }
+    }
+}

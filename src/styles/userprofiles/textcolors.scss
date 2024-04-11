@@ -6,7 +6,7 @@
 
     .text-sm-normal__95a78, // join dates
     .discordIcon__1e1be { // discord logo
-        color: var(--nox-white7);
+        color: var(--nox-white7) !important;
     }
 
     .nickname_db3773 { // nickname
@@ -33,7 +33,8 @@
         .headerText_c0138d { // heading
             color: var(--nox-white);
         }
-        .nameWrap_b61c4b { // content
+        .activityName_a7b7de, // content
+        .content__7246b { // time
             color: var(--nox-white7);
         }
     }
