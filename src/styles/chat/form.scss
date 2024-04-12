@@ -4,8 +4,9 @@
     box-shadow: $elevation-shadow;
 }
 
+.form_d8a4a1::after,
 .form_d8a4a1::before {
-    display: none;
+    content: none;
 }
 
 .channelTextArea_c2094b .scrollableContainer_ff917f {
@@ -52,7 +53,11 @@
     color: var(--nox-white5) !important;
 }
 
-// edit box
+// removes gap above edit box
+.channelTextArea__626ee {
+    margin-top: 0;
+}
+// edit box bg
 .channelTextArea__626ee .themedBackground__3a4c0 {
     background: var(--nox-level1-5);
     border-radius: 3px;
