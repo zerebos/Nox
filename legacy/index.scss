@@ -1,3 +1,5 @@
+@import "./classes";
+
 // // White
 // $white0: rgba(255,255,255,0);
 // $white1: rgba(255,255,255,.1);
@@ -41,7 +43,6 @@
 
     /*MAIN COLORS*/
     --nox-level1: #303030;/*var(--nox-level1)*/
-    --nox-level1-5: #3a3a3a;/*var(--nox-level1)*/
     --nox-level2: #212121;/*var(--nox-level2)*/
     --nox-level3: #141414;/*var(--nox-level3)*/
 
@@ -82,16 +83,14 @@
     color: var(--nox-white);
 }
 
-// html,
-// span:not(.spinner-2enMB9, .item-2hkk8m) {
-//     backface-visibility: hidden;
-// }
+html,
+span:not(.spinner-2enMB9, .item-2hkk8m) {
+    backface-visibility: hidden;
+}
 
 /*changelog*/
 #themes-tab::before {
-    white-space: pre;
-    color: var(--nox-white6);
-    content: "Changelog: Can be found on github or in the discord server.\A \A Theme Settings: Go to the Custom CSS tab.\A \A Go to bit.ly/NoxServer to report bugs or make suggestions!\A\A" !important;
+    content: "Changelog: Can be found on github or in the discord server.\A \A Theme Settings: Go to the Custom CSS tab.\A \A Go to bit.ly/NoxServer to report bugs or make suggestions!" !important;
 }
 
 /*Themes settings announcement*/
@@ -99,8 +98,8 @@
 //     content: "Hi, I just created server where I post stuff about the theme and you can give me feedback,\A also there's a beta now :D. To download it join the server at >> bit.ly/BMTserver <<\A\A It's also how to report bugs now, the other links don't work anymore."!important;
 // }
 
-.theme-dark .layer_f7d46a,
-.theme-dark .layers_a23c37 {
+.theme-dark .layer-86YKbF,
+.theme-dark .layers-1YQhyW {
     background: transparent;
 }
 
@@ -110,14 +109,11 @@
     }
 }
 
-// @import "misc/*";
-// @import "bd/*";
-// @import "chat/*.scss";
-// @import "modals/*";
-// @import "plugins/*";
-// @import "popouts/*";
-// @import "sections/*";
-// @import "settings/**/*.scss";
-/* stylelint-disable-next-line scss/at-import-partial-extension-blacklist */
-@import "./elevations.scss";
-@import "styles/**/*.scss";
+@import "misc/*";
+@import "bd/*";
+@import "chat/*.scss";
+@import "modals/*";
+@import "plugins/*";
+@import "popouts/*";
+@import "sections/*";
+@import "settings/**/*";

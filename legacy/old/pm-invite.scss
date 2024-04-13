@@ -1,0 +1,44 @@
+.private-channel-recipients-invite .friend {
+    margin-left: 0;
+    border-radius: 0;
+}
+
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar {
+    background: rgba(225, 225, 225, 0.02);
+    width: 6px!important;
+}
+
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-thumb {
+    border: none !important;
+    background-color: rgba(225, 225, 225, 0.2) !important;
+    display: initial;
+    border-radius: 0!important
+}
+
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-thumb:active {
+    border: none !important;
+    background-color: rgba(225, 225, 225, 0.4) !important;
+    display: initial;
+    border-radius: 0!important
+}
+
+.private-channel-recipients-invite .search-bar{
+    background:transparent;
+}
+
+.private-channel-recipients-invite .error-state.not-friends .btn:hover{
+    transition:100ms ease;
+}
+
+.private-channel-recipients-invite .error-state.not-friends .btn:hover{
+    -filter:brightness(85%);
+}
+
+
+
+.private-channel-recipients-invite .footer button,
+.private-channel-recipients-invite .footer button:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn {
+    background: var(--nox-accent);
+}

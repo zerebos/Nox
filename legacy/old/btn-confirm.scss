@@ -1,0 +1,67 @@
+.btn-confirm.active .icon.icon-delete,
+.btn-confirm .icon.icon-delete:hover,
+.btn-confirm .icon.icon-delete{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgwVjB6IiBmaWxsPSJub25lIi8+ICAgIDxwYXRoIGQ9Ik02IDE5YzAgMS4xLjkgMiAyIDJoOGMxLjEgMCAyLS45IDItMlY3SDZ2MTJ6bTIuNDYtNy4xMmwxLjQxLTEuNDFMMTIgMTIuNTlsMi4xMi0yLjEyIDEuNDEgMS40MUwxMy40MSAxNGwyLjEyIDIuMTItMS40MSAxLjQxTDEyIDE1LjQxbC0yLjEyIDIuMTItMS40MS0xLjQxTDEwLjU5IDE0bC0yLjEzLTIuMTJ6TTE1LjUgNGwtMS0xaC01bC0xIDFINXYyaDE0VjR6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=);
+}
+.form .btn-confirm .btn.icon.icon-delete{
+    background-size:70%!important;
+}
+
+.settings .settings-actions .btn-confirm .icon.icon-delete,
+.settings .settings-actions .btn-confirm .icon.icon-logout {
+    transition: all 200ms ease;
+    opacity: 0.4;
+    background-size: 48%;
+    width:77px!important;
+    height:77px!important;
+    position:absolute;
+    bottom:0px;
+    background-size:30%;
+    left:0;
+    border-radius:0!important;
+}
+
+.btn-confirm.active .icon.icon-logout {
+    border-radius: 0px 3px 3px 0px;
+}
+
+.btn-confirm {
+    margin-top: 4px
+}
+.btn-confirm.active .icon.icon-delete,
+.btn-confirm .icon.icon-delete:hover,
+.btn-confirm.active .icon.icon-logout,
+.btn-confirm .icon.icon-logout:hover {
+    opacity: 1!important;
+}
+
+
+.btn-confirm:not(.reverse-slide).active .btn:last-of-type:not(:first-of-type) {
+    background: #C73F3F;
+    transition: 200ms cubic-bezier(0, 0, 0, 1);
+    white-space: initial;
+    height:77px!important;
+    position:absolute;
+    width:auto;
+    bottom:0;
+    left:77px;
+    opacity:1;
+    visibility:visible;
+    padding-left:25px;
+    padding-right:25px;
+}
+.btn-confirm:not(.reverse-slide) .btn:last-of-type:not(:first-of-type) {
+    white-space: initial;
+    height:77px!important;
+    position:absolute;
+    width:auto;
+    bottom:0;
+    left:77px;
+    opacity:0;
+    visibility: hidden
+}
+
+
+.btn-confirm:not(.reverse-slide) .btn:last-of-type:not(:first-of-type) {
+    transition: 200ms cubic-bezier(1, 0, 1, 1)
+}

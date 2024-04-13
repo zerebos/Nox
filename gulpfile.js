@@ -1,7 +1,8 @@
 const gulp = require("gulp");
 const fs = require("fs");
 const path = require("path");
-const sass = require("gulp-sass");
+const dartSass = require("sass");
+const sass = require("gulp-sass")(dartSass);
 const rename = require("gulp-rename");
 const insert = require("gulp-insert");
 const wait = require("gulp-wait");
@@ -37,7 +38,6 @@ const LICENSE = `/*
 
 // Credit to:
 // https://coderwall.com/p/fhgu_q/inlining-images-with-gulp-sass
-const types = require('node-sass').types;
 
 const sassInlineImage = function(options) {
     options = options || {};
@@ -49,11 +49,11 @@ const sassInlineImage = function(options) {
 			.replace(/\#/g, '%23')
 			.replace(/\"/g, "'");
 
-		return '"data:image/svg+xml;utf8,' + svg + '"';
+		return 'data:image/svg+xml;utf8,' + svg;
 	};
 
 	const img = function(buffer, ext) {
-		return '"data:image/' + ext + ';base64,' + buffer.toString('base64') + '"';
+		return 'data:image/' + ext + ';base64,' + buffer.toString('base64');
 	};
 
     const base = options.base || process.cwd();
@@ -64,15 +64,10 @@ const sassInlineImage = function(options) {
 		const data = fs.readFileSync(filePath);
 		const buffer = new Buffer(data);
 		const str = ext === 'svg' ? svg(buffer, ext) : img(buffer, ext);
-		return types.String(str);
+		return new dartSass.SassString(str);
 	};
 };
 
-const isDirectory = source => fs.lstatSync(source).isDirectory();
-const getDirectories = source => fs.readdirSync(source).map(name => path.join(source, name)).filter(isDirectory);
-const directories = getDirectories("./src").map(d => `./${d}/*.scss`.replace("\\", "/"));
-
-const fileList = ["./src/index.css", "./src/*.scss", ...directories];
 
 const sassOptions = {
 	functions:
@@ -94,12 +89,12 @@ gulp.task("import", function () {
 gulp.task("sass", function () {
 	return gulp.src("./src/index.scss")
 	  .pipe(wait(200))
-    .pipe(sass(sassOptions).on("error", sass.logError))
+    .pipe(sass.sync(sassOptions).on("error", sass.logError))
     .pipe(rename({basename: "Nox.theme", extname: ".css"}))
     .pipe(insert.prepend(META + LICENSE))
     .pipe(gulp.dest("Z:/Programming/BetterDiscordStuff/themes"));
 });
 
 gulp.task("sass-watch", function() {
-  return gulp.watch(fileList).on("all", gulp.series("sass"));
+  return gulp.watch(["./src/**/*.scss"]).on("all", gulp.series("sass"));
 });

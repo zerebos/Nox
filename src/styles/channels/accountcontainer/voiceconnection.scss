@@ -1,0 +1,87 @@
+.container_e1958d {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.1));
+    background-color: var(--nox-level3);
+    border:none;
+}
+
+.horizontal__4848b .button_ae40a4.button_ae40a4 {
+    opacity:.3;
+    background-size:60%!important;
+    background-position:50%!important;
+    background-repeat: no-repeat;
+    transition:all 50ms ease, background 100ms ease;
+    background-color: transparent !important;
+    color: var(--nox-white) !important;
+}
+
+.horizontal__4848b .button_ae40a4:hover {
+    opacity: .7;
+}
+.horizontal__4848b .button_ae40a4:active {
+    transition:all 0ms ease, background 100ms ease;
+    opacity: 1;
+}
+
+.horizontal__4848b .button_ae40a4::after {
+    width: 100%;
+    height: 100%;
+    background: var(--nox-white);
+    content: "";
+    display: block;
+    border-radius: 50%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 300ms ease;
+    pointer-events: none;
+}
+
+.horizontal__4848b .button_ae40a4:active::after {
+    opacity: 0.1;
+    animation: scale 200ms cubic-bezier(0, 0, 0, 1);
+    transition: 0ms ease;
+}
+
+.button_ae40a4[aria-label="Disconnect"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgOWMtMS42IDAtMy4xNS4yNS00LjYuNzJ2My4xYzAgLjM5LS4yMy43NC0uNTYuOS0uOTguNDktMS44NyAxLjEyLTIuNjYgMS44NS0uMTguMTgtLjQzLjI4LS43LjI4LS4yOCAwLS41My0uMTEtLjcxLS4yOUwuMjkgMTMuMDhjLS4xOC0uMTctLjI5LS40Mi0uMjktLjcgMC0uMjguMTEtLjUzLjI5LS43MUMzLjM0IDguNzggNy40NiA3IDEyIDdzOC42NiAxLjc4IDExLjcxIDQuNjdjLjE4LjE4LjI5LjQzLjI5LjcxIDAgLjI4LS4xMS41My0uMjkuNzFsLTIuNDggMi40OGMtLjE4LjE4LS40My4yOS0uNzEuMjktLjI3IDAtLjUyLS4xMS0uNy0uMjgtLjc5LS43NC0xLjY5LTEuMzYtMi42Ny0xLjg1LS4zMy0uMTYtLjU2LS41LS41Ni0uOXYtMy4xQzE1LjE1IDkuMjUgMTMuNiA5IDEyIDl6Ii8+PC9zdmc+);
+}
+
+.button_ae40a4[aria-label="Disconnect"] .contents__322f4 {
+    display: none;
+}
+
+.statusWithPopout__3aad9:hover {
+    text-decoration: none;
+    filter: brightness(1.3);
+}
+.rtcConnectionStatusConnected__9db4a,
+.rtcConnectionQualityFine__60c6a .pingForeground__2b613 {
+    color: var(--nox-accent);
+}
+
+.channel__42be3 {
+    color: var(--nox-white6);
+}
+.channel__42be3:hover {
+    text-decoration: none;
+    color: var(--nox-white8);
+}
+
+
+//rtc popout
+.graphContainer_cc9e14 {
+    background: var(--nox-level2);
+}
+.popoutText_aa3bfa {
+    color: var(--nox-white6);
+}
+.popoutText_aa3bfa.popoutTextDetails_bcf54c {
+    color: var(--nox-white4);
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+    }
+}

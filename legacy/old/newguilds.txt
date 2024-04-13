@@ -1,0 +1,617 @@
+@function Guilds($class) {
+    @return map-get(map-get($Classes, Guilds), $class);
+}
+
+#{Guilds(guildsWrapper)} {
+    background: var(--nox-level1) !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(dms)}:not(:empty)::after {
+    content: "";
+    display: block;
+    width: 50%;
+    background: rgba(255, 255, 255, .06);
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)}::after {
+    display: none;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}:first-of-type #{Guilds(guildInner)} #{Guilds(guildIcon)}:active {
+    opacity: 1 !important;
+    transition: 0ms;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} a {
+    width: 100%;
+    height: 100%;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} a:hover {
+    opacity: 1 !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)} {
+    border-radius: 50% !important;
+    border: 3px;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} {
+    opacity: 1;
+    transform: translate(0, 0) !important;
+    transition: all 0ms ease !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)} {
+    opacity: 1;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} {
+    background: transparent !important;
+    border-radius: 0% !important;
+    opacity: 1;
+    transition: all 100ms ease;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)}:hover #{Guilds(guild)} {
+    opacity: 1;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)}:hover #{Guilds(guild)}:first-of-type {
+    opacity: 1;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)}:hover #{Guilds(guild)}#{Guilds(selected)} {
+    opacity: 1;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small:active,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}:active {
+    transition: 0;
+    opacity: 1 !important
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} {
+    transition: all 10ms ease;
+    margin-bottom: 0px !important;
+    z-index: 5;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} .badge {
+    -ms-transform: translate(-12px, -10px) !important;
+    transform: translate(-12px, -10px) !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}+#{Guilds(guild)} {
+    margin-top: 0px;
+}
+
+#{Guilds(guildSeparator)} {
+    margin-bottom: 0px !important;
+    display: none;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guildSeparator)}::after {
+    background: rgba(255, 255, 255, .01);
+    left: 0;
+    right: 0;
+}
+
+#{Guilds(dms)} {
+    margin: 0px !important
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}:hover {
+    background: rgba(0, 0, 0, 0.0);
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}:first-of-type:active {
+    background: transparent;
+    transition: 0ms !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)}::after {
+    content: "";
+    width: 4px;
+    height: 64px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--nox-white);
+    z-index: 100;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} {
+    padding-top: 0 !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} {
+    padding: 0;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}.unread::before {
+    display: none;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)}::before {
+    -ms-transform: scale(0) !important;
+    transform: scale(0) !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} {
+    align-items: center;
+    position: relative;
+    height: calc(100% - 50px);
+}
+
+#{Guilds(guildsWrapper)} .scroller-wrap {
+    width: 70px;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)}::-webkit-scrollbar {
+    display: none;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guild)}#{Guilds(guildsAdd)} {
+    border: 0px;
+    background: transparent;
+    transition: all 200ms ease !important;
+    margin-left: 0px !important;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0px !important;
+    position: fixed !important;
+    left: 0;
+    bottom: 0px;
+    color: transparent;
+    height: 70px !important;
+    width: 70px !important;
+    padding: 0;
+    z-index: 1000;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guild)}#{Guilds(guildsAdd)}::after {
+    background: var(--nox-accent);
+    transition: all 200ms ease !important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    z-index: 1;
+    content: "";
+    display: block;
+    height: 50px;
+    width: 50px;
+    content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDEzaC02djZoLTJ2LTZINXYtMmg2VjVoMnY2aDZ2MnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px var(--nox-white1) inset;
+    line-height: 53px;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guild)}#{Guilds(guildsAdd)}:hover::after {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .4), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px rgba(255, 255, 255, 0.2) inset;
+    background-color: var(--nox-accent);
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(guildsAdd)}:hover {
+    opacity: 1 !important
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guild)}#{Guilds(guildsAdd)}::before {
+    content: "";
+    width: 69px;
+    height: 94px;
+    background: var(--nox-white);
+    display: block;
+    position: fixed;
+    left: 0px;
+    bottom: -16px;
+    z-index: -1;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(48, 48, 48, 0)), color-stop(60%, rgba(48, 48, 48, 1)), color-stop(100%, rgba(48, 48, 48, 1)));
+    background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, rgba(48, 48, 48, 1) 60%, rgba(48, 48, 48, 1) 100%);
+    pointer-events: none;
+}
+
+.friends-icon {
+    width: 100% !important;
+    height: 100% !important;
+    background-size: 35% !important;
+    background-position: 50% !important;
+    margin-left: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}:first-of-type #{Guilds(guildInner)} {
+    height: 64px;
+}
+
+a:active .friends-icon {
+    opacity: 1 !important;
+}
+
+// #{Guilds(guilds)}>#{Guilds(guild)}:first-of-type a::before,
+// #{Guilds(guilds)}>#{Guilds(guild)}:first-of-type a::after {
+//     visibility: hidden !important;
+// }
+
+#{Guilds(guilds)}.scroller::-webkit-scrollbar {
+    display: none;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)} {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 64px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    z-index: 3;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}[style*='background-image'] {
+    visibility: hidden;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small::after,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}::after {
+    height: 46px;
+    width: 46px;
+    content: "";
+    background-image: inherit;
+    display: block;
+    background-size: 100%;
+    border-radius: 50%;
+    visibility: visible;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
+    transition: 0ms cubic-bezier(.52, 0, 0, 1);
+    background-position: 50%;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small:hover::after,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}:first-of-type #{Guilds(guildIcon)}:hover svg,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}:hover::after {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .4);
+    transition: 0ms cubic-bezier(.3, 0, 0, 1);
+    -ms-transform: translate(-50%, -50%)scale(1);
+    transform: translate(-50%, -50%)scale(1);
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} .badge {
+    z-index: 10000
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}:first-of-type #{Guilds(guildInner)} a::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}::before {
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: transparent;
+    display: block;
+    visibility: visible;
+    position: absolute;
+    z-index: 0;
+    transition: 0ms ease;
+    top: 0;
+    left: 0;
+}
+
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}:first-of-type #{Guilds(guildInner)} a:hover::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small:hover::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}:hover::before {
+    background: rgba(255, 255, 255, 0.06);
+    transition: 0ms ease;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)} #{Guilds(guildInner)} .avatar-small:hover::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)} #{Guilds(guildInner)} .avatar-small::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)} #{Guilds(guildInner)} #{Guilds(guildIcon)}:hover::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)} #{Guilds(guildInner)} #{Guilds(guildIcon)}::before {
+    background: var(--nox-level2);
+    transition: 0ms ease;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small:active::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}:active::before {
+    background: var(--nox-white1);
+    transition: 0ms ease;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} {
+    padding: 0;
+    width: 70px;
+    height: 64px;
+    margin-left: 0 !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(dms)} {
+    width: auto;
+}
+
+#{Guilds(guilds)} #{Guilds(guild)}-placeholder {
+    height: 64px !important;
+    padding: 0 !important;
+    margin-bottom: 7px;
+    margin: 0 !important;
+    width: 68px !important;
+    margin-left: 5px !important;
+    border-radius: 0 !important;
+    background-position: 50%;
+    background-color: #43B581 !important;
+    animation: none !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2) inset;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} > #{Guilds(guild)}:first-of-type #{Guilds(guildInner)} a::after,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} > #{Guilds(guild)}:first-of-type #{Guilds(guildInner)} a::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small[style*="font-size"]::after,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small[style*="font-size"]::before,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}[style*="font-size"]::after,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}[style*="font-size"]::before {
+    z-index: -1 !important;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small[style*="font-size"],
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}[style*="font-size"] {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 0 !important;
+    line-height: 64px;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} > #{Guilds(guild)}:first-of-type #{Guilds(guildInner)} a::after,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}[style*="font-size"]::after {
+    background: var(--nox-white1);
+}
+
+.theme-light #{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small::before,
+.theme-light #{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} .avatar-small::after
+.theme-light #{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}::before,
+.theme-light #{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)} #{Guilds(guildInner)} #{Guilds(guildIcon)}::after {
+    visibility: hidden !important
+}
+
+#{Guilds(guilds)}>#{Guilds(guild)}:not(#{Guilds(guildsAdd)}):last-of-type {
+    margin-bottom: 30px !important
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}.audio #{Guilds(guildInner)}::after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTMgOXY2aDRsNSA1VjRMNyA5SDN6bTEzLjUgM2MwLTEuNzctMS4wMi0zLjI5LTIuNS00LjAzdjguMDVjMS40OC0uNzMgMi41LTIuMjUgMi41LTQuMDJ6TTE0IDMuMjN2Mi4wNmMyLjg5Ljg2IDUgMy41NCA1IDYuNzFzLTIuMTEgNS44NS01IDYuNzF2Mi4wNmM0LjAxLS45MSA3LTQuNDkgNy04Ljc3cy0yLjk5LTcuODYtNy04Ljc3eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+);
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}.video #{Guilds(guildInner)}:after,
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}.audio #{Guilds(guildInner)}::after {
+    animation: scale 400ms cubic-bezier(.5, 0, 0, 1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: all 300ms ease;
+    z-index: 10;
+    right: 6px;
+    top: 8px;
+    background-color: #141414;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}.audio:active #{Guilds(guildInner)}::after {
+    -ms-transform: scale(0)translate(-40px, 40px);
+    transform: scale(0)translate(-40px, 40px);
+}
+
+#{Guilds(guilds)} #{Guilds(guild)}-placeholder {
+    margin-left: 13px !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE1LjQxIDE2LjA5bC00LjU4LTQuNTkgNC41OC00LjU5TDE0IDUuNWwtNiA2IDYgNnoiLz4gICAgPHBhdGggZD0iTTAtLjVoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=) !important;
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    animation: guild-placeholder 200ms ease;
+    background-color: var(--nox-level2) !important;
+    border: 0px !important;
+    margin-top: 7px !important;
+    padding-bottom: 20px !important;
+}
+
+@keyframes guild-placeholder {
+    from {
+        transform: translate(-13px)scale(0)
+    }
+    to {
+        transform: translate(-13px)scale(1)
+    }
+}
+
+#{Guilds(guild)} .badge {
+    animation: opacity 300ms ease;
+}
+
+#{Guilds(guild)} #{Guilds(guilds)}-error {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #393939;
+}
+
+.scroller#{Guilds(guild)}-channels::-webkit-scrollbar {
+    display: none;
+}
+
+#{Guilds(guild)} a::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#{Guilds(guild)}#{Guilds(unread)} a::after {
+    box-shadow: 0 0 0 2px var(--nox-level1) inset, 0 0 0 var(--nox-notification-width) var(--nox-notification-color), 0 0 0 23px rgba(255, 255, 255, .0), 0 2px 20px rgba(0, 0, 0, .1) !important;
+    animation: guild-notifs .8s cubic-bezier(.2, 0, 0, 1);
+}
+
+#{Guilds(dms)} #{Guilds(guild)} a::after {
+    box-shadow: 0 0 0 -2px var(--nox-level1) inset, 0 0 0 -2px var(--nox-notification-color), 0 0 0 23px rgba(255, 255, 255, .0), 0 2px 20px rgba(0, 0, 0, .1) !important;
+    animation: scale-center 1s cubic-bezier(.44, .37, 0, 1.25), guild-notifs .8s cubic-bezier(.2, 0, 0, 1);
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} > #{Guilds(guild)}:first-of-type #{Guilds(guildInner)} a::after {
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes scale-center {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+}
+
+#{Guilds(guild)}#{Guilds(unread)} a:hover::after {
+    box-shadow: 0 0 0 2px var(--nox-level1) inset, 0 0 0 var(--nox-notification-width) var(--nox-notification-color), 0 0 0 23px rgba(255, 255, 255, .0), 0 2px 20px rgba(0, 0, 0, .1) !important;
+}
+
+@keyframes guild-notifs {
+    0% {
+        box-shadow: 0 0 0 -2px var(--nox-level1) inset, 0 0 0 -15px var(--nox-notification-color), 0 0 0 0px var(--nox-white8), 0 2px 20px rgba(0, 0, 0, .1);
+    }
+}
+
+#{Guilds(guild)}#{Guilds(unread)}#{Guilds(selected)} a::after {
+    box-shadow: 0 0 0 2px var(--nox-level1) inset, 0 0 0 var(--nox-notification-width) var(--nox-notification-color), 0 0 0 23px rgba(255, 255, 255, .0), 0 2px 20px rgba(0, 0, 0, .1) !important;
+}
+
+#{Guilds(guildsWrapper)} .mention-1f5kbO,
+#{Guilds(guildsWrapper)} #{Guilds(unread)} {
+    font-size: 0;
+    background: none;
+}
+
+#{Guilds(guildsWrapper)} .icon-2aINcz {
+    margin-left: 0;
+    background-color: var(--nox-important-notification);
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .6);
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(dms)}:not(:empty)::after {
+    content: "";
+    display: block;
+    width: 50%;
+    background: rgba(255, 255, 255, .06);
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(guild)}#{Guilds(selected)}::after {
+    display: none;
+}
+
+#{Guilds(dms)} #{Guilds(guild)} {
+    animation: opacity 300ms cubic-bezier(.4, 0, 0, 1), height 300ms cubic-bezier(.4, 0, 0, 1);
+}
+
+/*"new mentions" arrows*/
+#{Guilds(guildsWrapper)} .new-messages-indicator{
+    top:30px;
+    height:30px;
+    width:30px;
+    font-size:0;
+    border-radius:50%;
+    left:50%;
+    transform:translate(-50%,-50%)scale(1);
+    animation:scale-center 400ms cubic-bezier(0,0,0,1);
+    transition:300ms cubic-bezier(0,0,0,1);
+    box-shadow:0 2px 20px rgba(0,0,0,.3);
+}
+#{Guilds(guildsWrapper)} .new-messages-indicator:hover{
+    transform:translate(-50%,-50%)scale(1.2);
+    box-shadow:0 2px 10px rgba(0,0,0,.5);
+}
+#{Guilds(guildsWrapper)} .new-messages-indicator:active{
+    transform:translate(-50%,-50%)scale(0.8);
+    transition:100ms cubic-bezier(0,0,0,1);
+}
+#{Guilds(guildsWrapper)} .new-messages-indicator.bottom{
+    bottom:65px;
+    top:auto;
+}
+#{Guilds(guildsWrapper)} .new-messages-indicator .icon.icon-unread-arrow{
+    margin:0!important;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%)rotate(180deg);
+}
+#{Guilds(guildsWrapper)} .new-messages-indicator.bottom .icon.icon-unread-arrow{
+    margin:0!important;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+#{Guilds(guildsWrapper)} .scroller-wrap{
+    margin-bottom:0px;
+}
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} {
+    z-index: 6;
+    padding-bottom: 0px!important;
+}
+/*/"new mentions" arrows*/
+
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} .friendsOnline-_wi_fM {
+    margin-left:35px;
+    transform:translate(-50%,0);
+}
+.stop-animations #{Guilds(guildsWrapper)} #{Guilds(guilds)} .friendsOnline-_wi_fM{
+  transform:translate(-50%,0)!important;
+}
+
+
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(homeIcon)} {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/><path d="M0 0h24v24H0z" fill="none"/></svg>') !important;
+    background-size: 60%!important;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 50px;
+    padding: 5px;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(homeIcon)} {fill:none;}
+#{Guilds(guildsWrapper)} #{Guilds(guilds)} #{Guilds(homeIcon)} g {display: none;}
+
+
+.wrapper-232cHJ,
+.new-messages-indicator.new-messages-indicator-mention,
+.badge {
+  background-color:var(--nox-important-notification);
+}

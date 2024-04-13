@@ -1,0 +1,18 @@
+.container__26baa.themed_b152d4 {
+    background: var(--nox-level3);
+}
+
+// Remove stupid gradient
+.children_cde9af::after {
+    display: none;
+}
+
+// channel description
+.topic__16ae3 {
+    color: var(--nox-white4);
+}
+
+.selected__987e6 .header__77c95,
+.clickable__1383f .header__77c95:hover {
+    background-color: rgba(255,255,255, 0.05);
+}
