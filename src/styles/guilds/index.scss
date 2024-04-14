@@ -79,6 +79,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .svg__34dd4 rect { // scale down badge masks
+        display: none;
+    }
+    
 }
 
 // scale down icons back to normal

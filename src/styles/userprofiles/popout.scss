@@ -1,5 +1,5 @@
 // common card styling
-.userPopoutInner_e90432 {
+.userPopoutInner_ac0960 {
     background-size: 90%; // resize nox shapes background
 
     // replace default avatar hint
@@ -14,7 +14,7 @@
 
     }
 
-    .userPopoutOverlayBackground_bf6444 { // moving layout to body sections
+    .userPopoutOverlayBackground__3e7e6 { // moving layout to body sections
         margin: 0;
     }
 
@@ -42,7 +42,7 @@
         position: relative;
     }
 
-    .section__62b44:has(.activity__20c1e) { // activity bg + layout
+    .section__62b44:has(.activity__88a5f) { // activity bg + layout
         background: var(--nox-black3);
         padding-bottom: 12px;
         margin-top: 6px;
@@ -93,22 +93,22 @@
 }
 
 // Recolor card background for unthemed cards
-.userPopoutOuter__3884e.userProfileOuterUnthemed_e14365 {
+.userPopoutOuter_d67f56.userProfileOuterUnthemed__9741c {
     background-color: var(--nox-level2);
 
     // .avatar__991e2 { // avatar bg
     //     background: var(--nox-level2);
     // }
 
-    .userPopoutOverlayBackground_bf6444 .section__62b44:has(.note_ba0c31), // note section
-    .userPopoutOverlayBackground_bf6444 .section__62b44.section__8633a { // quick message section
+    .userPopoutOverlayBackground__3e7e6 .section__62b44:has(.note_ba0c31), // note section
+    .userPopoutOverlayBackground__3e7e6 .section__62b44.section__8633a { // quick message section
         background-color: var(--nox-level1);
     }
 }
 
 // Remove default coloring
-.userPopoutInner_e90432.userProfileInnerThemedNonPremium_ed9022,
-.userPopoutOverlayBackground_bf6444 {
+.userPopoutInner_ac0960.userProfileInnerThemedNonPremium_b64fb4,
+.userPopoutOverlayBackground__3e7e6 {
     background-color: transparent;
 }
 
@@ -173,7 +173,7 @@
 }
 
 // Themed card stuff
-.userPopoutOuter__3884e.userProfileOuterThemed__1fbd7 .userPopoutInner_e90432 {
+.userPopoutOuter_d67f56.userProfileOuterThemed_a425f3 .userPopoutInner_ac0960 {
 
     // remove online indicator outline on themed cards
     .avatarWrapper__0cd44 circle,

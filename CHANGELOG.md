@@ -1,5 +1,16 @@
 # Nox Changelog
 
+## 2.0.1
+
+### Bug Fixes
+ - User profiles
+ - Guild badges
+
+## 2.0.0
+
+### New Stuff
+ - Rewrite of theme
+
 ## 1.0.5
 
 ### New Stuff
