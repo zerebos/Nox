@@ -128,6 +128,7 @@
         z-index: 1;
         border-radius: 3px;
         height: auto;
+        position: relative;
     }
 
     .roleRemoveButton__20c70 { // move remove role button to end
@@ -234,6 +235,7 @@
     .section__8633a::after,
     .lastSection__62986:not(.section__8633a)::after {
         background-color: var(--profile-gradient-overlay-color);
+        opacity: 0.75;
     }
 
     // puts notes+quickmessage back above bg
