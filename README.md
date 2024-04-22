@@ -2,7 +2,7 @@
 
 A beautiful dark material theme for Discord. This is the rebrand and continuation of Beard's Material Design Theme which has been discontinued.
 
-For support and to report bugs, please visit the [support server](http://bit.ly/BMTserver).
+For support and to report bugs, please visit the [support server](https://bit.ly/NoxServer).
 
 # Variables
 
