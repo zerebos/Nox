@@ -30,10 +30,10 @@ Addons are currently non-working but may be added back eventually.
 ![Main Chat](../resources/images/main_chat.png)
 
 ## User Popout
-![User Popout](../resources/images/user_popout.png) ![User Popout with Nitro Theme](./resources/images/user_popout2.png)
+![User Popout](../resources/images/user_popout.png) ![User Popout with Nitro Theme](../resources/images/user_popout2.png)
 
 ## User Profile
-![User Profile](../resources/images/user_profile.png) ![User Profile with Nitro Theme](./resources/images/user_profile2.png)
+![User Profile](../resources/images/user_profile.png) ![User Profile with Nitro Theme](../resources/images/user_profile2.png)
 
 ## Status Picker
 ![Status Picker](../resources/images/status_picker.gif)
