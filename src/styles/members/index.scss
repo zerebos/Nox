@@ -9,19 +9,18 @@
     z-index: $channels-elevation;
     box-shadow: $elevation-shadow;
     background: var(--nox-level2);
+}
+.container__43554, // Role name
+.activity_bafb94 {
+    color: var(--nox-white4);
+}
 
-    .container__43554, // Role name
-    .activity_bafb94 {
-        color: var(--nox-white4);
-    }
+.clickable__03a29:hover .layout_bb8e67 { // hover on member
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--nox-white7);
+}
 
-    .clickable__03a29:hover .layout_bb8e67 { // hover on member
-        background-color: rgba(255, 255, 255, 0.05);
-        color: var(--nox-white7);
-    }
-
-    .selected__7f4cb .layout_bb8e67 { // selected member
-        background-color: var(--nox-level3);
-        color: var(--nox-white9);
-    }
+.selected__7f4cb .layout_bb8e67 { // selected member
+    background-color: var(--nox-level3);
+    color: var(--nox-white9);
 }

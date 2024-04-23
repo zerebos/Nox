@@ -1,0 +1,183 @@
+// main bg
+.container_b92032 {
+    background: var(--nox-level1);
+}
+
+// submit button
+.form__97f5c .submitButton__57214 {
+    border-radius: 2px;
+}
+
+// search bar
+.header_b2c494.header_b2c494 {
+    background-color: var(--nox-level1-5);
+}
+
+.headerWithMatchingPosts__1d7ac {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+// search thing
+.matchingPostsRow__6cdb0 {
+    background-color: var(--nox-level2);
+    width: 95%;
+    align-self: center;
+    border-radius: 0 0 5px 5px;
+    .clear_ee8f11 {
+        color: var(--nox-accent) !important;
+    }
+}
+
+// dropdown buttons
+.sortDropdown__40a16,
+.tagsButton__34537 {
+    border-radius: 2px;
+    background-color: var(--nox-level2);
+}
+
+// filters/tags
+.pill_f055c3 {
+    border-radius: 2px;
+    background-color: var(--nox-level2);
+    .text-xs-semibold__767f1,
+    .text-sm-semibold_d260b0 {
+        color: var(--nox-white8);
+    }
+}
+
+// card
+.mainCard__0ec2c {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 4px;
+}
+
+.mainCard__0ec2c.isOpen__8593d.isOpen__8593d {
+    background-color: var(--nox-black4);
+}
+
+// hover
+.container_de2a56:hover {
+    transform: none;
+    background-color: rgba(2, 2, 2, .2);
+    box-shadow: initial;
+}
+
+// pin icon
+.pinIcon__054d8 {
+    background-color: var(--nox-accent);
+}
+
+// title
+.postTitleText__39597 {
+    --header-primary: var(--nox-white9);
+    --text-muted: var(--nox-white4);
+}
+
+// author
+.author_ce38b7.hasUnreads__1827c .anchor_c8ddc0 {
+    color: var(--nox-white6)
+}
+
+.author_ce38b7 .anchor_c8ddc0 {
+    color: var(--nox-white4);
+}
+
+// message
+.messageFocusBlock__72297 {
+    --header-secondary: var(--nox-white4);
+    --text-muted: var(--nox-white3);
+}
+
+.messageCountIcon__8c6fd,
+.messageCountText__0393e,
+.bullet__4f67e {
+    color: var(--nox-white6);
+}
+
+.newMessageCount__7c713 {
+    color: var(--nox-accent) !important;
+}
+
+.footer_feccc4 .text-sm-normal__95a78 {
+    color: var(--nox-white6) !important;
+}
+
+// forums icon in post
+.iconWrapper_a8f659 {
+    background-color: var(--nox-level2);
+}
+
+// op tag text color
+.botTagOP_fd6360 {
+    color: var(--nox-white);
+}
+
+// locked post
+.chatHeaderBar__9e6ac {
+    background-color: var(--nox-level2);
+}
+.chatHeaderBarText_bd01c4 {
+    color: var(--nox-white6) !important;
+}
+
+// original messge divider
+.divider__4df9f {
+    display: none;
+}
+
+// follow post section
+.container__68e43 {
+    background: none;
+    border: none;
+    justify-content: center;
+
+    .buttons_ef8915{
+        padding: 0 20px;
+        border-radius: 2px;
+        gap: 16px;
+    }
+
+    .buttonInner__865de {
+        background-image: none;
+        background-color: var(--nox-black3);
+        border-radius: 4px;
+        border: none;
+
+        &:hover {
+            background-color: var(--nox-white1);
+        }
+
+        &:active {
+            background-color: var(--nox-black6);
+        }
+    }
+}
+
+// new badge
+.newBadge__40327 {
+    background-color: var(--nox-accent) !important;
+    color: var(--nox-white);
+    font-weight: 600;
+}
+
+// new posts button
+.newPostsButton__5c904 {
+    background-color: var(--nox-accent);
+    border: none;
+    box-shadow: $elevation-shadow;
+    height: unset;
+    padding: 0;
+
+    .text-md-medium_a84e09 {
+        color: var(--nox-white) !important;
+        padding: 4px 16px;
+        font-weight: 600;
+    }
+}
+
+// new posts indicator in channel list
+.channelInfo_b0882c  .text-xs-semibold__767f1 {
+    --brand-text: var(--nox-accent);
+}

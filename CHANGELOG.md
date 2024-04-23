@@ -1,5 +1,20 @@
 # Nox Changelog
 
+## 2.0.2
+
+### New Stuff
+ - Threads
+ - Forums
+
+### Bug Fixes
+ - Status picker background
+ - Bot tag color
+ - Avatar deco in pins
+ - User profiles overlay (was darkened by discord)
+ - Role icon in user popouts
+ - Members list in some locations
+ - Replies
+
 ## 2.0.1
 
 ### Bug Fixes
