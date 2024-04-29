@@ -56,10 +56,6 @@
         textarea:focus::placeholder {
             color: var(--nox-white4);
         }
-
-        textarea::selection {
-            color: var(--nox-white);
-        }
     }
 
     // quick message section
@@ -76,11 +72,6 @@
         .input__2c88a:focus::-webkit-input-placeholder {
             color: var(--nox-white6);
         }
-
-        .input__2c88a::selection {
-            color: var(--nox-white);
-        }
-
     }
 
 }

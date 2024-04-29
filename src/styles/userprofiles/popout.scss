@@ -61,18 +61,10 @@
             margin-left: -4px;
             width: calc(100% + 4px);
         }
-
-        textarea::selection { // change selection color to accent
-            background: var(--nox-accent);
-        }
     }
 
     .messageInputContainer_a93946 { // remove quickmessage border
         border: none;
-
-        .input__2c88a::selection { // change selection color to accent
-            background: var(--nox-accent);
-        }
     }
 
     .messageInputContainer_a93946:after { // quickmessage bottom border animation
