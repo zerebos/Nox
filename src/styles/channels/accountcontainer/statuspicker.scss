@@ -1,6 +1,6 @@
 .accountProfilePopoutWrapper_d4887f {
     left: -6px;
-    top: 3px;
+    top: 4px;
 
     .userPopoutOuter_d67f56.userPopoutOuter_d67f56 {
         width: 240px;
@@ -16,6 +16,12 @@
 
     .userProfileInner__61cc1:before {
         content: none;
+    }
+
+    .scroller__8f066 {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0 !important;
     }
 
     .bannerSVGWrapper__8a38c,
@@ -40,9 +46,10 @@
 #account {
     visibility: visible;
     width: 240px;
-    max-height: 180px;
+    max-height: 184px;
     background: var(--nox-level3);
     border-radius: 0;
+    padding: 0;
     animation: anim-account-bg 500ms cubic-bezier(.4,0,0,1);
 }
 
@@ -56,7 +63,7 @@
 #account > .scroller__8f066 > div > div > .item__183e8,
 #account > .scroller__8f066 > div > .item__183e8 {
     animation: anim-account-item 400ms cubic-bezier(0.4, 0, 0, 1) backwards;
-    padding: 12px 8px;
+    padding: 14px 16px;
     margin: 0;
 }
 
@@ -77,10 +84,7 @@
 }
 
 #account .item__183e8.menuItemFocused__7beab {
-    background: rgba(255,255,255,0.05);
-}
-.colorDefault_e361cf.focused_dcafb9 {
-    background-color: var(--nox-accent);
+    background: rgba(255,255,255,0.03);
 }
 .colorDefault_e361cf:active:not(.hideInteraction__0b569) {
     background-color: var(--nox-accent);
@@ -91,22 +95,41 @@
     from {width: 0;}
 }
 
-#account .submenu_aed9ee[aria-activedescendant^="account-status-picker"] {
-    height: 136px;
-    width: 128px;
+#account .submenuPaddingContainer__5a97c {
     position: absolute;
-    top: calc(-6px - 0px);
-    left: 4px;
+    left: -4px;
+    padding: 0;
+}
+
+#account .submenu_aed9ee {
     background: var(--nox-level3);
     border-radius: 0;
-    min-width: 0;
+    min-width: unset;
+}
+
+#account-switch-account + .layer__6b5c3 .submenu_aed9ee {
+    width: 100%;
+    animation: anim-status-bg 700ms cubic-bezier(.4,0,0,1);
+    .scroller__8f066 {
+        overflow:  hidden auto !important;
+    }
+
+    .item__183e8 {
+        height: 44px;
+    }
+}
+
+#account-status-picker + .layer__6b5c3 .submenu_aed9ee {
+    height: 138px;
+    width: 128px;
     animation: anim-status-bg 700ms cubic-bezier(.4,0,0,1);
 
     .scroller__8f066 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        overflow: visible !important;
+        justify-content: center;
+        overflow: none !important;
         padding: 8px !important;
     }
 }
@@ -209,8 +232,4 @@
     .statusItem__24445 {
         animation-delay: 300ms;
     }    
-}
-
-.separator__174fc {
-    display: none;
-}
+}    

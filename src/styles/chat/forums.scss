@@ -32,25 +32,44 @@
 // dropdown buttons
 .sortDropdown__40a16,
 .tagsButton__34537 {
-    border-radius: 2px;
+    border-radius: 6px;
     background-color: var(--nox-level2);
+}
+.countContainer_a9a63f {
+    background-color: var(--nox-accent);
 }
 
 // filters/tags
 .pill_f055c3 {
-    border-radius: 2px;
+    border-radius: 6px;
     background-color: var(--nox-level2);
+    border: none;
+    
     .text-xs-semibold__767f1,
     .text-sm-semibold_d260b0 {
         color: var(--nox-white8);
     }
+
+    &.pill_f055c3.pill_f055c3:hover {
+        background-color: rgba(255, 255, 255, .06);
+    }
+
+    &.selected__50db4.selected__50db4.selected__50db4 {
+        background-color: var(--nox-accent);
+    }
 }
 
 // card
-.mainCard__0ec2c {
+.mainCard__0ec2c,
+.loadingCard_ecb256 { // placeholder
     background-color: rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 4px;
+}
+
+.loadingCard-0__056b6,
+.loadingCard-1__5112b {
+    opacity: 0.7;
 }
 
 .mainCard__0ec2c.isOpen__8593d.isOpen__8593d {
@@ -128,29 +147,57 @@
 }
 
 // follow post section
+
+.messageListItem__050f9:has(+ .container__68e43) {
+    margin-bottom: 20px;
+}
+
+.messageListItem__050f9 + .header__8863a.header__8863a {
+    background-color: transparent;
+    justify-content: center;
+}
+
 .container__68e43 {
     background: none;
     border: none;
+    margin: 0 0 0 16px;
+    width: calc(100% - 16px);
+    box-sizing: border-box;
     justify-content: center;
 
+    // when section is near top of screen
+    &.header__8863a {
+        box-shadow: none;
+        background-color: var(--nox-level2);
+        border-radius: 0 0 6px 6px;
+        justify-content: space-between;
+    }
+
     .buttons_ef8915{
-        padding: 0 20px;
         border-radius: 2px;
         gap: 16px;
     }
 
+    .addReactButton__4342f,
     .buttonInner__865de {
         background-image: none;
-        background-color: var(--nox-black3);
+        background-color: var(--nox-white1);
         border-radius: 4px;
         border: none;
+        color: var(--nox-white7);
 
         &:hover {
-            background-color: var(--nox-white1);
+            background-color: var(--nox-white2);
+            color: var(--nox-white9);
         }
 
         &:active {
-            background-color: var(--nox-black6);
+            background-color: var(--nox-level1-5);
+        }
+
+        // following post
+        &.active_f1266e {
+            color: var(--nox-accent);
         }
     }
 }
@@ -179,5 +226,5 @@
 
 // new posts indicator in channel list
 .channelInfo_b0882c  .text-xs-semibold__767f1 {
-    --brand-text: var(--nox-accent);
+    --text-brand: var(--nox-accent);
 }
