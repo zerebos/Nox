@@ -1,5 +1,18 @@
 # Nox Changelog
 
+## 2.0.3
+
+### New Stuff
+ - Context menus
+ - Tooltips
+ - Account switcher
+ - Mentions
+ - Nox card (shows current version when theme is enabled)
+
+### Bug Fixes
+ - Reactions in forums
+ - Follow post section in forums
+
 ## 2.0.2
 
 ### New Stuff
