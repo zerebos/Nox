@@ -97,22 +97,3 @@
 .codeBlockLang__61f8b {
     color: var(--nox-accent);
 }
-
-// markdown toolbar
-.toolbar__894c6 {
-    background: var(--nox-level3);
-}
-.toolbar__894c6::before {
-    border-top-color: var(--nox-level3);
-}
-.toolbar__894c6 .hover_d0ebf2:hover,
-.toolbar__894c6 .active__05fbc {
-    background: rgba(255, 255, 255, 0.15);
-}
-.toolbar__894c6 .icon__2c9bf {
-    color: var(--nox-white6);
-}
-.toolbar__894c6 .active__05fbc .icon__2c9bf,
-.toolbar__894c6 .hover_d0ebf2:hover .icon__2c9bf {
-    color: var(--nox-white9);
-}

@@ -1,0 +1,62 @@
+.tooltipPointer_f7411c.tooltipPointer_f7411c.tooltipPointer_f7411c {
+    border-top-color: var(--nox-level3);
+}
+
+.tooltipBlack__867ce.tooltipBlack__867ce,
+.tooltipPrimary__51b23.tooltipPrimary__51b23 {
+    background-color: var(--nox-level3);
+    color: var(--nox-white7);
+}
+
+// message buttons
+.buttonsInner_a9dfff {
+    background-color: var(--nox-level2);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+.button_d4bf9b {
+    color: var(--nox-white7);
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: var(--nox-white9);
+    }
+
+    &:active {
+        background-color: rgba(255, 255, 255, 0.15);
+        color: var(--nox-white9);
+    }
+
+    &.selected__74fee {
+        background-color: rgba(0, 0, 0, 0.3);
+        color: var(--nox-white9);
+    }
+}
+
+// formatting toolbar
+.toolbar__894c6 {
+    background: var(--nox-level3);
+
+    &::before {
+        border-top-color: var(--nox-level3);
+    }
+
+    .icon__2c9bf {
+        color: var(--nox-white6);
+    }
+
+    .hover_d0ebf2:hover,
+    .active__05fbc {
+        background: rgba(255, 255, 255, 0.15);
+
+        .icon__2c9bf {
+            color: var(--nox-white9);
+        }
+    }
+}
+
+// toasts
+.bd-toast {
+    background-color: var(--nox-level1);
+    color: var(--nox-white9);
+}
