@@ -1,0 +1,18 @@
+#Nox-card {
+
+    .bd-version,
+    .bd-author {
+        font-size: 0;
+    }
+
+    .bd-version::after {
+        content: "v" var(--nox-version) " ";
+        font-size: 12px;
+    }
+
+    .bd-author::after {
+        content: 'Lilian Tedone, Zerebos, and epic1online';
+        font-size: 12px;
+    }
+
+}
