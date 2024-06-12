@@ -1,5 +1,5 @@
 .form_d8a4a1 {
-    background: var(--nox-level1-5);
+    background: none;
     padding: 0;
     box-shadow: $elevation-shadow;
 }
@@ -15,6 +15,15 @@
     background: var(--nox-level1-5);
     padding: 10px 0 10px 0;
     border-radius: 0;
+}
+
+// reply bar
+.attachedBars_c1606a {
+    background: var(--nox-level2);
+}
+
+.replyBar_ed6afc {
+    background: none;
 }
 
 .channelTextArea_c2094b {
@@ -57,6 +66,7 @@
 .channelTextArea__626ee {
     margin-top: 0;
 }
+
 // edit box bg
 .channelTextArea__626ee .themedBackground__3a4c0 {
     background: var(--nox-level1-5);
@@ -89,11 +99,13 @@
 .codeLine__10acb {
     color: var(--nox-white5);
 }
+
 .codeBlockSyntax__4104a,
 .syntaxAfter__23aff,
 .syntaxBefore_bd3975 {
     color: var(--nox-white6);
 }
+
 .codeBlockLang__61f8b {
     color: var(--nox-accent);
 }

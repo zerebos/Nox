@@ -1,10 +1,11 @@
-// Home Icon
-.homeIcon__560eb {
-    width: 32px;
-    height: 32px;
-}
+// Seems un-needed, will have to verify
+// // Home Icon
+// .homeIcon__560eb {
+//     width: 32px;
+//     height: 32px;
+// }
 
 // Change to home symbol
-.childWrapper_a6ce15:not(.acronym_fb7739) path {
+.childWrapper__760c6 path {
     d: path("M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z") !important;
 }

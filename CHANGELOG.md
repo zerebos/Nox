@@ -1,5 +1,14 @@
 # Nox Changelog
 
+## 2.0.4
+
+### New Stuff
+ - Reply bar
+
+### Bug Fixes
+ - Server icons
+ - Unthemed profile modal background
+
 ## 2.0.3
 
 ### New Stuff

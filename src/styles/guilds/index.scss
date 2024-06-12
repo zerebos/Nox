@@ -87,11 +87,11 @@
 }
 
 // scale down icons back to normal
-.wrapper__8436d .childWrapper_a6ce15, // home icon
-.wrapper__8436d .acronym_fb7739, // iconless servers
+.wrapper_a6f950 .childWrapper__760c6, // home icon
+.wrapper_a6f950 .acronym__88ca6, // iconless servers
 .folder__17546 .folderIconWrapper__11165, // folders
 .circleIconButton__05cf2, // add server and discovery
-.wrapper__8436d .icon__11cf1 {
+.wrapper_a6f950 .icon_e2a8c1 {
     transform: scale(calc(48/70));
     border-radius: 50%;
 }
@@ -102,13 +102,13 @@
 }
 
 // Home button and circle buttons
-.childWrapper_a6ce15,
+.childWrapper__760c6,
 .circleIconButton__05cf2 {
     background: var(--nox-level2);
 }
 
 // change blurple to accent bg
-.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15, // home icon and iconless guilds
+.wrapper_a6f950.selected_b420e6 .childWrapper__760c6, // home icon and iconless guilds
 .circleIconButton__05cf2.selected_aded59 { // add server and discovery
     background: var(--nox-accent);
 }
