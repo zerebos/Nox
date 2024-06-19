@@ -1,5 +1,5 @@
 // Guild list bg color
-.guilds__2b93a {
+.guilds_a4d4d9 {
     z-index: $guilds-elevation;
     width: 70px;
     background: var(--nox-level1) !important;
@@ -7,72 +7,72 @@
 }
 
 // Remove existing color and padding
-.guilds__2b93a .scroller_de945b {
+.guilds_a4d4d9 .scroller_fea3ef {
     background: transparent;
     padding: 0;
 }
 
 // Hide scroller
-.guilds__2b93a .scroller_de945b::-webkit-scrollbar {
+.guilds_a4d4d9 .scroller_fea3ef::-webkit-scrollbar {
     width: 0 !important;
 }
 
 // Separator
-.guildSeparator__75928 {
+.guildSeparator_d0c57e {
     background: var(--nox-white1);
 }
 
 // Remove move down on click
-.listItemWrapper__3d465:active,
-.listItem__48528 .blobContainer_c44493:active {
+.listItemWrapper_dfb2f8:active,
+.listItem_c96c45 .blobContainer_a5ad63:active {
     transform: none;
 }
 
 // remove folder background
-.folder__17546 {
+.folder_bc7085 {
     background: none !important;
 }
 
 // recolor closed folders
-.collapsed__98ad5+div .folderIconWrapper__11165 {
+.collapsed_bc7085+div .folderIconWrapper_bc7085 {
     background: var(--nox-white2) !important;
 }
 
 // recolor open folders
-.expandedFolderBackground_b1385f {
+.expandedFolderBackground_bc7085 {
     background: var(--nox-white1) !important;
 }
 
 // TODO might be able to remove this - Remove weird folder background
-.expandedFolderBackground_b1385f.collapsed__98ad5 {
+.expandedFolderBackground_bc7085.collapsed_bc7085 {
     background: none !important;
 }
 
 // Allow smaller border radii
-.expandedFolderBackground_b1385f + .listItem__48528 .svg__34dd4 foreignObject {
+.expandedFolderBackground_bc7085 + .listItem_c96c45 .svg_c5f96a foreignObject {
     mask: none;
 }
 
 // remove margin between servers
-.listItem__48528 {
+.listItem_c96c45 {
     margin-bottom: 0;
     width: 70px;
 }
 
 // increase clicking area
-.listItem__48528 .svg__34dd4 {
+.listItem_c96c45 .svg_c5f96a {
     height: 70px;
     width: 70px;
     z-index: $guilds-elevation;
 }
 
 // allow dragging to work properly
-.wrapper__0a9af {
+.wrapper_b7c66a {
     z-index: $guilds-elevation;
 }
 
 // increase wrapper size and center servers
-.listItem__48528 .wrapper__9916c {
+.listItem_c96c45 .wrapper_c5f96a {
     height: 70px;
     width: 70px;
     border-radius: unset;
@@ -80,46 +80,46 @@
     align-items: center;
     justify-content: center;
 
-    .svg__34dd4 rect { // scale down badge masks
+    .svg_c5f96a rect { // scale down badge masks
         display: none;
     }
     
 }
 
 // scale down icons back to normal
-.wrapper_a6f950 .childWrapper__760c6, // home icon
-.wrapper_a6f950 .acronym__88ca6, // iconless servers
-.folder__17546 .folderIconWrapper__11165, // folders
-.circleIconButton__05cf2, // add server and discovery
-.wrapper_a6f950 .icon_e2a8c1 {
+.wrapper_f90abb .childWrapper_f90abb, // home icon
+.wrapper_f90abb .acronym_f90abb, // iconless servers
+.folder_bc7085 .folderIconWrapper_bc7085, // folders
+.circleIconButton_db6521, // add server and discovery
+.wrapper_f90abb .icon_f90abb {
     transform: scale(calc(48/70));
     border-radius: 50%;
 }
 
 // fix spacing after unread dm circle
-.scroller_de945b div[style="opacity: 1; height: 56px; transform: scale(1);"] {
+.scroller_fea3ef div[style="opacity: 1; height: 56px; transform: scale(1);"] {
     height: 70px !important;
 }
 
 // Home button and circle buttons
-.childWrapper__760c6,
-.circleIconButton__05cf2 {
+.childWrapper_f90abb,
+.circleIconButton_db6521 {
     background: var(--nox-level2);
 }
 
 // change blurple to accent bg
-.wrapper_a6f950.selected_b420e6 .childWrapper__760c6, // home icon and iconless guilds
-.circleIconButton__05cf2.selected_aded59 { // add server and discovery
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb, // home icon and iconless guilds
+.circleIconButton_db6521.selected_db6521 { // add server and discovery
     background: var(--nox-accent);
 }
 
 // discovery and add server change blurple to accent
-.circleIconButton__05cf2 {
+.circleIconButton_db6521 {
     color: var(--nox-accent);
 }
 
 // blanks pill item
-.listItem__48528 .item_f9d377 {
+.listItem_c96c45 .item_fd07a3 {
     box-sizing: border-box;
     background: none;
     margin: 0;
@@ -128,7 +128,7 @@
 }
 
 // set up hover/active/selected bg
-.wrapper__9916c::after {
+.wrapper_c5f96a::after {
     content: "";
     display: block;
     position: absolute;
@@ -140,23 +140,23 @@
 }
 
 // hover bg
-.wrapper__9916c:hover::after {
+.wrapper_c5f96a:hover::after {
     background: var(--nox-white1);
 }
 
 // active bg
-.wrapper__9916c:active::after {
+.wrapper_c5f96a:active::after {
     background: var(--nox-black2);
 }
 
-.selected_e85eba .wrapper__9916c::after,
-.selected__501f5 .wrapper__9916c::after,
-.listItem__48528:has(.item_f9d377[style="opacity: 1; height: 40px; transform: none;"]) .wrapper__9916c::after {
+.selected_a5ad63 .wrapper_c5f96a::after,
+.selected_dfb2f8 .wrapper_c5f96a::after,
+.listItem_c96c45:has(.item_fd07a3[style="opacity: 1; height: 40px; transform: none;"]) .wrapper_c5f96a::after {
     background: var(--nox-black2);
 }
 
 // set up unread circle
-.wrapper__9916c::before {
+.wrapper_c5f96a::before {
     content: "";
     display: block;
     position: absolute;
@@ -170,7 +170,7 @@
     z-index: 2;
 }
 
-.listItem__48528:has(.item_f9d377[style="opacity: 1; height: 8px; transform: none;"]) .wrapper__9916c::before {
+.listItem_c96c45:has(.item_fd07a3[style="opacity: 1; height: 8px; transform: none;"]) .wrapper_c5f96a::before {
     border-color: var(--nox-notification-color);
 }
 
@@ -178,26 +178,26 @@
 // TODO might move to another file Server folder stuff
 
 // change hover/active/selected background for folders
-.wrapper__832f2 ul[id*=folder-items] .wrapper__9916c::after {
+.wrapper_bc7085 ul[id*=folder-items] .wrapper_c5f96a::after {
     width: 60px;
     left: 5px;
 }
 
 // prevent hover highlight for open folder icon
-.wrapper__832f2 > :not(.collapsed__98ad5) + .listItem__48528 .wrapper__9916c::after {
+.wrapper_bc7085 > :not(.collapsed_bc7085) + .listItem_c96c45 .wrapper_c5f96a::after {
     content: none
 }
 
-.wrapper__832f2 ul[id*=folder-items] .listItem__48528:last-child .wrapper__9916c::after {
+.wrapper_bc7085 ul[id*=folder-items] .listItem_c96c45:last-child .wrapper_c5f96a::after {
     border-radius: 0 0 30px 30px;
     height: 62px;
 }
 
-.wrapper__832f2 ul[id*=folder-items] {
+.wrapper_bc7085 ul[id*=folder-items] {
     height: auto !important;
 }
 
-.expandedFolderBackground_b1385f {
+.expandedFolderBackground_bc7085 {
     padding: 6px;
     left: 5px;
     border-radius: 16px 16px 30px 30px;
@@ -207,8 +207,8 @@
 // BADGES
 
 // alignment of badges
-.lowerBadge_e89e22,
-.upperBadge__00ad0 {
+.lowerBadge_c5f96a,
+.upperBadge_c5f96a {
     top: calc((100% - 48px) / 2);
     left: calc((100% - 48px) / 2);
     width: 48px;
@@ -218,21 +218,21 @@
     z-index: calc($guilds-elevation + 1);
 }
 
-.lowerBadge_e89e22 {
+.lowerBadge_c5f96a {
     align-items: flex-end;
 }
 
-.upperBadge__00ad0 {
+.upperBadge_c5f96a {
     align-items: flex-start;
 }
 
 // in call background green to accent
-.iconBadge__19638.participating-2Z81oO {
+.iconBadge_c96c45.participating-2Z81oO {
     background-color: var(--nox-accent);
 }
 
 // recolor call available background
-.iconBadge__19638 {
+.iconBadge_c96c45 {
     background-color: var(--nox-level1-5);
 }
 
@@ -244,41 +244,41 @@
 // TODO Will move to separate file
 
 // folder color to accent
-.expandedFolderIconWrapper__324c1 svg {
+.expandedFolderIconWrapper_bc7085 svg {
     color: var(--nox-accent) !important;
 }
 
 // material icon
-.folder__17546 svg path {
+.folder_bc7085 svg path {
     d: path("M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z");
 }
 
 // material icon hover/open
-.folder__17546.hover__043de svg path {
+.folder_bc7085.hover_bc7085 svg path {
     d: path("M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z");
 }
 
 // make material icon bigger
-.folder__17546 svg {
+.folder_bc7085 svg {
     height: 32px;
     width: 32px;
 }
 
 // enlarge drag placeholder wrapper
-.placeholderMask_ca6625 {
+.placeholderMask_f734d8 {
     width: 70px;
     height: 70px;
 }
 
  // color and scale icon back down
-.dragInner_d5b34c {
+.dragInner_f734d8 {
     background-color: var(--nox-black3);
     border-radius: 50%;
     transform: scale(calc(48/70));
 }
 
 // dragging position indicator green to accent
-.centerTarget_ec3a01.dragOver_efabec:before, // combine server
-.target__2c5c2.dragOver_efabec:before { // above server
+.centerTarget_b7c66a.dragOver_b7c66a:before, // combine server
+.target_b7c66a.dragOver_b7c66a:before { // above server
 	background-color: var(--nox-accent);
 }

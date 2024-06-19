@@ -1,9 +1,9 @@
 // common card styling
-.userPopoutInner_ac0960 {
+.userPopoutInner_c69a7b {
     background-size: 90%; // resize nox shapes background
 
     // replace default avatar hint
-    .avatarHintInner_c8ddb1 {
+    .avatarHintInner_f89da9 {
         color: transparent;
         background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHYyaDE2di0yYzAtMi42Ni01LjMzLTQtOC00eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+);
         background-position: 50%;
@@ -14,60 +14,60 @@
 
     }
 
-    .userPopoutOverlayBackground__3e7e6 { // moving layout to body sections
+    .userPopoutOverlayBackground_c69a7b { // moving layout to body sections
         margin: 0;
     }
 
-    .divider_d6f39c { // hide divider below name
+    .divider_ae36e5 { // hide divider below name
         display: none;
     }
 
-    .scrollerSeparator_d8843a { // hide divider when scrolling on large cards
+    .scrollerSeparator_d2b491 { // hide divider when scrolling on large cards
         box-shadow: none;
     }
 
-    .scroller_f9a667 { // place scrollbar on top of content move padding to children
+    .scroller_d2b491 { // place scrollbar on top of content move padding to children
         padding: 0 !important;
         overflow: hidden overlay !important;
     }
 
-    .profileBadges__1f2ab { // profile badges
+    .profileBadges_f89da9 { // profile badges
         background: none;
         padding: 4px;
     }
 
-    .section__62b44, // card body padding moved from scroller & spacing between sections
-    .profileMutuals__95dc2 {
+    .section_d7a21f, // card body padding moved from scroller & spacing between sections
+    .profileMutuals_d2b491 {
         padding: 12px 16px 0 16px;
         position: relative;
     }
 
-    .section__62b44:has(.activity__88a5f) { // activity bg + layout
+    .section_d7a21f:has(.activity_e36233) { // activity bg + layout
         background: var(--nox-black3);
         padding-bottom: 12px;
         margin-top: 6px;
     }
 
-    .section__62b44:has(.note_ba0c31) { // add space before note/footer section
+    .section_d7a21f:has(.note_c90ad7) { // add space before note/footer section
         margin-top: 12px;
     }
 
-    .lastSection__62986 { // creates padding between last section and end of card
+    .lastSection_d7a21f { // creates padding between last section and end of card
         padding-bottom: 12px;
     }
 
-    .note_ba0c31 {
+    .note_c90ad7 {
         textarea { // align note text with title
             margin-left: -4px;
             width: calc(100% + 4px);
         }
     }
 
-    .messageInputContainer_a93946 { // remove quickmessage border
+    .messageInputContainer_f2c0a8 { // remove quickmessage border
         border: none;
     }
 
-    .messageInputContainer_a93946:after { // quickmessage bottom border animation
+    .messageInputContainer_f2c0a8:after { // quickmessage bottom border animation
         content: '';
         position: relative;
         width: 0;
@@ -78,57 +78,57 @@
         transition: all ease-in-out .3s;
     }
 
-    .messageInputContainer_a93946:focus-within::after { // quickmessage bottom border animation
+    .messageInputContainer_f2c0a8:focus-within::after { // quickmessage bottom border animation
         width: 308px;
     }
 
 }
 
 // Recolor card background for unthemed cards
-.userPopoutOuter_d67f56.userProfileOuterUnthemed__9741c {
+.userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b {
     background-color: var(--nox-level2);
 
-    // .avatar__991e2 { // avatar bg
+    // .avatar_c51b4e { // avatar bg
     //     background: var(--nox-level2);
     // }
 
-    .userPopoutOverlayBackground__3e7e6 .section__62b44:has(.note_ba0c31), // note section
-    .userPopoutOverlayBackground__3e7e6 .section__62b44.section__8633a { // quick message section
+    .userPopoutOverlayBackground_c69a7b .section_d7a21f:has(.note_c90ad7), // note section
+    .userPopoutOverlayBackground_c69a7b .section_d7a21f.section_f2c0a8 { // quick message section
         background-color: var(--nox-level1);
     }
 }
 
 // Remove default coloring
-.userPopoutInner_ac0960.userProfileInnerThemedNonPremium_b64fb4,
-.userPopoutOverlayBackground__3e7e6 {
+.userPopoutInner_c69a7b.userProfileInnerThemedNonPremium_c69a7b,
+.userPopoutOverlayBackground_c69a7b {
     background-color: transparent;
 }
 
 // Role stuff
-.role_d81130 { // set up role bg
+.role_e4010c { // set up role bg
     background: none;
     padding: 0 2px 0 6px;
     border-width: 0;
     border-radius: 3px;
     overflow: hidden;
 
-    .roleName__851c9 { // puts text on top of role bg
+    .roleName_e4010c { // puts text on top of role bg
         z-index: 1;
     }
 
-    .roleIcon_aa2eb3 { // role icon styling and puts on top of role bg 
+    .roleIcon_e4010c { // role icon styling and puts on top of role bg 
         z-index: 1;
         border-radius: 3px;
         height: auto;
         position: relative;
     }
 
-    .roleRemoveButton__20c70 { // move remove role button to end
+    .roleRemoveButton_e4010c { // move remove role button to end
         order: 2;
 
         // role bg color
-        .roleCircle__61ad8::before,
-        .roleFlowerStar_b2d3a1::before {
+        .roleCircle_a26d7b::before,
+        .roleFlowerStar_e4010c::before {
             content: "";
             visibility: visible;
             background-color: inherit;
@@ -139,43 +139,43 @@
             opacity: 0.6;
         }
     
-        .roleFlowerStar_b2d3a1::before { // connected account role layout fix
+        .roleFlowerStar_e4010c::before { // connected account role layout fix
             top: -4px;
         }
 
         // hide role circle
-        .roleCircle__61ad8,
-        .roleFlowerStar_b2d3a1 {
+        .roleCircle_a26d7b,
+        .roleFlowerStar_e4010c {
             margin: 0;
             visibility: hidden;
         }
 
     }
 
-    .roleRemoveButton__20c70[aria-hidden="false"] { // re-add remove role button if removable role
+    .roleRemoveButton_e4010c[aria-hidden="false"] { // re-add remove role button if removable role
         background: transparent;
         background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0icm9sZVJlbW92ZUljb24tMml1MGlFIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTJ2MTJIMCI+PC9wYXRoPjxwYXRoIGNsYXNzPSJmaWxsIiBmaWxsPSIjZmZmZmZmIiBkPSJNOS41IDMuMjA1TDguNzk1IDIuNSA2IDUuMjk1IDMuMjA1IDIuNWwtLjcwNS43MDVMNS4yOTUgNiAyLjUgOC43OTVsLjcwNS43MDVMNiA2LjcwNSA4Ljc5NSA5LjVsLjcwNS0uNzA1TDYuNzA1IDYiPjwvcGF0aD48L2c+PC9zdmc+);
         margin-right: 2px;    
     }
 
     // remove space occupied by role circle
-    .roleRemoveButton__20c70[aria-hidden="true"] .roleCircle__61ad8,
-    .roleRemoveButton__20c70:has(.roleFlowerStar_b2d3a1) {
+    .roleRemoveButton_e4010c[aria-hidden="true"] .roleCircle_a26d7b,
+    .roleRemoveButton_e4010c:has(.roleFlowerStar_e4010c) {
         width: 0;
     }
 }
 
 // Themed card stuff
-.userPopoutOuter_d67f56.userProfileOuterThemed_a425f3 .userPopoutInner_ac0960 {
+.userPopoutOuter_c69a7b.userProfileOuterThemed_c69a7b .userPopoutInner_c69a7b {
 
     // remove online indicator outline on themed cards
-    .avatarWrapper__0cd44 circle,
-    .avatarWrapper__0cd44 rect[fill="black"] {
+    .avatarWrapper_f89da9 circle,
+    .avatarWrapper_f89da9 rect[fill="black"] {
         visibility: hidden;
     }
 
     // adds background to pfps to block nox shapes
-    // .avatarStack__789b4::before {
+    // .avatarStack_c51b4e::before {
     //     content: '';
     //     width: 100%;
     //     height: 100%;
@@ -186,7 +186,7 @@
     // }
 
     // darkens avatar background
-    // .avatar__991e2 {
+    // .avatar_c51b4e {
     //     border-radius: 50%;
     //     // background-color: var(--profile-gradient-overlay-color);
     //     // position: relative;
@@ -196,10 +196,10 @@
     // solid background for notes + quick message
 
     // setup solid bg
-    .section__8633a::before,
-    .lastSection__62986:not(.section__8633a)::before,
-    .section__8633a::after,
-    .lastSection__62986:not(.section__8633a)::after {
+    .section_f2c0a8::before,
+    .lastSection_d7a21f:not(.section_f2c0a8)::before,
+    .section_f2c0a8::after,
+    .lastSection_d7a21f:not(.section_f2c0a8)::after {
         content: '';
         width: 100%;
         position: absolute;
@@ -209,31 +209,31 @@
     }
 
     // has quickmessage
-    .section__8633a::before,
-    .section__8633a::after {
+    .section_f2c0a8::before,
+    .section_f2c0a8::after {
         height: calc(200% + 9px);
     }
     // no quickmessage
-    .lastSection__62986:not(.section__8633a)::before, 
-    .lastSection__62986:not(.section__8633a)::after {
+    .lastSection_d7a21f:not(.section_f2c0a8)::before, 
+    .lastSection_d7a21f:not(.section_f2c0a8)::after {
         height: 100%;
     }
 
     // adds actual bg
-    .section__8633a::before,
-    .lastSection__62986:not(.section__8633a)::before {
+    .section_f2c0a8::before,
+    .lastSection_d7a21f:not(.section_f2c0a8)::before {
         background: linear-gradient(var(--profile-gradient-primary-color) -40vh, var(--profile-gradient-secondary-color));
     }
-    .section__8633a::after,
-    .lastSection__62986:not(.section__8633a)::after {
+    .section_f2c0a8::after,
+    .lastSection_d7a21f:not(.section_f2c0a8)::after {
         background-color: var(--profile-gradient-overlay-color);
         opacity: 0.75;
     }
 
     // puts notes+quickmessage back above bg
-    .section__62b44:has(.note_ba0c31) .title__392bc,
-    .section__62b44:has(.note_ba0c31) .note_ba0c31,
-    .section__8633a .inputWrapper_ecb776 {
+    .section_d7a21f:has(.note_c90ad7) .title_c4a579,
+    .section_d7a21f:has(.note_c90ad7) .note_c90ad7,
+    .section_f2c0a8 .inputWrapper_f8bc55 {
         position: relative;
         z-index: 1;
     }

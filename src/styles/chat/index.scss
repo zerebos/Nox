@@ -1,31 +1,31 @@
-.chat__52833 .messagesWrapper_add28b {
+.chat_a7d72e .messagesWrapper_e2e187 {
     background: var(--nox-level1);
     margin-bottom: 8px;
 }
 
 // message loading placeholder
-.wrapper_c899da {
+.wrapper_cdfd51 {
     background: none;
 }
 
-.wrapper__6b7d8 {
+.wrapper_b211c6 {
     background: rgba(0, 0, 0, 0.1);
     padding: 0 7px .25rem 10px !important;
     margin: 0 40px 0 80px;
     position: static;
 }
 
-.wrapper__6b7d8 .contents_d2b4c7 {
+.wrapper_b211c6 .contents_b211c6 {
     position: relative;
 }
 
-.wrapper__6b7d8 .avatar_eb6eba {
+.wrapper_b211c6 .avatar_b211c6 {
     left: -70px;
     top: -10px;
     margin: 0;
 }
 
-.wrapper__6b7d8:has(.avatar_eb6eba)::before {
+.wrapper_b211c6:has(.avatar_b211c6)::before {
     content: "";
     width: 0;
     height: 0;
@@ -39,27 +39,27 @@
 }
 
 // codeblocks
-.markup_a7e664 code {
+.markup_d6076c code {
     background: var(--nox-level2);
     border-color: var(--nox-level3);
     border-radius: 2px;
 }
 
 // timestamp
-.timestamp_ff7119 {
+.timestamp_d6076c {
     background-color: rgba(255, 255, 255, .1);
 }
 
 // inline code
-.markup_a7e664 code.inline {
+.markup_d6076c code.inline {
     border-radius: 2px;
 }
-.after_inlineCode__59586,
-.before_inlineCode__48f7c,
-.inlineCode__0cacf{
+.after_inlineCode_cdb578,
+.before_inlineCode_cdb578,
+.inlineCode_cdb578{
     background: var(--nox-level2);
 }
 
-.blockquoteDivider__5cbad {
+.blockquoteDivider_d6076c {
     background-color: var(--nox-black3);
 }

@@ -1,54 +1,54 @@
 // invite embed
-.wrapper__8a5dd {
+.wrapper_b9fe76 {
     background-color: var(--nox-level2);
     border-radius: 3px;
 }
-.wrapper__8a5dd .flowerStar_fa5ad8 path {
+.wrapper_b9fe76 .flowerStar_ff7d90 path {
     fill: var(--nox-accent);
 }
-.guildIconExpired__67d9b {
+.guildIconExpired_b9fe76 {
     filter: grayscale(1);
     background-color: rgba(255, 255, 255, .05);
     border-radius: 50%;
 }
 
 // bot embed
-.embedFull__14919 {
+.embedFull_ad0b71 {
     border-color: var(--nox-white1);
     background: var(--nox-level2);
     border-radius: 3px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
-.botTagRegular_fc4b4a {
+.botTagRegular_a02df3 {
     background: var(--nox-accent);
 }
 
 // file embed
-.attachment__06ca3.attachment__06ca3 {
+.attachment_a4623d.attachment_a4623d {
     background-color: var(--nox-level2);
     border-color: var(--nox-level3);
     border-radius: 2px;
 }
-.attachment__06ca3 .metadata__05734 {
+.attachment_a4623d .metadata_a4623d {
     color: var(--nox-white2)
 }
 
 // textfile embed
-.newMosaicStyle_ed53d8 .textContainer__65f57 {
+.newMosaicStyle_ad9cbd .textContainer_ad9cbd {
     border-radius: 3px 3px 0 0;
 }
-.newMosaicStyle_ed53d8 .footer__90194 {
+.newMosaicStyle_ad9cbd .footer_ad9cbd {
     border-radius: 0 0 3px 3px;
 }
-.textContainer__65f57,
-.footer__90194,
-.codeView_e4dd18 {
+.textContainer_ad9cbd,
+.footer_ad9cbd,
+.codeView_ad9cbd {
     background-color: var(--nox-level2);
     border-color: var(--nox-level3);
     color: var(--nox-white6);
 }
-.toggleExpandSection__22220 {
+.toggleExpandSection_ad9cbd {
     color: var(--nox-white6);
 }
 .theme-dark .hljs-code,
@@ -56,89 +56,89 @@
 .theme-dark .hljs-formula {
     color: var(--nox-white4);
 }
-.toggleExpandSection__22220:hover {
+.toggleExpandSection_ad9cbd:hover {
     color: var(--nox-white9);
 }
-.footer__90194 .formattedSize__44417 {
+.footer_ad9cbd .formattedSize_ad9cbd {
     color: var(--nox-white2);
 }
-.footer__90194 .downloadButton__91f0f,
-.footer__90194 .codeIcon_f2e957 {
+.footer_ad9cbd .downloadButton_ad9cbd,
+.footer_ad9cbd .codeIcon_ad9cbd {
     color: var(--nox-white4);
 }
-.footer__90194 .downloadSection__849a6:hover .downloadButton__91f0f,
-.footer__90194 .codeIcon_f2e957:hover {
+.footer_ad9cbd .downloadSection_ad9cbd:hover .downloadButton_ad9cbd,
+.footer_ad9cbd .codeIcon_ad9cbd:hover {
     color: var(--nox-white6);
 }
 // language selector
-.languageSelector__4840c {
+.languageSelector_ad9cbd {
     background-color: var(--nox-level2);
     border-radius: 0;
 }
-.languageSelector__4840c .container__33507 {
+.languageSelector_ad9cbd .container__33507 {
     background-color: var(--nox-level1);
     border-radius: 0;
     margin: 2px 2px 0 2px;
 }
-.languageSelector__4840c .item__287de {
+.languageSelector_ad9cbd .item_eef3ef {
     border-radius: 3px;
     color: var(--nox-white4);
 }
-.focused__87b55, .item__287de:hover:not(.disabled_ef860a) {
+.focused_eef3ef, .item_eef3ef:hover:not(.disabled_eef3ef) {
     background-color: rgba(255, 255, 255, .05);
     color: var(--nox-white6);
 }
-.item__287de.item__287de.selected__32a6a {
+.item_eef3ef.item_eef3ef.selected_eef3ef {
     background-color: var(--nox-black3);
     color: var(--nox-white9);
 }
 
 // video embed
-.mediaBarProgress_a3b7f1,
-.mediaBarProgress_a3b7f1:after,
-.mediaBarProgress_a3b7f1:before {
+.mediaBarProgress_f7877e,
+.mediaBarProgress_f7877e:after,
+.mediaBarProgress_f7877e:before {
     background-color: var(--nox-accent);
 }
-.mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527,
-.mediaBarInteractionDragging__55800 .mediaBarGrabber__1d527 {
+.mediaBarInteraction_f7877e:hover .mediaBarGrabber_f7877e,
+.mediaBarInteractionDragging_f7877e .mediaBarGrabber_f7877e {
     background-color: var(--nox-accent);
 }
 
 // audio embed
-.wrapperAudio__178e9.wrapperAudio__178e9 {
+.wrapperAudio_f316dd.wrapperAudio_f316dd {
     background-color: var(--nox-level2);
     border: none;
     border-radius: 3px;
 }
-.audioControls_da7066 {
+.audioControls_f316dd {
     background-color: var(--nox-level3);
 }
-.audioMetadata__84e00:before {
+.audioMetadata_f316dd:before {
     filter: hue-rotate(-17deg);
 }
 
 // voice embed
-.messageAttachment__5dae1 .container_ce813c {
+.messageAttachment__5dae1 .container_d6cb89 {
     background-color: var(--nox-level3);
     border-radius: 4px;
 }
-.theme-dark .container_ce813c:not(.playing__0754e) .playButtonContainer_bf2199 {
+.theme-dark .container_d6cb89:not(.playing_d6cb89) .playButtonContainer_d6cb89 {
     background: var(--nox-accent);
 }
-.theme-dark .container_ce813c:not(.playing__0754e) .playButtonContainer_bf2199:hover {
+.theme-dark .container_d6cb89:not(.playing_d6cb89) .playButtonContainer_d6cb89:hover {
     background: var(--nox-accent);
     filter: brightness(1.1);
 }
-.playing__0754e .playIcon__25e6e {
+.playing_d6cb89 .playIcon_d6cb89 {
     color: var(--nox-accent);
 }
-.rippleContainer__25799 {
+.rippleContainer_d6cb89 {
     border-radius: 0;
 }
-.ripple__74f0d {
+.ripple_d6cb89 {
     background-color: var(--nox-level1-5);
     border-radius: 0;
 }
-.playing__0754e .volumeButtonIcon__99a56 {
+.playing_d6cb89 .volumeButtonIcon_d6cb89 {
     color: var(--nox-white6);
 }

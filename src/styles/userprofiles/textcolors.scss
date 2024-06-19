@@ -1,6 +1,6 @@
 // Dark & unthemed popouts
-.userPopoutOuter_d67f56.theme-dark {
-    .title__392bc { // headings
+.userPopoutOuter_c69a7b.theme-dark {
+    .title_c4a579 { // headings
         color: var(--nox-white);
     }
 
@@ -9,19 +9,19 @@
         color: var(--nox-white7) !important;
     }
 
-    .nickname_db3773 { // nickname
+    .nickname_c9ccf6 { // nickname
         color: var(--nox-white);
     }
 
-    .pronouns__8aa38 { // pronouns
+    .pronouns_c9ccf6 { // pronouns
         color: var(--nox-white7);
     }
 
-    .userTagUsernameBase__2bd24 { // username
+    .userTagUsernameBase_c9ccf6 { // username
         color: var(--nox-white7);
     }
 
-    .discrimBase__5555e { // discriminator
+    .discrimBase_c9ccf6 { // discriminator
         color: var(--nox-white5);
     }
     
@@ -29,18 +29,18 @@
         color: var(--nox-white7);
     }
 
-    .activityUserPopoutV2__89098 { // activity
-        .headerText_c0138d { // heading
+    .activityUserPopoutV2_d5089b { // activity
+        .headerText_d5089b { // heading
             color: var(--nox-white);
         }
-        .activityName_a7b7de, // content
-        .content__7246b { // time
+        .activityName_d5089b, // content
+        .null { // time
             color: var(--nox-white7);
         }
     }
 
     // notes section
-    .note_ba0c31 {
+    .note_c90ad7 {
         textarea {
             color: var(--nox-white6);
         }
@@ -59,17 +59,17 @@
     }
 
     // quick message section
-    .messageInputContainer_a93946 {
+    .messageInputContainer_f2c0a8 {
 
-        .input__2c88a {
+        .input_df4dd0 {
             color: var(--nox-white9);
         }
 
-        .input__2c88a::-webkit-input-placeholder {
+        .input_df4dd0::-webkit-input-placeholder {
             color: var(--nox-white2);
         }
 
-        .input__2c88a:focus::-webkit-input-placeholder {
+        .input_df4dd0:focus::-webkit-input-placeholder {
             color: var(--nox-white6);
         }
     }
@@ -77,8 +77,8 @@
 }
 
 // Light themed popouts
-.userPopoutOuter_d67f56.theme-light {
-    .title__392bc { // headings
+.userPopoutOuter_c69a7b.theme-light {
+    .title_c4a579 { // headings
         color: var(--nox-black);
     }
 
@@ -87,19 +87,19 @@
         color: var(--nox-black8);
     }
 
-    .nickname_db3773 { // nickname
+    .nickname_c9ccf6 { // nickname
         color: var(--nox-black);
     }
 
-    .pronouns__8aa38 { // pronouns
+    .pronouns_c9ccf6 { // pronouns
         color: var(--nox-black8);
     }
 
-    .userTagUsernameBase__2bd24 { // username
+    .userTagUsernameBase_c9ccf6 { // username
         color: var(--nox-black8);
     }
 
-    .discrimBase__5555e { // discriminator
+    .discrimBase_c9ccf6 { // discriminator
         color: var(--nox-black6);
     }
 
@@ -107,17 +107,17 @@
         color: var(--nox-black8);
     }
 
-    .activityUserPopoutV2__89098 { // activity
-        .headerText_c0138d { // heading
+    .activityUserPopoutV2_d5089b { // activity
+        .headerText_d5089b { // heading
             color: var(--nox-black);
         }
-        .nameWrap_b61c4b { // content
+        .nameWrap_d5089b { // content
             color: var(--nox-black8);
         }
     }
 
     // notes section
-    .note_ba0c31 {
+    .note_c90ad7 {
         textarea {
             color: var(--nox-black7);
         }
@@ -140,17 +140,17 @@
     }
 
     // quick message section
-    .messageInputContainer_a93946 {
+    .messageInputContainer_f2c0a8 {
 
-        .input__2c88a {
+        .input_df4dd0 {
             color: var(--nox-black9);
         }
 
-        .input__2c88a::-webkit-input-placeholder {
+        .input_df4dd0::-webkit-input-placeholder {
             color: var(--nox-black5);
         }
 
-        .input__2c88a:focus::-webkit-input-placeholder {
+        .input_df4dd0:focus::-webkit-input-placeholder {
             color: var(--nox-black7);
         }
 
@@ -158,7 +158,7 @@
 }
 
 // Dark & unthemed modals
-.userProfileModalOuter__90b4a.theme-dark {
+.userProfileModalOuter_c69a7b.theme-dark {
     //top section
 
     .text-lg-semibold__84aef { // nickname
@@ -212,21 +212,21 @@
         }
     }
 
-    .listRowContent_ccc6ae { // mutual server title
+    .listRowContent_e4be58 { // mutual server title
         color: var(--nox-white7);
     }
-    .guildNick_d76c11 { // mutual server nickname
+    .guildNick_b26403 { // mutual server nickname
         color: var(--nox-white4);
     }
 
-    .listName__028b9 { // mutual friend name
+    .listName_e4be58 { // mutual friend name
         color: var(--nox-white7);
     }
-    .listDiscriminator__3cad8 { // mutual friend discriminator
+    .listDiscriminator_e4be58 { // mutual friend discriminator
         color: var(--nox-white4);
     }
 
-    .emptyText__875c6 { // no servers/friends in common
+    .emptyText_e4be58 { // no servers/friends in common
         color: var(--nox-white5);
     }
 

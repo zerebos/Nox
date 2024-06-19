@@ -1,18 +1,18 @@
-.container__26baa.themed_b152d4 {
+.container_e44302.themed_e44302 {
     background: var(--nox-level3);
 }
 
 // Remove stupid gradient
-.children_cde9af::after {
+.children_e44302::after {
     display: none;
 }
 
 // channel description
-.topic__16ae3 {
+.topic_bf3bbb {
     color: var(--nox-white4);
 }
 
-.selected__987e6 .header__77c95,
-.clickable__1383f .header__77c95:hover {
+.selected_fd6364 .header_fd6364,
+.clickable_fd6364 .header_fd6364:hover {
     background-color: rgba(255,255,255, 0.05);
 }

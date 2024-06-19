@@ -1,52 +1,52 @@
 // thread icon
-.iconContainer_d0200f {
+.iconContainer_e62b38 {
     left: -85px;
     right: unset;
 }
 
-.hasThread__44ae4.hasThread__44ae4 {
+.hasThread_ec86aa.hasThread_ec86aa {
     // line pointing to thread    
     &::after{
         content: none;
     }
 
     // non link thread header text
-    .container__2acd5 {
+    .container_e62b38 {
         color: var(--nox-white4);
     }
 
-    .anchor_c8ddc0 {
+    .anchor_af404b {
         color: var(--nox-white8);
     }
 }
 
 // thread attachement box
-.systemMessageContainer_ff4f2e {
+.systemMessageContainer_c15230 {
     background-color: var(--nox-level2);
     border-radius: 2px;
 
     // title
-    .name_ff3e83 {
+    .name_c15230 {
         color: var(--nox-white8);
     }
     // message
-    .bottomLine__799ea {
+    .bottomLine_c15230 {
         color: var(--nox-white4);
     }
     // timestamp
-    .timestamp_e50e7f {
+    .timestamp_c15230 {
         color: var(--nox-white3);
     }
 }
 
 // split view
-.threadSidebarOpen__62c31.threadSidebarOpen__62c31,
-.container__694a1 {
+.threadSidebarOpen_a7d72e.threadSidebarOpen_a7d72e,
+.container_d1c246 {
     border-radius: 0;
 }
-section.chatContent_f087cb {
+section.chatContent_a7d72e {
     background: var(--nox-level1);
 }
-.resizeHandle_cc9d34 {
+.resizeHandle_d1c246 {
     background: var(--nox-level3);
 }

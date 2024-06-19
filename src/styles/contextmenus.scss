@@ -1,56 +1,56 @@
 // outer menu
-.menu__088f7 {
+.menu_d90b3d {
     box-shadow: none;
     background: none;
     border-radius: 2px;
     padding: 0 8px;
 }
 
-.menu__088f7.submenu_aed9ee {
+.menu_d90b3d.submenu_d90b3d {
     padding: 0;
 }
 
 // divider line
-.separator__174fc {
+.separator_d90b3d {
     display: none;
 }
 
 // inner menu
-.scroller__8f066 {
+.scroller_d90b3d {
     box-shadow: $elevation-shadow;
     padding: 0;
     overflow: hidden auto !important;
     background-color: var(--nox-level2);
 
     // menu items
-    .item__183e8 {
+    .item_d90b3d {
         margin: 0;
         padding: 10px 12px 10px 16px;
         border-radius: 0;
 
-        &.colorDefault_e361cf {
+        &.colorDefault_d90b3d {
             color: var(--nox-white6);
 
-            &.focused_dcafb9 {
+            &.focused_d90b3d {
                 // background-color: rgba(225, 225, 225, 0.03);
                 background-color: var(--nox-accent);
                 color: var(--nox-white8);
             }
         }
 
-        &.colorBrand__9bb0f {
+        &.colorBrand_d90b3d {
             color: var(--nox-accent);
 
-            &.focused_dcafb9 {
+            &.focused_d90b3d {
                 background-color: var(--nox-accent);
                 color: var(--nox-white9);
             }
         }
 
-        &.colorDanger__08c25 {
+        &.colorDanger_d90b3d {
             color: #F04747;
 
-            &.focused_dcafb9 {
+            &.focused_d90b3d {
                 background-color: #F04747;
                 color: var(--nox-white9);
             }
@@ -59,10 +59,10 @@
     }
 
     // quick reacts
-    .wrapper__01a96 {
+    .wrapper_a24e84 {
         padding: 6px 4px 6px 6px;
     }
-    .button_bfb8e1 {
+    .button_a24e84 {
         background-color: rgba(225, 225, 225, 0.05);
         padding: 2px;
 
