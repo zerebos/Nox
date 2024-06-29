@@ -4,6 +4,7 @@
     .container_b2ca13 {
         background: none;
         height: 64px;
+        padding-bottom: 0;
     }
     
     .hoverRoll_c0d6c6 {
@@ -15,16 +16,14 @@
         color: var(--nox-white4);
     }
     
-    .withTagAsButton_b2ca13:hover,
-    .withTagless_b2ca13:hover {
+    .avatarWrapper_b2ca13:hover {
         background: none;
         .title_d1da5f {
             color: var(--nox-white7);
         }
     }
     
-    .withTagAsButton_b2ca13:after,
-    .withTagless_b2ca13:after {
+    .avatarWrapper_b2ca13:after {
         content: "";
         display: block;
         position: absolute;
@@ -37,8 +36,7 @@
         pointer-events: none;
     }
     
-    .withTagAsButton_b2ca13:active:after,
-    .withTagless_b2ca13:active:after {
+    .avatarWrapper_b2ca13:active:after {
         opacity: 0.1;
         animation: scale 200ms cubic-bezier(0, 0, 0, 1);
         transition: 0ms ease;

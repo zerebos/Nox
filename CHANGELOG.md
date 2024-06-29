@@ -1,5 +1,10 @@
 # Nox Changelog
 
+## 2.0.5
+
+### Bug Fixes
+ - Status picker
+
 ## 2.0.4
 
 ### New Stuff
