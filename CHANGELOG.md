@@ -4,6 +4,7 @@
 
 ### Bug Fixes
  - Status picker
+ - Chat bubbles & coloring
 
 ## 2.0.4
 

@@ -1,4 +1,4 @@
-.message_d5deea.cozy_ec86aa {
+.message_d5deea.cozy_f9f2ca {
     background: rgba(0, 0, 0, 0.1);
     padding: 0 7px .25rem 10px !important;
     margin: 0 40px 0 80px;
@@ -9,7 +9,7 @@
     margin-top: 20px;
 }
 
-.message_d5deea .contents_ec86aa {
+.message_d5deea .contents_f9f2ca {
     position: relative;
 }
 
@@ -26,14 +26,14 @@
     border-color: transparent rgba(0, 0, 0, 0.1) transparent transparent;
 }
 
-.message_d5deea .avatar_ec86aa {
+.message_d5deea .avatar_f9f2ca {
     left: -70px;
     top: -10px;
     margin: 0;
 }
 
 
-.repliedMessage_ec86aa:before {
+.repliedMessage_f9f2ca:before {
     content: none;
 }
 
@@ -42,36 +42,36 @@
     background: none;
 }
 
-.replying_d5deea .messageContent_ec86aa {
+.replying_d5deea .messageContent_f9f2ca {
     position: relative;
     padding-left: 8px;
     margin-left: -10px;
     border-left: 2px solid var(--nox-accent);
 }
 
-.messageListItem_d5deea .hasReply_ec86aa .avatar_ec86aa {
+.messageListItem_d5deea .hasReply_f9f2ca .avatar_f9f2ca {
     top: -30px;
 }
 
-.message_d5deea .avatarDecoration_ec86aa {
+.message_d5deea .avatarDecoration_f9f2ca {
     left: -74px;
     top: -12px;
 }
 
-.message_d5deea.hasReply_ec86aa .avatarDecoration_ec86aa {
+.message_d5deea.hasReply_f9f2ca .avatarDecoration_f9f2ca {
     top: -32px;
 }
 
-.repliedMessage_ec86aa {
+.repliedMessage_f9f2ca {
     top: -3px;
     color: var(--nox-white5);
 }
 
-.timestamp_ec86aa.timestampVisibleOnHover_ec86aa.alt_ec86aa {
+.timestamp_f9f2ca.timestampVisibleOnHover_f9f2ca.alt_f9f2ca {
     left: -70px;
 }
-.timestamp_ec86aa.timestampInline_ec86aa,
-.timestamp_ec86aa.timestampVisibleOnHover_ec86aa.alt_ec86aa {
+.timestamp_f9f2ca.timestampInline_f9f2ca,
+.timestamp_f9f2ca.timestampVisibleOnHover_f9f2ca.alt_f9f2ca {
     color: var(--nox-white2);
 }
 
@@ -88,7 +88,7 @@
 .mentioned_d5deea::before {
     background: none;
 }
-.message_d5deea.mentioned_d5deea .messageContent_ec86aa {
+.message_d5deea.mentioned_d5deea .messageContent_f9f2ca {
     position: relative;
     padding-left: 3px;
     margin-left: -4px;
@@ -96,18 +96,18 @@
     border-left: 4px solid rgb(250,166,26);
     border-radius: 2px;
 }
-.message_d5deea.mentioned_d5deea:hover .messageContent_ec86aa,
-.message_d5deea.selected_d5deea.mentioned_d5deea .messageContent_ec86aa {
+.message_d5deea.mentioned_d5deea:hover .messageContent_f9f2ca,
+.message_d5deea.selected_d5deea.mentioned_d5deea .messageContent_f9f2ca {
     background: rgba(250,166,26,.15);
 }
 
 // mentions
-.roleMention_d6076c {
+.roleMention_f8f345 {
     border-radius: 2px;
 }
 
 .mention,
-.roleMention_d6076c:not([style]),
+.roleMention_f8f345:not([style]),
 .channelMention {
     position: relative;
     color: var(--nox-accent);
