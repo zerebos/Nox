@@ -119,7 +119,7 @@
 }
 
 // blanks pill item
-.listItem_c96c45 .item_fd07a3 {
+.listItem_c96c45 .item_c4cd66 {
     box-sizing: border-box;
     background: none;
     margin: 0;
@@ -151,7 +151,7 @@
 
 .selected_a5ad63 .wrapper_c5f96a::after,
 .selected_dfb2f8 .wrapper_c5f96a::after,
-.listItem_c96c45:has(.item_fd07a3[style="opacity: 1; height: 40px; transform: none;"]) .wrapper_c5f96a::after {
+.listItem_c96c45:has(.item_c4cd66[style="opacity: 1; height: 40px; transform: none;"]) .wrapper_c5f96a::after {
     background: var(--nox-black2);
 }
 
@@ -170,7 +170,7 @@
     z-index: 2;
 }
 
-.listItem_c96c45:has(.item_fd07a3[style="opacity: 1; height: 8px; transform: none;"]) .wrapper_c5f96a::before {
+.listItem_c96c45:has(.item_c4cd66[style="opacity: 1; height: 8px; transform: none;"]) .wrapper_c5f96a::before {
     border-color: var(--nox-notification-color);
 }
 
