@@ -27,13 +27,13 @@ Addons are currently non-working but may be added back eventually.
 # Previews
 
 ## Main Chat
-![Main Chat](https://rauenzi.github.io/Nox/resources/images/main_chat.png)
+![Main Chat](https://zerebos.github.io/Nox/resources/images/main_chat.png)
 
 ## User Popout
-![User Popout](https://rauenzi.github.io/Nox/resources/images/user_popout.png) ![User Popout with Nitro Theme](https://rauenzi.github.io/Nox/resources/images/user_popout2.png)
+![User Popout](https://zerebos.github.io/Nox/resources/images/user_popout.png) ![User Popout with Nitro Theme](https://zerebos.github.io/Nox/resources/images/user_popout2.png)
 
 ## User Profile
-![User Profile](https://rauenzi.github.io/Nox/resources/images/user_profile.png) ![User Profile with Nitro Theme](https://rauenzi.github.io/Nox/resources/images/user_profile2.png)
+![User Profile](https://zerebos.github.io/Nox/resources/images/user_profile.png) ![User Profile with Nitro Theme](https://zerebos.github.io/Nox/resources/images/user_profile2.png)
 
 ## Status Picker
-![Status Picker](https://rauenzi.github.io/Nox/resources/images/status_picker.gif)
+![Status Picker](https://zerebos.github.io/Nox/resources/images/status_picker.gif)

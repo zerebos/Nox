@@ -4,8 +4,8 @@
  * @description A theme for Discord *loosely* based on Google's Material Design Guidelines.
  * @version 2.0.0
  * @invite vzKhKTV
- * @website https://github.com/rauenzi/Nox
- * @source https://raw.githubusercontent.com/rauenzi/Nox/master/release/Nox.theme.css
+ * @website https://github.com/zerebos/Nox
+ * @source https://raw.githubusercontent.com/zerebos/Nox/master/release/Nox.theme.css
  */
 
 /*
@@ -30,4 +30,4 @@
  *  SOFTWARE.
  */
 
- @import url(https://rauenzi.github.io/Nox/release/import.css);
+ @import url(https://zerebos.github.io/Nox/release/import.css);
