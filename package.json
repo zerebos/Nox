@@ -16,7 +16,7 @@
   "author": "Lilian Tedone & Zack Rauen",
   "license": "MIT",
   "devDependencies": {
-    "glob": "^11.0.3",
+    "glob": "^11.1.0",
     "gulp": "^5.0.1",
     "gulp-insert": "^0.5.0",
     "gulp-rename": "^2.1.0",
