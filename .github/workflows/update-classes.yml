@@ -1,0 +1,91 @@
+name: check/update classes
+on:
+  schedule:
+    - cron: '15 3 * * *'
+  workflow_dispatch:
+env:
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  check-for-updates:
+    runs-on: ubuntu-latest
+    outputs:
+      needs-updating: ${{ steps.check.outputs.needs-updating }}
+      stored-hash: ${{ steps.check.outputs.stored-hash }}
+      newest-hash: ${{ steps.check.outputs.newest-hash }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: check if Changes.txt has been updated since the previous class reroll update
+        id: check
+        run: |
+          stored_hash=$(cat .github/workflow_data/previous-hash 2>/dev/null || true )
+          newest_hash=$(gh api -XGET /repos/syndishanx/update-classes/commits -f path=Changes.txt --jq ".[0].sha")
+          echo "Stored hash is $stored_hash"
+          echo "Newest hash is $newest_hash"
+
+          if [[ $newest_hash == $stored_hash ]]; then
+            needs_updating=false
+            echo "No updated needed, skipping"
+          else
+            needs_updating=true
+            echo "stored-hash=$stored_hash" >> "$GITHUB_OUTPUT"
+            echo "newest-hash=$newest_hash" >> "$GITHUB_OUTPUT"
+            echo "Update needed"
+          fi
+
+          echo "needs-updating=$needs_updating" >> "$GITHUB_OUTPUT"
+
+  update-classes:
+    runs-on: ubuntu-latest
+    needs: check-for-updates
+    if: ${{ needs.check-for-updates.outputs.needs-updating == 'true' }}
+
+    steps:
+      - name: checkout current repository
+        uses: actions/checkout@v6
+
+      - name: fetch partial class mapping
+        if: ${{ needs.check-for-updates.outputs.stored-hash }}
+        run: |
+          echo 'TODO: Optimize class mapping (compare endpoint with json does not return patch for large file diffs)'
+          gh api -H "accept: application/vnd.github.raw" /repos/syndishanx/update-classes/contents/Changes.txt > Changes.txt
+
+          # echo "Found previous re-roll commit. Fetching partial class mapping"
+          # gh api -H 'accept:application/vnd.github+json' /repos/syndishanx/update-classes/compare/${{ needs.check-for-updates.outputs.stored-hash }}...${{ needs.check-for-updates.outputs.newest-hash }} --jq '.files.[] | select(.filename == "Changes.txt").patch' > change_diff
+          # last_deletion=$(grep '^-' change_diff | tail -n 1 | cut -c 2-)
+          # grep '^+' change_diff | awk -v last=$last_deletion '{ $0=substr($0,2) } NR!=1 || $0!=last { print }' > Changes.txt
+
+      - name: fetch full class mapping  
+        if: ${{ ! needs.check-for-updates.outputs.stored-hash }}
+        run: |
+          echo "Previous re-roll commit does not exist. Fetching full class mapping"
+          gh api -H "accept: application/vnd.github.raw" /repos/syndishanx/update-classes/contents/Changes.txt > Changes.txt
+
+      - name: grab class updater utility
+        run: 'gh api -H "accept: application/vnd.github.raw" /repos/epic1online/recursive-discord-class-updater/contents/RDCU.js > RDCU.js'
+
+      - name: setup node
+        uses: actions/setup-node@v6
+
+      - name: update classes
+        run: node RDCU.js
+
+      - name: store commit hash
+        run: echo ${{ needs.check-for-updates.outputs.newest-hash }} | install -D /dev/stdin .github/workflow_data/previous-hash
+
+      - name: clean up
+        run: git clean -ffde ".github"
+
+      - name: short commit hash for pr title
+        id: hash
+        run: echo "hash=$(cut -c 1-8 .github/workflow_data/previous-hash)" >> $GITHUB_OUTPUT
+
+      - name: create pr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          branch: class-reroll
+          delete-branch: true
+          title: Update classes for `SyndiShanX/Update-Classes/commit/${{steps.hash.outputs.hash}}`
+          commit-message: update classes
