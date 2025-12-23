@@ -9,6 +9,7 @@
 
 // set up hover/active/selected bg
 .e5445cbd3ad226f2-blobContainer > .cc5dd25190031396-wrapper::after,
+:where(#guild-list-unread-dms) .cc5dd25190031396-wrapper::after,
 ._48112cbe77dc5022-folderButton::after {
     content: "";
     display: block;
@@ -17,7 +18,6 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: none;
 }
 
 // hover bg
@@ -33,6 +33,7 @@
 
 // set up unread circle
 .e5445cbd3ad226f2-blobContainer > .cc5dd25190031396-wrapper::before,
+:where(#guild-list-unread-dms) .cc5dd25190031396-wrapper::before,
 ._48112cbe77dc5022-folderButton::before {
     content: "";
     display: block;
@@ -48,7 +49,7 @@
 }
 
 // unread
-._650eb104245d257b-listItem:has(._581051df43c5ebb6-item[style^="opacity: 1; height: 8px; transform:"]) :is(.cc5dd25190031396-wrapper, ._48112cbe77dc5022-folderButton)::before {
+._650eb104245d257b-listItem:has(._581051df43c5ebb6-item[style^="opacity: 1; height: 8px;"]) :is(.cc5dd25190031396-wrapper, ._48112cbe77dc5022-folderButton)::before {
     border-color: var(--nox-notification-color);
 }
 

@@ -113,7 +113,7 @@ foreignObject > .cc5dd25190031396-wrapper {
 .cc5dd25190031396-svg {
     top: 0;
     left: 0;
-    .e5445cbd3ad226f2-blobContainer > .cc5dd25190031396-wrapper > & {
+    :is(.e5445cbd3ad226f2-blobContainer, ._918165dab2b1e10b-listItemWrapper) > .cc5dd25190031396-wrapper > & {
         width: 70px;
         height: 70px;
     }
@@ -163,12 +163,6 @@ foreignObject > .cc5dd25190031396-wrapper {
 // remove gap between servers in folder
 ._48112cbe77dc5022-folderGuildsList {
     gap: 0 !important;
-}
-
-// Home button and circle buttons
-:is(._1f388bcaa446c0c8-tutorialContainer, ._650eb104245d257b-tutorialContainer, ._650eb104245d257b-tutorialContainer + ._650eb104245d257b-listItem) .cc5dd25190031396-svg {
-    width: 70px;
-    height: 70px;
 }
 
 ._6e9f8dce4cc18de3-childWrapper,
