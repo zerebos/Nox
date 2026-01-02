@@ -1,53 +1,54 @@
 // remove top border
-._133bf5eea8e33a34-container._133bf5eea8e33a34-container {
+._133bf5eea8e33a34-container {
     border: 0;
 }
 
-._133bf5eea8e33a34-tabBody._133bf5eea8e33a34-tabBody {
+._133bf5eea8e33a34-tabBody {
     background: var(--nox-level1);
 }
 
 // toolbar
-._9293f6b2fc12398a-icon._9293f6b2fc12398a-icon {
+._9293f6b2fc12398a-icon {
     color: var(--nox-white4);
 }
 ._9293f6b2fc12398a-title {
     color: var(--nox-white7);
 }
-._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-item._133bf5eea8e33a34-item._133bf5eea8e33a34-item.aa8da23faa27393c-selected,
-._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-item._133bf5eea8e33a34-item._133bf5eea8e33a34-item._133bf5eea8e33a34-item.aa8da23faa27393c-selected:hover {
-    background-color: var(--nox-white1);
-}
-.aa8da23faa27393c-themed._133bf5eea8e33a34-item._133bf5eea8e33a34-item {
+._133bf5eea8e33a34-item._133bf5eea8e33a34-item {
     border-radius: 4px;
     color: var(--nox-white4);
 }
-.aa8da23faa27393c-themed._133bf5eea8e33a34-item._133bf5eea8e33a34-item:hover {
+._133bf5eea8e33a34-item._133bf5eea8e33a34-item._133bf5eea8e33a34-item:hover {
+    background-color: rgb(255 255 255 / 5%);
     color: var(--nox-white6);
 }
-._133bf5eea8e33a34-tabBar .aa8da23faa27393c-themed._133bf5eea8e33a34-item:hover:not(.aa8da23faa27393c-disabled):not(._133bf5eea8e33a34-addFriend) {
-    background-color: rgba(255, 255, 255, 0.05);
-}
-._133bf5eea8e33a34-item.aa8da23faa27393c-selected,
-._133bf5eea8e33a34-item.aa8da23faa27393c-selected:hover {
+._133bf5eea8e33a34-item._133bf5eea8e33a34-item._133bf5eea8e33a34-item.aa8da23faa27393c-selected {
+    background-color: var(--nox-white1);
     color: var(--nox-white9);
 }
-._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend,
-._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend:hover {
+._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend {
     background-color: var(--nox-accent);
     color: var(--nox-white9);
-}
-._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend[aria-selected=true],
-._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend[aria-selected=true]:hover {
-    background-color: transparent;
-    color: var(--nox-accent);
+
+    &:hover {
+        background-color: hsl(from var(--nox-accent) h calc(s * .7) calc(l * .7));
+        color: var(--nox-white9);
+    }
+    
+    &[aria-selected=true] {
+        background-color: hsl(from var(--nox-accent) h s l / 15%);
+        color: hsl(from var(--nox-accent) h s calc(l * 1.1));
+    }
 }
 
 // search bar
-._5ec2fb8b5de26b21-searchBar._5ec2fb8b5de26b21-searchBar {
+._5ec2fb8b5de26b21-searchBar {
     margin-right: 24px;
-    border-radius: 4px;
-    background: var(--nox-level3);
+    ._72c3859781ebce8f-wrapper {
+        border: 0;
+        border-radius: 4px;
+        background: var(--nox-level3);
+    }
 }
 .input_a45028 {
     color: var(--nox-white6);

@@ -1,11 +1,20 @@
-.c36707910f687430-tooltipPointer.c36707910f687430-tooltipPointer.c36707910f687430-tooltipPointer {
-    border-top-color: var(--nox-level3);
-}
+@use "../elevations";
 
-.tooltipBlack__382e7.tooltipBlack__382e7,
-.c36707910f687430-tooltipPrimary.c36707910f687430-tooltipPrimary {
+._4e35b986167c457d-tooltip {
     background-color: var(--nox-level3);
-    color: var(--nox-white7);
+    box-shadow: inset 0 0 0 1px var(--nox-white1), elevations.$elevation-shadow;
+    border-radius: 6px;
+    --text-strong: var(--nox-white7);
+    --text-default: var(--nox-white7);
+    --text-muted: var(--nox-white5);
+}
+._4e35b986167c457d-caretIcon {
+    ._4e35b986167c457d-caretFill {
+        fill: var(--nox-level3);
+    }
+    ._4e35b986167c457d-caretStroke {
+        stroke: var(--nox-white2);
+    }
 }
 
 // message buttons
