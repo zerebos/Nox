@@ -1,6 +1,6 @@
 @use "../elevations";
 
-._4e35b986167c457d-tooltip {
+.tooltip__4e35b {
     background-color: var(--nox-level3);
     box-shadow: inset 0 0 0 1px var(--nox-white1), elevations.$elevation-shadow;
     border-radius: 6px;
@@ -8,22 +8,22 @@
     --text-default: var(--nox-white7);
     --text-muted: var(--nox-white5);
 }
-._4e35b986167c457d-caretIcon {
-    ._4e35b986167c457d-caretFill {
+.caretIcon__4e35b {
+    .caretFill__4e35b {
         fill: var(--nox-level3);
     }
-    ._4e35b986167c457d-caretStroke {
+    .caretStroke__4e35b {
         stroke: var(--nox-white2);
     }
 }
 
 // message buttons
-._5126c0cd07f243a0-buttonsInner {
+.buttonsInner__5126c {
     background-color: var(--nox-level2);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
-.f7ecaca5c80dbf3a-button {
+.button_f7ecac {
     color: var(--nox-white7);
 
     &:hover {
@@ -36,21 +36,21 @@
         color: var(--nox-white9);
     }
 
-    &.f7ecaca5c80dbf3a-selected {
+    &.selected_f7ecac {
         background-color: rgba(0, 0, 0, 0.3);
         color: var(--nox-white9);
     }
 }
 
 // formatting toolbar
-.bba88350df28dff1-toolbar {
+.toolbar_bba883 {
     background: var(--nox-level3);
 
     &::before {
         border-top-color: var(--nox-level3);
     }
 
-    .bba88350df28dff1-icon {
+    .icon_bba883 {
         color: var(--nox-white6);
     }
 
@@ -58,7 +58,7 @@
     .active__05fbc {
         background: rgba(255, 255, 255, 0.15);
 
-        .bba88350df28dff1-icon {
+        .icon_bba883 {
             color: var(--nox-white9);
         }
     }

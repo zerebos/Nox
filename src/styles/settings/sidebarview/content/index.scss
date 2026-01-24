@@ -1,44 +1,44 @@
 // Content background color
-._23e6b439306f125a-standardSidebarView ._23e6b439306f125a-contentRegionScroller {
+.standardSidebarView__23e6b .contentRegionScroller__23e6b {
     background: var(--nox-level2);
 }
 
-._23e6b439306f125a-contentColumn ._0f0849b61557225e-input,
-._6a919231d4bdfd4f-bioTextArea._6a919231d4bdfd4f-bioTextArea {
+.contentColumn__23e6b .input__0f084,
+.bioTextArea__6a919.bioTextArea__6a919 {
     background-color: var(--nox-level1);
 }
 
-._88a69141dd70013a-itemFilled {
+.itemFilled__001a7 {
     background-color: var(--nox-level3);
 }
 
-._88a69141dd70013a-itemFilled[aria-checked="true"] {
+.itemFilled__001a7[aria-checked="true"] {
     background-color: var(--nox-level1);
 }
 
-.aa8da23faa27393c-top .aa8da23faa27393c-brand.aa8da23faa27393c-item:hover {
+.top_b3f026 .brand_b3f026.item_b3f026:hover {
     border-color: var(--nox-white4);
 }
-.aa8da23faa27393c-top .aa8da23faa27393c-brand.aa8da23faa27393c-selected.aa8da23faa27393c-item {
+.top_b3f026 .brand_b3f026.selected_b3f026.item_b3f026 {
     border-color: var(--nox-accent);
 }
 
-.eb2508e5fd9f2b15-avatarBackground {
+.avatarBackground_eb2508 {
     background-color: transparent;
 }
 
-.d878e741f1c1999b-health {
+.health_d878e7 {
     width: 95%;
 }
-.d878e741f1c1999b-line,
-.d878e741f1c1999b-marker {
+.line_d878e7,
+.marker_d878e7 {
     background-color: var(--nox-level3);
 }
-.d878e741f1c1999b-marker .d878e741f1c1999b-empty {
+.marker_d878e7 .empty_d878e7 {
     background-color: var(--nox-level1);
 }
 
-.cardPrimary_cb7a0e._730694f5672c9601-outline {
+.cardPrimary_cb7a0e.outline__73069 {
     border: 0;
     background: var(--nox-level3);
 }
@@ -46,22 +46,22 @@
 .connectContainer_c7f964 {
     background-color: var(--nox-level1);
 }
-.c7f964e7e0fc8b47-accountButtonInner {
+.accountButtonInner_c7f964 {
     background-color: var(--nox-level2);
 }
 
-.c7f964e7e0fc8b47-connection {
+.connection_c7f964 {
     background-color: var(--nox-level1-5);
 }
-.c7f964e7e0fc8b47-connectionHeader {
+.connectionHeader_c7f964 {
     background: var(--nox-level1);
 }
-.c7f964e7e0fc8b47-metadataContainer,
-.c7f964e7e0fc8b47-integration {
+.metadataContainer_c7f964,
+.integration_c7f964 {
     background-color: var(--nox-level2);
 }
 
-#appearance-tab .cardPrimary_cb7a0e._730694f5672c9601-outline {
+#appearance-tab .cardPrimary_cb7a0e.outline__73069 {
     background-color: var(--nox-level1);
 }
 

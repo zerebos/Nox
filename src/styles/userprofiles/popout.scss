@@ -88,7 +88,7 @@
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b {
     background-color: var(--nox-level2);
 
-    // ._44b0c28be7879b7b-avatar { // avatar bg
+    // .avatar__44b0c { // avatar bg
     //     background: var(--nox-level2);
     // }
 
@@ -105,30 +105,30 @@
 }
 
 // Role stuff
-._48c1c0768f2a2421-role { // set up role bg
+.role__48c1c { // set up role bg
     padding: 0 2px 0 6px;
     overflow: hidden;
     border-width: 0;
     border-radius: 3px;
     background: none;
 
-    ._48c1c0768f2a2421-roleName { // puts text on top of role bg
+    .roleName__48c1c { // puts text on top of role bg
         z-index: 1;
     }
 
-    ._48c1c0768f2a2421-roleIcon { // role icon styling and puts on top of role bg 
+    .roleIcon__48c1c { // role icon styling and puts on top of role bg 
         position: relative;
         z-index: 1;
         height: auto;
         border-radius: 3px;
     }
 
-    ._48c1c0768f2a2421-roleRemoveButton { // move remove role button to end
+    .roleRemoveButton__48c1c { // move remove role button to end
         order: 2;
 
         // role bg color
-        ._4f569b8941af22d1-roleCircle::before,
-        ._48c1c0768f2a2421-roleFlowerStar::before {
+        .roleCircle__4f569::before,
+        .roleFlowerStar__48c1c::before {
             content: "";
             visibility: visible;
             position: absolute;
@@ -139,28 +139,28 @@
             background-color: inherit;
         }
     
-        ._48c1c0768f2a2421-roleFlowerStar::before { // connected account role layout fix
+        .roleFlowerStar__48c1c::before { // connected account role layout fix
             top: -4px;
         }
 
         // hide role circle
-        ._4f569b8941af22d1-roleCircle,
-        ._48c1c0768f2a2421-roleFlowerStar {
+        .roleCircle__4f569,
+        .roleFlowerStar__48c1c {
             visibility: hidden;
             margin: 0;
         }
 
     }
 
-    ._48c1c0768f2a2421-roleRemoveButton[aria-hidden="false"] { // re-add remove role button if removable role
+    .roleRemoveButton__48c1c[aria-hidden="false"] { // re-add remove role button if removable role
         margin-right: 2px;
         background: transparent;
         background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0icm9sZVJlbW92ZUljb24tMml1MGlFIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTJ2MTJIMCI+PC9wYXRoPjxwYXRoIGNsYXNzPSJmaWxsIiBmaWxsPSIjZmZmZmZmIiBkPSJNOS41IDMuMjA1TDguNzk1IDIuNSA2IDUuMjk1IDMuMjA1IDIuNWwtLjcwNS43MDVMNS4yOTUgNiAyLjUgOC43OTVsLjcwNS43MDVMNiA2LjcwNSA4Ljc5NSA5LjVsLjcwNS0uNzA1TDYuNzA1IDYiPjwvcGF0aD48L2c+PC9zdmc+);    
     }
 
     // remove space occupied by role circle
-    ._48c1c0768f2a2421-roleRemoveButton[aria-hidden="true"] ._4f569b8941af22d1-roleCircle,
-    ._48c1c0768f2a2421-roleRemoveButton:has(._48c1c0768f2a2421-roleFlowerStar) {
+    .roleRemoveButton__48c1c[aria-hidden="true"] .roleCircle__4f569,
+    .roleRemoveButton__48c1c:has(.roleFlowerStar__48c1c) {
         width: 0;
     }
 }
@@ -175,7 +175,7 @@
     }
 
     // adds background to pfps to block nox shapes
-    // ._44b0c28be7879b7b-avatarStack::before {
+    // .avatarStack__44b0c::before {
     //     content: '';
     //     width: 100%;
     //     height: 100%;
@@ -186,7 +186,7 @@
     // }
 
     // darkens avatar background
-    // ._44b0c28be7879b7b-avatar {
+    // .avatar__44b0c {
     //     border-radius: 50%;
     //     // background-color: var(--profile-gradient-overlay-color);
     //     // position: relative;
@@ -234,7 +234,7 @@
     // puts notes+quickmessage back above bg
     .section_d7a21f:has(.note_c90ad7) .title_c4a579,
     .section_d7a21f:has(.note_c90ad7) .note_c90ad7,
-    .section_f2c0a8 ._0ed4fc708cdbac0d-inputWrapper {
+    .section_f2c0a8 .inputWrapper__0f084 {
         position: relative;
         z-index: 1;
     }
@@ -246,7 +246,7 @@
     display: none;
 }
 
-.biteSizeOuter_c69a7b .visibleContainer_af9888.user-profile-popout {
+.biteSizeOuter_c69a7b .visibleContainer_af9888.biteSize_ab8609 {
     position: relative;
     top: 28px;
     left: 0;
@@ -271,11 +271,11 @@
     border-radius: 0;
     background: none;
 
-    .ab86098b36386ff7-content {
+    .content_ab8609 {
         text-align: left;
     }
 }
 
-.biteSizeOuter_c69a7b:has(.visibleContainer_af9888) ._5be3ef42f92174b2-body {
+.biteSizeOuter_c69a7b:has(.visibleContainer_af9888) .body__5be3e {
     margin-top: 16px;
 }

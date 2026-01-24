@@ -1,6 +1,6 @@
 @use "../../elevations";
 
-._0f481cbbd7530492-jumpToPresentBar {
+.jumpToPresentBar__0f481 {
     // width: auto;
     right: 20px;
     bottom: 30px;
@@ -10,16 +10,16 @@
     background-color: var(--nox-accent);
     box-shadow: elevations.$elevation-shadow;
 
-    ._0f481cbbd7530492-barButtonMain {
+    .barButtonMain__0f481 {
         display: none;
     }
 
-    ._0f481cbbd7530492-barButtonAlt {
+    .barButtonAlt__0f481 {
         padding: 0 1px 0 10px;
         text-align: center;
     }
     
-    ._0f481cbbd7530492-barButtonIcon {
+    .barButtonIcon__0f481 {
         width: 26px;
         height: 26px;
         margin-left: 0;
@@ -29,7 +29,7 @@
         background-size: 60%;
     }
 
-    ._46696d17714f10ab-spinner {
+    .spinner__0b5bb {
         width: 26px;
         height: 26px;
         padding: 0;
@@ -38,16 +38,16 @@
         background-position: 50%;
         background-size: 45%;
 
-        ._46696d17714f10ab-spinner {
+        .inner__0b5bb {
             display: none;
         }
     }
 
-    ._0f481cbbd7530492-barButtonIcon path {
+    .barButtonIcon__0f481 path {
         display: none;
     }
 }
 
-._0f481cbbd7530492-newMessagesBar {
+.newMessagesBar__0f481 {
     background-color: var(--nox-accent);
 }

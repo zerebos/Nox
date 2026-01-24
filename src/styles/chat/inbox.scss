@@ -1,21 +1,21 @@
 .expandedInboxHeader_f0cd33 {
-    .ab66419eae73260f-inboxIcon,
-    .ab66419eae73260f-inboxTitle {
+    .inboxIcon_ab6641,
+    .inboxTitle_ab6641 {
         color: var(--nox-white7);
     }
 }
 
-.aa8da23faa27393c-topPill {
-    .ab66419eae73260f-tab.aa8da23faa27393c-selected.aa8da23faa27393c-selected.aa8da23faa27393c-selected.aa8da23faa27393c-selected {
+.topPill_b3f026 {
+    .tab_ab6641.selected_b3f026.selected_b3f026.selected_b3f026.selected_b3f026 {
         background-color: var(--nox-white1);
     }
 
-    .ab66419eae73260f-tab.ab66419eae73260f-tab.ab66419eae73260f-tab:hover {
+    .tab_ab6641.tab_ab6641.tab_ab6641:hover {
         background-color: rgba(255, 255, 255, 0.05);
     }
 }
 
-._523aa09e59621644-friendRequestsButton,
+.friendRequestsButton__523aa,
 .button__292b6.secondary__45d4f { // filter button
     background-color: var(--nox-white1);
     color: var(--nox-white6);
@@ -24,31 +24,31 @@
     }
 }
 
-._0f7115b4703f7b3a-container {
+.container__0f711 {
     background-color: var(--nox-level1);
 }
 
-._6fddf2ee3574a18a-body {
+.body__6fddf {
     .text-md-normal__6e567,
     .text-xs-medium_d3e0f1 {
         color: var(--nox-white6) !important;
     }
 }
 
-._957962c2bd49881b-recentMentionsPopout {
-    ._35a7ecf3aba351b2-channelHeader {
+.recentMentionsPopout__95796 {
+    .channelHeader__35a7e {
         background: var(--nox-level2);
         box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.4);
     }
 
-    ._957962c2bd49881b-messageContainer {
+    .messageContainer__95796 {
         margin-right: 2px;
         border: 0;
         border-radius: 3px;
         background: var(--nox-level1);
     }
 
-    ._957962c2bd49881b-message {
+    .message__95796 {
         margin: 12px 16px 12px 72px;
         padding: 0 7px 2px 10px;
         overflow: visible;
@@ -67,7 +67,7 @@
             border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
         }
 
-        .c19a557985eb7793-avatar {
+        .avatar_c19a55 {
             top: 0;
             left: -60px;
         }

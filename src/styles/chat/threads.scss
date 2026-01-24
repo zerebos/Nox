@@ -1,40 +1,40 @@
 // thread icon
-._235ca3770d90ab7c-iconContainer {
+.iconContainer__235ca {
     right: unset;
     left: -85px;
 }
 
-.c19a557985eb7793-hasThread.c19a557985eb7793-hasThread {
+.hasThread_c19a55.hasThread_c19a55 {
     // line pointing to thread    
     &::after {
         content: none;
     }
 
     // non link thread header text
-    ._235ca3770d90ab7c-container {
+    .container__235ca {
         color: var(--nox-white4);
     }
 
-    .edefb8e22d63c542-anchor {
+    .anchor_edefb8 {
         color: var(--nox-white8);
     }
 }
 
 // thread attachement box
-._9271d23503a01b50-systemMessageContainer {
+.systemMessageContainer__9271d {
     border-radius: 2px;
     background-color: var(--nox-level2);
 
     // title
-    ._9271d23503a01b50-name {
+    .name__9271d {
         color: var(--nox-white8);
     }
     // message
-    ._9271d23503a01b50-bottomLine {
+    .bottomLine__9271d {
         color: var(--nox-white4);
     }
     // timestamp
-    ._9271d23503a01b50-timestamp {
+    .timestamp__9271d {
         color: var(--nox-white3);
     }
 }
@@ -42,17 +42,17 @@
 // split view
 
 // remove top border
-._01ae244280823725-container._01ae244280823725-container {
+.container__01ae2.container__01ae2 {
     border: 0;
 }
 
-.f75fb00fb7356cbe-threadSidebarOpen.f75fb00fb7356cbe-threadSidebarOpen,
-._01ae244280823725-container {
+.threadSidebarOpen_f75fb0.threadSidebarOpen_f75fb0,
+.container__01ae2 {
     border-radius: 0;
 }
-.f75fb00fb7356cbe-chatContent {
+.chatContent_f75fb0 {
     background: var(--nox-level1);
 }
-._01ae244280823725-resizeHandle {
+.resizeHandle__01ae2 {
     background: var(--nox-level3);
 }

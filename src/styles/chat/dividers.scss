@@ -1,15 +1,15 @@
-._5126c0cd07f243a0-divider._5126c0cd07f243a0-hasContent:not(._908e20001ad67812-isUnread) {
+.divider__5126c.hasContent__5126c:not(.isUnread__908e2) {
     border-color: transparent;
 }
 
-._5126c0cd07f243a0-divider._5126c0cd07f243a0-hasContent ._908e20001ad67812-content {
+.divider__5126c.hasContent__5126c .content__908e2 {
     padding: 3px 10px;
     border-radius: 3px;
     background: rgba(0, 0, 0, 0.1);
     color: var(--nox-white3);
 }
 
-#---new-messages-bar._5126c0cd07f243a0-hasContent ._908e20001ad67812-content {
+#---new-messages-bar.hasContent__5126c .content__908e2 {
     background: #2b2b2b;
 }
 
@@ -17,7 +17,7 @@
     border-top: 1px solid #f04747;
 }
 
-#---new-messages-bar:not(._5126c0cd07f243a0-hasContent):not(._5126c0cd07f243a0-beforeGroup) {
+#---new-messages-bar:not(.hasContent__5126c):not(.beforeGroup__5126c) {
     margin-top: -3px;
     margin-bottom: 2px;
 }

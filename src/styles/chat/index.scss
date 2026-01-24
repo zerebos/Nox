@@ -1,39 +1,39 @@
-.f75fb00fb7356cbe-chat ._36d072eab2b2e737-messagesWrapper {
+.chat_f75fb0 .messagesWrapper__36d07 {
     background: var(--nox-level1);
     // margin-bottom: 4px;
 }
 
-._36d072eab2b2e737-chatGradient {
+.chatGradient__36d07 {
     display: none;
 }
 
-._36d072eab2b2e737-scrollerSpacer._36d072eab2b2e737-scrollerSpacer {
+.scrollerSpacer__36d07.scrollerSpacer__36d07 {
     height: 24px;
 }
 
 // message loading placeholder
-.d852db00c0588eb9-wrapper {
+.wrapper_d852db {
     background: none;
 }
 
-.fc817765600a960a-wrapper {
+.wrapper_fc8177 {
     position: static;
     margin: 0 40px 0 80px;
     padding: 0 7px 0.25rem 10px !important;
     background: rgba(0, 0, 0, 0.1);
 }
 
-.fc817765600a960a-wrapper .fc817765600a960a-contents {
+.wrapper_fc8177 .contents_fc8177 {
     position: relative;
 }
 
-.fc817765600a960a-wrapper .fc817765600a960a-avatar {
+.wrapper_fc8177 .avatar_fc8177 {
     top: -10px;
     left: -70px;
     margin: 0;
 }
 
-.fc817765600a960a-wrapper:has(.fc817765600a960a-avatar)::before {
+.wrapper_fc8177:has(.avatar_fc8177)::before {
     content: "";
     display: block;
     position: relative;
@@ -47,28 +47,28 @@
 }
 
 // codeblocks
-._752971923a1e6683-markup code {
+.markup__75297 code {
     border-radius: 2px;
     border-color: var(--nox-level3);
     background: var(--nox-level2);
 }
 
 // timestamp
-._752971923a1e6683-timestamp {
+.timestamp__75297 {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
 // inline code
-._752971923a1e6683-markup code.inline {
+.markup__75297 code.inline {
     border-radius: 2px;
 }
 
-.ada32f6ad5a36c58-after_inlineCode,
-.ada32f6ad5a36c58-before_inlineCode,
-.ada32f6ad5a36c58-before_inlineCode {
+.after_inlineCode_ada32f,
+.before_inlineCode_ada32f,
+.inlineCode_ada32f {
     background: var(--nox-level2);
 }
 
-._752971923a1e6683-blockquoteDivider {
+.blockquoteDivider__75297 {
     background-color: var(--nox-black3);
 }

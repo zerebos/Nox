@@ -5,7 +5,7 @@
 }
 
 // Guild list bg color
-._5e434347c823b592-guilds._5e434347c823b592-guilds {
+.guilds__5e434.guilds__5e434 {
     z-index: elevations.$guilds-elevation;
     margin: 0;
     background: var(--nox-level1);
@@ -13,16 +13,16 @@
 }
 
 // set width correctly width
-._5e434347c823b592-guilds._5e434347c823b592-guilds, //list
-._650eb104245d257b-listItem, //servers
-._48112cbe77dc5022-folderGroup, // folders
-.ef3116c2da186559-unreadMentionsIndicatorBottom, // unreadmentions
-.ef3116c2da186559-unreadMentionsIndicatorTop { // unreadmentions
+.guilds__5e434.guilds__5e434, //list
+.listItem__650eb, //servers
+.folderGroup__48112, // folders
+.unreadMentionsIndicatorBottom_ef3116, // unreadmentions
+.unreadMentionsIndicatorTop_ef3116 { // unreadmentions
     width: 70px;
 }
 
 // fix spacing on folder bg
-._48112cbe77dc5022-folderGroupBackground {
+.folderGroupBackground__48112 {
     right: 0;
     left: 0;
     justify-self: center;
@@ -33,18 +33,18 @@ ul[id*=folder-items] {
 }
 
 // reset scroller
-._5e434347c823b592-guilds .ef3116c2da186559-scroller {
+.guilds__5e434 .scroller_ef3116 {
     height: 100%;
     padding: 0;
     gap: 0 !important;
 }
 
 // prevent overlap of homeicon and servers
-._1f388bcaa446c0c8-tutorialContainer {
-    & ._650eb104245d257b-listItem {
+.tutorialContainer__1f388 {
+    & .listItem__650eb {
         height: 70px;
     }
-    & + .dbd2630aec71879b-stack{
+    & + .stack_dbd263{
         margin-top: 0;
     }
 }
@@ -55,31 +55,31 @@ ul[id*=folder-items] {
 }
 
 // remove gap between servers, and dms
-.dbd2630aec71879b-stack[aria-label="Servers"],
+.stack_dbd263[aria-label="Servers"],
 #guild-list-unread-dms {
     gap: 0 !important;
 }
 
 // remove move down on click
-._918165dab2b1e10b-listItemWrapper:active {
+.listItemWrapper__91816:active {
     transform: none;
 }
 
 // recolor closed folders
-._48112cbe77dc5022-folderPreviewWrapper._48112cbe77dc5022-folderPreviewWrapper {
+.folderPreviewWrapper__48112.folderPreviewWrapper__48112 {
     background: var(--nox-white2);
-    ._48112cbe77dc5022-folderPreviewGuildIcon {
+    .folderPreviewGuildIcon__48112 {
         border-radius: 50% !important;
     }
 }
 
 // folder color to accent
-._48112cbe77dc5022-folderIcon {
+.folderIcon__48112 {
     color: var(--nox-accent);
 }
 
 // recolor open folders and shape them
-._48112cbe77dc5022-folderGroupBackground._48112cbe77dc5022-folderGroupBackground {
+.folderGroupBackground__48112.folderGroupBackground__48112 {
     bottom: 8px;
     box-sizing: content-box;
     width: 48px;
@@ -90,125 +90,125 @@ ul[id*=folder-items] {
 }
 
 // recolor guild separator
-._252b6afd49fda06f-guildSeparator._252b6afd49fda06f-guildSeparator {
+.guildSeparator__252b6.guildSeparator__252b6 {
     background: var(--nox-white1);
 }
 
 // unset height for guild separator
-#guild-list-unread-dms+._650eb104245d257b-listItem {
+#guild-list-unread-dms+.listItem__650eb {
     height: unset;
 }
 
 // increase clicking area servers
-:is(.e5445cbd3ad226f2-blobContainer, ._918165dab2b1e10b-listItemWrapper) > .cc5dd25190031396-wrapper {
+:is(.blobContainer_e5445c, .listItemWrapper__91816) > .wrapper_cc5dd2 {
     width: 70px !important;
     height: 70px !important;
 }
 
-foreignObject > .cc5dd25190031396-wrapper {
+foreignObject > .wrapper_cc5dd2 {
     width: 48px !important;
     height: 48px !important;
 }
 
-.cc5dd25190031396-svg {
+.svg_cc5dd2 {
     top: 0;
     left: 0;
-    :is(.e5445cbd3ad226f2-blobContainer, ._918165dab2b1e10b-listItemWrapper) > .cc5dd25190031396-wrapper > & {
+    :is(.blobContainer_e5445c, .listItemWrapper__91816) > .wrapper_cc5dd2 > & {
         width: 70px;
         height: 70px;
     }
 }
-._650eb104245d257b-listItem .cc5dd25190031396-svg foreignObject {
+.listItem__650eb .svg_cc5dd2 foreignObject {
     width: 48px;
     height: 48px;
     translate: -4px -4px;
     mask: none;
 }
-._6e9f8dce4cc18de3-wrapper {
+.wrapper__6e9f8 {
     width: 48px;
     height: 48px;
 }
 // scale icon back down
-._6e9f8dce4cc18de3-icon {
+.icon__6e9f8 {
     scale: calc(48/70);
     border-radius: 50%;
 }
 
 // increase clicking area folder
-._48112cbe77dc5022-folderHeader {
+.folderHeader__48112 {
     width: 70px;
     height: 70px;
     margin: 0;
 }
-._48112cbe77dc5022-folderButton {
+.folderButton__48112 {
     width: 70px;
     height: 70px;
     padding: 0;
     border-radius: 0;
 
-    .cc5dd25190031396-wrapper {
+    .wrapper_cc5dd2 {
         margin-inline:auto;
         top:50%;
         translate: 0 -50%;
     }
-    .cc5dd25190031396-svg foreignObject {
+    .svg_cc5dd2 foreignObject {
         translate: none;
     }
 }
-._48112cbe77dc5022-folderPreviewWrapper {
+.folderPreviewWrapper__48112 {
     overflow: hidden;
     border-radius: 50%;
 }
 
 // remove gap between servers in folder
-._48112cbe77dc5022-folderGuildsList {
+.folderGuildsList__48112 {
     gap: 0 !important;
 }
 
-._6e9f8dce4cc18de3-childWrapper,
-._5bc7ed9d4097f6b5-circleIconButton {
+.childWrapper__6e9f8,
+.circleIconButton__5bc7e {
     transform: scale(calc(48/70));
     border-radius: 50%;
     background-color: var(--nox-level2);
 }
 
 // center text on iconless servers
-._6e9f8dce4cc18de3-acronym {
+.acronym__6e9f8 {
     line-height: unset;
 }
 
-._5bc7ed9d4097f6b5-circleIconButton {
+.circleIconButton__5bc7e {
     color: var(--nox-accent);
 }
 
 // change blurple to accent bg
-._6e9f8dce4cc18de3-wrapper._6e9f8dce4cc18de3-selected ._6e9f8dce4cc18de3-childWrapper, // home icon and iconless guilds
-._5bc7ed9d4097f6b5-circleIconButton._5bc7ed9d4097f6b5-circleIconButton._5bc7ed9d4097f6b5-circleIconButton._5bc7ed9d4097f6b5-selected { // add server and discovery
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8, // home icon and iconless guilds
+.circleIconButton__5bc7e.circleIconButton__5bc7e.circleIconButton__5bc7e.selected__5bc7e { // add server and discovery
     background-color: var(--nox-accent);
 }
 
 // remove server icon background
-._6e9f8dce4cc18de3-icon::before {
+.icon__6e9f8::before {
     content: none;
 }
 
-._48112cbe77dc5022-folderGroup._48112cbe77dc5022-isExpanded>._650eb104245d257b-listItem {
+.folderGroup__48112.isExpanded__48112>.listItem__650eb {
     height: 60px;
 }
 
 // folder material icon
-._48112cbe77dc5022-folderIcon svg path {
+.folderIcon__48112 svg path {
     d: path("M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z");
 }
 
 // make material icon bigger
-._48112cbe77dc5022-folderIcon svg {
+.folderIcon__48112 svg {
     scale: calc(48/18);
 }
 
 // dragging position indicator green to accent
-.d144f8d4075c78d6-centerTarget.d144f8d4075c78d6-dragOver::before, /* combine server*/
-.d144f8d4075c78d6-target.d144f8d4075c78d6-dragOver::before { // above server
+.centerTarget_d144f8.dragOver_d144f8::before, /* combine server*/
+.target_d144f8.dragOver_d144f8::before { // above server
     background-color: var(--nox-accent);
 }
 
@@ -216,8 +216,8 @@ foreignObject > .cc5dd25190031396-wrapper {
 // BADGES
 
 // alignment of badges
-.cc5dd25190031396-lowerBadge,
-.cc5dd25190031396-upperBadge {
+.lowerBadge_cc5dd2,
+.upperBadge_cc5dd2 {
     display: flex;
     z-index: calc(elevations.$guilds-elevation + 1);
     top: calc((100% - 48px) / 2);
@@ -227,21 +227,21 @@ foreignObject > .cc5dd25190031396-wrapper {
     height: 48px;
 }
 
-.cc5dd25190031396-lowerBadge {
+.lowerBadge_cc5dd2 {
     align-items: flex-end;
 }
 
-.cc5dd25190031396-upperBadge {
+.upperBadge_cc5dd2 {
     align-items: flex-start;
 }
 
 // in call background green to accent
-._650eb104245d257b-iconBadge.participating-2Z81oO {
+.iconBadge__650eb.participating-2Z81oO {
     background-color: var(--nox-accent);
 }
 
 // recolor call available background
-._650eb104245d257b-iconBadge {
+.iconBadge__650eb {
     background-color: var(--nox-level1-5);
 }
 
@@ -250,7 +250,7 @@ foreignObject > .cc5dd25190031396-wrapper {
     background-color: var(--nox-important-notification) !important;
 }
 
-.e5445cbd3ad226f2-blobContainer.e5445cbd3ad226f2-blobContainer[data-drop-hovering=true] {
+.blobContainer_e5445c.blobContainer_e5445c[data-drop-hovering=true] {
     animation: none;
     border-radius: 50%;
     border-color: var(--nox-accent);

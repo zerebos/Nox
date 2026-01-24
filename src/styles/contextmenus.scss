@@ -1,7 +1,7 @@
 @use "../elevations";
 
 // outer menu
-.c1e9c47c23f12ca3-menu {
+.menu_c1e9c4 {
     padding: 0 8px;
     overflow: visible;
     border: 0;
@@ -10,51 +10,51 @@
     box-shadow: none;
 }
 
-.c1e9c47c23f12ca3-menu.subc1e9c47c23f12ca3-menu {
+.menu_c1e9c4.submenu_c1e9c4 {
     padding: 0;
 }
 
 // divider line
-.c1e9c47c23f12ca3-separator {
+.separator_c1e9c4 {
     display: none;
 }
 
 // inner menu
-.c1e9c47c23f12ca3-scroller {
+.scroller_c1e9c4 {
     padding: 0;
     overflow: hidden auto !important;
     background-color: var(--nox-level2);
     box-shadow: elevations.$elevation-shadow;
 
     // menu items
-    .c1e9c47c23f12ca3-item {
+    .item_c1e9c4 {
         margin: 0;
         padding: 10px 12px 10px 16px;
         border-radius: 0;
 
-        &.c1e9c47c23f12ca3-colorDefault {
+        &.colorDefault_c1e9c4 {
             color: var(--nox-white6);
 
-            &.c1e9c47c23f12ca3-focused {
+            &.focused_c1e9c4 {
                 // background-color: rgba(225, 225, 225, 0.03);
                 background-color: var(--nox-accent);
                 color: var(--nox-white8);
             }
         }
 
-        &.c1e9c47c23f12ca3-colorBrand {
+        &.colorBrand_c1e9c4 {
             color: var(--nox-accent);
 
-            &.c1e9c47c23f12ca3-focused {
+            &.focused_c1e9c4 {
                 background-color: var(--nox-accent);
                 color: var(--nox-white9);
             }
         }
 
-        &.c1e9c47c23f12ca3-colorDanger {
+        &.colorDanger_c1e9c4 {
             color: #f04747;
 
-            &.c1e9c47c23f12ca3-focused {
+            &.focused_c1e9c4 {
                 background-color: #f04747;
                 color: var(--nox-white9);
             }
@@ -63,10 +63,10 @@
     }
 
     // quick reacts
-    .f563df886a7377be-wrapper {
+    .wrapper_f563df {
         padding: 6px;
     }
-    .f563df886a7377be-button {
+    .button_f563df {
         border-radius: 50%;
         background-color: rgba(225, 225, 225, 0.05);
 

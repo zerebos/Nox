@@ -1,5 +1,5 @@
 // blanks pill item
-._650eb104245d257b-listItem ._581051df43c5ebb6-item {
+.listItem__650eb .item__58105 {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -8,9 +8,9 @@
 }
 
 // set up hover/active/selected bg
-.e5445cbd3ad226f2-blobContainer > .cc5dd25190031396-wrapper::after,
-:where(#guild-list-unread-dms) .cc5dd25190031396-wrapper::after,
-._48112cbe77dc5022-folderButton::after {
+.blobContainer_e5445c > .wrapper_cc5dd2::after,
+:where(#guild-list-unread-dms) .wrapper_cc5dd2::after,
+.folderButton__48112::after {
     content: "";
     display: block;
     position: absolute;
@@ -21,20 +21,20 @@
 }
 
 // hover bg
-:is(.cc5dd25190031396-wrapper, ._48112cbe77dc5022-folderButton):hover::after {
+:is(.wrapper_cc5dd2, .folderButton__48112):hover::after {
     background: var(--nox-white1);
 }
 
 // active bg
-:is(.cc5dd25190031396-wrapper, ._48112cbe77dc5022-folderButton):active::after,
-._650eb104245d257b-listItem:has(._581051df43c5ebb6-item[style^="opacity: 1; height: 40px; transform:"]) :is(.cc5dd25190031396-wrapper, ._48112cbe77dc5022-folderButton)::after {
+:is(.wrapper_cc5dd2, .folderButton__48112):active::after,
+.listItem__650eb:has(.item__58105[style^="opacity: 1; height: 40px; transform:"]) :is(.wrapper_cc5dd2, .folderButton__48112)::after {
     background: var(--nox-black2);
 }
 
 // set up unread circle
-.e5445cbd3ad226f2-blobContainer > .cc5dd25190031396-wrapper::before,
-:where(#guild-list-unread-dms) .cc5dd25190031396-wrapper::before,
-._48112cbe77dc5022-folderButton::before {
+.blobContainer_e5445c > .wrapper_cc5dd2::before,
+:where(#guild-list-unread-dms) .wrapper_cc5dd2::before,
+.folderButton__48112::before {
     content: "";
     display: block;
     position: absolute;
@@ -49,32 +49,32 @@
 }
 
 // unread
-._650eb104245d257b-listItem:has(._581051df43c5ebb6-item[style^="opacity: 1; height: 8px;"]) :is(.cc5dd25190031396-wrapper, ._48112cbe77dc5022-folderButton)::before {
+.listItem__650eb:has(.item__58105[style^="opacity: 1; height: 8px;"]) :is(.wrapper_cc5dd2, .folderButton__48112)::before {
     border-color: var(--nox-notification-color);
 }
 
 // change hover/active/selected background for folders
-ul[id*=folder-items] .cc5dd25190031396-wrapper::after {
+ul[id*=folder-items] .wrapper_cc5dd2::after {
     left: 5px;
     width: 60px;
 }
 
 // prevent hover highlight for open folder icon
-._48112cbe77dc5022-folderGroup._48112cbe77dc5022-isExpanded ._48112cbe77dc5022-folderButton::after {
+.folderGroup__48112.isExpanded__48112 .folderButton__48112::after {
     content: none;
 }
-._48112cbe77dc5022-folderButton:focus ._48112cbe77dc5022-folderIcon._48112cbe77dc5022-folderIcon,
-._48112cbe77dc5022-folderIcon._48112cbe77dc5022-folderIcon:hover {
+.folderButton__48112:focus .folderIcon__48112.folderIcon__48112,
+.folderIcon__48112.folderIcon__48112:hover {
     background: none;
 }
 
 //  folder material icon hover/open
-._48112cbe77dc5022-folderIcon:hover svg path {
+.folderIcon__48112:hover svg path {
     d: path("M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z");
 }
 
 // last item in folder hover
-ul[id*=folder-items] ._650eb104245d257b-listItem:last-child .cc5dd25190031396-wrapper::after {
+ul[id*=folder-items] .listItem__650eb:last-child .wrapper_cc5dd2::after {
     height: 62px;
     border-radius: 0 0 30px 30px;
 }

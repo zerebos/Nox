@@ -1,7 +1,7 @@
 @use "../../elevations";
 
 // Remove rounded corner at top left of channel list and allow shadow
-._5e434347c823b592-sidebarList {
+.sidebarList__5e434 {
     z-index: elevations.$channels-elevation;
     overflow: visible;
     border: 0;
@@ -10,22 +10,22 @@
 }
 
 // Main channel list container
-._5e434347c823b592-sidebar ._2637a2609f343032-container {
+.sidebar__5e434 .container__2637a {
     background: var(--nox-level2);
 }
 
 // Scroller
-._5e434347c823b592-sidebar ._629e4c86564a4ee7-scroller {
+.sidebar__5e434 .scroller__629e4 {
     margin-bottom: 0;
 }
 
-._5e434347c823b592-sidebar ._629e4c86564a4ee7-scroller::-webkit-scrollbar {
+.sidebar__5e434 .scroller__629e4::-webkit-scrollbar {
     width: 8px !important;
     border-radius: 0 !important;
     background: var(--nox-level2) !important;
 }
 
-._5e434347c823b592-sidebar ._629e4c86564a4ee7-scroller::-webkit-scrollbar-thumb {
+.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-thumb {
     visibility: visible !important;
     border: 0 solid transparent !important;
     border-left: 4px solid var(--nox-level2) !important;
@@ -33,106 +33,106 @@
     background: rgba(255, 255, 255, 0.05) !important;
 }
 
-._5e434347c823b592-sidebar ._629e4c86564a4ee7-scroller::-webkit-scrollbar-thumb:hover {
+.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-thumb:hover {
     background: var(--nox-white1) !important;
 }
 
-._5e434347c823b592-sidebar ._629e4c86564a4ee7-scroller::-webkit-scrollbar-thumb:active {
+.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-thumb:active {
     background: var(--nox-white2) !important;
 }
 
-._5e434347c823b592-sidebar ._629e4c86564a4ee7-scroller::-webkit-scrollbar-track {
+.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-track {
     background: transparent !important;
 }
 
-._5e434347c823b592-sidebar ._629e4c86564a4ee7-scroller::-webkit-scrollbar-thumb {
+.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-thumb {
     display: var(--nox-channels-scrollbar);
 }
 
-._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-link {
+.wrapper__2ea32:hover .link__2ea32 {
     background: rgba(255, 255, 255, 0.05);
 }
 
-._2ea32c412048f708-modeSelected ._2ea32c412048f708-link,
-._2ea32c412048f708-modeSelected:hover ._2ea32c412048f708-link {
+.modeSelected__2ea32 .link__2ea32,
+.modeSelected__2ea32:hover .link__2ea32 {
     background: var(--nox-level3);
 }
 
 // name and icon color
-._29444ba32c7fbeab-name,
-._2ea32c412048f708-name,
-._2ea32c412048f708-icon {
+.name__29444,
+.name__2ea32,
+.icon__2ea32 {
     color: var(--nox-white4);
 }
 
 // muted name and icon color
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeMuted ._2ea32c412048f708-name,
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeMuted ._2ea32c412048f708-icon,
-._29444ba32c7fbeab-wrapper._29444ba32c7fbeab-muted ._29444ba32c7fbeab-name,
-._29444ba32c7fbeab-wrapper._29444ba32c7fbeab-muted ._29444ba32c7fbeab-icon {
+.wrapper__2ea32.modeMuted__2ea32 .name__2ea32,
+.wrapper__2ea32.modeMuted__2ea32 .icon__2ea32,
+.wrapper__29444.muted__29444 .name__29444,
+.wrapper__29444.muted__29444 .icon__29444 {
     color: var(--nox-white1);
 }
 
 // hover name and icon color
-._29444ba32c7fbeab-wrapper._29444ba32c7fbeab-muted:hover ._29444ba32c7fbeab-icon,
-._29444ba32c7fbeab-wrapper._29444ba32c7fbeab-muted:hover ._29444ba32c7fbeab-name,
-._29444ba32c7fbeab-wrapper:hover ._29444ba32c7fbeab-icon,
-._29444ba32c7fbeab-wrapper:hover ._29444ba32c7fbeab-name,
-._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-name,
-._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-icon,
-._2ea32c412048f708-wrapper:hover .c69b6db0641110f6-actionIcon {
+.wrapper__29444.muted__29444:hover .icon__29444,
+.wrapper__29444.muted__29444:hover .name__29444,
+.wrapper__29444:hover .icon__29444,
+.wrapper__29444:hover .name__29444,
+.wrapper__2ea32:hover .name__2ea32,
+.wrapper__2ea32:hover .icon__2ea32,
+.wrapper__2ea32:hover .actionIcon_c69b6d {
     color: var(--nox-white6);
 }
 
 // selected/unread name and icon color
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected ._2ea32c412048f708-name,
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected ._2ea32c412048f708-icon,
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected .c69b6db0641110f6-actionIcon,
-._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-name,
-._2ea32c412048f708-modeUnreadImportant:hover ._2ea32c412048f708-name,
-._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-icon,
-._2ea32c412048f708-modeUnreadImportant:hover ._2ea32c412048f708-icon {
+.wrapper__2ea32.modeSelected__2ea32 .name__2ea32,
+.wrapper__2ea32.modeSelected__2ea32 .icon__2ea32,
+.wrapper__2ea32.modeSelected__2ea32 .actionIcon_c69b6d,
+.modeUnreadImportant__2ea32 .name__2ea32,
+.modeUnreadImportant__2ea32:hover .name__2ea32,
+.modeUnreadImportant__2ea32 .icon__2ea32,
+.modeUnreadImportant__2ea32:hover .icon__2ea32 {
     color: var(--nox-white9);
 }
 
 // userlimit
-._260e1982cd52c5c3-wrapper {
+.wrapper__260e1 {
     color: var(--nox-white4);
 }
-._260e1982cd52c5c3-users {
+.users__260e1 {
     background-color: var(--nox-level1);
 }
-._260e1982cd52c5c3-total {
+.total__260e1 {
     background-color: var(--nox-level3);
 }
-._260e1982cd52c5c3-total::after {
+.total__260e1::after {
     border-right-color: var(--nox-level3);
 }
 
 // Private channels
-.theme-dark ._99e7cad8d4c55236-scroller {
+.theme-dark .scroller__99e7c {
     margin-bottom: calc(var(--custom-app-panels-height, 0));
     background: var(--nox-level2);
 }
 
-.bf202d63ad53e289-interactive:hover {
+.interactive_bf202d:hover {
     background: rgba(255, 255, 255, 0.05);
     color: var(--nox-white6);
 }
 
-._972a0d22c8afa7f0-interactiveSelected,
-.bf202d63ad53e289-interactive:hover._972a0d22c8afa7f0-interactiveSelected,
-.bf202d63ad53e289-interactive:focus-within._972a0d22c8afa7f0-interactiveSelected {
+.interactiveSelected__972a0,
+.interactive_bf202d:hover.interactiveSelected__972a0,
+.interactive_bf202d:focus-within.interactiveSelected__972a0 {
     background: var(--nox-level3);
     color: var(--nox-white9);
 }
 
-._972a0d22c8afa7f0-interactive,
-._99e7cad8d4c55236-privateChannelsHeaderContainer,
-._9293f6b2fc12398a-clickable ._9293f6b2fc12398a-icon {
+.interactive__972a0,
+.privateChannelsHeaderContainer__99e7c,
+.clickable__9293f .icon__9293f {
     color: var(--nox-white4);
 }
-._99e7cad8d4c55236-privateChannelsHeaderContainer:hover,
-._9293f6b2fc12398a-clickable:hover ._9293f6b2fc12398a-icon {
+.privateChannelsHeaderContainer__99e7c:hover,
+.clickable__9293f:hover .icon__9293f {
     color: var(--nox-white6);
 }
