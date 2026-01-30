@@ -61,7 +61,7 @@ ul[id*=folder-items] {
 }
 
 // remove move down on click
-.icon__2b1f5:active {
+.listItemWrapper__91816:active {
     transform: none;
 }
 
@@ -100,7 +100,7 @@ ul[id*=folder-items] {
 }
 
 // increase clicking area servers
-:is(.blobContainer_e5445c, .icon__2b1f5) > .wrapper_cc5dd2 {
+:is(.blobContainer_e5445c, .listItemWrapper__91816) > .wrapper_cc5dd2 {
     width: 70px !important;
     height: 70px !important;
 }
@@ -113,7 +113,7 @@ foreignObject > .wrapper_cc5dd2 {
 .svg_cc5dd2 {
     top: 0;
     left: 0;
-    :is(.blobContainer_e5445c, .icon__2b1f5) > .wrapper_cc5dd2 > & {
+    :is(.blobContainer_e5445c, .listItemWrapper__91816) > .wrapper_cc5dd2 > & {
         width: 70px;
         height: 70px;
     }
