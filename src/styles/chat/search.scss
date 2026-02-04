@@ -44,13 +44,13 @@
         border-radius: 0 0 2px 2px;
     }
 
-    --text-default: var(--nox-white9)
+    --text-default: var(--nox-white9);
     --text-strong: var(--nox-white6);
     --text-subtle: var(--nox-white6);
     --text-muted: var(--nox-white4);
     &:hover {
         background-color: rgba(255, 255, 255, 0.05);
-        --text-default: var(--nox-white)
+        --text-default: var(--nox-white);
         --text-strong: var(--nox-white9);
         --text-subtle: var(--nox-white9);
         --text-muted: var(--nox-white6);
