@@ -8,7 +8,7 @@
 }
 
 // set up hover/active/selected bg
-.blobContainer_e5445c > .wrapper_cc5dd2::after,
+:where(.tutorialContainer__1f388 .listItemWrapper__91816, .blobContainer_e5445c) > .wrapper_cc5dd2::after,
 :where(#guild-list-unread-dms) .wrapper_cc5dd2::after,
 .folderButton__48112::after {
     content: "";

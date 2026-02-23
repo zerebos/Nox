@@ -1,7 +1,8 @@
 @use "../../elevations";
 
 :root {
-    --guildbar-avatar-size: 48px
+    --guildbar-avatar-size: 48px;
+    --custom-guild-list-width: 70px;
 }
 
 // Guild list bg color
@@ -10,15 +11,6 @@
     margin: 0;
     background: var(--nox-level1);
     box-shadow: elevations.$elevation-shadow;
-}
-
-// set width correctly width
-.guilds__5e434.guilds__5e434, //list
-.listItem__650eb, //servers
-.folderGroup__48112, // folders
-.unreadMentionsIndicatorBottom_ef3116, // unreadmentions
-.unreadMentionsIndicatorTop_ef3116 { // unreadmentions
-    width: 70px;
 }
 
 // fix spacing on folder bg
@@ -55,6 +47,7 @@ ul[id*=folder-items] {
 }
 
 // remove gap between servers, and dms
+.folderGuildsList__48112,
 .stack_dbd263[aria-label="Servers"],
 #guild-list-unread-dms {
     gap: 0 !important;
@@ -100,20 +93,20 @@ ul[id*=folder-items] {
 }
 
 // increase clicking area servers
-:is(.blobContainer_e5445c, .listItemWrapper__91816) > .wrapper_cc5dd2 {
+.wrapper_cc5dd2 {
     width: 70px !important;
     height: 70px !important;
-}
-
-foreignObject > .wrapper_cc5dd2 {
-    width: 48px !important;
-    height: 48px !important;
+    .folderButton__48112 > & > .svg_cc5dd2 {
+        width: 70px;
+        height: 70px;
+        scale: calc(48/70);
+    }
 }
 
 .svg_cc5dd2 {
     top: 0;
     left: 0;
-    :is(.blobContainer_e5445c, .listItemWrapper__91816) > .wrapper_cc5dd2 > & {
+    :is(:is(.blobContainer_e5445c, .listItemWrapper__91816) > .wrapper_cc5dd2, #guild-list-unread-dms .wrapper_cc5dd2) > & {
         width: 70px;
         height: 70px;
     }
@@ -143,7 +136,6 @@ foreignObject > .wrapper_cc5dd2 {
 .folderButton__48112 {
     width: 70px;
     height: 70px;
-    padding: 0;
     border-radius: 0;
 
     .wrapper_cc5dd2 {
@@ -158,11 +150,6 @@ foreignObject > .wrapper_cc5dd2 {
 .folderPreviewWrapper__48112 {
     overflow: hidden;
     border-radius: 50%;
-}
-
-// remove gap between servers in folder
-.folderGuildsList__48112 {
-    gap: 0 !important;
 }
 
 .childWrapper__6e9f8,
