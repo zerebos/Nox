@@ -1,7 +1,5 @@
 name: check/update classes
 on:
-  schedule:
-    - cron: '15 3 * * 1,4'
   workflow_dispatch:
 env:
   GH_TOKEN: ${{ github.token }}
