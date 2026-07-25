@@ -27,7 +27,7 @@
 
 // active bg
 :is(.wrapper_cc5dd2, .folderButton__48112):active::after,
-.listItem__650eb:has(.item__58105[style^="opacity: 1; height: 40px; transform:"]) :is(.wrapper_cc5dd2, .folderButton__48112)::after {
+.listItem__650eb:has(.item__58105.visible__58105.selected__58105) :is(.wrapper_cc5dd2, .folderButton__48112)::after {
     background: var(--nox-black2);
 }
 
@@ -49,7 +49,7 @@
 }
 
 // unread
-.listItem__650eb:has(.item__58105[style^="opacity: 1; height: 8px;"]) :is(.wrapper_cc5dd2, .folderButton__48112)::before {
+.listItem__650eb:has(.item__58105.visible__58105:not(.selected__58105, .hovered__58105)) :is(.wrapper_cc5dd2, .folderButton__48112)::before {
     border-color: var(--nox-notification-color);
 }
 
