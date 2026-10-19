@@ -24,7 +24,7 @@
     "gulp-wait": "0.0.2",
     "stylelint": "^16.24.0",
     "stylelint-config-property-sort-order-smacss": "^10.0.0",
-    "stylelint-config-sass-guidelines": "^12.1.0",
+    "stylelint-config-sass-guidelines": "^13.0.0",
     "stylelint-order": "^7.0.0"
   },
   "repository": {
