@@ -29,6 +29,7 @@ ul[id*=folder-items] {
     height: 100%;
     padding: 0;
     gap: 0 !important;
+    scrollbar-width: none;
 }
 
 // prevent overlap of homeicon and servers
