@@ -1,49 +1,49 @@
 // invite embed
-.wrapper_d5f3cd {
+.wrapper_jsxF_b {
     border-radius: 3px;
     background-color: var(--nox-level2);
 }
-.wrapper_d5f3cd .flowerStar__3e3b0 path {
+.wrapper_jsxF_b .flowerStar_d3vyhc path {
     fill: var(--nox-accent);
 }
-.guildIconExpired_d5f3cd {
+.guildIconExpired_jsxF_b {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.05);
     filter: grayscale(1);
 }
 
 // bot embed
-.embedFull__623de {
+.embedFull_XyW1ZT {
     border-radius: 3px;
     border-color: var(--nox-white1);
     background: var(--nox-level2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.botTagRegular__82f07 {
+.botTagRegular_feVUtO {
     background: var(--nox-accent);
 }
 
 // file embed
-.fileWrapper__0ccae.fileWrapper__0ccae {
+.fileWrapper_-9z-XO.fileWrapper_-9z-XO {
     border-radius: 2px;
     border-color: var(--nox-level3);
     background-color: var(--nox-level2);
 }
-.fileWrapper__0ccae .metadata__0ccae {
+.fileWrapper_-9z-XO .metadata_-9z-XO {
     color: var(--nox-white2);
 }
 
 // textfile embed
-.newMosaicStyle__4d95d .textContainer__4d95d {
+.newMosaicStyle_BOOBu- .textContainer_BOOBu- {
     border-radius: 3px 3px 0 0;
 }
-.newMosaicStyle__4d95d .footer__4d95d {
+.newMosaicStyle_BOOBu- .footer_BOOBu- {
     border-radius: 0 0 3px 3px;
 }
-.textContainer__4d95d,
-.footer__4d95d,
-.codeView__4d95d {
+.textContainer_BOOBu-,
+.footer_BOOBu-,
+.codeView_BOOBu- {
     border-color: var(--nox-level3);
     background-color: var(--nox-level2);
     color: var(--nox-white6);
@@ -59,37 +59,37 @@
 .toggleExpandSection__4d95d:hover {
     color: var(--nox-white9);
 }
-.footer__4d95d .formattedSize__4d95d {
+.footer_BOOBu- .formattedSize__4d95d {
     color: var(--nox-white2);
 }
-.footer__4d95d .downloadButton__4d95d,
-.footer__4d95d .codeIcon__4d95d {
+.footer_BOOBu- .downloadButton__4d95d,
+.footer_BOOBu- .codeIcon__4d95d {
     color: var(--nox-white4);
 }
-.footer__4d95d .downloadSection__4d95d:hover .downloadButton__4d95d,
-.footer__4d95d .codeIcon__4d95d:hover {
+.footer_BOOBu- .downloadSection__4d95d:hover .downloadButton__4d95d,
+.footer_BOOBu- .codeIcon__4d95d:hover {
     color: var(--nox-white6);
 }
 // language selector
-.languageSelector__4d95d {
+.languageSelector_BOOBu- {
     border-radius: 0;
     background-color: var(--nox-level2);
 }
-.languageSelector__4d95d .container__33507 {
+.languageSelector_BOOBu- .container__33507 {
     margin: 2px 2px 0;
     border-radius: 0;
     background-color: var(--nox-level1);
 }
-.languageSelector__4d95d .item__97e86 {
+.languageSelector_BOOBu- .item_YIHpnz {
     border-radius: 3px;
     color: var(--nox-white4);
 }
-.focused__97e86,
-.item__97e86:hover:not(.disabled__97e86) {
+.focused_YIHpnz,
+.item_YIHpnz:hover:not(.disabled_YIHpnz) {
     background-color: rgba(255, 255, 255, 0.05);
     color: var(--nox-white6);
 }
-.item__97e86.item__97e86.selected__97e86 {
+.item_YIHpnz.item_YIHpnz.selected_YIHpnz {
     background-color: var(--nox-black3);
     color: var(--nox-white9);
 }
@@ -119,27 +119,27 @@
 }
 
 // voice embed
-.messageAttachment__5dae1 .container_a8e786 {
+.messageAttachment__5dae1 .container_seLrDE {
     border-radius: 4px;
     background-color: var(--nox-level3);
 }
-.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+.theme-dark .container_seLrDE:not(.playing_seLrDE) .playButtonContainer_seLrDE {
     background: var(--nox-accent);
 }
-.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
+.theme-dark .container_seLrDE:not(.playing_seLrDE) .playButtonContainer_seLrDE:hover {
     background: var(--nox-accent);
     filter: brightness(1.1);
 }
-.playing_a8e786 .playIcon_a8e786 {
+.playing_seLrDE .playIcon_seLrDE {
     color: var(--nox-accent);
 }
-.rippleContainer_a8e786 {
+.rippleContainer_seLrDE {
     border-radius: 0;
 }
-.ripple_a8e786 {
+.ripple_seLrDE {
     border-radius: 0;
     background-color: var(--nox-level1-5);
 }
-.playing_a8e786 .volumeButtonIcon_a8e786 {
+.playing_seLrDE .volumeButtonIcon_seLrDE {
     color: var(--nox-white6);
 }

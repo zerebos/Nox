@@ -1,6 +1,6 @@
 @use "../elevations";
 
-.tooltip__4e35b {
+.tooltip_ZDdyhE {
     background-color: var(--nox-level3);
     box-shadow: inset 0 0 0 1px var(--nox-white1), elevations.$elevation-shadow;
     border-radius: 6px;
@@ -8,22 +8,22 @@
     --text-default: var(--nox-white7);
     --text-muted: var(--nox-white5);
 }
-.caretIcon__4e35b {
-    .caretFill__4e35b {
+.caretIcon_ZDdyhE {
+    .caretFill_ZDdyhE {
         fill: var(--nox-level3);
     }
-    .caretStroke__4e35b {
+    .caretStroke_ZDdyhE {
         stroke: var(--nox-white2);
     }
 }
 
 // message buttons
-.buttonsInner__5126c {
+.buttonsInner_SY_P2T {
     background-color: var(--nox-level2);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
-.button_f7ecac {
+.button_Z0MHyc {
     color: var(--nox-white7);
 
     &:hover {
@@ -36,21 +36,21 @@
         color: var(--nox-white9);
     }
 
-    &.selected_f7ecac {
+    &.selected_Z0MHyc {
         background-color: rgba(0, 0, 0, 0.3);
         color: var(--nox-white9);
     }
 }
 
 // formatting toolbar
-.toolbar_bba883 {
+.toolbar_hPmUPu {
     background: var(--nox-level3);
 
     &::before {
         border-top-color: var(--nox-level3);
     }
 
-    .icon_bba883 {
+    .icon_hPmUPu {
         color: var(--nox-white6);
     }
 
@@ -58,7 +58,7 @@
     .active__05fbc {
         background: rgba(255, 255, 255, 0.15);
 
-        .icon_bba883 {
+        .icon_hPmUPu {
             color: var(--nox-white9);
         }
     }

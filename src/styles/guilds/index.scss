@@ -6,7 +6,7 @@
 }
 
 // Guild list bg color
-.guilds__5e434.guilds__5e434 {
+.guilds_pog62O.guilds_pog62O {
     z-index: elevations.$guilds-elevation;
     margin: 0;
     background: var(--nox-level1);
@@ -14,7 +14,7 @@
 }
 
 // fix spacing on folder bg
-.folderGroupBackground__48112 {
+.folderGroupBackground_RTMSuZ {
     right: 0;
     left: 0;
     justify-self: center;
@@ -25,7 +25,7 @@ ul[id*=folder-items] {
 }
 
 // reset scroller
-.guilds__5e434 .scroller_ef3116 {
+.guilds_pog62O .scroller_5dqHTG {
     height: 100%;
     padding: 0;
     gap: 0 !important;
@@ -33,11 +33,11 @@ ul[id*=folder-items] {
 }
 
 // prevent overlap of homeicon and servers
-.tutorialContainer__1f388 {
-    & .listItem__650eb {
+.tutorialContainer_1IyMuq {
+    & .listItem_rwEpIL {
         height: 70px;
     }
-    & + .stack_dbd263{
+    & + .stack_TWWX0S{
         margin-top: 0;
     }
 }
@@ -48,32 +48,32 @@ ul[id*=folder-items] {
 }
 
 // remove gap between servers, and dms
-.folderGuildsList__48112,
-.stack_dbd263[aria-label="Servers"],
+.folderGuildsList_RTMSuZ,
+.stack_TWWX0S[aria-label="Servers"],
 #guild-list-unread-dms {
     gap: 0 !important;
 }
 
 // remove move down on click
-.listItemWrapper__91816:active {
+.listItemWrapper_tQErD4:active {
     transform: none;
 }
 
 // recolor closed folders
-.folderPreviewWrapper__48112.folderPreviewWrapper__48112 {
+.folderPreviewWrapper_RTMSuZ.folderPreviewWrapper_RTMSuZ {
     background: var(--nox-white2);
-    .folderPreviewGuildIcon__48112 {
+    .folderPreviewGuildIcon_RTMSuZ {
         border-radius: 50% !important;
     }
 }
 
 // folder color to accent
-.folderIcon__48112 {
+.folderIcon_RTMSuZ {
     color: var(--nox-accent);
 }
 
 // recolor open folders and shape them
-.folderGroupBackground__48112.folderGroupBackground__48112 {
+.folderGroupBackground_RTMSuZ.folderGroupBackground_RTMSuZ {
     bottom: 8px;
     box-sizing: content-box;
     width: 48px;
@@ -84,119 +84,119 @@ ul[id*=folder-items] {
 }
 
 // recolor guild separator
-.guildSeparator__252b6.guildSeparator__252b6 {
+.guildSeparator_3WHVfy.guildSeparator_3WHVfy {
     background: var(--nox-white1);
 }
 
 // unset height for guild separator
-#guild-list-unread-dms+.listItem__650eb {
+#guild-list-unread-dms+.listItem_rwEpIL {
     height: unset;
 }
 
 // increase clicking area servers
-.wrapper_cc5dd2 {
+.wrapper_hqZPsU {
     width: 70px !important;
     height: 70px !important;
-    .folderButton__48112 > & > .svg_cc5dd2 {
+    .folderButton_RTMSuZ > & > .svg_hqZPsU {
         width: 70px;
         height: 70px;
         scale: calc(48/70);
     }
 }
 
-.svg_cc5dd2 {
+.svg_hqZPsU {
     top: 0;
     left: 0;
-    :is(:is(.blobContainer_e5445c, .listItemWrapper__91816) > .wrapper_cc5dd2, #guild-list-unread-dms .wrapper_cc5dd2) > & {
+    :is(:is(.blobContainer_IaPwK5, .listItemWrapper_tQErD4) > .wrapper_hqZPsU, #guild-list-unread-dms .wrapper_hqZPsU) > & {
         width: 70px;
         height: 70px;
     }
 }
-.listItem__650eb .svg_cc5dd2 foreignObject {
+.listItem_rwEpIL .svg_hqZPsU foreignObject {
     width: 48px;
     height: 48px;
     translate: -4px -4px;
     mask: none;
 }
-.wrapper__6e9f8 {
+.wrapper_JJ-hgR {
     width: 48px;
     height: 48px;
 }
 // scale icon back down
-.icon__6e9f8 {
+.icon_JJ-hgR {
     scale: calc(48/70);
     border-radius: 50%;
 }
 
 // increase clicking area folder
-.folderHeader__48112 {
+.folderHeader_RTMSuZ {
     width: 70px;
     height: 70px;
     margin: 0;
 }
-.folderButton__48112 {
+.folderButton_RTMSuZ {
     width: 70px;
     height: 70px;
     border-radius: 0;
 
-    .wrapper_cc5dd2 {
+    .wrapper_hqZPsU {
         margin-inline:auto;
         top:50%;
         translate: 0 -50%;
     }
-    .svg_cc5dd2 foreignObject {
+    .svg_hqZPsU foreignObject {
         translate: none;
     }
 }
-.folderPreviewWrapper__48112 {
+.folderPreviewWrapper_RTMSuZ {
     overflow: hidden;
     border-radius: 50%;
 }
 
-.childWrapper__6e9f8,
-.circleIconButton__5bc7e {
+.childWrapper_JJ-hgR,
+.circleIconButton_g8YUxD {
     transform: scale(calc(48/70));
     border-radius: 50%;
     background-color: var(--nox-level2);
 }
 
 // center text on iconless servers
-.acronym__6e9f8 {
+.acronym_JJ-hgR {
     line-height: unset;
 }
 
-.circleIconButton__5bc7e {
+.circleIconButton_g8YUxD {
     color: var(--nox-accent);
 }
 
 // change blurple to accent bg
-.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8, // home icon and iconless guilds
-.circleIconButton__5bc7e.circleIconButton__5bc7e.circleIconButton__5bc7e.selected__5bc7e { // add server and discovery
+.wrapper_JJ-hgR.selected_JJ-hgR .childWrapper_JJ-hgR, // home icon and iconless guilds
+.circleIconButton_g8YUxD.circleIconButton_g8YUxD.circleIconButton_g8YUxD.selected_g8YUxD { // add server and discovery
     background-color: var(--nox-accent);
 }
 
 // remove server icon background
-.icon__6e9f8::before {
+.icon_JJ-hgR::before {
     content: none;
 }
 
-.folderGroup__48112.isExpanded__48112>.listItem__650eb {
+.folderGroup_RTMSuZ.isExpanded_RTMSuZ>.listItem_rwEpIL {
     height: 60px;
 }
 
 // folder material icon
-.folderIcon__48112 svg path {
+.folderIcon_RTMSuZ svg path {
     d: path("M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z");
 }
 
 // make material icon bigger
-.folderIcon__48112 svg {
+.folderIcon_RTMSuZ svg {
     scale: calc(48/18);
 }
 
 // dragging position indicator green to accent
-.centerTarget_d144f8.dragOver_d144f8::before, /* combine server*/
-.target_d144f8.dragOver_d144f8::before { // above server
+.centerTarget_nL08_v.dragOver_nL08_v::before, /* combine server*/
+.target_nL08_v.dragOver_nL08_v::before { // above server
     background-color: var(--nox-accent);
 }
 
@@ -204,8 +204,8 @@ ul[id*=folder-items] {
 // BADGES
 
 // alignment of badges
-.lowerBadge_cc5dd2,
-.upperBadge_cc5dd2 {
+.lowerBadge_hqZPsU,
+.upperBadge_hqZPsU {
     display: flex;
     z-index: calc(elevations.$guilds-elevation + 1);
     top: calc((100% - 48px) / 2);
@@ -215,21 +215,21 @@ ul[id*=folder-items] {
     height: 48px;
 }
 
-.lowerBadge_cc5dd2 {
+.lowerBadge_hqZPsU {
     align-items: flex-end;
 }
 
-.upperBadge_cc5dd2 {
+.upperBadge_hqZPsU {
     align-items: flex-start;
 }
 
 // in call background green to accent
-.iconBadge__650eb.participating-2Z81oO {
+.iconBadge_rwEpIL.participating-2Z81oO {
     background-color: var(--nox-accent);
 }
 
 // recolor call available background
-.iconBadge__650eb {
+.iconBadge_rwEpIL {
     background-color: var(--nox-level1-5);
 }
 
@@ -238,7 +238,7 @@ ul[id*=folder-items] {
     background-color: var(--nox-important-notification) !important;
 }
 
-.blobContainer_e5445c.blobContainer_e5445c[data-drop-hovering=true] {
+.blobContainer_IaPwK5.blobContainer_IaPwK5[data-drop-hovering=true] {
     animation: none;
     border-radius: 50%;
     border-color: var(--nox-accent);

@@ -1,7 +1,7 @@
 @use "../../elevations";
 
 // Remove rounded corner at top left of channel list and allow shadow
-.sidebarList__5e434 {
+.sidebarList_pog62O {
     z-index: elevations.$channels-elevation;
     overflow: visible;
     border: 0;
@@ -10,22 +10,22 @@
 }
 
 // Main channel list container
-.sidebar__5e434 .container__2637a {
+.sidebar_pog62O .container_H5ozaj {
     background: var(--nox-level2);
 }
 
 // Scroller
-.sidebar__5e434 .scroller__629e4 {
+.sidebar_pog62O .scroller_ysO7Gy {
     margin-bottom: 0;
 }
 
-.sidebar__5e434 .scroller__629e4::-webkit-scrollbar {
+.sidebar_pog62O .scroller_ysO7Gy::-webkit-scrollbar {
     width: 8px !important;
     border-radius: 0 !important;
     background: var(--nox-level2) !important;
 }
 
-.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-thumb {
+.sidebar_pog62O .scroller_ysO7Gy::-webkit-scrollbar-thumb {
     visibility: visible !important;
     border: 0 solid transparent !important;
     border-left: 4px solid var(--nox-level2) !important;
@@ -33,106 +33,106 @@
     background: rgba(255, 255, 255, 0.05) !important;
 }
 
-.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-thumb:hover {
+.sidebar_pog62O .scroller_ysO7Gy::-webkit-scrollbar-thumb:hover {
     background: var(--nox-white1) !important;
 }
 
-.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-thumb:active {
+.sidebar_pog62O .scroller_ysO7Gy::-webkit-scrollbar-thumb:active {
     background: var(--nox-white2) !important;
 }
 
-.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-track {
+.sidebar_pog62O .scroller_ysO7Gy::-webkit-scrollbar-track {
     background: transparent !important;
 }
 
-.sidebar__5e434 .scroller__629e4::-webkit-scrollbar-thumb {
+.sidebar_pog62O .scroller_ysO7Gy::-webkit-scrollbar-thumb {
     display: var(--nox-channels-scrollbar);
 }
 
-.wrapper__2ea32:hover .link__2ea32 {
+.wrapper_TNyK-N:hover .link_TNyK-N {
     background: rgba(255, 255, 255, 0.05);
 }
 
-.modeSelected__2ea32 .link__2ea32,
-.modeSelected__2ea32:hover .link__2ea32 {
+.modeSelected_TNyK-N .link_TNyK-N,
+.modeSelected_TNyK-N:hover .link_TNyK-N {
     background: var(--nox-level3);
 }
 
 // name and icon color
-.name__29444,
-.name__2ea32,
-.icon__2ea32 {
+.name_yOdhm_,
+.name_TNyK-N,
+.icon_TNyK-N {
     color: var(--nox-white4);
 }
 
 // muted name and icon color
-.wrapper__2ea32.modeMuted__2ea32 .name__2ea32,
-.wrapper__2ea32.modeMuted__2ea32 .icon__2ea32,
-.wrapper__29444.muted__29444 .name__29444,
-.wrapper__29444.muted__29444 .icon__29444 {
+.wrapper_TNyK-N.modeMuted_TNyK-N .name_TNyK-N,
+.wrapper_TNyK-N.modeMuted_TNyK-N .icon_TNyK-N,
+.wrapper_yOdhm_.muted_yOdhm_ .name_yOdhm_,
+.wrapper_yOdhm_.muted_yOdhm_ .icon_yOdhm_ {
     color: var(--nox-white1);
 }
 
 // hover name and icon color
-.wrapper__29444.muted__29444:hover .icon__29444,
-.wrapper__29444.muted__29444:hover .name__29444,
-.wrapper__29444:hover .icon__29444,
-.wrapper__29444:hover .name__29444,
-.wrapper__2ea32:hover .name__2ea32,
-.wrapper__2ea32:hover .icon__2ea32,
-.wrapper__2ea32:hover .actionIcon_c69b6d {
+.wrapper_yOdhm_.muted_yOdhm_:hover .icon_yOdhm_,
+.wrapper_yOdhm_.muted_yOdhm_:hover .name_yOdhm_,
+.wrapper_yOdhm_:hover .icon_yOdhm_,
+.wrapper_yOdhm_:hover .name_yOdhm_,
+.wrapper_TNyK-N:hover .name_TNyK-N,
+.wrapper_TNyK-N:hover .icon_TNyK-N,
+.wrapper_TNyK-N:hover .actionIcon_Wx6SnQ {
     color: var(--nox-white6);
 }
 
 // selected/unread name and icon color
-.wrapper__2ea32.modeSelected__2ea32 .name__2ea32,
-.wrapper__2ea32.modeSelected__2ea32 .icon__2ea32,
-.wrapper__2ea32.modeSelected__2ea32 .actionIcon_c69b6d,
-.modeUnreadImportant__2ea32 .name__2ea32,
-.modeUnreadImportant__2ea32:hover .name__2ea32,
-.modeUnreadImportant__2ea32 .icon__2ea32,
-.modeUnreadImportant__2ea32:hover .icon__2ea32 {
+.wrapper_TNyK-N.modeSelected_TNyK-N .name_TNyK-N,
+.wrapper_TNyK-N.modeSelected_TNyK-N .icon_TNyK-N,
+.wrapper_TNyK-N.modeSelected_TNyK-N .actionIcon_Wx6SnQ,
+.modeUnreadImportant_TNyK-N .name_TNyK-N,
+.modeUnreadImportant_TNyK-N:hover .name_TNyK-N,
+.modeUnreadImportant_TNyK-N .icon_TNyK-N,
+.modeUnreadImportant_TNyK-N:hover .icon_TNyK-N {
     color: var(--nox-white9);
 }
 
 // userlimit
-.wrapper__260e1 {
+.wrapper_QQRrAh {
     color: var(--nox-white4);
 }
-.users__260e1 {
+.users_QQRrAh {
     background-color: var(--nox-level1);
 }
-.total__260e1 {
+.total_QQRrAh {
     background-color: var(--nox-level3);
 }
-.total__260e1::after {
+.total_QQRrAh::after {
     border-right-color: var(--nox-level3);
 }
 
 // Private channels
-.theme-dark .scroller__99e7c {
+.theme-dark .scroller_Bce46W {
     margin-bottom: calc(var(--custom-app-panels-height, 0));
     background: var(--nox-level2);
 }
 
-.interactive_bf202d:hover {
+.interactive_nl_k3a:hover {
     background: rgba(255, 255, 255, 0.05);
     color: var(--nox-white6);
 }
 
-.interactiveSelected__972a0,
-.interactive_bf202d:hover.interactiveSelected__972a0,
-.interactive_bf202d:focus-within.interactiveSelected__972a0 {
+.interactiveSelected_zln_tS,
+.interactive_nl_k3a:hover.interactiveSelected_zln_tS,
+.interactive_nl_k3a:focus-within.interactiveSelected_zln_tS {
     background: var(--nox-level3);
     color: var(--nox-white9);
 }
 
-.interactive__972a0,
-.privateChannelsHeaderContainer__99e7c,
-.clickable__9293f .icon__9293f {
+.interactive_zln_tS,
+.privateChannelsHeaderContainer_Bce46W,
+.clickable_ybUK7Z .icon_ybUK7Z {
     color: var(--nox-white4);
 }
-.privateChannelsHeaderContainer__99e7c:hover,
-.clickable__9293f:hover .icon__9293f {
+.privateChannelsHeaderContainer_Bce46W:hover,
+.clickable_ybUK7Z:hover .icon_ybUK7Z {
     color: var(--nox-white6);
 }

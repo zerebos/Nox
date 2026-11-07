@@ -1,7 +1,7 @@
 @use "../elevations";
 
 // outer menu
-.menu_c1e9c4 {
+.menu_M3qk4j {
     padding: 0 8px;
     overflow: visible;
     border: 0;
@@ -10,51 +10,51 @@
     box-shadow: none;
 }
 
-.menu_c1e9c4.submenu_c1e9c4 {
+.menu_M3qk4j.submenu_M3qk4j {
     padding: 0;
 }
 
 // divider line
-.separator_c1e9c4 {
+.separator_M3qk4j {
     display: none;
 }
 
 // inner menu
-.scroller_c1e9c4 {
+.scroller_M3qk4j {
     padding: 0;
     overflow: hidden auto !important;
     background-color: var(--nox-level2);
     box-shadow: elevations.$elevation-shadow;
 
     // menu items
-    .item_c1e9c4 {
+    .item_M3qk4j {
         margin: 0;
         padding: 10px 12px 10px 16px;
         border-radius: 0;
 
-        &.colorDefault_c1e9c4 {
+        &.colorDefault_M3qk4j {
             color: var(--nox-white6);
 
-            &.focused_c1e9c4 {
+            &.focused_M3qk4j {
                 // background-color: rgba(225, 225, 225, 0.03);
                 background-color: var(--nox-accent);
                 color: var(--nox-white8);
             }
         }
 
-        &.colorBrand_c1e9c4 {
+        &.colorBrand_M3qk4j {
             color: var(--nox-accent);
 
-            &.focused_c1e9c4 {
+            &.focused_M3qk4j {
                 background-color: var(--nox-accent);
                 color: var(--nox-white9);
             }
         }
 
-        &.colorDanger_c1e9c4 {
+        &.colorDanger_M3qk4j {
             color: #f04747;
 
-            &.focused_c1e9c4 {
+            &.focused_M3qk4j {
                 background-color: #f04747;
                 color: var(--nox-white9);
             }
@@ -63,10 +63,10 @@
     }
 
     // quick reacts
-    .wrapper_f563df {
+    .wrapper_Qi4I4L {
         padding: 6px;
     }
-    .button_f563df {
+    .button_Qi4I4L {
         border-radius: 50%;
         background-color: rgba(225, 225, 225, 0.05);
 

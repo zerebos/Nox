@@ -34,7 +34,7 @@
         background: none;
     }
 
-    .body__24502 {
+    .body_NxZlvf {
         height: 100%;
         border-radius: 0;
     }
@@ -62,7 +62,7 @@
     }
 
     .infoScroller_a24910,
-    .listScroller__9d78f {
+    .listScroller_6X8yxV {
         z-index: 0;
         overflow: hidden overlay !important;
     }
@@ -70,7 +70,7 @@
         padding-right: 28px !important;
         padding-left: 28px;
     }
-    .listScroller__9d78f {
+    .listScroller_6X8yxV {
         padding-right: 16px !important;
         padding-left: 16px;
     }
@@ -107,11 +107,11 @@
     }
 
     // mutual server icons
-    .listRow__9d78f .icon_f34534 {
+    .listRow__9d78f .icon_qqAqr1 {
         border-radius: 50%;
     }
 
-    .emptyIcon__9d78f { // no common servers/friends icon
+    .emptyIcon_6X8yxV { // no common servers/friends icon
         filter: contrast(1.1) grayscale(1) brightness(1.5);
     }
 }
@@ -124,7 +124,7 @@
     }
 
     .infoScroller_a24910,
-    .listScroller__9d78f {
+    .listScroller_6X8yxV {
         background: var(--nox-level1);
     }
 
@@ -139,7 +139,7 @@
 .userProfileModalOuter_c69a7b.userProfileOuterThemed_c69a7b {
 
     .infoScroller_a24910::before,
-    .listScroller__9d78f::before {
+    .listScroller_6X8yxV::before {
         content: '';
         position: fixed;
         bottom: 4px;
@@ -150,7 +150,7 @@
         background-color: var(--profile-gradient-overlay-color);
     }
     .infoScroller_a24910::after,
-    .listScroller__9d78f::after {
+    .listScroller_6X8yxV::after {
         content: '';
         position: fixed;
         z-index: -1;
@@ -161,11 +161,11 @@
         background: linear-gradient(var(--profile-gradient-primary-color) -400px, var(--profile-gradient-secondary-color));
     }
     .infoScroller_a24910 > *,
-    .listScroller__9d78f > * {
+    .listScroller_6X8yxV > * {
         position: relative;
     }
     .userProfileInnerThemedPremiumWithoutBanner_c69a7b .infoScroller_a24910::after,
-    .userProfileInnerThemedPremiumWithoutBanner_c69a7b .listScroller__9d78f::after {
+    .userProfileInnerThemedPremiumWithoutBanner_c69a7b .listScroller_6X8yxV::after {
         background: linear-gradient(var(--profile-gradient-primary-color) -300px, var(--profile-gradient-secondary-color));
     }
 }
@@ -212,7 +212,7 @@
 .fullSizeOuter_c69a7b {
     .statusBubbleOuter_af9888.statusBubbleOuter_af9888.statusBubbleOuter_af9888 {
         max-width: 240px;
-        .content_ab8609 {
+        .content_rmCN9_ {
             max-height: none !important;
         }
     }

@@ -1,13 +1,13 @@
 @use "../../elevations";
 
-.members_c8ffbb,
-// .members_c8ffbb > div,
-.member__5d473 {
+.members_86es0b,
+// .members_86es0b > div,
+.member_Iy0c7A {
     background: var(--nox-level2);
     color: var(--nox-white5);
 }
 
-.container_c8ffbb {
+.container_86es0b {
     z-index: elevations.$channels-elevation;
     border: 0;
     background: var(--nox-level2);
@@ -18,17 +18,17 @@
     color: var(--nox-white4);
 }
 
-.childContainer__91a9d {
+.childContainer_J1Adu_ {
     padding: 2px 8px;
     border-radius: 4px;
 }
 
-.clickable__91a9d:hover .childContainer__91a9d { // hover on member
+.clickable_J1Adu_:hover .childContainer_J1Adu_ { // hover on member
     background-color: rgba(255, 255, 255, 0.05);
     color: var(--nox-white7);
 }
 
-.selected__91a9d .childContainer__91a9d { // selected member
+.selected_J1Adu_ .childContainer_J1Adu_ { // selected member
     background-color: var(--nox-level3);
     color: var(--nox-white9);
 }
