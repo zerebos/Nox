@@ -1,21 +1,21 @@
 @use "../../elevations";
 
-.form_f75fb0.form_f75fb0.form_f75fb0 {
+.form_z_gUBg.form_z_gUBg.form_z_gUBg {
     margin-top: 0;
     padding: 0;
     background: none;
 
-    &:not(:has(.hasStackedBar__74017)) {
+    &:not(:has(.hasStackedBar_2x8-Qn)) {
         box-shadow: elevations.$elevation-shadow;
     }
 }
 
-.form_f75fb0::after,
-.form_f75fb0::before {
+.form_z_gUBg::after,
+.form_z_gUBg::before {
     content: none;
 }
 
-.channelTextArea_f75fb0 .scrollableContainer__74017 {
+.channelTextArea_z_gUBg .scrollableContainer_2x8-Qn {
     // padding: 10px 0 10px 0;
     border-radius: 0;
     // max-height: 400px!important;
@@ -24,9 +24,9 @@
 }
 
 // fix height
-.buttons__74017,
-.attachWrapper__0923f,
-.attachButton__0923f.attachButton__0923f {
+.buttons_2x8-Qn,
+.attachWrapper_7TM4SO,
+.attachButton_7TM4SO.attachButton_7TM4SO {
     top: 0;
     bottom: 0;
     align-self: center;
@@ -34,53 +34,53 @@
     min-height: 0;
 }
 
-.attachWrapper__0923f.attachWrapper__0923f {
+.attachWrapper_7TM4SO.attachWrapper_7TM4SO {
     padding: 10px;
 }
 
-.channelBottomBarArea_f75fb0 .textArea__74017 {
+.channelBottomBarArea_z_gUBg .textArea_2x8-Qn {
     align-self: center;
     min-height: 0;
 }
 
-.channelBottomBarArea_f75fb0 .slateTextArea_ec4baf {
+.channelBottomBarArea_z_gUBg .slateTextArea_q99V_- {
     min-height: 0;
     padding: 0;
 }
 
-.channelTextArea_f75fb0 .slateContainer_ec4baf {
+.channelTextArea_z_gUBg .slateContainer_q99V_- {
     box-sizing: content-box;
     padding-block: calc((64px - 22px) / 2);
     align-content: center;
 }
 
 // reply bar
-.stackedBars__74017.stackedBars__74017 {
+.stackedBars_2x8-Qn.stackedBars_2x8-Qn {
     border-radius: 8px 8px 0 0;
     background: var(--nox-level2);
 }
 
-.replyBar__841c8 {
+.replyBar_rE8-46 {
     z-index: 1;
     background: none;
 }
 
 // remove gradient above bars
-.chatGradientBase__36d07 {
+.chatGradientBase_8AE1Qq {
     display: none;
 }
 
-.channelTextArea_f75fb0.channelTextArea_f75fb0 {
+.channelTextArea_z_gUBg.channelTextArea_z_gUBg {
     margin: 0;
     border: 0;
     background: none;
 }
 
-.placeholder__1b31f.placeholder__1b31f {
+.placeholder_SHcSVi.placeholder_SHcSVi {
     color: var(--nox-white3);
 }
 
-.typing_b88801 {
+.typing_U9Tvvz {
     bottom: 100%;
     padding: 0 20px;
     transition: opacity 200ms ease;
@@ -91,67 +91,67 @@
     color: var(--nox-white);
 }
 
-.typing_b88801:hover {
+.typing_U9Tvvz:hover {
     opacity: 1;
 }
 
-.typing_b88801 .text_b88801 {
+.typing_U9Tvvz .text_U9Tvvz {
     line-height: 26px;
 }
 
-.typingDots_b88801 {
+.typingDots_U9Tvvz {
     margin-right: 5px;
 }
 
-.cooldownWrapper_b21699 {
+.cooldownWrapper_bbCgC2 {
     color: var(--nox-white5) !important;
 }
 
 // removes gap above edit box
-.channelTextArea__5126c {
+.channelTextArea_SY_P2T {
     margin-top: 0;
     border-radius: 0;
 }
 
 // edit box bg
-.channelTextArea__5126c .themedBackground__74017 {
+.channelTextArea_SY_P2T .themedBackground_2x8-Qn {
     border-radius: 3px;
     background: var(--nox-level1-5);
 }
 
-.button_aa63ab[disabled]>.innerButton_aa63ab>.buttonChild_aa63ab,
-.buttonChild_aa63ab {
+.button_plpOf8[disabled]>.innerButton_aa63ab>.buttonChild_plpOf8,
+.buttonChild_plpOf8 {
     color: var(--nox-white2);
 }
 
-.activeButtonChild_aa63ab {
+.activeButtonChild_plpOf8 {
     color: var(--nox-accent);
 }
 
-.button_aa63ab.button_aa63ab:focus-within .activeButtonChild_aa63ab,
-.button_aa63ab.button_aa63ab:focus .activeButtonChild_aa63ab,
-.button_aa63ab.button_aa63ab:hover .activeButtonChild_aa63ab {
+.button_plpOf8.button_plpOf8:focus-within .activeButtonChild_plpOf8,
+.button_plpOf8.button_plpOf8:focus .activeButtonChild_plpOf8,
+.button_plpOf8.button_plpOf8:hover .activeButtonChild_plpOf8 {
     transition: opacity ease 300ms;
     opacity: 0.6 !important;
     color: var(--nox-accent);
 }
 
-.button_aa63ab.button_aa63ab:active .activeButtonChild_aa63ab {
+.button_plpOf8.button_plpOf8:active .activeButtonChild_plpOf8 {
     opacity: 1 !important;
     color: var(--nox-accent);
 }
 
-.codeBlockText_ada32f,
-.codeLine_ada32f {
+.codeBlockText_nsjAhz,
+.codeLine_nsjAhz {
     color: var(--nox-white5);
 }
 
-.codeBlockSyntax_ada32f,
-.syntaxAfter_ada32f,
-.syntaxBefore_ada32f {
+.codeBlockSyntax_nsjAhz,
+.syntaxAfter_nsjAhz,
+.syntaxBefore_nsjAhz {
     color: var(--nox-white6);
 }
 
-.codeBlockLang_ada32f {
+.codeBlockLang_nsjAhz {
     color: var(--nox-accent);
 }

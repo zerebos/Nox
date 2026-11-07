@@ -1,40 +1,40 @@
 // thread icon
-.iconContainer__235ca {
+.iconContainer_bLMKT5 {
     right: unset;
     left: -85px;
 }
 
-.hasThread_c19a55.hasThread_c19a55 {
+.hasThread_2i8Bfm.hasThread_2i8Bfm {
     // line pointing to thread    
     &::after {
         content: none;
     }
 
     // non link thread header text
-    .container__235ca {
+    .container_bLMKT5 {
         color: var(--nox-white4);
     }
 
-    .anchor_edefb8 {
+    .anchor_R6ReNl {
         color: var(--nox-white8);
     }
 }
 
 // thread attachement box
-.systemMessageContainer__9271d {
+.systemMessageContainer_g2fiji {
     border-radius: 2px;
     background-color: var(--nox-level2);
 
     // title
-    .name__9271d {
+    .name_g2fiji {
         color: var(--nox-white8);
     }
     // message
-    .bottomLine__9271d {
+    .bottomLine_g2fiji {
         color: var(--nox-white4);
     }
     // timestamp
-    .timestamp__9271d {
+    .timestamp_g2fiji {
         color: var(--nox-white3);
     }
 }
@@ -42,17 +42,17 @@
 // split view
 
 // remove top border
-.container__01ae2.container__01ae2 {
+.container_FrbQJp.container_FrbQJp {
     border: 0;
 }
 
-.threadSidebarOpen_f75fb0.threadSidebarOpen_f75fb0,
-.container__01ae2 {
+.threadSidebarOpen_z_gUBg.threadSidebarOpen_z_gUBg,
+.container_FrbQJp {
     border-radius: 0;
 }
-.chatContent_f75fb0 {
+.chatContent_z_gUBg {
     background: var(--nox-level1);
 }
-.resizeHandle__01ae2 {
+.resizeHandle_FrbQJp {
     background: var(--nox-level3);
 }

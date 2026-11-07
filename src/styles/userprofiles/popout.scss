@@ -88,7 +88,7 @@
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b {
     background-color: var(--nox-level2);
 
-    // .avatar__44b0c { // avatar bg
+    // .avatar_XpIUHy { // avatar bg
     //     background: var(--nox-level2);
     // }
 
@@ -105,30 +105,30 @@
 }
 
 // Role stuff
-.role__48c1c { // set up role bg
+.role_nie4FD { // set up role bg
     padding: 0 2px 0 6px;
     overflow: hidden;
     border-width: 0;
     border-radius: 3px;
     background: none;
 
-    .roleName__48c1c { // puts text on top of role bg
+    .roleName_nie4FD { // puts text on top of role bg
         z-index: 1;
     }
 
-    .roleIcon__48c1c { // role icon styling and puts on top of role bg 
+    .roleIcon_nie4FD { // role icon styling and puts on top of role bg 
         position: relative;
         z-index: 1;
         height: auto;
         border-radius: 3px;
     }
 
-    .roleRemoveButton__48c1c { // move remove role button to end
+    .roleRemoveButton_nie4FD { // move remove role button to end
         order: 2;
 
         // role bg color
-        .roleCircle__4f569::before,
-        .roleFlowerStar__48c1c::before {
+        .roleCircle_7RsUnm::before,
+        .roleFlowerStar_nie4FD::before {
             content: "";
             visibility: visible;
             position: absolute;
@@ -139,28 +139,28 @@
             background-color: inherit;
         }
     
-        .roleFlowerStar__48c1c::before { // connected account role layout fix
+        .roleFlowerStar_nie4FD::before { // connected account role layout fix
             top: -4px;
         }
 
         // hide role circle
-        .roleCircle__4f569,
-        .roleFlowerStar__48c1c {
+        .roleCircle_7RsUnm,
+        .roleFlowerStar_nie4FD {
             visibility: hidden;
             margin: 0;
         }
 
     }
 
-    .roleRemoveButton__48c1c[aria-hidden="false"] { // re-add remove role button if removable role
+    .roleRemoveButton_nie4FD[aria-hidden="false"] { // re-add remove role button if removable role
         margin-right: 2px;
         background: transparent;
         background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0icm9sZVJlbW92ZUljb24tMml1MGlFIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTJ2MTJIMCI+PC9wYXRoPjxwYXRoIGNsYXNzPSJmaWxsIiBmaWxsPSIjZmZmZmZmIiBkPSJNOS41IDMuMjA1TDguNzk1IDIuNSA2IDUuMjk1IDMuMjA1IDIuNWwtLjcwNS43MDVMNS4yOTUgNiAyLjUgOC43OTVsLjcwNS43MDVMNiA2LjcwNSA4Ljc5NSA5LjVsLjcwNS0uNzA1TDYuNzA1IDYiPjwvcGF0aD48L2c+PC9zdmc+);    
     }
 
     // remove space occupied by role circle
-    .roleRemoveButton__48c1c[aria-hidden="true"] .roleCircle__4f569,
-    .roleRemoveButton__48c1c:has(.roleFlowerStar__48c1c) {
+    .roleRemoveButton_nie4FD[aria-hidden="true"] .roleCircle_7RsUnm,
+    .roleRemoveButton_nie4FD:has(.roleFlowerStar_nie4FD) {
         width: 0;
     }
 }
@@ -175,7 +175,7 @@
     }
 
     // adds background to pfps to block nox shapes
-    // .avatarStack__44b0c::before {
+    // .avatarStack_XpIUHy::before {
     //     content: '';
     //     width: 100%;
     //     height: 100%;
@@ -186,7 +186,7 @@
     // }
 
     // darkens avatar background
-    // .avatar__44b0c {
+    // .avatar_XpIUHy {
     //     border-radius: 50%;
     //     // background-color: var(--profile-gradient-overlay-color);
     //     // position: relative;
@@ -246,7 +246,7 @@
     display: none;
 }
 
-.biteSizeOuter_c69a7b .visibleContainer_af9888.biteSize_ab8609 {
+.biteSizeOuter_c69a7b .visibleContainer_af9888.biteSize_rmCN9_ {
     position: relative;
     top: 28px;
     left: 0;
@@ -271,11 +271,11 @@
     border-radius: 0;
     background: none;
 
-    .content_ab8609 {
+    .content_rmCN9_ {
         text-align: left;
     }
 }
 
-.biteSizeOuter_c69a7b:has(.visibleContainer_af9888) .body__5be3e {
+.biteSizeOuter_c69a7b:has(.visibleContainer_af9888) .body_NOlkhE {
     margin-top: 16px;
 }
